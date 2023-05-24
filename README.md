@@ -23,7 +23,13 @@ $ cd datalens
 $ npm install
 ```
 
-Create a `.env` file with the environment variables listed in `[root]/.env.example`. Then, setup the database with the Prisma ORM and GraphQL by running:
+(Optional) To spin up a local PostgreSQL database for testing, run:
+
+```bash
+$ docker-compose up
+```
+
+Then, create a `.env` file with the environment variables listed in `[root]/.env.example`. Setup the database with the Prisma ORM and GraphQL by running:
 
 ```bash
 $ npx prisma generate
