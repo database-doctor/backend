@@ -19,7 +19,7 @@ $ git clone https://github.com/database_doctor/backend.git
 Install all dependencies:
 
 ```bash
-$ cd database_doctor
+$ cd backend
 $ npm install
 ```
 
