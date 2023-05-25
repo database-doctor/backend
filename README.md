@@ -1,25 +1,25 @@
-# `datalens`
+# `database_doctor`
 
 ## About
 
 ### A database monitoring tool
 
-`datalens` is a project created for CS 348 at the University of Waterloo. More details coming soon.
+`database_doctor` is a project created for CS 348 at the University of Waterloo. More details coming soon.
 
 ## Running locally
 
 ### For development
 
-To run the `datalens` backend locally, first clone this repository:
+To run the `database_doctor` backend locally, first clone this repository:
 
 ```bash
-$ git clone https://github.com/malav-mehta/datalens.git
+$ git clone https://github.com/database_doctor/backend.git
 ```
 
 Install all dependencies:
 
 ```bash
-$ cd datalens
+$ cd database_doctor
 $ npm install
 ```
 
