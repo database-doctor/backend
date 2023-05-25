@@ -13,7 +13,7 @@
 To run the `database_doctor` backend locally, first clone this repository:
 
 ```bash
-$ git clone https://github.com/database_doctor/backend.git
+$ git clone https://github.com/database-doctor/backend.git
 ```
 
 Install all dependencies:
