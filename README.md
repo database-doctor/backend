@@ -119,6 +119,16 @@ After performing all of the above steps (e.g. setting up the database and seedin
 ```bash
 psql -h localhost -dev -W -d postgres < sql/features/FEATURE_NAME/test.sql
 ```
+We have written queries for R6 to R9 from our report.
+
+## Application features
+
+To run actual features against the application, you will need to run the application (see instructions for running locally). Then, you can visit `localhost:8080/graphql` from your browser, and make queries and mutations against the database. Currently, the following mutations are supported:
+
+1. Creating a User.
+2. Adding a new Query.
+
+The GraphQL interface is self-documenting.
 
 ## Tech stack
 
