@@ -8,6 +8,7 @@ import { schema } from "./schema";
 import { context } from "./context";
 
 const app = express();
+
 const apolloServer = new ApolloServer({
   introspection: true,
   schema,
