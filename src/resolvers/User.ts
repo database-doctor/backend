@@ -26,19 +26,40 @@ class CreateUserInput {
   @IsEmail()
   email!: string;
 
-  @Field({ nullable: true })
+  @Field()
   @MinLength(1)
   @MaxLength(255)
-  name?: string;
+  name!: string;
+
+  @Field()
+  @MinLength(1)
+  @MaxLength(255)
+  passwordHash!: string;
+
+  @Field()
+  @MinLength(1)
+  @MaxLength(255)
+  passwordSalt!: string;
+
+  @Field()
+  @MinLength(1)
+  @MaxLength(255)
+  username!: string;
 }
 
 @Resolver(() => User)
 export class UserResolver {
+  @Query(() => [User])
+  async allUsers(@Ctx() ctx: Context): Promise<User[]> {
+    const users = await ctx.prisma.user.findMany({});
+    return users;
+  }
+
   @Query(() => User)
   async user(@Args() { id }: IntId, @Ctx() ctx: Context): Promise<User | null> {
     const user = await ctx.prisma.user.findUnique({
       where: {
-        id: id,
+        userId: id,
       },
     });
     return user;
