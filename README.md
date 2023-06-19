@@ -64,13 +64,13 @@ brew link --force libpq
 Assuming that the database was created/ran using the provided `docker-compose` configuration, then running the following command opens the CLI tool for the database:
 
 ```bash
-psql -h localhost -dev -W -d postgres
+psql -h localhost -U dev -W -d postgres
 ```
 
 Enter the password `password` when prompted. Also, use double quotation marks `"` for queries referring to any tables. Now, to run any SQL file against the database, you can run:
 
 ```bash
-psql -h localhost -dev -W -d postgres < PATH/TO/FILE_NAME.sql
+psql -h localhost -U dev -W -d postgres < PATH/TO/FILE_NAME.sql
 ```
 
 After entering the password, the SQL commands in `PATH/TO/FILE_NAME.sql` will be run against the database. To inspect changes, you can run
@@ -122,7 +122,7 @@ Once this data was generated, it was translated to the SQL format manually, by w
 To populate the database with sample data, assuming you have `psql` already set up, run the following command from root, and enter `password` when prompted to enter the password:
 
 ```bash
-psql -h localhost -dev -W -d postgres < sql/ddl/seed.sql
+psql -h localhost -U dev -W -d postgres < sql/ddl/seed.sql
 ```
 
 ### Testing features
@@ -130,7 +130,7 @@ psql -h localhost -dev -W -d postgres < sql/ddl/seed.sql
 After performing all of the above steps (e.g. setting up the database and seeding it with the sample data), you can run the SQL feature queries from [sql/features/](sql/features/) by running:
 
 ```bash
-psql -h localhost -dev -W -d postgres < sql/features/FEATURE_NAME/test.sql
+psql -h localhost -U dev -W -d postgres < sql/features/FEATURE_NAME/test.sql
 ```
 
 We have written queries for R6 to R9 from our report.
