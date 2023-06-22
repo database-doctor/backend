@@ -1,3 +1,3 @@
-SELECT "project_name", "conn_url" AS "project_url", "created_at", "username" AS "created_by"
+SELECT "projectName", "connUrl" AS "projectUrl", "createdAt", "username" AS "createdBy"
 FROM "Project" NATURAL JOIN "User"
-WHERE "project_name" = "project_query"
+WHERE "projectName" = "project_query"
