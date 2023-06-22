@@ -8,19 +8,19 @@ FROM "Query" "Q"
 JOIN "QueryType" ON "Q"."queryTypeId" = "QueryType"."queryTypeId"
 JOIN "User" ON "Q"."userId" = "User"."userId"
 JOIN "Project" ON "Q"."projectId" = "Project"."projectId"
-WHERE "Q"."statement" IN (SELECT "statement" FROM "QueryCount" WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "QueryCount"));
+WHERE "Q"."statement" IN 
+    (SELECT "statement" 
+     FROM "QueryCount" 
+     WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "QueryCount"));
 
 -- View common users that query
--- WITH "UserQueries" AS 
---     (SELECT "userId", COUNT(*) AS "queryCount" 
---      FROM "Query" 
---      GROUP BY "userId"), 
--- "avgQueryCount" AS 
---     (SELECT AVG("queryCount") FROM "UserQueries"), 
--- "CommonUsers" AS 
---     (SELECT "userId"
---      FROM "UserQueries"
---      WHERE "queryCount" >= "avgQueryCount")
--- SELECT DISTINCT "User"."username"
--- FROM "User"
--- WHERE "User"."userId" IN "CommonUsers"."userId";
+WITH "UserQueries" AS 
+    (SELECT "userId", COUNT(*) AS "queryCount" 
+     FROM "Query" 
+     GROUP BY "userId")    
+SELECT DISTINCT "User"."username"
+FROM "User"
+WHERE "User"."userId" IN 
+    (SELECT "userId"
+     FROM "UserQueries"
+     WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "UserQueries"));

@@ -10,4 +10,4 @@ INSERT INTO "Project" ("projectName", "connUrl", "createdById") VALUES
 INSERT INTO "QueryType" ("queryTypeName") VALUES ('SELECT');
 
 INSERT INTO "Query" ("statement", "userId", "projectId", "queryTypeId") VALUES
-    ('SELECT * FROM Table', '1', '1', '1');
+    ('SELECT * FROM Table', '1', '3', '1');
