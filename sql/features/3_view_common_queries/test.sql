@@ -2,10 +2,10 @@
 WITH "QueryCount" AS 
     (SELECT "statement", COUNT(*) AS "query_count" 
      FROM "Query" 
-     GROUP BY "statement")
-WITH "avg_query_count" AS 
-    (SELECT AVG("query_count") FROM "QueryCount")
-WITH "CommonQueries" AS 
+     GROUP BY "statement"), 
+"avg_query_count" AS 
+    (SELECT AVG("query_count") FROM "QueryCount"), 
+"CommonQueries" AS 
     (SELECT "statement"
      FROM "QueryCount"
      WHERE "query_count" >= "avg_query_count")
@@ -20,10 +20,10 @@ WHERE "Query"."statement" IN "CommonQueries";
 WITH "UserQueries" AS 
     (SELECT "user_id", COUNT(*) AS "query_count" 
      FROM "Query" 
-     GROUP BY "user_id")
-WITH "avg_query_count" AS 
-    (SELECT AVG("query_count") FROM "UserQueries")
-WITH "CommonUsers" AS 
+     GROUP BY "user_id"), 
+"avg_query_count" AS 
+    (SELECT AVG("query_count") FROM "UserQueries"), 
+"CommonUsers" AS 
     (SELECT "user_id"
      FROM "UserQueries"
      WHERE "query_count" >= "avg_query_count")
