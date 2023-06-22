@@ -1,4 +1,4 @@
-SELECT "projectName", "connUrl" AS "projectUrl", "createdAt", "username" AS "createdBy"
+SELECT "projectName", "connUrl" AS "projectUrl", "Project"."createdAt", "username" AS "createdBy"
 FROM "Project"
 JOIN "User" ON "Project"."createdById" = "User"."userId"
-WHERE "projectName" = 'project_query_string'
+WHERE "projectName" = 'project_query_string';
