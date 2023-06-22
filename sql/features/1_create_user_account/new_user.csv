@@ -1,0 +1,4 @@
+NOTE: THIS SHOWS THE INSERTED ROW (not the exact output of the insert user query)
+
+userId,username,name,email,passwordHash,passwordSalt,createdAt
+1,adriandavila,Adrian Davila,a4davila@uwaterloo.ca,hashed_password,salt,2023-06-19 14:58:14.066

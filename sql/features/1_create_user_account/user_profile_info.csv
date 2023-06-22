@@ -1,0 +1,4 @@
+THIS IS THE EXACT OUTPUT OF THE SELECT QUERY IN test.sql
+
+username,name,email,createdAt
+adriandavila,Adrian Davila,adrian@gmail.com,2023-06-19 14:58:14.066

@@ -1,0 +1,2 @@
+userId,username,name,email,passwordHash,passwordSalt,createdAt
+1,adriandavila,Adrian Davila,a4davila@uwaterloo.ca,hashed_password,salt,2023-06-19 14:58:14.066
