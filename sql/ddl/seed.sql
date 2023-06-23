@@ -11,3 +11,15 @@ INSERT INTO "QueryType" ("queryTypeName") VALUES ('SELECT');
 
 INSERT INTO "Query" ("statement", "userId", "projectId", "queryTypeId") VALUES
     ('SELECT * FROM Table', '1', '3', '1');
+
+INSERT INTO "Table" ("tableName", "schemaId") VALUES 
+    ('TestTable', '1'); -- FIX schemaId based on real value
+
+INSERT INTO "QueryTableAccess" ("queryId", "tableId") VALUES 
+    ('4', '1'); -- FIX tableId based on real value
+
+INSERT INTO "Schema" ("schemaName", "projectId", "createdById") VALUES
+    ('TestSchema', '3', '1');
+
+INSERT INTO "TableStorageSnapshot" ("rowCount", "sizeBytes", "tableId") VALUES
+    ('0', '1', '1'); -- FIX tableId based on real value
