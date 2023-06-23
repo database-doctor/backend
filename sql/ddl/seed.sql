@@ -10,7 +10,7 @@ INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById") VAL
 INSERT INTO "QueryType" ("queryTypeId", "queryTypeName") VALUES ('1', 'SELECT');
 
 INSERT INTO "Query" ("queryId", "statement", "userId", "projectId", "queryTypeId") VALUES
-    ('1,', 'SELECT * FROM Table', '1', '1', '1');
+    ('1', 'SELECT * FROM Table', '1', '1', '1');
 
 INSERT INTO "Schema" ("schemaId", "schemaName", "projectId", "createdById") VALUES
     ('1', 'TestSchema', '1', '1');

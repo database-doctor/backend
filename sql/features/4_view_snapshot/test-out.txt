@@ -1,1 +1,5 @@
-TODO: Fill this with sample output from the query.
+       atTime        | rowCount | sizeBytes | queryCount 
+---------------------+----------+-----------+------------
+ 2023-06-23 01:00:00 |        0 |         1 |          1
+(1 row)
+
