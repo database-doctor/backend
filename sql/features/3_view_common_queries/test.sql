@@ -11,7 +11,8 @@ JOIN "Project" ON "Q"."projectId" = "Project"."projectId"
 WHERE "Q"."statement" IN 
     (SELECT "statement" 
      FROM "QueryCount" 
-     WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "QueryCount"));
+     WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "QueryCount")) AND
+    "Project"."projectId" = 'project_id_int';
 
 -- View common users that query
 WITH "UserQueries" AS 
