@@ -1,1 +1,7 @@
-TODO: Fill this with sample output from the query.
+INSERT 0 1
+UPDATE 1
+   username   |     name      |        email         |        createdAt        
+--------------+---------------+----------------------+-------------------------
+ adriandavila | Adrian Davila | akdavila03@gmail.com | 2023-06-19 14:58:14.066
+(1 row)
+
