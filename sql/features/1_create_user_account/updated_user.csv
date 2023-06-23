@@ -1,4 +1,0 @@
-NOTE: THIS SHOWS THE UPDATED ROW (not the exact output of the update user query)
-
-userId,username,name,email,passwordHash,passwordSalt,createdAt
-1,adriandavila,Adrian Davila,adrian@gmail.com,hashed_password,salt,2023-06-19 14:58:14.066
