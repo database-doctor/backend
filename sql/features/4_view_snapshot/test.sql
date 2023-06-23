@@ -2,17 +2,21 @@ SELECT
     date_trunc('hour', T."createdAt") AS "atTime",
     T."rowCount",
     T."sizeBytes",
-    COUNT(Q1."atHour") AS "queryCount"
+    COUNT(Q."atHour") AS "queryCount"
 FROM
     "TableStorageSnapshot" T
 LEFT JOIN
+    "QueryTableAccess" TA
+ON
+    T."tableId" = TA."tableId"
+LEFT JOIN
     (SELECT
-        Q1."tableId",
+        Q1."queryId",
         date_trunc('hour', Q1."issuedAt") AS "atHour"
      FROM
         "Query" Q1) Q
 ON
-    T."tableId" = Q."tableId" AND date_trunc('hour', T."createdAt") = Q."atHour"
+    TA."queryId" = Q."queryId" AND date_trunc('hour', T."createdAt") = Q."atHour"
 WHERE
     T."tableId" = 1 AND
     '2023-01-01'::date <= T."createdAt" AND
