@@ -13,7 +13,7 @@ INSERT INTO "QueryType" ("queryTypeId", "queryTypeName") VALUES
     ('3', 'UPDATE'),
     ('4', 'DELETE');
 
-INSERT INTO "Query" ("queryId", "statement", "userId", "projectId", "queryTypeId") VALUES
+INSERT INTO "SqlQuery" ("queryId", "statement", "userId", "projectId", "queryTypeId") VALUES
     ('1', 'SELECT * FROM Table', '1', '1', '1');
 
 INSERT INTO "Schema" ("schemaId", "schemaName", "projectId", "createdById") VALUES

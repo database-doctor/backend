@@ -29,7 +29,7 @@ model User {
   roles    UserRoleMap[]
   tokens   UserProjectToken[]
   schemas  Schema[]
-  queries  Query[]
+  queries  SqlQuery[]
 }
 
 model Permission {
@@ -92,7 +92,7 @@ model Project {
   roles   Role[]
   tokens  UserProjectToken[]
   schemas Schema[]
-  queries Query[]
+  queries SqlQuery[]
 }
 
 model UserProjectToken {
@@ -182,10 +182,10 @@ model QueryType {
   queryTypeName String
 
   // Foreign Keys
-  queries Query[]
+  queries SqlQuery[]
 }
 
-model Query {
+model SqlQuery {
   queryId      Int       @id @default(autoincrement())
   statement    String
   issuedAt     DateTime  @default(now())
@@ -210,7 +210,7 @@ model Query {
 model QueryColumnAccess {
   // Foreign Keys
   queryId Int
-  query   Query @relation(fields: [queryId], references: [queryId])
+  query   SqlQuery @relation(fields: [queryId], references: [queryId])
 
   columnId Int
   column   Column @relation(fields: [columnId], references: [columnId])
@@ -222,7 +222,7 @@ model QueryColumnAccess {
 model QueryTableAccess {
   // Foreign Keys
   queryId Int
-  query   Query @relation(fields: [queryId], references: [queryId])
+  query   SqlQuery @relation(fields: [queryId], references: [queryId])
 
   tableId Int
   table   Table @relation(fields: [tableId], references: [tableId])
