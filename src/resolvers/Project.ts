@@ -44,18 +44,25 @@ class CreateProjectInput {
 @Resolver(() => Project)
 export class ProjectResolver {
     @Query(() => [Project])
-    async allProjects(@Ctx() ctx: Context): Promise<Project[]> {
-        return ctx.prisma.project.findMany();
+    async allProjects(@Args() { id }: IntId, @Ctx() ctx: Context): Promise<Project[]> {
+        const project = await ctx.prisma.$queryRaw<Project[]>
+        `SELECT "projectName", "connUrl" AS "projectUrl", "Project"."createdAt", "username" AS "createdBy"
+        FROM "Project"
+        JOIN "UserProjectToken" ON "Project"."projectId" = "UserProjectToken"."projectId"
+        JOIN "User" ON "UserProjectToken"."userId" = "User"."userId"
+        WHERE "User"."userId" = ${id};`;
+        return project;
     }
 
     @Query(() => Project)
-    async project(@Args() { id } : IntId, @Ctx() ctx: Context): Promise<Project | null> {
-        const project = ctx.prisma.project.findUnique({
-            where: {
-                projectId: id
-            },
-        });
-        return project;
+    async project(@Arg('uid') uid: number, @Arg('pid') pid: number, @Ctx() ctx: Context): Promise<Project | null> {
+        const project = await ctx.prisma.$queryRaw<Project[]>
+        `SELECT "projectName", "connUrl" AS "projectUrl", "Project"."createdAt", "username" AS "createdBy"
+        FROM "Project"
+        JOIN "UserProjectToken" ON "Project"."projectId" = "UserProjectToken"."projectId"
+        JOIN "User" ON "UserProjectToken"."userId" = "User"."userId"
+        WHERE "User"."userId" = ${uid} AND "Project"."projectId" = ${pid};`;
+        return project[0];
     }
 
     @Mutation(() => Project)
