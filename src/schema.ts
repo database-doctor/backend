@@ -9,6 +9,7 @@ export const schema = buildSchemaSync({
     resolvers.SchemaResolver,
     resolvers.TableResolver,
     resolvers.UserResolver,
+    resolvers.SqlQueryResolver, 
   ],
   validate: false,
 });
