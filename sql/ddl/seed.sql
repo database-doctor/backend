@@ -23,3 +23,6 @@ INSERT INTO "QueryTableAccess" ("queryId", "tableId") VALUES
 
 INSERT INTO "TableStorageSnapshot" ("rowCount", "sizeBytes", "tableId") VALUES
     ('0', '1', '1');
+
+INSERT INTO "UserProjectToken" ("userId", "projectId", "accessToken") VALUES
+    ('2', '1', 'SecretToken');
