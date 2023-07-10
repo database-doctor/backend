@@ -7,7 +7,7 @@ export interface Context {
   res: Response;
 }
 
-const prisma = new PrismaClient();
+export const prisma = new PrismaClient();
 
 export const context = (ctx: any): Context => {
   const req: Request = ctx.req;

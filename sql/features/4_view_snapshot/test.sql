@@ -14,7 +14,7 @@ LEFT JOIN
         Q1."queryId",
         date_trunc('hour', Q1."issuedAt") AS "atHour"
      FROM
-        "Query" Q1) Q
+        "SqlQuery" Q1) Q
 ON
     TA."queryId" = Q."queryId" AND date_trunc('hour', T."createdAt") = Q."atHour"
 WHERE
