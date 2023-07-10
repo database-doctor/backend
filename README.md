@@ -75,7 +75,7 @@ psql -h localhost -U dev -W -d postgres < PATH/TO/FILE_NAME.sql
 
 After entering the password, the SQL commands in `PATH/TO/FILE_NAME.sql` will be run against the database. To inspect changes, you can run
 
-```
+```bash
 npx prisma studio
 ```
 
