@@ -96,7 +96,7 @@ model Project {
 }
 
 model UserProjectToken {
-  accessToken String
+  accessToken String @unique
 
   // Foreign Keys
   userId Int
