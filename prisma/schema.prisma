@@ -203,8 +203,8 @@ model Query {
   queryTypeId Int
   queryType   QueryType @relation(fields: [queryTypeId], references: [queryTypeId])
 
-  columns          QueryColumnAccess[]
-  QueryTableAccess QueryTableAccess[]
+  columns QueryColumnAccess[]
+  tables  QueryTableAccess[]
 }
 
 model QueryColumnAccess {
