@@ -1,46 +1,4 @@
 -- User table
-INSERT INTO "User" ("userId", "username", "name", "email", "passwordHash", "passwordSalt") VALUES 
-    ('1', 'adriandavila', 'Adrian Davila', 'a4davila@uwaterloo.ca', 'hashed_password', 'salt'),
-    ('2', 'jasondu', 'Jason Du', 'j79du@uwaterloo.ca', 'hashed_password', 'salt'),
-    ('3', 'malavmehta', 'Malav Mehta', 'mmehta@uwaterloo.ca', 'hashed_password', 'salt');
-
-INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById") VALUES
-    ('1', 'TestProject', 'http://example-url.com', '1');
-
-INSERT INTO "QueryType" ("queryTypeId", "queryTypeName") VALUES
-    ('1', 'SELECT'),
-    ('2', 'INSERT'),
-    ('3', 'UPDATE'),
-    ('4', 'DELETE');
-
-INSERT INTO "SqlQuery" ("queryId", "statement", "userId", "projectId", "queryTypeId") VALUES
-    ('1', 'SELECT * FROM Table', '1', '1', '1');
-
-INSERT INTO "Schema" ("schemaId", "schemaName", "projectId", "createdById") VALUES
-    ('1', 'TestSchema', '1', '1');
-
-INSERT INTO "Table" ("tableId", "tableName", "schemaId") VALUES 
-    ('1', 'TestTable', '1');
-
-INSERT INTO "QueryTableAccess" ("queryId", "tableId") VALUES 
-    ('1', '1');
-
-INSERT INTO "TableStorageSnapshot" ("rowCount", "sizeBytes", "tableId") VALUES
-    ('0', '1', '1');
-
-INSERT INTO "UserProjectToken" ("userId", "projectId", "accessToken") VALUES
-    ('2', '1', 'SecretToken');
-
-INSERT INTO "ColumnType" ("columnTypeId", "columnTypeName") VALUES
-    ('1', 'INTEGER'),
-    ('2', 'VARCHAR'),
-    ('3', 'FLOAT'),
-    ('4', 'BOOLEAN'),
-    ('5', 'DATE');
-
-INSERT INTO "Column" ("columnId", "columnName", "columnTypeId", "tableId") VALUES
-    ('1', 'TestColumn', '1', '1');
-
 INSERT INTO "User" ("username", "name", "email", "passwordHash", "passwordSalt")
 VALUES ('user1', 'John Doe', 'john.doe@gmail.com', '5f4dcc3b5aa765d61d8327deb882cf99', 'salta1');
 
@@ -512,32 +470,30 @@ VALUES (15, 10, 4); -- User 15 is mapped to Analyst role in Project 4
 INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
 VALUES (15, 12, 5); -- User 15 is mapped to Manager role in Project 5
 
-/* can Any user create project */
-
 -- E-commerceDB
 -- User 1 (createdById) has the Administrator role (roleId = 1)
 INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
-VALUES (1, 'E-commerceDB', 'https://project1.example.com', 1);
+VALUES (1, 'E-commerceDB', 'https://E-com.example.com', 1);
 
 -- EmployeesDB
 -- User 1 (createdById) has the Administrator role (roleId = 1)
 INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
-VALUES (2, 'EmployeesDB', 'https://project2.example.com', 1);
+VALUES (2, 'EmployeesDB', 'https://Emp.example.com', 1);
 
 -- BooksDB
 -- User 2 (createdById) has the Manager role (roleId = 2)
 INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
-VALUES (3, 'BooksDB', 'https://project3.example.com', 2);
+VALUES (3, 'BooksDB', 'https://Book.example.com', 2);
 
 -- StudentsDB
 -- User 2 (createdById) has the Manager role (roleId = 2)
 INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
-VALUES (4, 'StudentsDB', 'https://project4.example.com', 2);
+VALUES (4, 'StudentsDB', 'https://Student.example.com', 2);
 
 -- MoviesDB
 -- User 3 (createdById) has the Developer role (roleId = 3)
 INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
-VALUES (5, 'MoviesDB', 'https://project5.example.com', 3);
+VALUES (5, 'MoviesDB', 'https://Movie.example.com', 3);
 
 /* Previous comment above */
 
@@ -705,3 +661,43 @@ INSERT INTO "UserProjectToken" ("accessToken", "userId", "projectId")
 VALUES ('access_token_user15_project4', 15, 4); -- User 15, Project 4
 INSERT INTO "UserProjectToken" ("accessToken", "userId", "projectId")
 VALUES ('access_token_user15_project5', 15, 5); -- User 15, Project 5
+
+INSERT INTO "Schema" ("schemaId", "schemaName", "projectId", "createdById")
+VALUES (1, 'E-commerceSchema', 1, 1);
+
+INSERT INTO "Schema" ("schemaId", "schemaName", "projectId", "createdById")
+VALUES (2, 'EmployeeSchema', 2, 1);
+
+INSERT INTO "Schema" ("schemaId", "schemaName", "projectId", "createdById")
+VALUES (3, 'BooksDB', 3, 2);
+
+INSERT INTO "Schema" ("schemaId", "schemaName", "projectId", "createdById")
+VALUES (4, 'StudentsDB', 4, 2);
+
+INSERT INTO "Schema" ("schemaId", "schemaName", "projectId", "createdById")
+VALUES (5, 'MoviesDB', 5, 3);
+
+INSERT INTO "ColumnType" ("columnTypeName") VALUES
+    ('BIGINT'),
+    ('BOOLEAN'),
+    ('CHARACTER'),
+    ('DATE'),
+    ('DECIMAL'),
+    ('DOUBLE PRECISION'),
+    ('INTEGER'),
+    ('NUMERIC'),
+    ('REAL'),
+    ('SMALLINT'),
+    ('TEXT'),
+    ('TIME'),
+    ('TIMESTAMP'),
+    ('VARCHAR'),
+    ('SERIAL');
+
+INSERT INTO "QueryType" ("queryTypeName")
+VALUES
+    ('SELECT'),
+    ('INSERT'),
+    ('UPDATE'),
+    ('DELETE'),
+    ('OTHER');

@@ -123,7 +123,7 @@ CREATE TABLE "QueryType" (
 );
 
 -- CreateTable
-CREATE TABLE "Query" (
+CREATE TABLE "SqlQuery" (
     "queryId" SERIAL NOT NULL,
     "statement" TEXT NOT NULL,
     "issuedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
