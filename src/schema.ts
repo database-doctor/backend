@@ -8,6 +8,7 @@ export const schema = buildSchemaSync({
     resolvers.ProjectResolver,
     resolvers.SchemaResolver,
     resolvers.TableResolver,
+    resolvers.TableSnapshotResolver,
     resolvers.UserResolver,
     resolvers.SqlQueryResolver, 
   ],
