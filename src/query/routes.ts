@@ -34,5 +34,5 @@ export const routes = Router();
 //   will be propagated to the result as is.
 //
 routes.post("/", (req, res) => {
-  res.send(processQuery(req.body));
+  processQuery(req.body).then((result) => res.send(result));
 });
