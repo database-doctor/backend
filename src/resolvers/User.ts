@@ -20,6 +20,12 @@ class IntId {
   id!: number;
 }
 
+@ArgsType()
+class StringEmail {
+  @Field(() => String)
+  email!: string;
+}
+
 @InputType()
 class CreateUserInput {
   @Field()
@@ -60,6 +66,19 @@ export class UserResolver {
     const user = await ctx.prisma.user.findUnique({
       where: {
         userId: id,
+      },
+    });
+    return user;
+  }
+
+  @Query(() => User)
+  async userByEmail(
+    @Args() { email }: StringEmail,
+    @Ctx() ctx: Context
+  ): Promise<User | null> {
+    const user = await ctx.prisma.user.findUnique({
+      where: {
+        email: email,
       },
     });
     return user;
