@@ -13,68 +13,134 @@ import {
   ArgsType,
   Mutation,
   Int,
+  ObjectType
 } from "type-graphql";
-import { MinLength, MaxLength } from "class-validator";
+import { MinLength, MaxLength, Max } from "class-validator";
 
+@ObjectType()
+class ProjectDetail {    
+  @Field()
+  @MinLength(1)
+  @MaxLength(255)
+  projectName!: string;
+
+  @Field()
+  @MinLength(1)
+  @MaxLength(255)
+  projectUrl!: string;
+
+  @Field(() => Date)
+  createdAt!: Date;
+
+  @Field()
+  @MinLength(1)
+  @MaxLength(255)
+  createdBy!: string;
+
+  constructor (
+    projectName: string,
+    projectUrl: string,
+    createdAt: Date,
+    createdBy: string
+  ) {
+    this.projectName = projectName;
+    this.projectUrl = projectUrl;
+    this.createdAt = createdAt;
+    this.createdBy = createdBy;
+  }
+}
 
 @ArgsType()
 class IntId {
   @Field(() => Int)
-  id!: number;
+  userId!: number;
 }
 
 @InputType()
 class CreateProjectInput {
-    @Field()
-    @MinLength(1)
-    @MaxLength(255)
-    projectName!: string;
+  @Field()
+  @MinLength(1)
+  @MaxLength(255)
+  projectName!: string;
 
-    @Field()
-    @MinLength(1)
-    @MaxLength(255)
-    connUrl!: string;
+  @Field()
+  @MinLength(1)
+  @MaxLength(255)
+  connUrl!: string;
 
-    @Field(() => Int)
-    @MinLength(1)
-    @MaxLength(255)
-    createdById!: number;
+  @Field(() => Int)
+  @MinLength(1)
+  @MaxLength(255)
+  createdById!: number;
+}
+
+@Resolver(() => ProjectDetail)
+export class ProjectDetailResolver {
+    @Query(() => [ProjectDetail])
+    async allProjects(
+      @Args() { userId } : IntId, 
+      @Ctx() ctx: Context
+    ): Promise<ProjectDetail[]> {
+      const rawProjects = await ctx.prisma.$queryRawUnsafe(`
+        SELECT "projectName", "connUrl" AS "projectUrl", "Project"."createdAt", "username" AS "createdBy"
+        FROM "Project"
+        JOIN "UserProjectToken" ON "Project"."projectId" = "UserProjectToken"."projectId"
+        JOIN "User" ON "UserProjectToken"."userId" = "User"."userId"
+        WHERE "User"."userId" = ${userId};
+      `);
+
+      const projects: ProjectDetail[] = (rawProjects as any[]).map(
+        (rawProject: any): ProjectDetail => {
+          return new ProjectDetail(
+            rawProject.projectName, 
+            rawProject.projectUrl, 
+            rawProject.createdAt, 
+            rawProject.createdAt
+          )
+        }
+      )
+      return projects;
+    }
+
+    @Query(() => ProjectDetail)
+    async project(
+      @Arg('uid', () => Int) uid: number,  
+      @Arg('pid', () => Int) pid: number, 
+      @Ctx() ctx: Context
+    ): Promise<ProjectDetail | null> {
+        const rawProjects = await ctx.prisma.$queryRawUnsafe(`
+          SELECT "projectName", "connUrl" AS "projectUrl", "Project"."createdAt", "username" AS "createdBy"
+          FROM "Project"
+          JOIN "UserProjectToken" ON "Project"."projectId" = "UserProjectToken"."projectId"
+          JOIN "User" ON "UserProjectToken"."userId" = "User"."userId"
+          WHERE "User"."userId" = ${uid} AND "Project"."projectId" = ${pid};
+        `);
+        const projects: ProjectDetail[] = (rawProjects as any[]).map(
+          (rawProject: any): ProjectDetail => {
+            return new ProjectDetail(
+              rawProject.projectName, 
+              rawProject.projectUrl, 
+              rawProject.createdAt, 
+              rawProject.createdAt
+            )
+          }
+        )
+        return projects[0];
+    }
 }
 
 @Resolver(() => Project)
 export class ProjectResolver {
-    @Query(() => [Project])
-    async allProjects(@Args() { id }: IntId, @Ctx() ctx: Context): Promise<Project[]> {
-        const project = await ctx.prisma.$queryRaw<Project[]>
-        `SELECT "projectName", "connUrl" AS "projectUrl", "Project"."createdAt", "username" AS "createdBy"
-        FROM "Project"
-        JOIN "UserProjectToken" ON "Project"."projectId" = "UserProjectToken"."projectId"
-        JOIN "User" ON "UserProjectToken"."userId" = "User"."userId"
-        WHERE "User"."userId" = ${id};`;
-        return project;
-    }
-
-    @Query(() => Project)
-    async project(@Arg('uid') uid: number, @Arg('pid') pid: number, @Ctx() ctx: Context): Promise<Project | null> {
-        const project = await ctx.prisma.$queryRaw<Project[]>
-        `SELECT "projectName", "connUrl" AS "projectUrl", "Project"."createdAt", "username" AS "createdBy"
-        FROM "Project"
-        JOIN "UserProjectToken" ON "Project"."projectId" = "UserProjectToken"."projectId"
-        JOIN "User" ON "UserProjectToken"."userId" = "User"."userId"
-        WHERE "User"."userId" = ${uid} AND "Project"."projectId" = ${pid};`;
-        return project[0];
-    }
-
-    @Mutation(() => Project)
-    async createProject(
-        @Arg('newProject') newProject: CreateProjectInput,
-        @Ctx() ctx: Context,
-    ): Promise<Project> {
-        const project = await ctx.prisma.project.create({
-            data: {
-                ...newProject,
-            }, 
-        });
-        return project;
-    }
+  @Mutation(() => Project)
+  async createProject(
+    @Arg('newProject') newProject: CreateProjectInput,
+    @Ctx() ctx: Context,
+  ): Promise<Project> {
+    const project = await ctx.prisma.project.create({
+        data: {
+            ...newProject,
+        }, 
+    });
+    return project;
+  }
 }
