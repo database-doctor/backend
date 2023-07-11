@@ -6,4 +6,6 @@ export * from "./Table";
 export * from "./TableSnapshot";
 export * from "./User";
 export * from "./Query";
+export * from "./QueryColumnAccess";
+export * from "./QueryTableAccess";
 export * from "./UserProjectToken";

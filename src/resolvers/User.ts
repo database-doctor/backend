@@ -90,7 +90,7 @@ export class UserResolver {
   }
 
   @Query(() => [User], {nullable: true})
-  async commonUserQuery(
+  async commonUserQueries(
     @Args() { id }: IntId,
     @Ctx() ctx: Context
   ): Promise<User[]> {
@@ -103,10 +103,10 @@ export class UserResolver {
       FROM "User"
       JOIN "UserProjectToken" ON "User"."userId" = "UserProjectToken"."userId"
       JOIN "Project" ON "UserProjectToken"."projectId" = "Project"."projectId"
-      WHERE "User"."userId" IN 
+      WHERE "Project"."projectId" = ${id} AND "User"."userId" IN 
         (SELECT "userId"
         FROM "UserQueries"
-        WHERE "Project"."projectId" = ${id} AND "queryCount" >= (SELECT AVG("queryCount") FROM "UserQueries"));`;
+        WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "UserQueries"));`;
     return user;
   }
 

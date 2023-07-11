@@ -15,10 +15,10 @@ import { MinLength, MaxLength } from "class-validator";
 
 @ObjectType()
 class SqlQueryDetail {
-  @Field()
+  @Field({nullable: true})
   @MinLength(1)
   @MaxLength(255)
-  username!: string;
+  username: string;
 
   @Field()
   @MinLength(1)
@@ -174,11 +174,10 @@ export class SqlQueryDetailResolver {
         (SELECT "statement", COUNT(*) AS "queryCount" 
         FROM "SqlQuery" 
         GROUP BY "statement")
-      SELECT DISTINCT "User"."username", "Project"."projectName", "Q"."statement" AS "queryStatement", 
+      SELECT DISTINCT "Project"."projectName", "Q"."statement" AS "queryStatement", 
         "QueryType"."queryTypeName" AS "queryType", "Q"."issuedAt", "Q"."finishedAt", "Q"."hasError", "Q"."errorMessage"
       FROM "SqlQuery" "Q"
       JOIN "QueryType" ON "Q"."queryTypeId" = "QueryType"."queryTypeId"
-      JOIN "User" ON "Q"."userId" = "User"."userId"
       JOIN "Project" ON "Q"."projectId" = "Project"."projectId"
       WHERE "Q"."statement" IN 
         (SELECT "statement" 

@@ -13,6 +13,8 @@ export const schema = buildSchemaSync({
     resolvers.UserResolver,
     resolvers.SqlQueryResolver, 
     resolvers.SqlQueryDetailResolver, 
+    resolvers.QueryColumnDetailResolver, 
+    resolvers.QueryTableDetailResolver, 
     resolvers.UserProjectTokenResolver, 
   ],
   validate: false,
