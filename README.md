@@ -103,6 +103,9 @@ For milestone 1, we manually wrote out some sample data as we thought of what in
 
 Moving forward, we will be using generative technologies such as ChatGPT to populate a greater quantity of sample data.
 
+To generate the schemas for the fake projects the following prompts were used:
+
+
 <!-- The prompt used to generate database schemas was:
 
 ```
