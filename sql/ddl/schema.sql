@@ -1,9 +1,9 @@
 -- CreateTable
 CREATE TABLE "User" (
     "userId" SERIAL NOT NULL,
-    "username" TEXT NOT NULL,
+    "username" TEXT NOT NULL,  -- TODO : MAKE USERNAME UNIQUE
     "name" TEXT NOT NULL,
-    "email" TEXT NOT NULL,
+    "email" TEXT NOT NULL, -- TODO : MAKE EMAIL UNIQUE
     "passwordHash" TEXT NOT NULL,
     "passwordSalt" TEXT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,

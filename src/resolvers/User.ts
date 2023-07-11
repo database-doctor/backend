@@ -25,6 +25,11 @@ class StringEmail {
   @Field(() => String)
   email!: string;
 }
+@ArgsType()
+class StringUsername {
+  @Field(() => String)
+  username!: string;
+}
 
 @InputType()
 class CreateUserInput {
@@ -102,6 +107,19 @@ export class UserResolver {
         (SELECT "userId"
         FROM "UserQueries"
         WHERE "Project"."projectId" = ${id} AND "queryCount" >= (SELECT AVG("queryCount") FROM "UserQueries"));`;
+    return user;
+  }
+
+  @Query(() => User)
+  async userByUsername(
+    @Args() { username }: StringUsername,
+    @Ctx() ctx: Context
+  ): Promise<User | null> {
+    const user = await ctx.prisma.user.findFirst({
+      where: {
+        username: username,
+      },
+    });
     return user;
   }
 
