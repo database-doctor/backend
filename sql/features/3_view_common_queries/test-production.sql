@@ -25,4 +25,4 @@ JOIN "Project" ON "UserProjectToken"."projectId" = "Project"."projectId"
 WHERE "Project"."projectId" = 3 AND "User"."userId" IN 
     (SELECT "userId"
      FROM "UserQueries"
-     WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "UserQueries"))
+     WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "UserQueries"));
