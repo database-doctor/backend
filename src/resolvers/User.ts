@@ -106,7 +106,8 @@ export class UserResolver {
       WHERE "Project"."projectId" = ${id} AND "User"."userId" IN 
         (SELECT "userId"
         FROM "UserQueries"
-        WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "UserQueries"));`;
+        WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "UserQueries"))
+      LIMIT 10;`;
     return user;
   }
 
