@@ -87,7 +87,8 @@ export class QueryColumnDetailResolver {
       WHERE "Schema"."projectId" = ${projectid} AND "QueryColumnAccess"."columnId" IN 
         (SELECT "columnId" 
         FROM "QueryCount" 
-        WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "QueryCount"));
+        WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "QueryCount"))
+      LIMIT 10;
     `);
     return this.processRawQuery(rawSqlQueries as any[]);
   }

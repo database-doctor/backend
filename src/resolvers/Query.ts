@@ -105,6 +105,7 @@ export class SqlQueryDetailResolver {
         )
       }
     )
+    console.log(sqlQueries);
     return sqlQueries;
   }
 
@@ -182,7 +183,8 @@ export class SqlQueryDetailResolver {
       WHERE "Q"."statement" IN 
         (SELECT "statement" 
         FROM "QueryCount" 
-        WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "QueryCount")) AND "Project"."projectId" = ${projectid};
+        WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "QueryCount")) AND "Project"."projectId" = ${projectid}
+      LIMIT 10;
     `);
     return this.processRawQuery(rawSqlQueries as any[]);
   }
