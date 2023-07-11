@@ -1,4 +1,3 @@
-I/* Decide what we actually want to keep in this file Ex. Col Type Query Type etc.. */
 INSERT INTO "User" ("userId", "username", "name", "email", "passwordHash", "passwordSalt") VALUES 
     ('16', 'adriandavila', 'Adrian Davila', 'a4davila@uwaterloo.ca', 'hashed_password', 'salt'),
     ('17', 'jasondu', 'Jason Du', 'j79du@uwaterloo.ca', 'hashed_password', 'salt'),
