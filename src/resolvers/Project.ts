@@ -16,9 +16,13 @@ import {
   ObjectType
 } from "type-graphql";
 import { MinLength, MaxLength, Max } from "class-validator";
+import { raw } from "@prisma/client/runtime";
 
 @ObjectType()
-class ProjectDetail {    
+class ProjectDetail { 
+  @Field(() => Int)
+  projectId!: number;
+
   @Field()
   @MinLength(1)
   @MaxLength(255)
@@ -38,11 +42,13 @@ class ProjectDetail {
   createdBy!: string;
 
   constructor (
+    projectId: number, 
     projectName: string,
     projectUrl: string,
     createdAt: Date,
     createdBy: string
   ) {
+    this.projectId = projectId;
     this.projectName = projectName;
     this.projectUrl = projectUrl;
     this.createdAt = createdAt;
@@ -82,7 +88,7 @@ export class ProjectDetailResolver {
       @Ctx() ctx: Context
     ): Promise<ProjectDetail[]> {
       const rawProjects = await ctx.prisma.$queryRawUnsafe(`
-        SELECT "projectName", "connUrl" AS "projectUrl", "Project"."createdAt", "username" AS "createdBy"
+        SELECT "Project"."projectId", "projectName", "connUrl" AS "projectUrl", "Project"."createdAt", "username" AS "createdBy"
         FROM "Project"
         JOIN "UserProjectToken" ON "Project"."projectId" = "UserProjectToken"."projectId"
         JOIN "User" ON "UserProjectToken"."userId" = "User"."userId"
@@ -92,6 +98,7 @@ export class ProjectDetailResolver {
       const projects: ProjectDetail[] = (rawProjects as any[]).map(
         (rawProject: any): ProjectDetail => {
           return new ProjectDetail(
+            rawProject.projectId, 
             rawProject.projectName, 
             rawProject.projectUrl, 
             rawProject.createdAt, 
@@ -109,7 +116,7 @@ export class ProjectDetailResolver {
       @Ctx() ctx: Context
     ): Promise<ProjectDetail | null> {
         const rawProjects = await ctx.prisma.$queryRawUnsafe(`
-          SELECT "projectName", "connUrl" AS "projectUrl", "Project"."createdAt", "username" AS "createdBy"
+          SELECT "Project"."projectId", projectName", "connUrl" AS "projectUrl", "Project"."createdAt", "username" AS "createdBy"
           FROM "Project"
           JOIN "UserProjectToken" ON "Project"."projectId" = "UserProjectToken"."projectId"
           JOIN "User" ON "UserProjectToken"."userId" = "User"."userId"
@@ -118,6 +125,7 @@ export class ProjectDetailResolver {
         const projects: ProjectDetail[] = (rawProjects as any[]).map(
           (rawProject: any): ProjectDetail => {
             return new ProjectDetail(
+              rawProject.projectId, 
               rawProject.projectName, 
               rawProject.projectUrl, 
               rawProject.createdAt, 
