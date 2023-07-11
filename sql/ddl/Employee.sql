@@ -41343,4 +41343,8504 @@ INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
     VALUES ('4600', '6');
 INSERT INTO "QueryTableAccess" ("queryId", "tableId")
     VALUES ('4600', '4');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4601', 'asdas', '4601', 'asdas', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4601', '12', '2023-07-02 08:31:02.378130', '2023-07-02 08:31:06.378130', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4601, asdas, 4601, asdas, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4601', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4602', 'asd', '4602', 'asd', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4602', '14', '2023-04-20 08:31:02.378159', '2023-04-20 08:31:04.378159', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4602, asd, 4602, asd, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4602', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4603', 'asd', '4603', 'asd', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4603', '7', '2023-05-17 08:31:02.378173', '2023-05-17 08:31:06.378173', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4603, asd, 4603, asd, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4603', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4604', 'asds', '4604', 'asds', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4604', '11', '2023-07-02 08:31:02.378185', '2023-07-02 08:31:06.378185', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4604, asds, 4604, asds, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4604', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4605', 'dsbb', '4605', 'dsbb', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4605', '2', '2023-05-03 08:31:02.378197', '2023-05-03 08:31:04.378197', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4605, dsbb, 4605, dsbb, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4605', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4606', 'asd', '4606', 'asd', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4606', '5', '2023-05-08 08:31:02.378210', '2023-05-08 08:31:05.378210', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4606, asd, 4606, asd, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4606', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4607', 'dsbb', '4607', 'dsbb', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4607', '13', '2023-06-19 08:31:02.378221', '2023-06-19 08:31:03.378221', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4607, dsbb, 4607, dsbb, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4607', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4608', 'asd', '4608', 'asd', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4608', '8', '2023-07-07 08:31:02.378233', '2023-07-07 08:31:04.378233', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4608, asd, 4608, asd, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4608', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4609', 'asd', '4609', 'asd', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4609', '11', '2023-06-17 08:31:02.378244', '2023-06-17 08:31:03.378244', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4609, asd, 4609, asd, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4609', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4610', 'asd', '4610', 'asd', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4610', '10', '2023-06-14 08:31:02.378289', '2023-06-14 08:31:03.378289', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4610, asd, 4610, asd, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4610', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4611', 'asd', '4611', 'asd', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4611', '3', '2023-06-07 08:31:02.378302', '2023-06-07 08:31:04.378302', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4611, asd, 4611, asd, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4611', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4612', 'cvcb', '4612', 'cvcb', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4612', '15', '2023-06-25 08:31:02.378313', '2023-06-25 08:31:03.378313', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4612, cvcb, 4612, cvcb, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4612', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4613', 'asd', '4613', 'asd', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4613', '3', '2023-06-06 08:31:02.378324', '2023-06-06 08:31:05.378324', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4613, asd, 4613, asd, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4613', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4614', 'asd', '4614', 'asd', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4614', '3', '2023-04-18 08:31:02.378335', '2023-04-18 08:31:06.378335', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4614, asd, 4614, asd, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4614', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4615', 'asd', '4615', 'asd', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4615', '6', '2023-07-04 08:31:02.378346', '2023-07-04 08:31:06.378346', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4615, asd, 4615, asd, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4615', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4616', 'asd', '4616', 'asd', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4616', '7', '2023-06-15 08:31:02.378357', '2023-06-15 08:31:04.378357', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4616, asd, 4616, asd, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4616', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4617', 'asd', '4617', 'asd', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4617', '9', '2023-04-20 08:31:02.378368', '2023-04-20 08:31:06.378368', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4617, asd, 4617, asd, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4617', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4618', 'asdas', '4618', 'asdas', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4618', '6', '2023-06-10 08:31:02.378390', '2023-06-10 08:31:04.378390', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4618, asdas, 4618, asdas, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4618', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4619', 'cvcb', '4619', 'cvcb', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4619', '3', '2023-05-05 08:31:02.378401', '2023-05-05 08:31:06.378401', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4619, cvcb, 4619, cvcb, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4619', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4620', 'asdas', '4620', 'asdas', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4620', '2', '2023-05-07 08:31:02.378412', '2023-05-07 08:31:05.378412', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4620, asdas, 4620, asdas, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4620', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4621', 'dsbb', '4621', 'dsbb', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4621', '5', '2023-06-11 08:31:02.378423', '2023-06-11 08:31:03.378423', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4621, dsbb, 4621, dsbb, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4621', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4622', 'dsbb', '4622', 'dsbb', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4622', '3', '2023-07-11 08:31:02.378434', '2023-07-11 08:31:06.378434', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4622, dsbb, 4622, dsbb, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4622', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4623', 'dsbb', '4623', 'dsbb', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4623', '11', '2023-06-24 08:31:02.378445', '2023-06-24 08:31:06.378445', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4623, dsbb, 4623, dsbb, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4623', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4624', 'asds', '4624', 'asds', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4624', '13', '2023-06-05 08:31:02.378456', '2023-06-05 08:31:06.378456', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4624, asds, 4624, asds, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4624', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4625', 'asdas', '4625', 'asdas', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4625', '3', '2023-06-12 08:31:02.378467', '2023-06-12 08:31:05.378467', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4625, asdas, 4625, asdas, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4625', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4626', 'cvcb', '4626', 'cvcb', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4626', '10', '2023-05-08 08:31:02.378491', '2023-05-08 08:31:06.378491', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4626, cvcb, 4626, cvcb, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4626', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4627', 'asds', '4627', 'asds', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4627', '13', '2023-05-05 08:31:02.378503', '2023-05-05 08:31:05.378503', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4627, asds, 4627, asds, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4627', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4628', 'cvcb', '4628', 'cvcb', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4628', '4', '2023-04-16 08:31:02.378514', '2023-04-16 08:31:03.378514', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4628, cvcb, 4628, cvcb, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4628', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4629', 'asds', '4629', 'asds', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4629', '4', '2023-05-22 08:31:02.378525', '2023-05-22 08:31:06.378525', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4629, asds, 4629, asds, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4629', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4630', 'asd', '4630', 'asd', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4630', '12', '2023-06-14 08:31:02.378536', '2023-06-14 08:31:06.378536', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4630, asd, 4630, asd, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4630', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4631', 'asd', '4631', 'asd', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4631', '3', '2023-05-07 08:31:02.378547', '2023-05-07 08:31:06.378547', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4631, asd, 4631, asd, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4631', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4632', 'asds', '4632', 'asds', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4632', '15', '2023-04-22 08:31:02.378558', '2023-04-22 08:31:06.378558', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4632, asds, 4632, asds, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4632', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4633', 'cvcb', '4633', 'cvcb', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4633', '5', '2023-05-11 08:31:02.378568', '2023-05-11 08:31:04.378568', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4633, cvcb, 4633, cvcb, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4633', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4634', 'asds', '4634', 'asds', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4634', '3', '2023-04-13 08:31:02.378587', '2023-04-13 08:31:03.378587', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4634, asds, 4634, asds, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4634', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4635', 'dsbb', '4635', 'dsbb', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4635', '14', '2023-05-21 08:31:02.378598', '2023-05-21 08:31:05.378598', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4635, dsbb, 4635, dsbb, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4635', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4636', 'asdas', '4636', 'asdas', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4636', '1', '2023-05-08 08:31:02.378609', '2023-05-08 08:31:06.378609', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4636, asdas, 4636, asdas, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4636', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4637', 'asdas', '4637', 'asdas', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4637', '7', '2023-04-16 08:31:02.378620', '2023-04-16 08:31:03.378620', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4637, asdas, 4637, asdas, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4637', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4638', 'asdas', '4638', 'asdas', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4638', '8', '2023-07-05 08:31:02.378631', '2023-07-05 08:31:06.378631', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4638, asdas, 4638, asdas, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4638', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4639', 'cvcb', '4639', 'cvcb', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4639', '8', '2023-05-08 08:31:02.378641', '2023-05-08 08:31:03.378641', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4639, cvcb, 4639, cvcb, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4639', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4640', 'asd', '4640', 'asd', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4640', '1', '2023-06-12 08:31:02.378653', '2023-06-12 08:31:04.378653', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4640, asd, 4640, asd, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4640', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4641', 'asd', '4641', 'asd', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4641', '9', '2023-04-29 08:31:02.378664', '2023-04-29 08:31:04.378664', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4641, asd, 4641, asd, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4641', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4642', 'asds', '4642', 'asds', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4642', '6', '2023-07-03 08:31:02.378684', '2023-07-03 08:31:04.378684', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4642, asds, 4642, asds, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4642', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4643', 'cvcb', '4643', 'cvcb', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4643', '8', '2023-06-14 08:31:02.378695', '2023-06-14 08:31:04.378695', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4643, cvcb, 4643, cvcb, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4643', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4644', 'asds', '4644', 'asds', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4644', '10', '2023-05-04 08:31:02.378706', '2023-05-04 08:31:06.378706', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4644, asds, 4644, asds, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4644', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4645', 'asdas', '4645', 'asdas', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4645', '1', '2023-05-21 08:31:02.378716', '2023-05-21 08:31:03.378716', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4645, asdas, 4645, asdas, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4645', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4646', 'cvcb', '4646', 'cvcb', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4646', '15', '2023-06-07 08:31:02.378727', '2023-06-07 08:31:03.378727', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4646, cvcb, 4646, cvcb, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4646', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4647', 'asdas', '4647', 'asdas', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4647', '8', '2023-05-20 08:31:02.378738', '2023-05-20 08:31:06.378738', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4647, asdas, 4647, asdas, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4647', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4648', 'asds', '4648', 'asds', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4648', '7', '2023-06-11 08:31:02.378748', '2023-06-11 08:31:03.378748', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4648, asds, 4648, asds, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4648', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4649', 'dsbb', '4649', 'dsbb', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4649', '11', '2023-06-16 08:31:02.378759', '2023-06-16 08:31:04.378759', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4649, dsbb, 4649, dsbb, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4649', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4650', 'asd', '4650', 'asd', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4650', '15', '2023-04-29 08:31:02.378795', '2023-04-29 08:31:06.378795', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4650, asd, 4650, asd, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4650', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4651', 'asd', '4651', 'asd', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4651', '3', '2023-04-27 08:31:02.378806', '2023-04-27 08:31:04.378806', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4651, asd, 4651, asd, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4651', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4652', 'asd', '4652', 'asd', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4652', '4', '2023-04-28 08:31:02.378817', '2023-04-28 08:31:06.378817', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4652, asd, 4652, asd, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4652', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4653', 'asdas', '4653', 'asdas', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4653', '8', '2023-04-14 08:31:02.378828', '2023-04-14 08:31:05.378828', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4653, asdas, 4653, asdas, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4653', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4654', 'asd', '4654', 'asd', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4654', '13', '2023-06-30 08:31:02.378839', '2023-06-30 08:31:05.378839', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4654, asd, 4654, asd, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4654', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4655', 'asdas', '4655', 'asdas', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4655', '5', '2023-06-27 08:31:02.378849', '2023-06-27 08:31:05.378849', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4655, asdas, 4655, asdas, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4655', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4656', 'asd', '4656', 'asd', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4656', '15', '2023-04-12 08:31:02.378860', '2023-04-12 08:31:06.378860', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4656, asd, 4656, asd, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4656', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4657', 'dsbb', '4657', 'dsbb', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4657', '4', '2023-07-09 08:31:02.378870', '2023-07-09 08:31:03.378870', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4657, dsbb, 4657, dsbb, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4657', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4658', 'asd', '4658', 'asd', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4658', '3', '2023-05-26 08:31:02.378890', '2023-05-26 08:31:04.378890', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4658, asd, 4658, asd, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4658', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4659', 'cvcb', '4659', 'cvcb', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4659', '13', '2023-06-01 08:31:02.378901', '2023-06-01 08:31:04.378901', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4659, cvcb, 4659, cvcb, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4659', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4660', 'asd', '4660', 'asd', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4660', '14', '2023-05-31 08:31:02.378912', '2023-05-31 08:31:05.378912', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4660, asd, 4660, asd, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4660', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4661', 'asdas', '4661', 'asdas', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4661', '13', '2023-06-07 08:31:02.378923', '2023-06-07 08:31:05.378923', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4661, asdas, 4661, asdas, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4661', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4662', 'asds', '4662', 'asds', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4662', '3', '2023-04-22 08:31:02.378933', '2023-04-22 08:31:04.378933', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4662, asds, 4662, asds, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4662', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4663', 'dsbb', '4663', 'dsbb', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4663', '4', '2023-05-22 08:31:02.378944', '2023-05-22 08:31:05.378944', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4663, dsbb, 4663, dsbb, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4663', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4664', 'asds', '4664', 'asds', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4664', '13', '2023-06-14 08:31:02.378955', '2023-06-14 08:31:03.378955', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4664, asds, 4664, asds, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4664', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4665', 'dsbb', '4665', 'dsbb', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4665', '4', '2023-04-17 08:31:02.378965', '2023-04-17 08:31:04.378965', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4665, dsbb, 4665, dsbb, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4665', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4666', 'asds', '4666', 'asds', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4666', '8', '2023-04-23 08:31:02.378983', '2023-04-23 08:31:06.378983', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4666, asds, 4666, asds, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4666', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4667', 'asds', '4667', 'asds', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4667', '11', '2023-05-02 08:31:02.378994', '2023-05-02 08:31:05.378994', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4667, asds, 4667, asds, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4667', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4668', 'asd', '4668', 'asd', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4668', '8', '2023-07-10 08:31:02.379005', '2023-07-10 08:31:04.379005', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4668, asd, 4668, asd, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4668', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4669', 'dsbb', '4669', 'dsbb', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4669', '8', '2023-04-22 08:31:02.379015', '2023-04-22 08:31:05.379015', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4669, dsbb, 4669, dsbb, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4669', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4670', 'cvcb', '4670', 'cvcb', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4670', '8', '2023-06-28 08:31:02.379026', '2023-06-28 08:31:04.379026', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4670, cvcb, 4670, cvcb, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4670', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4671', 'asds', '4671', 'asds', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4671', '3', '2023-07-11 08:31:02.379037', '2023-07-11 08:31:03.379037', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4671, asds, 4671, asds, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4671', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4672', 'asd', '4672', 'asd', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4672', '12', '2023-05-24 08:31:02.379048', '2023-05-24 08:31:03.379048', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4672, asd, 4672, asd, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4672', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4673', 'asds', '4673', 'asds', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4673', '12', '2023-04-15 08:31:02.379058', '2023-04-15 08:31:06.379058', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4673, asds, 4673, asds, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4673', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4674', 'asdas', '4674', 'asdas', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4674', '14', '2023-05-16 08:31:02.379077', '2023-05-16 08:31:06.379077', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4674, asdas, 4674, asdas, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4674', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4675', 'cvcb', '4675', 'cvcb', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4675', '1', '2023-05-06 08:31:02.379088', '2023-05-06 08:31:04.379088', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4675, cvcb, 4675, cvcb, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4675', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4676', 'asds', '4676', 'asds', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4676', '11', '2023-06-04 08:31:02.379099', '2023-06-04 08:31:03.379099', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4676, asds, 4676, asds, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4676', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4677', 'dsbb', '4677', 'dsbb', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4677', '1', '2023-05-27 08:31:02.379110', '2023-05-27 08:31:06.379110', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4677, dsbb, 4677, dsbb, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4677', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4678', 'asds', '4678', 'asds', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4678', '11', '2023-05-12 08:31:02.379121', '2023-05-12 08:31:05.379121', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4678, asds, 4678, asds, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4678', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4679', 'dsbb', '4679', 'dsbb', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4679', '14', '2023-05-04 08:31:02.379131', '2023-05-04 08:31:04.379131', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4679, dsbb, 4679, dsbb, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4679', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4680', 'asds', '4680', 'asds', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4680', '8', '2023-05-18 08:31:02.379142', '2023-05-18 08:31:04.379142', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4680, asds, 4680, asds, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4680', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4681', 'asdas', '4681', 'asdas', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4681', '15', '2023-06-26 08:31:02.379152', '2023-06-26 08:31:04.379152', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4681, asdas, 4681, asdas, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4681', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4682', 'asds', '4682', 'asds', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4682', '8', '2023-05-29 08:31:02.379171', '2023-05-29 08:31:05.379171', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4682, asds, 4682, asds, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4682', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4683', 'asds', '4683', 'asds', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4683', '5', '2023-05-05 08:31:02.379182', '2023-05-05 08:31:06.379182', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4683, asds, 4683, asds, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4683', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4684', 'asd', '4684', 'asd', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4684', '12', '2023-06-04 08:31:02.379193', '2023-06-04 08:31:05.379193', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4684, asd, 4684, asd, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4684', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4685', 'cvcb', '4685', 'cvcb', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4685', '10', '2023-06-16 08:31:02.379204', '2023-06-16 08:31:05.379204', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4685, cvcb, 4685, cvcb, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4685', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4686', 'cvcb', '4686', 'cvcb', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4686', '9', '2023-06-18 08:31:02.379214', '2023-06-18 08:31:03.379214', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4686, cvcb, 4686, cvcb, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4686', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4687', 'asdas', '4687', 'asdas', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4687', '9', '2023-06-23 08:31:02.379225', '2023-06-23 08:31:05.379225', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4687, asdas, 4687, asdas, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4687', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4688', 'dsbb', '4688', 'dsbb', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4688', '3', '2023-04-15 08:31:02.379235', '2023-04-15 08:31:06.379235', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4688, dsbb, 4688, dsbb, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4688', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4689', 'asds', '4689', 'asds', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4689', '12', '2023-05-17 08:31:02.379246', '2023-05-17 08:31:03.379246', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4689, asds, 4689, asds, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4689', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4690', 'asd', '4690', 'asd', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4690', '2', '2023-06-07 08:31:02.379262', '2023-06-07 08:31:03.379262', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4690, asd, 4690, asd, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4690', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4691', 'asds', '4691', 'asds', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4691', '2', '2023-05-05 08:31:02.379273', '2023-05-05 08:31:06.379273', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4691, asds, 4691, asds, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4691', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4692', 'asd', '4692', 'asd', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4692', '9', '2023-07-09 08:31:02.379283', '2023-07-09 08:31:06.379283', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4692, asd, 4692, asd, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4692', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4693', 'cvcb', '4693', 'cvcb', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4693', '11', '2023-06-16 08:31:02.379294', '2023-06-16 08:31:05.379294', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4693, cvcb, 4693, cvcb, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4693', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4694', 'cvcb', '4694', 'cvcb', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4694', '2', '2023-04-23 08:31:02.379305', '2023-04-23 08:31:04.379305', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4694, cvcb, 4694, cvcb, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4694', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4695', 'cvcb', '4695', 'cvcb', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4695', '11', '2023-06-22 08:31:02.379316', '2023-06-22 08:31:05.379316', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4695, cvcb, 4695, cvcb, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4695', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4696', 'asds', '4696', 'asds', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4696', '11', '2023-07-10 08:31:02.379326', '2023-07-10 08:31:05.379326', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4696, asds, 4696, asds, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4696', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4697', 'dsbb', '4697', 'dsbb', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4697', '14', '2023-05-19 08:31:02.379337', '2023-05-19 08:31:05.379337', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4697, dsbb, 4697, dsbb, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4697', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4698', 'asdas', '4698', 'asdas', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4698', '13', '2023-05-28 08:31:02.379350', '2023-05-28 08:31:06.379350', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4698, asdas, 4698, asdas, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4698', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4699', 'asds', '4699', 'asds', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4699', '13', '2023-06-07 08:31:02.379361', '2023-06-07 08:31:06.379361', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4699, asds, 4699, asds, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4699', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4700', 'cvcb', '4700', 'cvcb', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4700', '9', '2023-05-21 08:31:02.379372', '2023-05-21 08:31:05.379372', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4700, cvcb, 4700, cvcb, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4700', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4701', 'asds', '4701', 'asds', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4701', '8', '2023-06-01 08:31:02.379383', '2023-06-01 08:31:04.379383', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4701, asds, 4701, asds, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4701', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4702', 'asdas', '4702', 'asdas', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4702', '5', '2023-05-17 08:31:02.379393', '2023-05-17 08:31:03.379393', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4702, asdas, 4702, asdas, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4702', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4703', 'dsbb', '4703', 'dsbb', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4703', '9', '2023-06-18 08:31:02.379404', '2023-06-18 08:31:06.379404', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4703, dsbb, 4703, dsbb, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4703', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4704', 'dsbb', '4704', 'dsbb', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4704', '12', '2023-04-17 08:31:02.379415', '2023-04-17 08:31:03.379415', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4704, dsbb, 4704, dsbb, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4704', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4705', 'cvcb', '4705', 'cvcb', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4705', '6', '2023-06-04 08:31:02.379426', '2023-06-04 08:31:05.379426', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4705, cvcb, 4705, cvcb, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4705', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4706', 'asd', '4706', 'asd', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4706', '3', '2023-04-25 08:31:02.379441', '2023-04-25 08:31:04.379441', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4706, asd, 4706, asd, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4706', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4707', 'asdas', '4707', 'asdas', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4707', '12', '2023-05-02 08:31:02.379452', '2023-05-02 08:31:06.379452', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4707, asdas, 4707, asdas, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4707', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4708', 'dsbb', '4708', 'dsbb', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4708', '2', '2023-06-24 08:31:02.379463', '2023-06-24 08:31:06.379463', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4708, dsbb, 4708, dsbb, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4708', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4709', 'dsbb', '4709', 'dsbb', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4709', '5', '2023-06-02 08:31:02.379473', '2023-06-02 08:31:04.379473', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4709, dsbb, 4709, dsbb, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4709', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4710', 'dsbb', '4710', 'dsbb', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4710', '3', '2023-06-10 08:31:02.379484', '2023-06-10 08:31:06.379484', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4710, dsbb, 4710, dsbb, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4710', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4711', 'cvcb', '4711', 'cvcb', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4711', '4', '2023-05-02 08:31:02.379495', '2023-05-02 08:31:05.379495', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4711, cvcb, 4711, cvcb, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4711', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4712', 'cvcb', '4712', 'cvcb', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4712', '1', '2023-04-19 08:31:02.379505', '2023-04-19 08:31:06.379505', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4712, cvcb, 4712, cvcb, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4712', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4713', 'asdas', '4713', 'asdas', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4713', '5', '2023-06-10 08:31:02.379516', '2023-06-10 08:31:05.379516', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4713, asdas, 4713, asdas, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4713', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4714', 'dsbb', '4714', 'dsbb', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4714', '10', '2023-05-04 08:31:02.379533', '2023-05-04 08:31:04.379533', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4714, dsbb, 4714, dsbb, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4714', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4715', 'asds', '4715', 'asds', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4715', '7', '2023-04-24 08:31:02.379544', '2023-04-24 08:31:06.379544', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4715, asds, 4715, asds, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4715', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4716', 'asdas', '4716', 'asdas', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4716', '8', '2023-05-14 08:31:02.379555', '2023-05-14 08:31:04.379555', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4716, asdas, 4716, asdas, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4716', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4717', 'cvcb', '4717', 'cvcb', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4717', '10', '2023-05-19 08:31:02.379566', '2023-05-19 08:31:05.379566', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4717, cvcb, 4717, cvcb, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4717', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4718', 'asdas', '4718', 'asdas', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4718', '11', '2023-07-08 08:31:02.379577', '2023-07-08 08:31:06.379577', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4718, asdas, 4718, asdas, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4718', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4719', 'cvcb', '4719', 'cvcb', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4719', '4', '2023-05-19 08:31:02.379587', '2023-05-19 08:31:04.379587', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4719, cvcb, 4719, cvcb, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4719', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4720', 'asdas', '4720', 'asdas', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4720', '6', '2023-06-23 08:31:02.379598', '2023-06-23 08:31:03.379598', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4720, asdas, 4720, asdas, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4720', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4721', 'dsbb', '4721', 'dsbb', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4721', '5', '2023-06-11 08:31:02.379609', '2023-06-11 08:31:04.379609', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4721, dsbb, 4721, dsbb, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4721', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4722', 'asd', '4722', 'asd', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4722', '13', '2023-04-23 08:31:02.379624', '2023-04-23 08:31:05.379624', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4722, asd, 4722, asd, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4722', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4723', 'asds', '4723', 'asds', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4723', '3', '2023-04-17 08:31:02.379635', '2023-04-17 08:31:05.379635', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4723, asds, 4723, asds, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4723', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4724', 'dsbb', '4724', 'dsbb', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4724', '14', '2023-05-07 08:31:02.379645', '2023-05-07 08:31:03.379645', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4724, dsbb, 4724, dsbb, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4724', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4725', 'asdas', '4725', 'asdas', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4725', '12', '2023-04-28 08:31:02.379656', '2023-04-28 08:31:03.379656', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4725, asdas, 4725, asdas, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4725', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4726', 'asdas', '4726', 'asdas', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4726', '6', '2023-05-12 08:31:02.379667', '2023-05-12 08:31:03.379667', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4726, asdas, 4726, asdas, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4726', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4727', 'asd', '4727', 'asd', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4727', '10', '2023-06-21 08:31:02.379678', '2023-06-21 08:31:06.379678', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4727, asd, 4727, asd, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4727', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4728', 'asds', '4728', 'asds', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4728', '10', '2023-05-04 08:31:02.379689', '2023-05-04 08:31:06.379689', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4728, asds, 4728, asds, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4728', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4729', 'asdas', '4729', 'asdas', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4729', '9', '2023-06-09 08:31:02.379700', '2023-06-09 08:31:03.379700', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4729, asdas, 4729, asdas, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4729', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4730', 'asd', '4730', 'asd', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4730', '13', '2023-04-23 08:31:02.379714', '2023-04-23 08:31:04.379714', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4730, asd, 4730, asd, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4730', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4731', 'cvcb', '4731', 'cvcb', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4731', '10', '2023-04-29 08:31:02.379725', '2023-04-29 08:31:05.379725', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4731, cvcb, 4731, cvcb, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4731', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4732', 'asds', '4732', 'asds', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4732', '12', '2023-06-25 08:31:02.379735', '2023-06-25 08:31:06.379735', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4732, asds, 4732, asds, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4732', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4733', 'cvcb', '4733', 'cvcb', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4733', '3', '2023-04-17 08:31:02.379746', '2023-04-17 08:31:06.379746', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4733, cvcb, 4733, cvcb, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4733', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4734', 'asdas', '4734', 'asdas', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4734', '8', '2023-06-21 08:31:02.379757', '2023-06-21 08:31:04.379757', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4734, asdas, 4734, asdas, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4734', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4735', 'asds', '4735', 'asds', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4735', '3', '2023-06-25 08:31:02.379768', '2023-06-25 08:31:05.379768', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4735, asds, 4735, asds, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4735', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4736', 'asdas', '4736', 'asdas', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4736', '6', '2023-04-29 08:31:02.379778', '2023-04-29 08:31:03.379778', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4736, asdas, 4736, asdas, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4736', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4737', 'asdas', '4737', 'asdas', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4737', '14', '2023-05-09 08:31:02.379789', '2023-05-09 08:31:04.379789', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4737, asdas, 4737, asdas, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4737', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4738', 'asd', '4738', 'asd', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4738', '4', '2023-06-05 08:31:02.379805', '2023-06-05 08:31:03.379805', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4738, asd, 4738, asd, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4738', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4739', 'cvcb', '4739', 'cvcb', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4739', '12', '2023-07-06 08:31:02.379816', '2023-07-06 08:31:03.379816', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4739, cvcb, 4739, cvcb, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4739', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4740', 'asds', '4740', 'asds', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4740', '15', '2023-04-16 08:31:02.379827', '2023-04-16 08:31:05.379827', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4740, asds, 4740, asds, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4740', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4741', 'cvcb', '4741', 'cvcb', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4741', '5', '2023-07-01 08:31:02.379837', '2023-07-01 08:31:03.379837', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4741, cvcb, 4741, cvcb, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4741', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4742', 'asd', '4742', 'asd', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4742', '12', '2023-06-06 08:31:02.379848', '2023-06-06 08:31:06.379848', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4742, asd, 4742, asd, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4742', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4743', 'asds', '4743', 'asds', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4743', '10', '2023-05-22 08:31:02.379858', '2023-05-22 08:31:03.379858', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4743, asds, 4743, asds, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4743', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4744', 'asdas', '4744', 'asdas', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4744', '11', '2023-06-16 08:31:02.379869', '2023-06-16 08:31:04.379869', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4744, asdas, 4744, asdas, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4744', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4745', 'asd', '4745', 'asd', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4745', '5', '2023-06-10 08:31:02.379880', '2023-06-10 08:31:04.379880', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4745, asd, 4745, asd, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4745', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4746', 'asdas', '4746', 'asdas', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4746', '15', '2023-05-02 08:31:02.379901', '2023-05-02 08:31:05.379901', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4746, asdas, 4746, asdas, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4746', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4747', 'cvcb', '4747', 'cvcb', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4747', '8', '2023-05-05 08:31:02.379912', '2023-05-05 08:31:06.379912', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4747, cvcb, 4747, cvcb, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4747', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4748', 'cvcb', '4748', 'cvcb', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4748', '12', '2023-05-31 08:31:02.379923', '2023-05-31 08:31:06.379923', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4748, cvcb, 4748, cvcb, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4748', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4749', 'asd', '4749', 'asd', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4749', '10', '2023-04-17 08:31:02.379934', '2023-04-17 08:31:03.379934', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4749, asd, 4749, asd, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4749', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4750', 'asd', '4750', 'asd', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4750', '7', '2023-04-25 08:31:02.379945', '2023-04-25 08:31:03.379945', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4750, asd, 4750, asd, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4750', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4751', 'cvcb', '4751', 'cvcb', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4751', '14', '2023-05-25 08:31:02.379956', '2023-05-25 08:31:05.379956', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4751, cvcb, 4751, cvcb, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4751', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4752', 'dsbb', '4752', 'dsbb', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4752', '6', '2023-07-05 08:31:02.379966', '2023-07-05 08:31:03.379966', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4752, dsbb, 4752, dsbb, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4752', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4753', 'asds', '4753', 'asds', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4753', '4', '2023-04-30 08:31:02.379976', '2023-04-30 08:31:03.379976', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4753, asds, 4753, asds, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4753', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4754', 'asdas', '4754', 'asdas', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4754', '6', '2023-06-22 08:31:02.379991', '2023-06-22 08:31:05.379991', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4754, asdas, 4754, asdas, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4754', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4755', 'asd', '4755', 'asd', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4755', '4', '2023-04-25 08:31:02.380002', '2023-04-25 08:31:04.380002', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4755, asd, 4755, asd, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4755', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4756', 'asdas', '4756', 'asdas', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4756', '15', '2023-05-07 08:31:02.380013', '2023-05-07 08:31:06.380013', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4756, asdas, 4756, asdas, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4756', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4757', 'dsbb', '4757', 'dsbb', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4757', '3', '2023-04-30 08:31:02.380024', '2023-04-30 08:31:05.380024', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4757, dsbb, 4757, dsbb, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4757', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4758', 'asdas', '4758', 'asdas', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4758', '15', '2023-07-01 08:31:02.380035', '2023-07-01 08:31:04.380035', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4758, asdas, 4758, asdas, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4758', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4759', 'asd', '4759', 'asd', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4759', '6', '2023-06-25 08:31:02.380045', '2023-06-25 08:31:03.380045', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4759, asd, 4759, asd, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4759', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4760', 'asdas', '4760', 'asdas', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4760', '11', '2023-05-27 08:31:02.380056', '2023-05-27 08:31:03.380056', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4760, asdas, 4760, asdas, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4760', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4761', 'asds', '4761', 'asds', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4761', '9', '2023-05-09 08:31:02.380067', '2023-05-09 08:31:06.380067', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4761, asds, 4761, asds, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4761', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4762', 'cvcb', '4762', 'cvcb', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4762', '15', '2023-06-25 08:31:02.380081', '2023-06-25 08:31:03.380081', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4762, cvcb, 4762, cvcb, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4762', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4763', 'cvcb', '4763', 'cvcb', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4763', '3', '2023-05-15 08:31:02.380114', '2023-05-15 08:31:05.380114', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4763, cvcb, 4763, cvcb, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4763', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4764', 'cvcb', '4764', 'cvcb', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4764', '5', '2023-05-20 08:31:02.380124', '2023-05-20 08:31:06.380124', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4764, cvcb, 4764, cvcb, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4764', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4765', 'dsbb', '4765', 'dsbb', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4765', '14', '2023-06-07 08:31:02.380135', '2023-06-07 08:31:03.380135', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4765, dsbb, 4765, dsbb, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4765', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4766', 'dsbb', '4766', 'dsbb', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4766', '13', '2023-06-01 08:31:02.380146', '2023-06-01 08:31:05.380146', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4766, dsbb, 4766, dsbb, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4766', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4767', 'asd', '4767', 'asd', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4767', '11', '2023-06-16 08:31:02.380157', '2023-06-16 08:31:04.380157', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4767, asd, 4767, asd, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4767', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4768', 'cvcb', '4768', 'cvcb', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4768', '9', '2023-04-30 08:31:02.380167', '2023-04-30 08:31:06.380167', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4768, cvcb, 4768, cvcb, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4768', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4769', 'asdas', '4769', 'asdas', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4769', '15', '2023-06-26 08:31:02.380178', '2023-06-26 08:31:06.380178', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4769, asdas, 4769, asdas, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4769', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4770', 'asds', '4770', 'asds', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4770', '11', '2023-05-20 08:31:02.380193', '2023-05-20 08:31:06.380193', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4770, asds, 4770, asds, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4770', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4771', 'cvcb', '4771', 'cvcb', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4771', '15', '2023-06-02 08:31:02.380204', '2023-06-02 08:31:05.380204', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4771, cvcb, 4771, cvcb, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4771', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4772', 'asd', '4772', 'asd', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4772', '2', '2023-05-02 08:31:02.380221', '2023-05-02 08:31:03.380221', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4772, asd, 4772, asd, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4772', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4773', 'cvcb', '4773', 'cvcb', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4773', '6', '2023-04-27 08:31:02.380232', '2023-04-27 08:31:04.380232', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4773, cvcb, 4773, cvcb, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4773', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4774', 'asdas', '4774', 'asdas', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4774', '9', '2023-05-21 08:31:02.380242', '2023-05-21 08:31:03.380242', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4774, asdas, 4774, asdas, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4774', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4775', 'cvcb', '4775', 'cvcb', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4775', '14', '2023-04-26 08:31:02.380253', '2023-04-26 08:31:06.380253', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4775, cvcb, 4775, cvcb, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4775', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4776', 'asdas', '4776', 'asdas', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4776', '7', '2023-05-11 08:31:02.380263', '2023-05-11 08:31:04.380263', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4776, asdas, 4776, asdas, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4776', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4777', 'dsbb', '4777', 'dsbb', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4777', '6', '2023-04-27 08:31:02.380274', '2023-04-27 08:31:06.380274', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4777, dsbb, 4777, dsbb, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4777', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4778', 'asds', '4778', 'asds', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4778', '11', '2023-06-17 08:31:02.380288', '2023-06-17 08:31:03.380288', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4778, asds, 4778, asds, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4778', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4779', 'dsbb', '4779', 'dsbb', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4779', '1', '2023-04-13 08:31:02.380299', '2023-04-13 08:31:06.380299', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4779, dsbb, 4779, dsbb, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4779', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4780', 'cvcb', '4780', 'cvcb', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4780', '14', '2023-06-08 08:31:02.380309', '2023-06-08 08:31:06.380309', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4780, cvcb, 4780, cvcb, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4780', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4781', 'asd', '4781', 'asd', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4781', '1', '2023-05-08 08:31:02.380320', '2023-05-08 08:31:04.380320', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4781, asd, 4781, asd, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4781', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4782', 'cvcb', '4782', 'cvcb', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4782', '5', '2023-06-21 08:31:02.380330', '2023-06-21 08:31:06.380330', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4782, cvcb, 4782, cvcb, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4782', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4783', 'asds', '4783', 'asds', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4783', '9', '2023-05-28 08:31:02.380341', '2023-05-28 08:31:04.380341', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4783, asds, 4783, asds, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4783', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4784', 'asds', '4784', 'asds', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4784', '8', '2023-06-16 08:31:02.380352', '2023-06-16 08:31:04.380352', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4784, asds, 4784, asds, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4784', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4785', 'dsbb', '4785', 'dsbb', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4785', '8', '2023-07-08 08:31:02.380362', '2023-07-08 08:31:03.380362', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4785, dsbb, 4785, dsbb, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4785', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4786', 'cvcb', '4786', 'cvcb', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4786', '5', '2023-06-10 08:31:02.380380', '2023-06-10 08:31:04.380380', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4786, cvcb, 4786, cvcb, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4786', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4787', 'asds', '4787', 'asds', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4787', '5', '2023-04-25 08:31:02.380391', '2023-04-25 08:31:05.380391', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4787, asds, 4787, asds, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4787', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4788', 'dsbb', '4788', 'dsbb', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4788', '12', '2023-07-05 08:31:02.380401', '2023-07-05 08:31:05.380401', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4788, dsbb, 4788, dsbb, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4788', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4789', 'asdas', '4789', 'asdas', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4789', '5', '2023-04-21 08:31:02.380411', '2023-04-21 08:31:06.380411', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4789, asdas, 4789, asdas, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4789', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4790', 'cvcb', '4790', 'cvcb', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4790', '3', '2023-04-24 08:31:02.380422', '2023-04-24 08:31:05.380422', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4790, cvcb, 4790, cvcb, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4790', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4791', 'cvcb', '4791', 'cvcb', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4791', '8', '2023-06-21 08:31:02.380432', '2023-06-21 08:31:05.380432', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4791, cvcb, 4791, cvcb, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4791', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4792', 'asd', '4792', 'asd', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4792', '14', '2023-04-17 08:31:02.380443', '2023-04-17 08:31:04.380443', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4792, asd, 4792, asd, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4792', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4793', 'cvcb', '4793', 'cvcb', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4793', '13', '2023-04-26 08:31:02.380453', '2023-04-26 08:31:03.380453', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4793, cvcb, 4793, cvcb, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4793', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4794', 'asdas', '4794', 'asdas', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4794', '4', '2023-05-03 08:31:02.380467', '2023-05-03 08:31:06.380467', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4794, asdas, 4794, asdas, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4794', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4795', 'asdas', '4795', 'asdas', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4795', '2', '2023-05-25 08:31:02.380487', '2023-05-25 08:31:06.380487', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4795, asdas, 4795, asdas, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4795', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4796', 'asd', '4796', 'asd', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4796', '8', '2023-06-20 08:31:02.380498', '2023-06-20 08:31:03.380498', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4796, asd, 4796, asd, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4796', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4797', 'dsbb', '4797', 'dsbb', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4797', '12', '2023-04-25 08:31:02.380509', '2023-04-25 08:31:05.380509', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4797, dsbb, 4797, dsbb, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4797', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4798', 'dsbb', '4798', 'dsbb', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4798', '7', '2023-06-06 08:31:02.380519', '2023-06-06 08:31:06.380519', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4798, dsbb, 4798, dsbb, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4798', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4799', 'asds', '4799', 'asds', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4799', '1', '2023-05-13 08:31:02.380530', '2023-05-13 08:31:06.380530', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4799, asds, 4799, asds, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4799', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4800', 'asd', '4800', 'asd', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4800', '8', '2023-06-20 08:31:02.380541', '2023-06-20 08:31:06.380541', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4800, asd, 4800, asd, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4800', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4801', 'cvcb', '4801', 'cvcb', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4801', '13', '2023-06-29 08:31:02.380551', '2023-06-29 08:31:04.380551', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4801, cvcb, 4801, cvcb, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4801', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4802', 'asds', '4802', 'asds', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4802', '3', '2023-05-03 08:31:02.380566', '2023-05-03 08:31:04.380566', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4802, asds, 4802, asds, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4802', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4803', 'asdas', '4803', 'asdas', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4803', '12', '2023-06-20 08:31:02.380577', '2023-06-20 08:31:03.380577', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4803, asdas, 4803, asdas, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4803', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4804', 'cvcb', '4804', 'cvcb', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4804', '3', '2023-05-06 08:31:02.380588', '2023-05-06 08:31:06.380588', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4804, cvcb, 4804, cvcb, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4804', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4805', 'cvcb', '4805', 'cvcb', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4805', '11', '2023-05-25 08:31:02.380599', '2023-05-25 08:31:03.380599', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4805, cvcb, 4805, cvcb, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4805', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4806', 'dsbb', '4806', 'dsbb', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4806', '3', '2023-04-24 08:31:02.380610', '2023-04-24 08:31:05.380610', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4806, dsbb, 4806, dsbb, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4806', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4807', 'asdas', '4807', 'asdas', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4807', '11', '2023-05-14 08:31:02.380621', '2023-05-14 08:31:05.380621', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4807, asdas, 4807, asdas, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4807', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4808', 'asd', '4808', 'asd', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4808', '6', '2023-04-22 08:31:02.380631', '2023-04-22 08:31:03.380631', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4808, asd, 4808, asd, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4808', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4809', 'asdas', '4809', 'asdas', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4809', '8', '2023-04-26 08:31:02.380642', '2023-04-26 08:31:05.380642', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4809, asdas, 4809, asdas, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4809', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4810', 'asdas', '4810', 'asdas', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4810', '8', '2023-05-19 08:31:02.380663', '2023-05-19 08:31:06.380663', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4810, asdas, 4810, asdas, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4810', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4811', 'asdas', '4811', 'asdas', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4811', '15', '2023-04-23 08:31:02.380674', '2023-04-23 08:31:03.380674', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4811, asdas, 4811, asdas, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4811', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4812', 'dsbb', '4812', 'dsbb', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4812', '8', '2023-05-19 08:31:02.380685', '2023-05-19 08:31:06.380685', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4812, dsbb, 4812, dsbb, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4812', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4813', 'cvcb', '4813', 'cvcb', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4813', '8', '2023-05-25 08:31:02.380695', '2023-05-25 08:31:06.380695', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4813, cvcb, 4813, cvcb, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4813', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4814', 'cvcb', '4814', 'cvcb', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4814', '10', '2023-06-02 08:31:02.380706', '2023-06-02 08:31:04.380706', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4814, cvcb, 4814, cvcb, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4814', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4815', 'cvcb', '4815', 'cvcb', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4815', '3', '2023-05-15 08:31:02.380717', '2023-05-15 08:31:05.380717', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4815, cvcb, 4815, cvcb, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4815', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4816', 'asdas', '4816', 'asdas', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4816', '3', '2023-06-13 08:31:02.380728', '2023-06-13 08:31:03.380728', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4816, asdas, 4816, asdas, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4816', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4817', 'asd', '4817', 'asd', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4817', '4', '2023-07-01 08:31:02.380738', '2023-07-01 08:31:03.380738', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4817, asd, 4817, asd, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4817', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4818', 'asd', '4818', 'asd', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4818', '15', '2023-05-15 08:31:02.380753', '2023-05-15 08:31:05.380753', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4818, asd, 4818, asd, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4818', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4819', 'asd', '4819', 'asd', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4819', '7', '2023-04-21 08:31:02.380764', '2023-04-21 08:31:04.380764', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4819, asd, 4819, asd, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4819', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4820', 'cvcb', '4820', 'cvcb', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4820', '12', '2023-07-05 08:31:02.380775', '2023-07-05 08:31:03.380775', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4820, cvcb, 4820, cvcb, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4820', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4821', 'asd', '4821', 'asd', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4821', '10', '2023-06-25 08:31:02.380785', '2023-06-25 08:31:05.380785', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4821, asd, 4821, asd, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4821', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4822', 'asds', '4822', 'asds', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4822', '15', '2023-06-07 08:31:02.380796', '2023-06-07 08:31:04.380796', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4822, asds, 4822, asds, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4822', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4823', 'asdas', '4823', 'asdas', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4823', '5', '2023-06-22 08:31:02.380806', '2023-06-22 08:31:03.380806', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4823, asdas, 4823, asdas, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4823', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4824', 'dsbb', '4824', 'dsbb', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4824', '11', '2023-04-13 08:31:02.380817', '2023-04-13 08:31:06.380817', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4824, dsbb, 4824, dsbb, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4824', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4825', 'asd', '4825', 'asd', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4825', '2', '2023-06-04 08:31:02.380827', '2023-06-04 08:31:04.380827', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4825, asd, 4825, asd, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4825', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4826', 'asd', '4826', 'asd', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4826', '15', '2023-06-25 08:31:02.380841', '2023-06-25 08:31:06.380841', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4826, asd, 4826, asd, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4826', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4827', 'cvcb', '4827', 'cvcb', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4827', '10', '2023-06-03 08:31:02.380852', '2023-06-03 08:31:05.380852', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4827, cvcb, 4827, cvcb, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4827', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4828', 'asds', '4828', 'asds', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4828', '1', '2023-05-07 08:31:02.380862', '2023-05-07 08:31:04.380862', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4828, asds, 4828, asds, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4828', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4829', 'asdas', '4829', 'asdas', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4829', '6', '2023-06-07 08:31:02.380873', '2023-06-07 08:31:04.380873', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4829, asdas, 4829, asdas, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4829', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4830', 'asd', '4830', 'asd', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4830', '14', '2023-05-25 08:31:02.380884', '2023-05-25 08:31:03.380884', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4830, asd, 4830, asd, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4830', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4831', 'dsbb', '4831', 'dsbb', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4831', '11', '2023-04-30 08:31:02.380895', '2023-04-30 08:31:04.380895', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4831, dsbb, 4831, dsbb, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4831', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4832', 'dsbb', '4832', 'dsbb', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4832', '4', '2023-04-23 08:31:02.380905', '2023-04-23 08:31:04.380905', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4832, dsbb, 4832, dsbb, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4832', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4833', 'asdas', '4833', 'asdas', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4833', '13', '2023-04-26 08:31:02.380916', '2023-04-26 08:31:03.380916', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4833, asdas, 4833, asdas, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4833', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4834', 'dsbb', '4834', 'dsbb', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4834', '10', '2023-06-29 08:31:02.380931', '2023-06-29 08:31:06.380931', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4834, dsbb, 4834, dsbb, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4834', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4835', 'asdas', '4835', 'asdas', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4835', '14', '2023-05-10 08:31:02.380942', '2023-05-10 08:31:04.380942', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4835, asdas, 4835, asdas, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4835', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4836', 'cvcb', '4836', 'cvcb', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4836', '10', '2023-07-06 08:31:02.380952', '2023-07-06 08:31:05.380952', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4836, cvcb, 4836, cvcb, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4836', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4837', 'asd', '4837', 'asd', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4837', '4', '2023-04-16 08:31:02.380963', '2023-04-16 08:31:05.380963', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4837, asd, 4837, asd, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4837', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4838', 'asd', '4838', 'asd', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4838', '15', '2023-06-03 08:31:02.380973', '2023-06-03 08:31:06.380973', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4838, asd, 4838, asd, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4838', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4839', 'asd', '4839', 'asd', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4839', '11', '2023-05-29 08:31:02.380984', '2023-05-29 08:31:03.380984', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4839, asd, 4839, asd, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4839', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4840', 'asds', '4840', 'asds', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4840', '5', '2023-07-01 08:31:02.380994', '2023-07-01 08:31:06.380994', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4840, asds, 4840, asds, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4840', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4841', 'asd', '4841', 'asd', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4841', '9', '2023-04-24 08:31:02.381005', '2023-04-24 08:31:04.381005', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4841, asd, 4841, asd, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4841', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4842', 'dsbb', '4842', 'dsbb', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4842', '5', '2023-05-17 08:31:02.381019', '2023-05-17 08:31:05.381019', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4842, dsbb, 4842, dsbb, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4842', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4843', 'cvcb', '4843', 'cvcb', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4843', '1', '2023-04-24 08:31:02.381030', '2023-04-24 08:31:04.381030', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4843, cvcb, 4843, cvcb, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4843', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4844', 'asd', '4844', 'asd', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4844', '12', '2023-05-09 08:31:02.381041', '2023-05-09 08:31:04.381041', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4844, asd, 4844, asd, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4844', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4845', 'dsbb', '4845', 'dsbb', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4845', '10', '2023-04-17 08:31:02.381051', '2023-04-17 08:31:06.381051', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4845, dsbb, 4845, dsbb, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4845', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4846', 'asdas', '4846', 'asdas', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4846', '5', '2023-04-18 08:31:02.381062', '2023-04-18 08:31:05.381062', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4846, asdas, 4846, asdas, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4846', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4847', 'cvcb', '4847', 'cvcb', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4847', '9', '2023-05-17 08:31:02.381073', '2023-05-17 08:31:03.381073', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4847, cvcb, 4847, cvcb, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4847', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4848', 'cvcb', '4848', 'cvcb', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4848', '3', '2023-06-01 08:31:02.381083', '2023-06-01 08:31:03.381083', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4848, cvcb, 4848, cvcb, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4848', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4849', 'asd', '4849', 'asd', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4849', '9', '2023-05-23 08:31:02.381094', '2023-05-23 08:31:06.381094', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4849, asd, 4849, asd, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4849', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4850', 'asd', '4850', 'asd', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4850', '10', '2023-05-19 08:31:02.381115', '2023-05-19 08:31:03.381115', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4850, asd, 4850, asd, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4850', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4851', 'asd', '4851', 'asd', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4851', '14', '2023-07-11 08:31:02.381126', '2023-07-11 08:31:05.381126', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4851, asd, 4851, asd, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4851', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4852', 'asdas', '4852', 'asdas', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4852', '8', '2023-05-23 08:31:02.381136', '2023-05-23 08:31:06.381136', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4852, asdas, 4852, asdas, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4852', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4853', 'asds', '4853', 'asds', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4853', '5', '2023-06-18 08:31:02.381147', '2023-06-18 08:31:06.381147', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4853, asds, 4853, asds, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4853', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4854', 'asdas', '4854', 'asdas', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4854', '3', '2023-06-05 08:31:02.381158', '2023-06-05 08:31:06.381158', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4854, asdas, 4854, asdas, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4854', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4855', 'asdas', '4855', 'asdas', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4855', '6', '2023-07-02 08:31:02.381169', '2023-07-02 08:31:04.381169', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4855, asdas, 4855, asdas, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4855', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4856', 'asd', '4856', 'asd', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4856', '6', '2023-07-09 08:31:02.381179', '2023-07-09 08:31:04.381179', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4856, asd, 4856, asd, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4856', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4857', 'dsbb', '4857', 'dsbb', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4857', '12', '2023-05-03 08:31:02.381190', '2023-05-03 08:31:03.381190', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4857, dsbb, 4857, dsbb, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4857', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4858', 'asds', '4858', 'asds', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4858', '4', '2023-05-26 08:31:02.381204', '2023-05-26 08:31:04.381204', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4858, asds, 4858, asds, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4858', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4859', 'asds', '4859', 'asds', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4859', '15', '2023-04-30 08:31:02.381215', '2023-04-30 08:31:06.381215', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4859, asds, 4859, asds, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4859', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4860', 'cvcb', '4860', 'cvcb', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4860', '4', '2023-04-12 08:31:02.381225', '2023-04-12 08:31:06.381225', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4860, cvcb, 4860, cvcb, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4860', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4861', 'asd', '4861', 'asd', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4861', '6', '2023-06-10 08:31:02.381236', '2023-06-10 08:31:05.381236', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4861, asd, 4861, asd, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4861', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4862', 'dsbb', '4862', 'dsbb', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4862', '9', '2023-05-04 08:31:02.381247', '2023-05-04 08:31:05.381247', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4862, dsbb, 4862, dsbb, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4862', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4863', 'asds', '4863', 'asds', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4863', '5', '2023-05-20 08:31:02.381257', '2023-05-20 08:31:03.381257', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4863, asds, 4863, asds, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4863', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4864', 'asdas', '4864', 'asdas', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4864', '2', '2023-07-01 08:31:02.381268', '2023-07-01 08:31:04.381268', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4864, asdas, 4864, asdas, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4864', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4865', 'asd', '4865', 'asd', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4865', '5', '2023-04-24 08:31:02.381278', '2023-04-24 08:31:05.381278', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4865, asd, 4865, asd, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4865', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4866', 'asds', '4866', 'asds', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4866', '13', '2023-06-18 08:31:02.381293', '2023-06-18 08:31:05.381293', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4866, asds, 4866, asds, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4866', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4867', 'dsbb', '4867', 'dsbb', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4867', '12', '2023-04-20 08:31:02.381303', '2023-04-20 08:31:03.381303', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4867, dsbb, 4867, dsbb, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4867', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4868', 'asd', '4868', 'asd', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4868', '6', '2023-06-06 08:31:02.381314', '2023-06-06 08:31:05.381314', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4868, asd, 4868, asd, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4868', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4869', 'asds', '4869', 'asds', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4869', '1', '2023-05-31 08:31:02.381325', '2023-05-31 08:31:03.381325', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4869, asds, 4869, asds, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4869', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4870', 'asds', '4870', 'asds', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4870', '2', '2023-07-08 08:31:02.381336', '2023-07-08 08:31:03.381336', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4870, asds, 4870, asds, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4870', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4871', 'asdas', '4871', 'asdas', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4871', '12', '2023-06-12 08:31:02.381346', '2023-06-12 08:31:05.381346', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4871, asdas, 4871, asdas, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4871', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4872', 'dsbb', '4872', 'dsbb', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4872', '4', '2023-05-30 08:31:02.381357', '2023-05-30 08:31:05.381357', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4872, dsbb, 4872, dsbb, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4872', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4873', 'asds', '4873', 'asds', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4873', '10', '2023-06-09 08:31:02.381367', '2023-06-09 08:31:06.381367', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4873, asds, 4873, asds, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4873', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4874', 'asdas', '4874', 'asdas', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4874', '8', '2023-04-20 08:31:02.381385', '2023-04-20 08:31:06.381385', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4874, asdas, 4874, asdas, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4874', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4875', 'asdas', '4875', 'asdas', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4875', '7', '2023-07-01 08:31:02.381396', '2023-07-01 08:31:04.381396', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4875, asdas, 4875, asdas, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4875', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4876', 'dsbb', '4876', 'dsbb', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4876', '14', '2023-05-14 08:31:02.381406', '2023-05-14 08:31:03.381406', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4876, dsbb, 4876, dsbb, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4876', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4877', 'asdas', '4877', 'asdas', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4877', '1', '2023-06-11 08:31:02.381417', '2023-06-11 08:31:05.381417', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4877, asdas, 4877, asdas, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4877', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4878', 'asdas', '4878', 'asdas', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4878', '4', '2023-06-29 08:31:02.381427', '2023-06-29 08:31:06.381427', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4878, asdas, 4878, asdas, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4878', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4879', 'cvcb', '4879', 'cvcb', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4879', '13', '2023-06-26 08:31:02.381438', '2023-06-26 08:31:03.381438', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4879, cvcb, 4879, cvcb, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4879', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4880', 'cvcb', '4880', 'cvcb', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4880', '12', '2023-07-01 08:31:02.381449', '2023-07-01 08:31:05.381449', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4880, cvcb, 4880, cvcb, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4880', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4881', 'asd', '4881', 'asd', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4881', '4', '2023-06-30 08:31:02.381459', '2023-06-30 08:31:05.381459', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4881, asd, 4881, asd, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4881', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4882', 'asd', '4882', 'asd', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4882', '2', '2023-06-08 08:31:02.381474', '2023-06-08 08:31:04.381474', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4882, asd, 4882, asd, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4882', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4883', 'cvcb', '4883', 'cvcb', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4883', '13', '2023-07-04 08:31:02.381485', '2023-07-04 08:31:03.381485', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4883, cvcb, 4883, cvcb, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4883', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4884', 'cvcb', '4884', 'cvcb', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4884', '8', '2023-04-24 08:31:02.381496', '2023-04-24 08:31:03.381496', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4884, cvcb, 4884, cvcb, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4884', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4885', 'asd', '4885', 'asd', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4885', '13', '2023-06-17 08:31:02.381506', '2023-06-17 08:31:03.381506', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4885, asd, 4885, asd, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4885', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4886', 'asdas', '4886', 'asdas', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4886', '15', '2023-06-09 08:31:02.381517', '2023-06-09 08:31:05.381517', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4886, asdas, 4886, asdas, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4886', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4887', 'asds', '4887', 'asds', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4887', '3', '2023-04-27 08:31:02.381528', '2023-04-27 08:31:05.381528', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4887, asds, 4887, asds, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4887', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4888', 'dsbb', '4888', 'dsbb', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4888', '14', '2023-05-31 08:31:02.381539', '2023-05-31 08:31:06.381539', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4888, dsbb, 4888, dsbb, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4888', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4889', 'asd', '4889', 'asd', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4889', '9', '2023-05-27 08:31:02.381549', '2023-05-27 08:31:03.381549', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4889, asd, 4889, asd, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4889', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4890', 'cvcb', '4890', 'cvcb', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4890', '12', '2023-04-23 08:31:02.381563', '2023-04-23 08:31:04.381563', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4890, cvcb, 4890, cvcb, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4890', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4891', 'asdas', '4891', 'asdas', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4891', '14', '2023-04-27 08:31:02.381574', '2023-04-27 08:31:03.381574', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4891, asdas, 4891, asdas, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4891', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4892', 'asds', '4892', 'asds', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4892', '14', '2023-06-29 08:31:02.381585', '2023-06-29 08:31:04.381585', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4892, asds, 4892, asds, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4892', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4893', 'asdas', '4893', 'asdas', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4893', '3', '2023-05-13 08:31:02.381595', '2023-05-13 08:31:05.381595', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4893, asdas, 4893, asdas, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4893', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4894', 'asd', '4894', 'asd', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4894', '6', '2023-05-10 08:31:02.381606', '2023-05-10 08:31:03.381606', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4894, asd, 4894, asd, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4894', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4895', 'asds', '4895', 'asds', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4895', '12', '2023-06-21 08:31:02.381616', '2023-06-21 08:31:04.381616', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4895, asds, 4895, asds, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4895', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4896', 'asdas', '4896', 'asdas', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4896', '15', '2023-05-31 08:31:02.381627', '2023-05-31 08:31:04.381627', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4896, asdas, 4896, asdas, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4896', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4897', 'asds', '4897', 'asds', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4897', '2', '2023-06-23 08:31:02.381637', '2023-06-23 08:31:06.381637', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4897, asds, 4897, asds, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4897', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4898', 'asds', '4898', 'asds', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4898', '8', '2023-04-12 08:31:02.381654', '2023-04-12 08:31:03.381654', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4898, asds, 4898, asds, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4898', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4899', 'asd', '4899', 'asd', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4899', '14', '2023-07-04 08:31:02.381664', '2023-07-04 08:31:05.381664', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4899, asd, 4899, asd, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4899', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4900', 'asdas', '4900', 'asdas', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4900', '2', '2023-06-06 08:31:02.381675', '2023-06-06 08:31:06.381675', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4900, asdas, 4900, asdas, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4900', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4901', 'asds', '4901', 'asds', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4901', '3', '2023-05-20 08:31:02.381686', '2023-05-20 08:31:05.381686', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4901, asds, 4901, asds, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4901', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4902', 'cvcb', '4902', 'cvcb', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4902', '2', '2023-05-30 08:31:02.381696', '2023-05-30 08:31:05.381696', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4902, cvcb, 4902, cvcb, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4902', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4903', 'asd', '4903', 'asd', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4903', '5', '2023-07-08 08:31:02.381707', '2023-07-08 08:31:03.381707', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4903, asd, 4903, asd, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4903', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4904', 'dsbb', '4904', 'dsbb', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4904', '3', '2023-04-24 08:31:02.381717', '2023-04-24 08:31:06.381717', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4904, dsbb, 4904, dsbb, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4904', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4905', 'asdas', '4905', 'asdas', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4905', '3', '2023-04-21 08:31:02.381728', '2023-04-21 08:31:06.381728', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4905, asdas, 4905, asdas, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4905', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4906', 'cvcb', '4906', 'cvcb', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4906', '12', '2023-04-27 08:31:02.381741', '2023-04-27 08:31:05.381741', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4906, cvcb, 4906, cvcb, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4906', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4907', 'dsbb', '4907', 'dsbb', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4907', '10', '2023-04-19 08:31:02.381752', '2023-04-19 08:31:04.381752', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4907, dsbb, 4907, dsbb, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4907', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4908', 'dsbb', '4908', 'dsbb', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4908', '2', '2023-05-22 08:31:02.381763', '2023-05-22 08:31:06.381763', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4908, dsbb, 4908, dsbb, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4908', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4909', 'cvcb', '4909', 'cvcb', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4909', '7', '2023-05-14 08:31:02.381773', '2023-05-14 08:31:03.381773', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4909, cvcb, 4909, cvcb, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4909', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4910', 'cvcb', '4910', 'cvcb', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4910', '7', '2023-07-02 08:31:02.381784', '2023-07-02 08:31:05.381784', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4910, cvcb, 4910, cvcb, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4910', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4911', 'cvcb', '4911', 'cvcb', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4911', '6', '2023-07-11 08:31:02.381794', '2023-07-11 08:31:03.381794', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4911, cvcb, 4911, cvcb, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4911', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4912', 'asds', '4912', 'asds', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4912', '14', '2023-05-18 08:31:02.381805', '2023-05-18 08:31:04.381805', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4912, asds, 4912, asds, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4912', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4913', 'cvcb', '4913', 'cvcb', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4913', '1', '2023-06-12 08:31:02.381816', '2023-06-12 08:31:05.381816', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4913, cvcb, 4913, cvcb, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4913', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4914', 'asdas', '4914', 'asdas', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4914', '9', '2023-05-16 08:31:02.381832', '2023-05-16 08:31:04.381832', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4914, asdas, 4914, asdas, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4914', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4915', 'asdas', '4915', 'asdas', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4915', '7', '2023-06-07 08:31:02.381842', '2023-06-07 08:31:03.381842', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4915, asdas, 4915, asdas, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4915', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4916', 'asds', '4916', 'asds', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4916', '13', '2023-06-30 08:31:02.381853', '2023-06-30 08:31:03.381853', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4916, asds, 4916, asds, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4916', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4917', 'asds', '4917', 'asds', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4917', '1', '2023-05-31 08:31:02.381864', '2023-05-31 08:31:03.381864', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4917, asds, 4917, asds, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4917', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4918', 'cvcb', '4918', 'cvcb', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4918', '7', '2023-04-26 08:31:02.381875', '2023-04-26 08:31:04.381875', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4918, cvcb, 4918, cvcb, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4918', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4919', 'asd', '4919', 'asd', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4919', '4', '2023-07-07 08:31:02.381885', '2023-07-07 08:31:04.381885', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4919, asd, 4919, asd, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4919', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4920', 'asd', '4920', 'asd', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4920', '9', '2023-05-18 08:31:02.381896', '2023-05-18 08:31:05.381896', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4920, asd, 4920, asd, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4920', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4921', 'asds', '4921', 'asds', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4921', '9', '2023-06-28 08:31:02.381906', '2023-06-28 08:31:05.381906', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4921, asds, 4921, asds, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4921', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4922', 'asds', '4922', 'asds', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4922', '14', '2023-06-02 08:31:02.381920', '2023-06-02 08:31:05.381920', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4922, asds, 4922, asds, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4922', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4923', 'asds', '4923', 'asds', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4923', '11', '2023-06-09 08:31:02.381931', '2023-06-09 08:31:03.381931', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4923, asds, 4923, asds, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4923', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4924', 'asds', '4924', 'asds', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4924', '1', '2023-05-26 08:31:02.381941', '2023-05-26 08:31:04.381941', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4924, asds, 4924, asds, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4924', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4925', 'asds', '4925', 'asds', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4925', '7', '2023-07-08 08:31:02.381952', '2023-07-08 08:31:04.381952', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4925, asds, 4925, asds, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4925', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4926', 'dsbb', '4926', 'dsbb', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4926', '15', '2023-06-13 08:31:02.381963', '2023-06-13 08:31:05.381963', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4926, dsbb, 4926, dsbb, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4926', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4927', 'asd', '4927', 'asd', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4927', '12', '2023-05-11 08:31:02.381974', '2023-05-11 08:31:03.381974', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4927, asd, 4927, asd, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4927', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4928', 'asd', '4928', 'asd', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4928', '11', '2023-06-02 08:31:02.381985', '2023-06-02 08:31:05.381985', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4928, asd, 4928, asd, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4928', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4929', 'asd', '4929', 'asd', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4929', '1', '2023-05-17 08:31:02.381996', '2023-05-17 08:31:05.381996', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4929, asd, 4929, asd, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4929', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4930', 'asd', '4930', 'asd', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4930', '11', '2023-05-11 08:31:02.382010', '2023-05-11 08:31:03.382010', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4930, asd, 4930, asd, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4930', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4931', 'asdas', '4931', 'asdas', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4931', '15', '2023-06-18 08:31:02.382021', '2023-06-18 08:31:03.382021', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4931, asdas, 4931, asdas, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4931', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4932', 'asdas', '4932', 'asdas', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4932', '1', '2023-06-04 08:31:02.382031', '2023-06-04 08:31:03.382031', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4932, asdas, 4932, asdas, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4932', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4933', 'asd', '4933', 'asd', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4933', '2', '2023-06-16 08:31:02.382042', '2023-06-16 08:31:06.382042', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4933, asd, 4933, asd, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4933', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4934', 'asdas', '4934', 'asdas', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4934', '13', '2023-05-06 08:31:02.382053', '2023-05-06 08:31:06.382053', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4934, asdas, 4934, asdas, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4934', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4935', 'dsbb', '4935', 'dsbb', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4935', '1', '2023-05-10 08:31:02.382063', '2023-05-10 08:31:06.382063', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4935, dsbb, 4935, dsbb, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4935', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4936', 'asd', '4936', 'asd', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4936', '12', '2023-05-20 08:31:02.382074', '2023-05-20 08:31:06.382074', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4936, asd, 4936, asd, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4936', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4937', 'asd', '4937', 'asd', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4937', '11', '2023-06-10 08:31:02.382084', '2023-06-10 08:31:06.382084', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4937, asd, 4937, asd, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4937', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4938', 'asds', '4938', 'asds', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4938', '1', '2023-05-15 08:31:02.382126', '2023-05-15 08:31:05.382126', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4938, asds, 4938, asds, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4938', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4939', 'cvcb', '4939', 'cvcb', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4939', '4', '2023-05-13 08:31:02.382137', '2023-05-13 08:31:04.382137', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4939, cvcb, 4939, cvcb, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4939', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4940', 'dsbb', '4940', 'dsbb', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4940', '8', '2023-04-18 08:31:02.382148', '2023-04-18 08:31:04.382148', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4940, dsbb, 4940, dsbb, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4940', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4941', 'cvcb', '4941', 'cvcb', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4941', '4', '2023-05-26 08:31:02.382158', '2023-05-26 08:31:05.382158', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4941, cvcb, 4941, cvcb, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4941', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4942', 'cvcb', '4942', 'cvcb', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4942', '14', '2023-07-05 08:31:02.382169', '2023-07-05 08:31:06.382169', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4942, cvcb, 4942, cvcb, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4942', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4943', 'dsbb', '4943', 'dsbb', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4943', '12', '2023-05-24 08:31:02.382179', '2023-05-24 08:31:06.382179', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4943, dsbb, 4943, dsbb, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4943', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4944', 'asd', '4944', 'asd', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4944', '13', '2023-06-15 08:31:02.382190', '2023-06-15 08:31:06.382190', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4944, asd, 4944, asd, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4944', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4945', 'asdas', '4945', 'asdas', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4945', '13', '2023-06-05 08:31:02.382200', '2023-06-05 08:31:06.382200', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4945, asdas, 4945, asdas, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4945', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4946', 'dsbb', '4946', 'dsbb', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4946', '11', '2023-05-11 08:31:02.382216', '2023-05-11 08:31:05.382216', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4946, dsbb, 4946, dsbb, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4946', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4947', 'asds', '4947', 'asds', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4947', '9', '2023-04-20 08:31:02.382228', '2023-04-20 08:31:05.382228', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4947, asds, 4947, asds, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4947', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4948', 'cvcb', '4948', 'cvcb', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4948', '7', '2023-05-12 08:31:02.382238', '2023-05-12 08:31:05.382238', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4948, cvcb, 4948, cvcb, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4948', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4949', 'asd', '4949', 'asd', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4949', '5', '2023-04-23 08:31:02.382249', '2023-04-23 08:31:05.382249', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4949, asd, 4949, asd, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4949', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4950', 'asd', '4950', 'asd', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4950', '11', '2023-04-25 08:31:02.382260', '2023-04-25 08:31:04.382260', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4950, asd, 4950, asd, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4950', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4951', 'asd', '4951', 'asd', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4951', '15', '2023-05-01 08:31:02.382271', '2023-05-01 08:31:05.382271', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4951, asd, 4951, asd, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4951', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4952', 'asds', '4952', 'asds', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4952', '13', '2023-06-13 08:31:02.382282', '2023-06-13 08:31:04.382282', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4952, asds, 4952, asds, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4952', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4953', 'cvcb', '4953', 'cvcb', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4953', '8', '2023-04-17 08:31:02.382292', '2023-04-17 08:31:06.382292', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4953, cvcb, 4953, cvcb, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4953', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4954', 'asds', '4954', 'asds', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4954', '11', '2023-06-14 08:31:02.382307', '2023-06-14 08:31:03.382307', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4954, asds, 4954, asds, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4954', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4955', 'asd', '4955', 'asd', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4955', '2', '2023-05-14 08:31:02.382327', '2023-05-14 08:31:06.382327', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4955, asd, 4955, asd, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4955', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4956', 'asds', '4956', 'asds', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4956', '7', '2023-05-23 08:31:02.382338', '2023-05-23 08:31:04.382338', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4956, asds, 4956, asds, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4956', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4957', 'asd', '4957', 'asd', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4957', '3', '2023-04-17 08:31:02.382349', '2023-04-17 08:31:05.382349', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4957, asd, 4957, asd, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4957', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4958', 'dsbb', '4958', 'dsbb', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4958', '12', '2023-04-29 08:31:02.382375', '2023-04-29 08:31:05.382375', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4958, dsbb, 4958, dsbb, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4958', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4959', 'asd', '4959', 'asd', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4959', '13', '2023-07-04 08:31:02.382386', '2023-07-04 08:31:03.382386', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4959, asd, 4959, asd, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4959', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4960', 'asdas', '4960', 'asdas', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4960', '15', '2023-05-14 08:31:02.382397', '2023-05-14 08:31:03.382397', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4960, asdas, 4960, asdas, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4960', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4961', 'cvcb', '4961', 'cvcb', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4961', '1', '2023-05-04 08:31:02.382407', '2023-05-04 08:31:03.382407', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4961, cvcb, 4961, cvcb, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4961', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4962', 'asdas', '4962', 'asdas', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4962', '3', '2023-07-07 08:31:02.382425', '2023-07-07 08:31:03.382425', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4962, asdas, 4962, asdas, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4962', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4963', 'asdas', '4963', 'asdas', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4963', '2', '2023-05-17 08:31:02.382436', '2023-05-17 08:31:04.382436', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4963, asdas, 4963, asdas, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4963', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4964', 'cvcb', '4964', 'cvcb', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4964', '12', '2023-05-13 08:31:02.382447', '2023-05-13 08:31:05.382447', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4964, cvcb, 4964, cvcb, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4964', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4965', 'asd', '4965', 'asd', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4965', '2', '2023-06-24 08:31:02.382457', '2023-06-24 08:31:04.382457', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4965, asd, 4965, asd, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4965', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4966', 'asdas', '4966', 'asdas', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4966', '4', '2023-06-20 08:31:02.382468', '2023-06-20 08:31:03.382468', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4966, asdas, 4966, asdas, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4966', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4967', 'asdas', '4967', 'asdas', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4967', '13', '2023-05-15 08:31:02.382479', '2023-05-15 08:31:05.382479', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4967, asdas, 4967, asdas, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4967', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4968', 'asd', '4968', 'asd', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4968', '15', '2023-06-09 08:31:02.382489', '2023-06-09 08:31:05.382489', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4968, asd, 4968, asd, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4968', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4969', 'asd', '4969', 'asd', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4969', '6', '2023-04-21 08:31:02.382501', '2023-04-21 08:31:05.382501', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4969, asd, 4969, asd, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4969', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4970', 'asdas', '4970', 'asdas', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4970', '4', '2023-04-14 08:31:02.382514', '2023-04-14 08:31:04.382514', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4970, asdas, 4970, asdas, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4970', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4971', 'dsbb', '4971', 'dsbb', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4971', '6', '2023-06-06 08:31:02.382525', '2023-06-06 08:31:05.382525', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4971, dsbb, 4971, dsbb, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4971', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4972', 'dsbb', '4972', 'dsbb', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4972', '8', '2023-05-29 08:31:02.382535', '2023-05-29 08:31:05.382535', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4972, dsbb, 4972, dsbb, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4972', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4973', 'asds', '4973', 'asds', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4973', '6', '2023-06-02 08:31:02.382546', '2023-06-02 08:31:04.382546', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4973, asds, 4973, asds, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4973', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4974', 'asds', '4974', 'asds', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4974', '14', '2023-05-14 08:31:02.382556', '2023-05-14 08:31:05.382556', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4974, asds, 4974, asds, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4974', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4975', 'cvcb', '4975', 'cvcb', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4975', '10', '2023-05-31 08:31:02.382567', '2023-05-31 08:31:05.382567', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4975, cvcb, 4975, cvcb, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4975', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4976', 'cvcb', '4976', 'cvcb', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4976', '9', '2023-04-27 08:31:02.382577', '2023-04-27 08:31:05.382577', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4976, cvcb, 4976, cvcb, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4976', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4977', 'asd', '4977', 'asd', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4977', '3', '2023-04-14 08:31:02.382588', '2023-04-14 08:31:05.382588', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4977, asd, 4977, asd, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4977', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4978', 'asds', '4978', 'asds', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4978', '14', '2023-05-05 08:31:02.382603', '2023-05-05 08:31:06.382603', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4978, asds, 4978, asds, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4978', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4979', 'asd', '4979', 'asd', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4979', '15', '2023-07-05 08:31:02.382614', '2023-07-05 08:31:05.382614', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4979, asd, 4979, asd, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4979', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4980', 'dsbb', '4980', 'dsbb', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4980', '4', '2023-06-25 08:31:02.382625', '2023-06-25 08:31:06.382625', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4980, dsbb, 4980, dsbb, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4980', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4981', 'asdas', '4981', 'asdas', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4981', '13', '2023-06-02 08:31:02.382636', '2023-06-02 08:31:05.382636', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4981, asdas, 4981, asdas, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4981', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4982', 'asd', '4982', 'asd', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4982', '14', '2023-07-04 08:31:02.382647', '2023-07-04 08:31:03.382647', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4982, asd, 4982, asd, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4982', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4983', 'asds', '4983', 'asds', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4983', '14', '2023-07-10 08:31:02.382658', '2023-07-10 08:31:03.382658', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4983, asds, 4983, asds, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4983', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4984', 'dsbb', '4984', 'dsbb', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4984', '2', '2023-06-25 08:31:02.382668', '2023-06-25 08:31:04.382668', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4984, dsbb, 4984, dsbb, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4984', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4985', 'cvcb', '4985', 'cvcb', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4985', '9', '2023-06-17 08:31:02.382699', '2023-06-17 08:31:06.382699', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4985, cvcb, 4985, cvcb, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4985', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4986', 'asdas', '4986', 'asdas', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4986', '15', '2023-05-20 08:31:02.382714', '2023-05-20 08:31:04.382714', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4986, asdas, 4986, asdas, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4986', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4987', 'asds', '4987', 'asds', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4987', '1', '2023-05-01 08:31:02.382726', '2023-05-01 08:31:06.382726', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4987, asds, 4987, asds, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4987', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4988', 'asds', '4988', 'asds', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4988', '3', '2023-05-20 08:31:02.382737', '2023-05-20 08:31:04.382737', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4988, asds, 4988, asds, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4988', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4989', 'asd', '4989', 'asd', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4989', '3', '2023-04-15 08:31:02.382749', '2023-04-15 08:31:06.382749', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4989, asd, 4989, asd, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4989', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4990', 'asds', '4990', 'asds', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4990', '5', '2023-04-15 08:31:02.382761', '2023-04-15 08:31:04.382761', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4990, asds, 4990, asds, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4990', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4991', 'asdas', '4991', 'asdas', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4991', '5', '2023-05-27 08:31:02.382772', '2023-05-27 08:31:06.382772', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4991, asdas, 4991, asdas, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4991', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4992', 'asds', '4992', 'asds', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4992', '1', '2023-05-22 08:31:02.382783', '2023-05-22 08:31:03.382783', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4992, asds, 4992, asds, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4992', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4993', 'asdas', '4993', 'asdas', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4993', '12', '2023-05-03 08:31:02.382795', '2023-05-03 08:31:04.382795', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4993, asdas, 4993, asdas, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4993', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4994', 'dsbb', '4994', 'dsbb', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4994', '12', '2023-06-06 08:31:02.382810', '2023-06-06 08:31:03.382810', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4994, dsbb, 4994, dsbb, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4994', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4995', 'cvcb', '4995', 'cvcb', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4995', '3', '2023-05-20 08:31:02.382821', '2023-05-20 08:31:03.382821', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4995, cvcb, 4995, cvcb, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4995', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4996', 'asdas', '4996', 'asdas', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4996', '2', '2023-05-01 08:31:02.382832', '2023-05-01 08:31:06.382832', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4996, asdas, 4996, asdas, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4996', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4997', 'dsbb', '4997', 'dsbb', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4997', '1', '2023-06-03 08:31:02.382843', '2023-06-03 08:31:03.382843', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4997, dsbb, 4997, dsbb, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4997', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4998', 'asds', '4998', 'asds', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4998', '7', '2023-04-21 08:31:02.382854', '2023-04-21 08:31:05.382854', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4998, asds, 4998, asds, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4998', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '4999', 'asd', '4999', 'asd', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4999', '4', '2023-06-11 08:31:02.382865', '2023-06-11 08:31:03.382865', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 4999, asd, 4999, asd, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4999', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5000', 'asd', '5000', 'asd', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5000', '11', '2023-05-14 08:31:02.382876', '2023-05-14 08:31:04.382876', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5000, asd, 5000, asd, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5000', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5001', 'asds', '5001', 'asds', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5001', '2', '2023-06-20 08:31:02.382887', '2023-06-20 08:31:04.382887', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5001, asds, 5001, asds, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5001', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5002', 'asdas', '5002', 'asdas', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5002', '10', '2023-06-02 08:31:02.382905', '2023-06-02 08:31:05.382905', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5002, asdas, 5002, asdas, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5002', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5003', 'asds', '5003', 'asds', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5003', '2', '2023-06-17 08:31:02.382916', '2023-06-17 08:31:03.382916', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5003, asds, 5003, asds, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5003', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5004', 'dsbb', '5004', 'dsbb', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5004', '2', '2023-05-28 08:31:02.382927', '2023-05-28 08:31:05.382927', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5004, dsbb, 5004, dsbb, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5004', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5005', 'asdas', '5005', 'asdas', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5005', '5', '2023-07-02 08:31:02.382938', '2023-07-02 08:31:05.382938', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5005, asdas, 5005, asdas, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5005', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5006', 'asds', '5006', 'asds', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5006', '15', '2023-05-20 08:31:02.382949', '2023-05-20 08:31:06.382949', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5006, asds, 5006, asds, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5006', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5007', 'asd', '5007', 'asd', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5007', '5', '2023-05-08 08:31:02.382960', '2023-05-08 08:31:04.382960', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5007, asd, 5007, asd, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5007', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5008', 'dsbb', '5008', 'dsbb', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5008', '6', '2023-05-27 08:31:02.382971', '2023-05-27 08:31:05.382971', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5008, dsbb, 5008, dsbb, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5008', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5009', 'asdas', '5009', 'asdas', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5009', '7', '2023-04-18 08:31:02.382982', '2023-04-18 08:31:05.382982', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5009, asdas, 5009, asdas, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5009', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5010', 'asdas', '5010', 'asdas', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5010', '8', '2023-05-11 08:31:02.382998', '2023-05-11 08:31:03.382998', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5010, asdas, 5010, asdas, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5010', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5011', 'asdas', '5011', 'asdas', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5011', '5', '2023-05-30 08:31:02.383010', '2023-05-30 08:31:05.383010', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5011, asdas, 5011, asdas, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5011', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5012', 'asdas', '5012', 'asdas', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5012', '3', '2023-06-21 08:31:02.383021', '2023-06-21 08:31:04.383021', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5012, asdas, 5012, asdas, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5012', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5013', 'asds', '5013', 'asds', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5013', '8', '2023-05-16 08:31:02.383032', '2023-05-16 08:31:04.383032', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5013, asds, 5013, asds, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5013', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5014', 'cvcb', '5014', 'cvcb', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5014', '13', '2023-06-26 08:31:02.383043', '2023-06-26 08:31:05.383043', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5014, cvcb, 5014, cvcb, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5014', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5015', 'cvcb', '5015', 'cvcb', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5015', '6', '2023-04-18 08:31:02.383054', '2023-04-18 08:31:04.383054', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5015, cvcb, 5015, cvcb, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5015', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5016', 'asds', '5016', 'asds', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5016', '1', '2023-05-29 08:31:02.383065', '2023-05-29 08:31:06.383065', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5016, asds, 5016, asds, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5016', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5017', 'asds', '5017', 'asds', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5017', '10', '2023-04-17 08:31:02.383076', '2023-04-17 08:31:03.383076', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5017, asds, 5017, asds, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5017', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5018', 'asdas', '5018', 'asdas', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5018', '7', '2023-04-27 08:31:02.383091', '2023-04-27 08:31:03.383091', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5018, asdas, 5018, asdas, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5018', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5019', 'asds', '5019', 'asds', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5019', '1', '2023-05-08 08:31:02.383102', '2023-05-08 08:31:06.383102', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5019, asds, 5019, asds, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5019', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5020', 'asdas', '5020', 'asdas', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5020', '15', '2023-07-07 08:31:02.383113', '2023-07-07 08:31:03.383113', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5020, asdas, 5020, asdas, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5020', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5021', 'dsbb', '5021', 'dsbb', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5021', '2', '2023-05-26 08:31:02.383125', '2023-05-26 08:31:05.383125', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5021, dsbb, 5021, dsbb, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5021', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5022', 'asd', '5022', 'asd', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5022', '2', '2023-05-04 08:31:02.383136', '2023-05-04 08:31:03.383136', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5022, asd, 5022, asd, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5022', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5023', 'asd', '5023', 'asd', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5023', '4', '2023-04-21 08:31:02.383148', '2023-04-21 08:31:03.383148', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5023, asd, 5023, asd, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5023', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5024', 'asdas', '5024', 'asdas', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5024', '3', '2023-05-21 08:31:02.383170', '2023-05-21 08:31:06.383170', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5024, asdas, 5024, asdas, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5024', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5025', 'asd', '5025', 'asd', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5025', '15', '2023-04-27 08:31:02.383194', '2023-04-27 08:31:05.383194', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5025, asd, 5025, asd, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5025', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5026', 'asds', '5026', 'asds', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5026', '8', '2023-05-28 08:31:02.383224', '2023-05-28 08:31:04.383224', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5026, asds, 5026, asds, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5026', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5027', 'asds', '5027', 'asds', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5027', '3', '2023-05-05 08:31:02.383238', '2023-05-05 08:31:05.383238', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5027, asds, 5027, asds, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5027', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5028', 'asd', '5028', 'asd', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5028', '15', '2023-04-17 08:31:02.383250', '2023-04-17 08:31:06.383250', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5028, asd, 5028, asd, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5028', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5029', 'dsbb', '5029', 'dsbb', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5029', '14', '2023-07-04 08:31:02.383262', '2023-07-04 08:31:03.383262', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5029, dsbb, 5029, dsbb, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5029', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5030', 'asd', '5030', 'asd', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5030', '4', '2023-06-01 08:31:02.383274', '2023-06-01 08:31:04.383274', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5030, asd, 5030, asd, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5030', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5031', 'asd', '5031', 'asd', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5031', '12', '2023-06-21 08:31:02.383286', '2023-06-21 08:31:04.383286', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5031, asd, 5031, asd, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5031', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5032', 'cvcb', '5032', 'cvcb', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5032', '14', '2023-06-19 08:31:02.383298', '2023-06-19 08:31:05.383298', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5032, cvcb, 5032, cvcb, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5032', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5033', 'dsbb', '5033', 'dsbb', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5033', '13', '2023-05-18 08:31:02.383310', '2023-05-18 08:31:03.383310', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5033, dsbb, 5033, dsbb, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5033', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5034', 'asds', '5034', 'asds', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5034', '14', '2023-06-27 08:31:02.383327', '2023-06-27 08:31:05.383327', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5034, asds, 5034, asds, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5034', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5035', 'asds', '5035', 'asds', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5035', '5', '2023-06-11 08:31:02.383340', '2023-06-11 08:31:04.383340', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5035, asds, 5035, asds, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5035', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5036', 'dsbb', '5036', 'dsbb', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5036', '12', '2023-05-15 08:31:02.383351', '2023-05-15 08:31:06.383351', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5036, dsbb, 5036, dsbb, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5036', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5037', 'asd', '5037', 'asd', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5037', '8', '2023-06-06 08:31:02.383362', '2023-06-06 08:31:03.383362', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5037, asd, 5037, asd, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5037', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5038', 'cvcb', '5038', 'cvcb', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5038', '15', '2023-05-03 08:31:02.383373', '2023-05-03 08:31:03.383373', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5038, cvcb, 5038, cvcb, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5038', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5039', 'cvcb', '5039', 'cvcb', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5039', '14', '2023-06-16 08:31:02.383386', '2023-06-16 08:31:05.383386', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5039, cvcb, 5039, cvcb, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5039', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5040', 'asds', '5040', 'asds', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5040', '13', '2023-04-26 08:31:02.383397', '2023-04-26 08:31:04.383397', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5040, asds, 5040, asds, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5040', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5041', 'dsbb', '5041', 'dsbb', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5041', '6', '2023-06-12 08:31:02.383408', '2023-06-12 08:31:05.383408', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5041, dsbb, 5041, dsbb, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5041', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5042', 'asd', '5042', 'asd', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5042', '12', '2023-05-31 08:31:02.383425', '2023-05-31 08:31:04.383425', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5042, asd, 5042, asd, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5042', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5043', 'asdas', '5043', 'asdas', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5043', '12', '2023-04-16 08:31:02.383438', '2023-04-16 08:31:04.383438', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5043, asdas, 5043, asdas, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5043', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5044', 'asdas', '5044', 'asdas', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5044', '15', '2023-05-30 08:31:02.383449', '2023-05-30 08:31:06.383449', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5044, asdas, 5044, asdas, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5044', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5045', 'dsbb', '5045', 'dsbb', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5045', '2', '2023-05-11 08:31:02.383461', '2023-05-11 08:31:05.383461', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5045, dsbb, 5045, dsbb, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5045', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5046', 'asd', '5046', 'asd', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5046', '13', '2023-06-15 08:31:02.383473', '2023-06-15 08:31:06.383473', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5046, asd, 5046, asd, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5046', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5047', 'asd', '5047', 'asd', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5047', '10', '2023-06-14 08:31:02.383485', '2023-06-14 08:31:06.383485', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5047, asd, 5047, asd, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5047', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5048', 'cvcb', '5048', 'cvcb', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5048', '1', '2023-06-15 08:31:02.383496', '2023-06-15 08:31:06.383496', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5048, cvcb, 5048, cvcb, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5048', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5049', 'asd', '5049', 'asd', '6')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5049', '5', '2023-05-16 08:31:02.383507', '2023-05-16 08:31:04.383507', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5049, asd, 5049, asd, 6)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5049', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5050', 'asd', '5050', 'asd', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5050', '3', '2023-04-29 08:31:02.383522', '2023-04-29 08:31:06.383522', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5050, asd, 5050, asd, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5050', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5051', 'asds', '5051', 'asds', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5051', '1', '2023-05-25 08:31:02.383533', '2023-05-25 08:31:05.383533', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5051, asds, 5051, asds, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5051', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5052', 'asdas', '5052', 'asdas', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5052', '15', '2023-04-17 08:31:02.383544', '2023-04-17 08:31:05.383544', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5052, asdas, 5052, asdas, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5052', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5053', 'dsbb', '5053', 'dsbb', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5053', '4', '2023-04-26 08:31:02.383555', '2023-04-26 08:31:06.383555', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5053, dsbb, 5053, dsbb, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5053', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5054', 'dsbb', '5054', 'dsbb', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5054', '10', '2023-06-29 08:31:02.383565', '2023-06-29 08:31:05.383565', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5054, dsbb, 5054, dsbb, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5054', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5055', 'cvcb', '5055', 'cvcb', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5055', '3', '2023-05-01 08:31:02.383577', '2023-05-01 08:31:05.383577', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5055, cvcb, 5055, cvcb, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5055', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5056', 'dsbb', '5056', 'dsbb', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5056', '6', '2023-07-04 08:31:02.383587', '2023-07-04 08:31:06.383587', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5056, dsbb, 5056, dsbb, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5056', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5057', 'dsbb', '5057', 'dsbb', '17')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5057', '9', '2023-06-05 08:31:02.383598', '2023-06-05 08:31:06.383598', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5057, dsbb, 5057, dsbb, 17)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5057', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5058', 'dsbb', '5058', 'dsbb', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5058', '5', '2023-05-11 08:31:02.383614', '2023-05-11 08:31:05.383614', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5058, dsbb, 5058, dsbb, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5058', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5059', 'asds', '5059', 'asds', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5059', '4', '2023-04-26 08:31:02.383626', '2023-04-26 08:31:04.383626', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5059, asds, 5059, asds, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5059', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5060', 'dsbb', '5060', 'dsbb', '8')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5060', '3', '2023-05-11 08:31:02.383637', '2023-05-11 08:31:03.383637', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5060, dsbb, 5060, dsbb, 8)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5060', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5061', 'asdas', '5061', 'asdas', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5061', '13', '2023-07-09 08:31:02.383647', '2023-07-09 08:31:05.383647', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5061, asdas, 5061, asdas, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5061', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5062', 'dsbb', '5062', 'dsbb', '15')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5062', '9', '2023-07-06 08:31:02.383658', '2023-07-06 08:31:03.383658', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5062, dsbb, 5062, dsbb, 15)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5062', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5063', 'cvcb', '5063', 'cvcb', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5063', '11', '2023-04-22 08:31:02.383669', '2023-04-22 08:31:03.383669', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5063, cvcb, 5063, cvcb, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5063', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5064', 'dsbb', '5064', 'dsbb', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5064', '10', '2023-06-20 08:31:02.383679', '2023-06-20 08:31:05.383679', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5064, dsbb, 5064, dsbb, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5064', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5065', 'asd', '5065', 'asd', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5065', '8', '2023-04-14 08:31:02.383690', '2023-04-14 08:31:03.383690', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5065, asd, 5065, asd, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5065', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5066', 'asd', '5066', 'asd', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5066', '8', '2023-07-06 08:31:02.383711', '2023-07-06 08:31:03.383711', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5066, asd, 5066, asd, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5066', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5067', 'asdas', '5067', 'asdas', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5067', '8', '2023-04-19 08:31:02.383723', '2023-04-19 08:31:03.383723', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5067, asdas, 5067, asdas, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5067', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5068', 'asds', '5068', 'asds', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5068', '12', '2023-04-29 08:31:02.383733', '2023-04-29 08:31:05.383733', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5068, asds, 5068, asds, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5068', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5069', 'asds', '5069', 'asds', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5069', '8', '2023-04-12 08:31:02.383745', '2023-04-12 08:31:05.383745', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5069, asds, 5069, asds, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5069', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5070', 'cvcb', '5070', 'cvcb', '11')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5070', '4', '2023-06-04 08:31:02.383756', '2023-06-04 08:31:05.383756', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5070, cvcb, 5070, cvcb, 11)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5070', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5071', 'cvcb', '5071', 'cvcb', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5071', '4', '2023-05-03 08:31:02.383766', '2023-05-03 08:31:04.383766', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5071, cvcb, 5071, cvcb, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5071', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5072', 'asd', '5072', 'asd', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5072', '15', '2023-04-30 08:31:02.383777', '2023-04-30 08:31:05.383777', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5072, asd, 5072, asd, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5072', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5073', 'asds', '5073', 'asds', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5073', '13', '2023-05-28 08:31:02.383788', '2023-05-28 08:31:04.383788', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5073, asds, 5073, asds, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5073', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5074', 'asdas', '5074', 'asdas', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5074', '9', '2023-06-22 08:31:02.383805', '2023-06-22 08:31:03.383805', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5074, asdas, 5074, asdas, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5074', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5075', 'cvcb', '5075', 'cvcb', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5075', '2', '2023-05-10 08:31:02.383816', '2023-05-10 08:31:04.383816', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5075, cvcb, 5075, cvcb, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5075', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5076', 'cvcb', '5076', 'cvcb', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5076', '3', '2023-05-11 08:31:02.383828', '2023-05-11 08:31:03.383828', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5076, cvcb, 5076, cvcb, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5076', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5077', 'asd', '5077', 'asd', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5077', '11', '2023-05-25 08:31:02.383839', '2023-05-25 08:31:05.383839', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5077, asd, 5077, asd, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5077', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5078', 'asd', '5078', 'asd', '14')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5078', '8', '2023-04-26 08:31:02.383849', '2023-04-26 08:31:03.383849', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5078, asd, 5078, asd, 14)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5078', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5079', 'dsbb', '5079', 'dsbb', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5079', '9', '2023-06-29 08:31:02.383860', '2023-06-29 08:31:05.383860', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5079, dsbb, 5079, dsbb, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5079', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5080', 'cvcb', '5080', 'cvcb', '1')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5080', '14', '2023-06-23 08:31:02.383871', '2023-06-23 08:31:05.383871', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5080, cvcb, 5080, cvcb, 1)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5080', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5081', 'asds', '5081', 'asds', '16')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5081', '3', '2023-06-24 08:31:02.383882', '2023-06-24 08:31:06.383882', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5081, asds, 5081, asds, 16)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5081', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5082', 'asds', '5082', 'asds', '13')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5082', '6', '2023-07-08 08:31:02.383897', '2023-07-08 08:31:04.383897', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5082, asds, 5082, asds, 13)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5082', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5083', 'asds', '5083', 'asds', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5083', '10', '2023-04-12 08:31:02.383908', '2023-04-12 08:31:03.383908', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5083, asds, 5083, asds, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5083', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5084', 'cvcb', '5084', 'cvcb', '20')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5084', '9', '2023-05-31 08:31:02.383920', '2023-05-31 08:31:04.383920', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5084, cvcb, 5084, cvcb, 20)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5084', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5085', 'asd', '5085', 'asd', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5085', '12', '2023-06-15 08:31:02.383931', '2023-06-15 08:31:05.383931', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5085, asd, 5085, asd, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5085', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5086', 'asds', '5086', 'asds', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5086', '11', '2023-06-03 08:31:02.383942', '2023-06-03 08:31:04.383942', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5086, asds, 5086, asds, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5086', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5087', 'asd', '5087', 'asd', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5087', '14', '2023-06-02 08:31:02.383953', '2023-06-02 08:31:03.383953', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5087, asd, 5087, asd, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5087', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5088', 'dsbb', '5088', 'dsbb', '9')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5088', '13', '2023-05-06 08:31:02.383964', '2023-05-06 08:31:06.383964', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5088, dsbb, 5088, dsbb, 9)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5088', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5089', 'asdas', '5089', 'asdas', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5089', '10', '2023-05-14 08:31:02.383975', '2023-05-14 08:31:05.383975', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5089, asdas, 5089, asdas, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5089', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5090', 'asdas', '5090', 'asdas', '12')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5090', '5', '2023-05-14 08:31:02.383991', '2023-05-14 08:31:06.383991', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5090, asdas, 5090, asdas, 12)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5090', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5091', 'dsbb', '5091', 'dsbb', '18')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5091', '8', '2023-07-07 08:31:02.384003', '2023-07-07 08:31:05.384003', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5091, dsbb, 5091, dsbb, 18)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5091', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5092', 'dsbb', '5092', 'dsbb', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5092', '2', '2023-06-27 08:31:02.384014', '2023-06-27 08:31:06.384014', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5092, dsbb, 5092, dsbb, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5092', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5093', 'cvcb', '5093', 'cvcb', '5')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5093', '11', '2023-06-23 08:31:02.384026', '2023-06-23 08:31:03.384026', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5093, cvcb, 5093, cvcb, 5)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5093', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5094', 'asd', '5094', 'asd', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5094', '10', '2023-04-28 08:31:02.384038', '2023-04-28 08:31:04.384038', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5094, asd, 5094, asd, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5094', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5095', 'dsbb', '5095', 'dsbb', '2')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5095', '3', '2023-05-17 08:31:02.384048', '2023-05-17 08:31:05.384048', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5095, dsbb, 5095, dsbb, 2)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5095', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5096', 'asds', '5096', 'asds', '3')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5096', '4', '2023-04-15 08:31:02.384060', '2023-04-15 08:31:03.384060', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5096, asds, 5096, asds, 3)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5096', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5097', 'asds', '5097', 'asds', '4')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5097', '15', '2023-06-26 08:31:02.384070', '2023-06-26 08:31:04.384070', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5097, asds, 5097, asds, 4)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5097', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5098', 'asds', '5098', 'asds', '19')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5098', '10', '2023-05-08 08:31:02.384085', '2023-05-08 08:31:04.384085', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5098, asds, 5098, asds, 19)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5098', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5099', 'asdas', '5099', 'asdas', '7')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5099', '15', '2023-06-18 08:31:02.384096', '2023-06-18 08:31:06.384096', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5099, asdas, 5099, asdas, 7)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5099', '2');
+INSERT INTO 'Departments' ('department_id', 'department_name', 'manager_id', 'location', 'budget') 
+ VALUES ( '5100', 'cvcb', '5100', 'cvcb', '10')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5100', '9', '2023-07-04 08:31:02.384107', '2023-07-04 08:31:03.384107', 'False', 'None', 'INSERT INTO Departments (department_id, department_name, manager_id, location, budget) 
+ VALUES ( 5100, cvcb, 5100, cvcb, 10)', '2', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5100', '2');
 

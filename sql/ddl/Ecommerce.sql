@@ -41735,3 +41735,9503 @@ INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
     VALUES ('4600', '4');
 INSERT INTO "QueryTableAccess" ("queryId", "tableId")
     VALUES ('4600', '3');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4601', 'dsbb', 'dsbb', 'dsbb@gmail.com', '1', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4601', '3', '2023-04-17 08:28:59.534982', '2023-04-17 08:29:00.534982', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4601, dsbb, dsbb,dsbb@gmail.com, 1, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4601', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4602', 'asds', 'asds', 'asds@gmail.com', '3', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4602', '7', '2023-06-08 08:28:59.535045', '2023-06-08 08:29:03.535045', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4602, asds, asds,asds@gmail.com, 3, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4602', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4603', 'asdas', 'asdas', 'asdas@gmail.com', '1', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4603', '3', '2023-05-27 08:28:59.535061', '2023-05-27 08:29:01.535061', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4603, asdas, asdas,asdas@gmail.com, 1, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4603', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4604', 'asd', 'asd', 'asd@gmail.com', '4', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4604', '2', '2023-06-17 08:28:59.535075', '2023-06-17 08:29:03.535075', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4604, asd, asd,asd@gmail.com, 4, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4604', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4605', 'cvcb', 'cvcb', 'cvcb@gmail.com', '1', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4605', '8', '2023-04-14 08:28:59.535089', '2023-04-14 08:29:03.535089', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4605, cvcb, cvcb,cvcb@gmail.com, 1, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4605', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4606', 'dsbb', 'dsbb', 'dsbb@gmail.com', '7', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4606', '12', '2023-06-24 08:28:59.535102', '2023-06-24 08:29:01.535102', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4606, dsbb, dsbb,dsbb@gmail.com, 7, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4606', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4607', 'asd', 'asd', 'asd@gmail.com', '6', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4607', '4', '2023-04-29 08:28:59.535115', '2023-04-29 08:29:01.535115', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4607, asd, asd,asd@gmail.com, 6, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4607', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4608', 'asd', 'asd', 'asd@gmail.com', '4', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4608', '11', '2023-06-20 08:28:59.535127', '2023-06-20 08:29:00.535127', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4608, asd, asd,asd@gmail.com, 4, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4608', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4609', 'asd', 'asd', 'asd@gmail.com', '12', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4609', '7', '2023-07-07 08:28:59.535179', '2023-07-07 08:29:03.535179', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4609, asd, asd,asd@gmail.com, 12, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4609', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4610', 'asds', 'asds', 'asds@gmail.com', '6', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4610', '6', '2023-04-25 08:28:59.535193', '2023-04-25 08:29:02.535193', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4610, asds, asds,asds@gmail.com, 6, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4610', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4611', 'asd', 'asd', 'asd@gmail.com', '5', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4611', '2', '2023-05-27 08:28:59.535205', '2023-05-27 08:29:01.535205', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4611, asd, asd,asd@gmail.com, 5, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4611', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4612', 'asds', 'asds', 'asds@gmail.com', '20', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4612', '11', '2023-04-20 08:28:59.535217', '2023-04-20 08:29:00.535217', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4612, asds, asds,asds@gmail.com, 20, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4612', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4613', 'cvcb', 'cvcb', 'cvcb@gmail.com', '18', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4613', '11', '2023-06-20 08:28:59.535229', '2023-06-20 08:29:01.535229', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4613, cvcb, cvcb,cvcb@gmail.com, 18, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4613', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4614', 'asds', 'asds', 'asds@gmail.com', '20', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4614', '12', '2023-04-26 08:28:59.535241', '2023-04-26 08:29:02.535241', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4614, asds, asds,asds@gmail.com, 20, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4614', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4615', 'cvcb', 'cvcb', 'cvcb@gmail.com', '18', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4615', '11', '2023-06-19 08:28:59.535253', '2023-06-19 08:29:03.535253', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4615, cvcb, cvcb,cvcb@gmail.com, 18, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4615', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4616', 'dsbb', 'dsbb', 'dsbb@gmail.com', '13', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4616', '11', '2023-05-13 08:28:59.535276', '2023-05-13 08:29:03.535276', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4616, dsbb, dsbb,dsbb@gmail.com, 13, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4616', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4617', 'asds', 'asds', 'asds@gmail.com', '1', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4617', '6', '2023-06-25 08:28:59.535289', '2023-06-25 08:29:00.535289', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4617, asds, asds,asds@gmail.com, 1, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4617', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4618', 'cvcb', 'cvcb', 'cvcb@gmail.com', '7', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4618', '2', '2023-05-16 08:28:59.535300', '2023-05-16 08:29:02.535300', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4618, cvcb, cvcb,cvcb@gmail.com, 7, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4618', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4619', 'asds', 'asds', 'asds@gmail.com', '5', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4619', '8', '2023-05-28 08:28:59.535312', '2023-05-28 08:29:01.535312', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4619, asds, asds,asds@gmail.com, 5, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4619', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4620', 'asdas', 'asdas', 'asdas@gmail.com', '12', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4620', '3', '2023-05-31 08:28:59.535324', '2023-05-31 08:29:03.535324', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4620, asdas, asdas,asdas@gmail.com, 12, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4620', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4621', 'asds', 'asds', 'asds@gmail.com', '9', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4621', '4', '2023-06-07 08:28:59.535335', '2023-06-07 08:29:02.535335', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4621, asds, asds,asds@gmail.com, 9, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4621', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4622', 'cvcb', 'cvcb', 'cvcb@gmail.com', '20', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4622', '2', '2023-07-10 08:28:59.535347', '2023-07-10 08:29:03.535347', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4622, cvcb, cvcb,cvcb@gmail.com, 20, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4622', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4623', 'cvcb', 'cvcb', 'cvcb@gmail.com', '18', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4623', '9', '2023-05-05 08:28:59.535369', '2023-05-05 08:29:02.535369', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4623, cvcb, cvcb,cvcb@gmail.com, 18, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4623', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4624', 'dsbb', 'dsbb', 'dsbb@gmail.com', '13', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4624', '14', '2023-05-01 08:28:59.535381', '2023-05-01 08:29:01.535381', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4624, dsbb, dsbb,dsbb@gmail.com, 13, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4624', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4625', 'asdas', 'asdas', 'asdas@gmail.com', '19', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4625', '9', '2023-04-27 08:28:59.535393', '2023-04-27 08:29:00.535393', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4625, asdas, asdas,asdas@gmail.com, 19, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4625', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4626', 'dsbb', 'dsbb', 'dsbb@gmail.com', '13', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4626', '7', '2023-06-26 08:28:59.535404', '2023-06-26 08:29:03.535404', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4626, dsbb, dsbb,dsbb@gmail.com, 13, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4626', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4627', 'asds', 'asds', 'asds@gmail.com', '1', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4627', '9', '2023-06-09 08:28:59.535416', '2023-06-09 08:29:03.535416', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4627, asds, asds,asds@gmail.com, 1, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4627', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4628', 'asd', 'asd', 'asd@gmail.com', '6', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4628', '3', '2023-04-23 08:28:59.535427', '2023-04-23 08:29:01.535427', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4628, asd, asd,asd@gmail.com, 6, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4628', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4629', 'dsbb', 'dsbb', 'dsbb@gmail.com', '12', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4629', '14', '2023-07-11 08:28:59.535438', '2023-07-11 08:29:00.535438', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4629, dsbb, dsbb,dsbb@gmail.com, 12, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4629', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4630', 'asd', 'asd', 'asd@gmail.com', '2', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4630', '13', '2023-07-09 08:28:59.535458', '2023-07-09 08:29:02.535458', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4630, asd, asd,asd@gmail.com, 2, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4630', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4631', 'asd', 'asd', 'asd@gmail.com', '1', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4631', '7', '2023-05-19 08:28:59.535470', '2023-05-19 08:29:02.535470', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4631, asd, asd,asd@gmail.com, 1, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4631', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4632', 'asds', 'asds', 'asds@gmail.com', '16', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4632', '6', '2023-05-02 08:28:59.535482', '2023-05-02 08:29:01.535482', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4632, asds, asds,asds@gmail.com, 16, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4632', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4633', 'asdas', 'asdas', 'asdas@gmail.com', '4', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4633', '7', '2023-04-30 08:28:59.535493', '2023-04-30 08:29:03.535493', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4633, asdas, asdas,asdas@gmail.com, 4, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4633', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4634', 'asds', 'asds', 'asds@gmail.com', '14', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4634', '4', '2023-04-13 08:28:59.535505', '2023-04-13 08:29:02.535505', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4634, asds, asds,asds@gmail.com, 14, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4634', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4635', 'asds', 'asds', 'asds@gmail.com', '16', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4635', '15', '2023-06-15 08:28:59.535516', '2023-06-15 08:29:01.535516', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4635, asds, asds,asds@gmail.com, 16, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4635', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4636', 'dsbb', 'dsbb', 'dsbb@gmail.com', '6', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4636', '3', '2023-04-12 08:28:59.535527', '2023-04-12 08:29:00.535527', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4636, dsbb, dsbb,dsbb@gmail.com, 6, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4636', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4637', 'cvcb', 'cvcb', 'cvcb@gmail.com', '12', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4637', '11', '2023-04-30 08:28:59.535549', '2023-04-30 08:29:02.535549', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4637, cvcb, cvcb,cvcb@gmail.com, 12, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4637', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4638', 'dsbb', 'dsbb', 'dsbb@gmail.com', '2', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4638', '14', '2023-06-06 08:28:59.535561', '2023-06-06 08:29:01.535561', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4638, dsbb, dsbb,dsbb@gmail.com, 2, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4638', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4639', 'dsbb', 'dsbb', 'dsbb@gmail.com', '13', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4639', '7', '2023-07-05 08:28:59.535572', '2023-07-05 08:29:01.535572', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4639, dsbb, dsbb,dsbb@gmail.com, 13, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4639', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4640', 'asds', 'asds', 'asds@gmail.com', '10', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4640', '11', '2023-06-27 08:28:59.535584', '2023-06-27 08:29:03.535584', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4640, asds, asds,asds@gmail.com, 10, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4640', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4641', 'cvcb', 'cvcb', 'cvcb@gmail.com', '13', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4641', '3', '2023-06-17 08:28:59.535595', '2023-06-17 08:29:03.535595', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4641, cvcb, cvcb,cvcb@gmail.com, 13, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4641', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4642', 'dsbb', 'dsbb', 'dsbb@gmail.com', '12', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4642', '10', '2023-04-13 08:28:59.535607', '2023-04-13 08:29:03.535607', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4642, dsbb, dsbb,dsbb@gmail.com, 12, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4642', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4643', 'dsbb', 'dsbb', 'dsbb@gmail.com', '3', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4643', '6', '2023-07-07 08:28:59.535618', '2023-07-07 08:29:03.535618', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4643, dsbb, dsbb,dsbb@gmail.com, 3, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4643', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4644', 'cvcb', 'cvcb', 'cvcb@gmail.com', '6', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4644', '14', '2023-04-30 08:28:59.535637', '2023-04-30 08:29:01.535637', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4644, cvcb, cvcb,cvcb@gmail.com, 6, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4644', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4645', 'asdas', 'asdas', 'asdas@gmail.com', '11', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4645', '8', '2023-04-12 08:28:59.535649', '2023-04-12 08:29:01.535649', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4645, asdas, asdas,asdas@gmail.com, 11, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4645', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4646', 'cvcb', 'cvcb', 'cvcb@gmail.com', '16', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4646', '3', '2023-05-29 08:28:59.535661', '2023-05-29 08:29:00.535661', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4646, cvcb, cvcb,cvcb@gmail.com, 16, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4646', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4647', 'asdas', 'asdas', 'asdas@gmail.com', '16', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4647', '2', '2023-04-15 08:28:59.535672', '2023-04-15 08:29:02.535672', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4647, asdas, asdas,asdas@gmail.com, 16, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4647', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4648', 'dsbb', 'dsbb', 'dsbb@gmail.com', '9', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4648', '9', '2023-06-01 08:28:59.535684', '2023-06-01 08:29:00.535684', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4648, dsbb, dsbb,dsbb@gmail.com, 9, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4648', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4649', 'cvcb', 'cvcb', 'cvcb@gmail.com', '5', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4649', '6', '2023-05-08 08:28:59.535695', '2023-05-08 08:29:01.535695', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4649, cvcb, cvcb,cvcb@gmail.com, 5, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4649', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4650', 'cvcb', 'cvcb', 'cvcb@gmail.com', '12', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4650', '9', '2023-07-11 08:28:59.535706', '2023-07-11 08:29:02.535706', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4650, cvcb, cvcb,cvcb@gmail.com, 12, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4650', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4651', 'asdas', 'asdas', 'asdas@gmail.com', '16', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4651', '9', '2023-05-09 08:28:59.535727', '2023-05-09 08:29:02.535727', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4651, asdas, asdas,asdas@gmail.com, 16, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4651', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4652', 'dsbb', 'dsbb', 'dsbb@gmail.com', '13', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4652', '2', '2023-06-21 08:28:59.535738', '2023-06-21 08:29:00.535738', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4652, dsbb, dsbb,dsbb@gmail.com, 13, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4652', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4653', 'asds', 'asds', 'asds@gmail.com', '1', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4653', '3', '2023-05-28 08:28:59.535750', '2023-05-28 08:29:00.535750', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4653, asds, asds,asds@gmail.com, 1, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4653', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4654', 'cvcb', 'cvcb', 'cvcb@gmail.com', '17', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4654', '10', '2023-05-13 08:28:59.535762', '2023-05-13 08:29:00.535762', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4654, cvcb, cvcb,cvcb@gmail.com, 17, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4654', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4655', 'asds', 'asds', 'asds@gmail.com', '2', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4655', '14', '2023-06-06 08:28:59.535774', '2023-06-06 08:29:03.535774', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4655, asds, asds,asds@gmail.com, 2, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4655', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4656', 'asds', 'asds', 'asds@gmail.com', '6', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4656', '6', '2023-04-14 08:28:59.535785', '2023-04-14 08:29:02.535785', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4656, asds, asds,asds@gmail.com, 6, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4656', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4657', 'asd', 'asd', 'asd@gmail.com', '16', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4657', '4', '2023-07-05 08:28:59.535796', '2023-07-05 08:29:03.535796', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4657, asd, asd,asd@gmail.com, 16, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4657', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4658', 'asdas', 'asdas', 'asdas@gmail.com', '20', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4658', '3', '2023-05-02 08:28:59.535815', '2023-05-02 08:29:03.535815', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4658, asdas, asdas,asdas@gmail.com, 20, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4658', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4659', 'cvcb', 'cvcb', 'cvcb@gmail.com', '1', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4659', '10', '2023-05-27 08:28:59.535828', '2023-05-27 08:29:03.535828', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4659, cvcb, cvcb,cvcb@gmail.com, 1, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4659', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4660', 'asdas', 'asdas', 'asdas@gmail.com', '17', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4660', '14', '2023-06-08 08:28:59.535839', '2023-06-08 08:29:03.535839', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4660, asdas, asdas,asdas@gmail.com, 17, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4660', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4661', 'cvcb', 'cvcb', 'cvcb@gmail.com', '11', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4661', '1', '2023-06-14 08:28:59.535850', '2023-06-14 08:29:03.535850', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4661, cvcb, cvcb,cvcb@gmail.com, 11, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4661', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4662', 'asd', 'asd', 'asd@gmail.com', '13', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4662', '7', '2023-06-16 08:28:59.535862', '2023-06-16 08:29:03.535862', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4662, asd, asd,asd@gmail.com, 13, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4662', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4663', 'asdas', 'asdas', 'asdas@gmail.com', '7', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4663', '5', '2023-04-18 08:28:59.535873', '2023-04-18 08:29:00.535873', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4663, asdas, asdas,asdas@gmail.com, 7, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4663', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4664', 'cvcb', 'cvcb', 'cvcb@gmail.com', '10', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4664', '1', '2023-06-07 08:28:59.535885', '2023-06-07 08:29:00.535885', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4664, cvcb, cvcb,cvcb@gmail.com, 10, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4664', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4665', 'asd', 'asd', 'asd@gmail.com', '2', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4665', '4', '2023-06-29 08:28:59.535908', '2023-06-29 08:29:03.535908', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4665, asd, asd,asd@gmail.com, 2, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4665', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4666', 'asd', 'asd', 'asd@gmail.com', '3', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4666', '1', '2023-06-18 08:28:59.535920', '2023-06-18 08:29:02.535920', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4666, asd, asd,asd@gmail.com, 3, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4666', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4667', 'cvcb', 'cvcb', 'cvcb@gmail.com', '9', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4667', '8', '2023-07-02 08:28:59.535931', '2023-07-02 08:29:01.535931', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4667, cvcb, cvcb,cvcb@gmail.com, 9, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4667', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4668', 'asd', 'asd', 'asd@gmail.com', '13', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4668', '14', '2023-06-23 08:28:59.535943', '2023-06-23 08:29:00.535943', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4668, asd, asd,asd@gmail.com, 13, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4668', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4669', 'cvcb', 'cvcb', 'cvcb@gmail.com', '1', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4669', '3', '2023-05-17 08:28:59.535954', '2023-05-17 08:29:01.535954', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4669, cvcb, cvcb,cvcb@gmail.com, 1, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4669', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4670', 'asd', 'asd', 'asd@gmail.com', '15', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4670', '14', '2023-04-20 08:28:59.535969', '2023-04-20 08:29:02.535969', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4670, asd, asd,asd@gmail.com, 15, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4670', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4671', 'asd', 'asd', 'asd@gmail.com', '20', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4671', '10', '2023-06-23 08:28:59.535980', '2023-06-23 08:29:03.535980', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4671, asd, asd,asd@gmail.com, 20, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4671', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4672', 'asdas', 'asdas', 'asdas@gmail.com', '11', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4672', '14', '2023-05-04 08:28:59.535999', '2023-05-04 08:29:00.535999', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4672, asdas, asdas,asdas@gmail.com, 11, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4672', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4673', 'dsbb', 'dsbb', 'dsbb@gmail.com', '14', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4673', '7', '2023-04-15 08:28:59.536010', '2023-04-15 08:29:03.536010', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4673, dsbb, dsbb,dsbb@gmail.com, 14, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4673', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4674', 'asdas', 'asdas', 'asdas@gmail.com', '14', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4674', '5', '2023-07-02 08:28:59.536022', '2023-07-02 08:29:01.536022', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4674, asdas, asdas,asdas@gmail.com, 14, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4674', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4675', 'asds', 'asds', 'asds@gmail.com', '17', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4675', '4', '2023-05-06 08:28:59.536033', '2023-05-06 08:29:03.536033', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4675, asds, asds,asds@gmail.com, 17, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4675', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4676', 'dsbb', 'dsbb', 'dsbb@gmail.com', '15', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4676', '5', '2023-06-27 08:28:59.536045', '2023-06-27 08:29:03.536045', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4676, dsbb, dsbb,dsbb@gmail.com, 15, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4676', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4677', 'asd', 'asd', 'asd@gmail.com', '7', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4677', '3', '2023-06-28 08:28:59.536056', '2023-06-28 08:29:02.536056', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4677, asd, asd,asd@gmail.com, 7, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4677', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4678', 'cvcb', 'cvcb', 'cvcb@gmail.com', '2', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4678', '10', '2023-04-27 08:28:59.536068', '2023-04-27 08:29:03.536068', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4678, cvcb, cvcb,cvcb@gmail.com, 2, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4678', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4679', 'asdas', 'asdas', 'asdas@gmail.com', '11', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4679', '10', '2023-07-09 08:28:59.536084', '2023-07-09 08:29:00.536084', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4679, asdas, asdas,asdas@gmail.com, 11, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4679', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4680', 'dsbb', 'dsbb', 'dsbb@gmail.com', '16', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4680', '1', '2023-06-15 08:28:59.536095', '2023-06-15 08:29:01.536095', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4680, dsbb, dsbb,dsbb@gmail.com, 16, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4680', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4681', 'asdas', 'asdas', 'asdas@gmail.com', '2', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4681', '11', '2023-06-01 08:28:59.536107', '2023-06-01 08:29:00.536107', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4681, asdas, asdas,asdas@gmail.com, 2, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4681', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4682', 'asdas', 'asdas', 'asdas@gmail.com', '5', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4682', '13', '2023-05-09 08:28:59.536118', '2023-05-09 08:29:01.536118', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4682, asdas, asdas,asdas@gmail.com, 5, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4682', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4683', 'cvcb', 'cvcb', 'cvcb@gmail.com', '16', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4683', '14', '2023-06-01 08:28:59.536130', '2023-06-01 08:29:01.536130', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4683, cvcb, cvcb,cvcb@gmail.com, 16, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4683', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4684', 'asds', 'asds', 'asds@gmail.com', '10', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4684', '1', '2023-05-10 08:28:59.536141', '2023-05-10 08:29:02.536141', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4684, asds, asds,asds@gmail.com, 10, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4684', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4685', 'cvcb', 'cvcb', 'cvcb@gmail.com', '16', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4685', '8', '2023-06-26 08:28:59.536153', '2023-06-26 08:29:00.536153', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4685, cvcb, cvcb,cvcb@gmail.com, 16, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4685', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4686', 'dsbb', 'dsbb', 'dsbb@gmail.com', '20', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4686', '6', '2023-06-09 08:28:59.536167', '2023-06-09 08:29:00.536167', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4686, dsbb, dsbb,dsbb@gmail.com, 20, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4686', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4687', 'cvcb', 'cvcb', 'cvcb@gmail.com', '2', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4687', '3', '2023-05-08 08:28:59.536179', '2023-05-08 08:29:02.536179', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4687, cvcb, cvcb,cvcb@gmail.com, 2, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4687', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4688', 'dsbb', 'dsbb', 'dsbb@gmail.com', '15', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4688', '6', '2023-06-26 08:28:59.536191', '2023-06-26 08:29:01.536191', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4688, dsbb, dsbb,dsbb@gmail.com, 15, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4688', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4689', 'dsbb', 'dsbb', 'dsbb@gmail.com', '13', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4689', '11', '2023-05-10 08:28:59.536203', '2023-05-10 08:29:00.536203', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4689, dsbb, dsbb,dsbb@gmail.com, 13, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4689', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4690', 'dsbb', 'dsbb', 'dsbb@gmail.com', '2', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4690', '12', '2023-05-23 08:28:59.536214', '2023-05-23 08:29:00.536214', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4690, dsbb, dsbb,dsbb@gmail.com, 2, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4690', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4691', 'asds', 'asds', 'asds@gmail.com', '14', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4691', '3', '2023-05-02 08:28:59.536225', '2023-05-02 08:29:01.536225', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4691, asds, asds,asds@gmail.com, 14, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4691', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4692', 'dsbb', 'dsbb', 'dsbb@gmail.com', '3', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4692', '2', '2023-06-30 08:28:59.536237', '2023-06-30 08:29:02.536237', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4692, dsbb, dsbb,dsbb@gmail.com, 3, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4692', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4693', 'asds', 'asds', 'asds@gmail.com', '14', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4693', '2', '2023-05-12 08:28:59.536252', '2023-05-12 08:29:02.536252', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4693, asds, asds,asds@gmail.com, 14, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4693', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4694', 'cvcb', 'cvcb', 'cvcb@gmail.com', '2', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4694', '14', '2023-05-23 08:28:59.536265', '2023-05-23 08:29:01.536265', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4694, cvcb, cvcb,cvcb@gmail.com, 2, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4694', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4695', 'asds', 'asds', 'asds@gmail.com', '2', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4695', '14', '2023-05-22 08:28:59.536276', '2023-05-22 08:29:03.536276', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4695, asds, asds,asds@gmail.com, 2, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4695', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4696', 'dsbb', 'dsbb', 'dsbb@gmail.com', '17', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4696', '6', '2023-05-27 08:28:59.536288', '2023-05-27 08:29:01.536288', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4696, dsbb, dsbb,dsbb@gmail.com, 17, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4696', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4697', 'asd', 'asd', 'asd@gmail.com', '13', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4697', '12', '2023-07-02 08:28:59.536300', '2023-07-02 08:29:00.536300', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4697, asd, asd,asd@gmail.com, 13, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4697', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4698', 'asdas', 'asdas', 'asdas@gmail.com', '9', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4698', '3', '2023-06-01 08:28:59.536311', '2023-06-01 08:29:03.536311', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4698, asdas, asdas,asdas@gmail.com, 9, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4698', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4699', 'asd', 'asd', 'asd@gmail.com', '17', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4699', '13', '2023-06-16 08:28:59.536322', '2023-06-16 08:29:02.536322', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4699, asd, asd,asd@gmail.com, 17, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4699', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4700', 'dsbb', 'dsbb', 'dsbb@gmail.com', '16', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4700', '13', '2023-06-26 08:28:59.536337', '2023-06-26 08:29:02.536337', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4700, dsbb, dsbb,dsbb@gmail.com, 16, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4700', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4701', 'asdas', 'asdas', 'asdas@gmail.com', '7', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4701', '2', '2023-07-02 08:28:59.536349', '2023-07-02 08:29:00.536349', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4701, asdas, asdas,asdas@gmail.com, 7, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4701', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4702', 'dsbb', 'dsbb', 'dsbb@gmail.com', '2', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4702', '4', '2023-07-02 08:28:59.536360', '2023-07-02 08:29:00.536360', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4702, dsbb, dsbb,dsbb@gmail.com, 2, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4702', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4703', 'asdas', 'asdas', 'asdas@gmail.com', '20', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4703', '15', '2023-07-04 08:28:59.536372', '2023-07-04 08:29:02.536372', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4703, asdas, asdas,asdas@gmail.com, 20, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4703', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4704', 'cvcb', 'cvcb', 'cvcb@gmail.com', '12', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4704', '6', '2023-05-27 08:28:59.536384', '2023-05-27 08:29:00.536384', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4704, cvcb, cvcb,cvcb@gmail.com, 12, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4704', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4705', 'asds', 'asds', 'asds@gmail.com', '17', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4705', '5', '2023-07-06 08:28:59.536395', '2023-07-06 08:29:00.536395', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4705, asds, asds,asds@gmail.com, 17, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4705', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4706', 'asds', 'asds', 'asds@gmail.com', '20', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4706', '11', '2023-06-29 08:28:59.536406', '2023-06-29 08:29:01.536406', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4706, asds, asds,asds@gmail.com, 20, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4706', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4707', 'asds', 'asds', 'asds@gmail.com', '12', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4707', '3', '2023-06-13 08:28:59.536422', '2023-06-13 08:29:03.536422', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4707, asds, asds,asds@gmail.com, 12, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4707', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4708', 'asdas', 'asdas', 'asdas@gmail.com', '18', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4708', '10', '2023-07-10 08:28:59.536434', '2023-07-10 08:29:03.536434', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4708, asdas, asdas,asdas@gmail.com, 18, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4708', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4709', 'cvcb', 'cvcb', 'cvcb@gmail.com', '19', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4709', '14', '2023-06-02 08:28:59.536445', '2023-06-02 08:29:01.536445', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4709, cvcb, cvcb,cvcb@gmail.com, 19, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4709', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4710', 'asd', 'asd', 'asd@gmail.com', '20', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4710', '7', '2023-05-18 08:28:59.536457', '2023-05-18 08:29:03.536457', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4710, asd, asd,asd@gmail.com, 20, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4710', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4711', 'cvcb', 'cvcb', 'cvcb@gmail.com', '6', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4711', '11', '2023-06-25 08:28:59.536468', '2023-06-25 08:29:00.536468', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4711, cvcb, cvcb,cvcb@gmail.com, 6, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4711', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4712', 'cvcb', 'cvcb', 'cvcb@gmail.com', '13', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4712', '12', '2023-05-13 08:28:59.536480', '2023-05-13 08:29:01.536480', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4712, cvcb, cvcb,cvcb@gmail.com, 13, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4712', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4713', 'asdas', 'asdas', 'asdas@gmail.com', '19', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4713', '6', '2023-05-28 08:28:59.536491', '2023-05-28 08:29:01.536491', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4713, asdas, asdas,asdas@gmail.com, 19, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4713', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4714', 'dsbb', 'dsbb', 'dsbb@gmail.com', '16', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4714', '10', '2023-06-12 08:28:59.536506', '2023-06-12 08:29:00.536506', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4714, dsbb, dsbb,dsbb@gmail.com, 16, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4714', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4715', 'dsbb', 'dsbb', 'dsbb@gmail.com', '9', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4715', '6', '2023-06-07 08:28:59.536517', '2023-06-07 08:29:01.536517', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4715, dsbb, dsbb,dsbb@gmail.com, 9, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4715', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4716', 'cvcb', 'cvcb', 'cvcb@gmail.com', '4', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4716', '15', '2023-06-11 08:28:59.536529', '2023-06-11 08:29:02.536529', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4716, cvcb, cvcb,cvcb@gmail.com, 4, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4716', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4717', 'asdas', 'asdas', 'asdas@gmail.com', '3', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4717', '6', '2023-05-19 08:28:59.536540', '2023-05-19 08:29:03.536540', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4717, asdas, asdas,asdas@gmail.com, 3, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4717', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4718', 'asdas', 'asdas', 'asdas@gmail.com', '13', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4718', '15', '2023-05-02 08:28:59.536552', '2023-05-02 08:29:03.536552', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4718, asdas, asdas,asdas@gmail.com, 13, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4718', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4719', 'asd', 'asd', 'asd@gmail.com', '3', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4719', '1', '2023-05-17 08:28:59.536563', '2023-05-17 08:29:01.536563', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4719, asd, asd,asd@gmail.com, 3, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4719', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4720', 'cvcb', 'cvcb', 'cvcb@gmail.com', '14', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4720', '4', '2023-05-07 08:28:59.536574', '2023-05-07 08:29:02.536574', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4720, cvcb, cvcb,cvcb@gmail.com, 14, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4720', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4721', 'asds', 'asds', 'asds@gmail.com', '3', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4721', '10', '2023-07-08 08:28:59.536591', '2023-07-08 08:29:00.536591', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4721, asds, asds,asds@gmail.com, 3, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4721', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4722', 'cvcb', 'cvcb', 'cvcb@gmail.com', '17', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4722', '11', '2023-06-14 08:28:59.536602', '2023-06-14 08:29:01.536602', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4722, cvcb, cvcb,cvcb@gmail.com, 17, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4722', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4723', 'asdas', 'asdas', 'asdas@gmail.com', '13', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4723', '15', '2023-04-27 08:28:59.536614', '2023-04-27 08:29:00.536614', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4723, asdas, asdas,asdas@gmail.com, 13, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4723', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4724', 'dsbb', 'dsbb', 'dsbb@gmail.com', '18', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4724', '9', '2023-04-13 08:28:59.536625', '2023-04-13 08:29:01.536625', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4724, dsbb, dsbb,dsbb@gmail.com, 18, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4724', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4725', 'asdas', 'asdas', 'asdas@gmail.com', '1', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4725', '2', '2023-05-05 08:28:59.536636', '2023-05-05 08:29:01.536636', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4725, asdas, asdas,asdas@gmail.com, 1, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4725', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4726', 'cvcb', 'cvcb', 'cvcb@gmail.com', '3', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4726', '9', '2023-05-30 08:28:59.536647', '2023-05-30 08:29:03.536647', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4726, cvcb, cvcb,cvcb@gmail.com, 3, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4726', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4727', 'dsbb', 'dsbb', 'dsbb@gmail.com', '12', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4727', '4', '2023-05-28 08:28:59.536659', '2023-05-28 08:29:03.536659', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4727, dsbb, dsbb,dsbb@gmail.com, 12, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4727', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4728', 'asdas', 'asdas', 'asdas@gmail.com', '19', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4728', '12', '2023-05-08 08:28:59.536677', '2023-05-08 08:29:01.536677', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4728, asdas, asdas,asdas@gmail.com, 19, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4728', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4729', 'asd', 'asd', 'asd@gmail.com', '20', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4729', '11', '2023-04-12 08:28:59.536690', '2023-04-12 08:29:02.536690', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4729, asd, asd,asd@gmail.com, 20, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4729', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4730', 'asdas', 'asdas', 'asdas@gmail.com', '7', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4730', '14', '2023-04-23 08:28:59.536701', '2023-04-23 08:29:02.536701', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4730, asdas, asdas,asdas@gmail.com, 7, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4730', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4731', 'asdas', 'asdas', 'asdas@gmail.com', '11', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4731', '2', '2023-06-05 08:28:59.536713', '2023-06-05 08:29:02.536713', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4731, asdas, asdas,asdas@gmail.com, 11, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4731', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4732', 'asds', 'asds', 'asds@gmail.com', '13', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4732', '2', '2023-06-21 08:28:59.536724', '2023-06-21 08:29:00.536724', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4732, asds, asds,asds@gmail.com, 13, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4732', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4733', 'asdas', 'asdas', 'asdas@gmail.com', '6', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4733', '6', '2023-06-13 08:28:59.536735', '2023-06-13 08:29:01.536735', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4733, asdas, asdas,asdas@gmail.com, 6, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4733', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4734', 'asdas', 'asdas', 'asdas@gmail.com', '10', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4734', '4', '2023-04-30 08:28:59.536747', '2023-04-30 08:29:03.536747', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4734, asdas, asdas,asdas@gmail.com, 10, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4734', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4735', 'dsbb', 'dsbb', 'dsbb@gmail.com', '11', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4735', '13', '2023-06-03 08:28:59.536762', '2023-06-03 08:29:02.536762', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4735, dsbb, dsbb,dsbb@gmail.com, 11, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4735', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4736', 'cvcb', 'cvcb', 'cvcb@gmail.com', '2', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4736', '14', '2023-06-27 08:28:59.536774', '2023-06-27 08:29:02.536774', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4736, cvcb, cvcb,cvcb@gmail.com, 2, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4736', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4737', 'asdas', 'asdas', 'asdas@gmail.com', '7', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4737', '12', '2023-06-30 08:28:59.536786', '2023-06-30 08:29:00.536786', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4737, asdas, asdas,asdas@gmail.com, 7, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4737', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4738', 'asdas', 'asdas', 'asdas@gmail.com', '15', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4738', '10', '2023-04-16 08:28:59.536797', '2023-04-16 08:29:01.536797', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4738, asdas, asdas,asdas@gmail.com, 15, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4738', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4739', 'dsbb', 'dsbb', 'dsbb@gmail.com', '11', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4739', '12', '2023-05-17 08:28:59.536808', '2023-05-17 08:29:00.536808', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4739, dsbb, dsbb,dsbb@gmail.com, 11, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4739', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4740', 'cvcb', 'cvcb', 'cvcb@gmail.com', '14', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4740', '7', '2023-06-25 08:28:59.536820', '2023-06-25 08:29:03.536820', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4740, cvcb, cvcb,cvcb@gmail.com, 14, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4740', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4741', 'asdas', 'asdas', 'asdas@gmail.com', '11', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4741', '10', '2023-05-23 08:28:59.536831', '2023-05-23 08:29:00.536831', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4741, asdas, asdas,asdas@gmail.com, 11, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4741', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4742', 'asdas', 'asdas', 'asdas@gmail.com', '6', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4742', '2', '2023-05-19 08:28:59.536846', '2023-05-19 08:29:02.536846', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4742, asdas, asdas,asdas@gmail.com, 6, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4742', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4743', 'asdas', 'asdas', 'asdas@gmail.com', '15', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4743', '14', '2023-05-29 08:28:59.536858', '2023-05-29 08:29:03.536858', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4743, asdas, asdas,asdas@gmail.com, 15, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4743', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4744', 'asd', 'asd', 'asd@gmail.com', '15', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4744', '3', '2023-05-30 08:28:59.536869', '2023-05-30 08:29:03.536869', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4744, asd, asd,asd@gmail.com, 15, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4744', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4745', 'dsbb', 'dsbb', 'dsbb@gmail.com', '8', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4745', '7', '2023-06-03 08:28:59.536880', '2023-06-03 08:29:02.536880', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4745, dsbb, dsbb,dsbb@gmail.com, 8, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4745', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4746', 'asd', 'asd', 'asd@gmail.com', '19', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4746', '3', '2023-04-15 08:28:59.536891', '2023-04-15 08:29:03.536891', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4746, asd, asd,asd@gmail.com, 19, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4746', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4747', 'asdas', 'asdas', 'asdas@gmail.com', '5', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4747', '4', '2023-05-17 08:28:59.536904', '2023-05-17 08:29:00.536904', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4747, asdas, asdas,asdas@gmail.com, 5, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4747', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4748', 'dsbb', 'dsbb', 'dsbb@gmail.com', '3', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4748', '5', '2023-06-30 08:28:59.536915', '2023-06-30 08:29:02.536915', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4748, dsbb, dsbb,dsbb@gmail.com, 3, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4748', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4749', 'cvcb', 'cvcb', 'cvcb@gmail.com', '3', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4749', '1', '2023-06-17 08:28:59.536932', '2023-06-17 08:29:03.536932', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4749, cvcb, cvcb,cvcb@gmail.com, 3, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4749', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4750', 'asds', 'asds', 'asds@gmail.com', '16', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4750', '3', '2023-06-09 08:28:59.536944', '2023-06-09 08:29:02.536944', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4750, asds, asds,asds@gmail.com, 16, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4750', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4751', 'cvcb', 'cvcb', 'cvcb@gmail.com', '9', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4751', '13', '2023-04-21 08:28:59.536955', '2023-04-21 08:29:01.536955', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4751, cvcb, cvcb,cvcb@gmail.com, 9, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4751', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4752', 'asdas', 'asdas', 'asdas@gmail.com', '5', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4752', '7', '2023-05-28 08:28:59.536967', '2023-05-28 08:29:01.536967', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4752, asdas, asdas,asdas@gmail.com, 5, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4752', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4753', 'dsbb', 'dsbb', 'dsbb@gmail.com', '17', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4753', '10', '2023-07-02 08:28:59.536978', '2023-07-02 08:29:00.536978', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4753, dsbb, dsbb,dsbb@gmail.com, 17, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4753', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4754', 'dsbb', 'dsbb', 'dsbb@gmail.com', '20', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4754', '11', '2023-06-20 08:28:59.536989', '2023-06-20 08:29:03.536989', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4754, dsbb, dsbb,dsbb@gmail.com, 20, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4754', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4755', 'asds', 'asds', 'asds@gmail.com', '19', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4755', '11', '2023-04-29 08:28:59.537001', '2023-04-29 08:29:03.537001', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4755, asds, asds,asds@gmail.com, 19, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4755', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4756', 'asd', 'asd', 'asd@gmail.com', '10', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4756', '13', '2023-05-28 08:28:59.537015', '2023-05-28 08:29:00.537015', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4756, asd, asd,asd@gmail.com, 10, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4756', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4757', 'dsbb', 'dsbb', 'dsbb@gmail.com', '17', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4757', '3', '2023-05-31 08:28:59.537027', '2023-05-31 08:29:00.537027', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4757, dsbb, dsbb,dsbb@gmail.com, 17, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4757', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4758', 'cvcb', 'cvcb', 'cvcb@gmail.com', '20', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4758', '4', '2023-05-21 08:28:59.537038', '2023-05-21 08:29:01.537038', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4758, cvcb, cvcb,cvcb@gmail.com, 20, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4758', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4759', 'asd', 'asd', 'asd@gmail.com', '8', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4759', '4', '2023-07-04 08:28:59.537050', '2023-07-04 08:29:03.537050', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4759, asd, asd,asd@gmail.com, 8, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4759', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4760', 'asds', 'asds', 'asds@gmail.com', '9', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4760', '11', '2023-05-15 08:28:59.537061', '2023-05-15 08:29:01.537061', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4760, asds, asds,asds@gmail.com, 9, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4760', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4761', 'cvcb', 'cvcb', 'cvcb@gmail.com', '20', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4761', '10', '2023-06-19 08:28:59.537073', '2023-06-19 08:29:02.537073', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4761, cvcb, cvcb,cvcb@gmail.com, 20, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4761', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4762', 'dsbb', 'dsbb', 'dsbb@gmail.com', '10', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4762', '13', '2023-06-15 08:28:59.537084', '2023-06-15 08:29:01.537084', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4762, dsbb, dsbb,dsbb@gmail.com, 10, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4762', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4763', 'dsbb', 'dsbb', 'dsbb@gmail.com', '12', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4763', '2', '2023-04-17 08:28:59.537100', '2023-04-17 08:29:01.537100', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4763, dsbb, dsbb,dsbb@gmail.com, 12, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4763', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4764', 'asd', 'asd', 'asd@gmail.com', '14', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4764', '15', '2023-06-16 08:28:59.537112', '2023-06-16 08:29:03.537112', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4764, asd, asd,asd@gmail.com, 14, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4764', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4765', 'dsbb', 'dsbb', 'dsbb@gmail.com', '16', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4765', '11', '2023-06-30 08:28:59.537123', '2023-06-30 08:29:03.537123', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4765, dsbb, dsbb,dsbb@gmail.com, 16, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4765', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4766', 'asdas', 'asdas', 'asdas@gmail.com', '8', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4766', '10', '2023-05-04 08:28:59.537134', '2023-05-04 08:29:03.537134', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4766, asdas, asdas,asdas@gmail.com, 8, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4766', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4767', 'asds', 'asds', 'asds@gmail.com', '14', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4767', '4', '2023-05-28 08:28:59.537146', '2023-05-28 08:29:01.537146', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4767, asds, asds,asds@gmail.com, 14, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4767', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4768', 'cvcb', 'cvcb', 'cvcb@gmail.com', '19', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4768', '9', '2023-04-27 08:28:59.537157', '2023-04-27 08:29:02.537157', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4768, cvcb, cvcb,cvcb@gmail.com, 19, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4768', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4769', 'asdas', 'asdas', 'asdas@gmail.com', '1', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4769', '9', '2023-06-01 08:28:59.537169', '2023-06-01 08:29:01.537169', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4769, asdas, asdas,asdas@gmail.com, 1, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4769', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4770', 'asd', 'asd', 'asd@gmail.com', '16', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4770', '9', '2023-05-08 08:28:59.537183', '2023-05-08 08:29:03.537183', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4770, asd, asd,asd@gmail.com, 16, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4770', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4771', 'asd', 'asd', 'asd@gmail.com', '14', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4771', '2', '2023-06-21 08:28:59.537195', '2023-06-21 08:29:02.537195', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4771, asd, asd,asd@gmail.com, 14, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4771', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4772', 'asd', 'asd', 'asd@gmail.com', '15', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4772', '11', '2023-07-10 08:28:59.537206', '2023-07-10 08:29:03.537206', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4772, asd, asd,asd@gmail.com, 15, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4772', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4773', 'asds', 'asds', 'asds@gmail.com', '20', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4773', '1', '2023-05-19 08:28:59.537218', '2023-05-19 08:29:02.537218', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4773, asds, asds,asds@gmail.com, 20, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4773', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4774', 'cvcb', 'cvcb', 'cvcb@gmail.com', '12', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4774', '7', '2023-06-20 08:28:59.537229', '2023-06-20 08:29:00.537229', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4774, cvcb, cvcb,cvcb@gmail.com, 12, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4774', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4775', 'dsbb', 'dsbb', 'dsbb@gmail.com', '3', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4775', '15', '2023-04-23 08:28:59.537240', '2023-04-23 08:29:01.537240', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4775, dsbb, dsbb,dsbb@gmail.com, 3, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4775', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4776', 'dsbb', 'dsbb', 'dsbb@gmail.com', '20', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4776', '9', '2023-04-22 08:28:59.537251', '2023-04-22 08:29:03.537251', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4776, dsbb, dsbb,dsbb@gmail.com, 20, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4776', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4777', 'dsbb', 'dsbb', 'dsbb@gmail.com', '14', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4777', '7', '2023-06-08 08:28:59.537267', '2023-06-08 08:29:03.537267', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4777, dsbb, dsbb,dsbb@gmail.com, 14, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4777', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4778', 'cvcb', 'cvcb', 'cvcb@gmail.com', '11', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4778', '9', '2023-07-02 08:28:59.537278', '2023-07-02 08:29:01.537278', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4778, cvcb, cvcb,cvcb@gmail.com, 11, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4778', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4779', 'asd', 'asd', 'asd@gmail.com', '10', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4779', '7', '2023-06-26 08:28:59.537290', '2023-06-26 08:29:01.537290', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4779, asd, asd,asd@gmail.com, 10, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4779', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4780', 'asdas', 'asdas', 'asdas@gmail.com', '10', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4780', '12', '2023-05-26 08:28:59.537301', '2023-05-26 08:29:00.537301', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4780, asdas, asdas,asdas@gmail.com, 10, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4780', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4781', 'dsbb', 'dsbb', 'dsbb@gmail.com', '2', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4781', '10', '2023-04-30 08:28:59.537313', '2023-04-30 08:29:00.537313', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4781, dsbb, dsbb,dsbb@gmail.com, 2, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4781', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4782', 'dsbb', 'dsbb', 'dsbb@gmail.com', '17', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4782', '3', '2023-05-16 08:28:59.537324', '2023-05-16 08:29:03.537324', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4782, dsbb, dsbb,dsbb@gmail.com, 17, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4782', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4783', 'asdas', 'asdas', 'asdas@gmail.com', '3', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4783', '3', '2023-04-18 08:28:59.537336', '2023-04-18 08:29:03.537336', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4783, asdas, asdas,asdas@gmail.com, 3, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4783', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4784', 'asd', 'asd', 'asd@gmail.com', '9', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4784', '9', '2023-05-07 08:28:59.537355', '2023-05-07 08:29:00.537355', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4784, asd, asd,asd@gmail.com, 9, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4784', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4785', 'asdas', 'asdas', 'asdas@gmail.com', '17', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4785', '11', '2023-04-25 08:28:59.537385', '2023-04-25 08:29:00.537385', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4785, asdas, asdas,asdas@gmail.com, 17, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4785', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4786', 'cvcb', 'cvcb', 'cvcb@gmail.com', '19', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4786', '6', '2023-05-02 08:28:59.537397', '2023-05-02 08:29:01.537397', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4786, cvcb, cvcb,cvcb@gmail.com, 19, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4786', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4787', 'asd', 'asd', 'asd@gmail.com', '16', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4787', '15', '2023-05-20 08:28:59.537409', '2023-05-20 08:29:03.537409', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4787, asd, asd,asd@gmail.com, 16, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4787', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4788', 'asdas', 'asdas', 'asdas@gmail.com', '20', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4788', '13', '2023-04-30 08:28:59.537420', '2023-04-30 08:29:00.537420', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4788, asdas, asdas,asdas@gmail.com, 20, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4788', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4789', 'asd', 'asd', 'asd@gmail.com', '10', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4789', '5', '2023-07-05 08:28:59.537431', '2023-07-05 08:29:01.537431', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4789, asd, asd,asd@gmail.com, 10, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4789', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4790', 'asdas', 'asdas', 'asdas@gmail.com', '6', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4790', '3', '2023-04-20 08:28:59.537443', '2023-04-20 08:29:00.537443', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4790, asdas, asdas,asdas@gmail.com, 6, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4790', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4791', 'asds', 'asds', 'asds@gmail.com', '13', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4791', '9', '2023-05-20 08:28:59.537458', '2023-05-20 08:29:03.537458', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4791, asds, asds,asds@gmail.com, 13, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4791', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4792', 'dsbb', 'dsbb', 'dsbb@gmail.com', '14', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4792', '8', '2023-05-07 08:28:59.537470', '2023-05-07 08:29:02.537470', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4792, dsbb, dsbb,dsbb@gmail.com, 14, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4792', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4793', 'asds', 'asds', 'asds@gmail.com', '2', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4793', '10', '2023-04-14 08:28:59.537481', '2023-04-14 08:29:01.537481', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4793, asds, asds,asds@gmail.com, 2, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4793', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4794', 'asd', 'asd', 'asd@gmail.com', '4', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4794', '13', '2023-04-30 08:28:59.537493', '2023-04-30 08:29:01.537493', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4794, asd, asd,asd@gmail.com, 4, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4794', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4795', 'asdas', 'asdas', 'asdas@gmail.com', '15', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4795', '13', '2023-06-20 08:28:59.537504', '2023-06-20 08:29:02.537504', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4795, asdas, asdas,asdas@gmail.com, 15, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4795', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4796', 'asd', 'asd', 'asd@gmail.com', '14', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4796', '8', '2023-05-08 08:28:59.537516', '2023-05-08 08:29:03.537516', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4796, asd, asd,asd@gmail.com, 14, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4796', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4797', 'asdas', 'asdas', 'asdas@gmail.com', '17', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4797', '14', '2023-06-27 08:28:59.537527', '2023-06-27 08:29:02.537527', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4797, asdas, asdas,asdas@gmail.com, 17, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4797', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4798', 'asd', 'asd', 'asd@gmail.com', '6', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4798', '15', '2023-06-04 08:28:59.537542', '2023-06-04 08:29:02.537542', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4798, asd, asd,asd@gmail.com, 6, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4798', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4799', 'asdas', 'asdas', 'asdas@gmail.com', '5', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4799', '4', '2023-06-29 08:28:59.537553', '2023-06-29 08:29:02.537553', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4799, asdas, asdas,asdas@gmail.com, 5, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4799', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4800', 'dsbb', 'dsbb', 'dsbb@gmail.com', '14', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4800', '1', '2023-05-10 08:28:59.537565', '2023-05-10 08:29:02.537565', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4800, dsbb, dsbb,dsbb@gmail.com, 14, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4800', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4801', 'asdas', 'asdas', 'asdas@gmail.com', '10', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4801', '7', '2023-04-14 08:28:59.537576', '2023-04-14 08:29:03.537576', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4801, asdas, asdas,asdas@gmail.com, 10, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4801', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4802', 'cvcb', 'cvcb', 'cvcb@gmail.com', '11', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4802', '14', '2023-06-05 08:28:59.537588', '2023-06-05 08:29:03.537588', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4802, cvcb, cvcb,cvcb@gmail.com, 11, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4802', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4803', 'cvcb', 'cvcb', 'cvcb@gmail.com', '2', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4803', '8', '2023-07-02 08:28:59.537599', '2023-07-02 08:29:00.537599', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4803, cvcb, cvcb,cvcb@gmail.com, 2, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4803', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4804', 'asdas', 'asdas', 'asdas@gmail.com', '20', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4804', '1', '2023-04-13 08:28:59.537611', '2023-04-13 08:29:01.537611', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4804, asdas, asdas,asdas@gmail.com, 20, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4804', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4805', 'asd', 'asd', 'asd@gmail.com', '16', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4805', '15', '2023-07-04 08:28:59.537627', '2023-07-04 08:29:02.537627', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4805, asd, asd,asd@gmail.com, 16, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4805', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4806', 'cvcb', 'cvcb', 'cvcb@gmail.com', '20', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4806', '12', '2023-05-27 08:28:59.537639', '2023-05-27 08:29:01.537639', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4806, cvcb, cvcb,cvcb@gmail.com, 20, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4806', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4807', 'cvcb', 'cvcb', 'cvcb@gmail.com', '12', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4807', '9', '2023-07-10 08:28:59.537651', '2023-07-10 08:29:03.537651', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4807, cvcb, cvcb,cvcb@gmail.com, 12, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4807', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4808', 'asd', 'asd', 'asd@gmail.com', '9', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4808', '14', '2023-06-18 08:28:59.537662', '2023-06-18 08:29:00.537662', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4808, asd, asd,asd@gmail.com, 9, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4808', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4809', 'cvcb', 'cvcb', 'cvcb@gmail.com', '13', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4809', '8', '2023-05-16 08:28:59.537674', '2023-05-16 08:29:03.537674', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4809, cvcb, cvcb,cvcb@gmail.com, 13, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4809', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4810', 'dsbb', 'dsbb', 'dsbb@gmail.com', '19', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4810', '3', '2023-06-27 08:28:59.537686', '2023-06-27 08:29:01.537686', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4810, dsbb, dsbb,dsbb@gmail.com, 19, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4810', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4811', 'cvcb', 'cvcb', 'cvcb@gmail.com', '15', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4811', '12', '2023-06-18 08:28:59.537698', '2023-06-18 08:29:01.537698', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4811, cvcb, cvcb,cvcb@gmail.com, 15, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4811', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4812', 'asdas', 'asdas', 'asdas@gmail.com', '8', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4812', '8', '2023-05-07 08:28:59.537715', '2023-05-07 08:29:00.537715', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4812, asdas, asdas,asdas@gmail.com, 8, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4812', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4813', 'asdas', 'asdas', 'asdas@gmail.com', '14', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4813', '8', '2023-07-03 08:28:59.537727', '2023-07-03 08:29:02.537727', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4813, asdas, asdas,asdas@gmail.com, 14, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4813', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4814', 'asdas', 'asdas', 'asdas@gmail.com', '6', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4814', '4', '2023-06-03 08:28:59.537739', '2023-06-03 08:29:03.537739', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4814, asdas, asdas,asdas@gmail.com, 6, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4814', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4815', 'dsbb', 'dsbb', 'dsbb@gmail.com', '18', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4815', '9', '2023-06-23 08:28:59.537750', '2023-06-23 08:29:03.537750', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4815, dsbb, dsbb,dsbb@gmail.com, 18, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4815', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4816', 'asds', 'asds', 'asds@gmail.com', '15', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4816', '4', '2023-04-23 08:28:59.537761', '2023-04-23 08:29:03.537761', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4816, asds, asds,asds@gmail.com, 15, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4816', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4817', 'asds', 'asds', 'asds@gmail.com', '4', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4817', '10', '2023-04-15 08:28:59.537773', '2023-04-15 08:29:00.537773', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4817, asds, asds,asds@gmail.com, 4, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4817', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4818', 'dsbb', 'dsbb', 'dsbb@gmail.com', '17', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4818', '15', '2023-05-11 08:28:59.537784', '2023-05-11 08:29:01.537784', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4818, dsbb, dsbb,dsbb@gmail.com, 17, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4818', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4819', 'asdas', 'asdas', 'asdas@gmail.com', '17', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4819', '3', '2023-06-06 08:28:59.537804', '2023-06-06 08:29:00.537804', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4819, asdas, asdas,asdas@gmail.com, 17, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4819', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4820', 'asd', 'asd', 'asd@gmail.com', '7', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4820', '13', '2023-05-15 08:28:59.537815', '2023-05-15 08:29:01.537815', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4820, asd, asd,asd@gmail.com, 7, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4820', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4821', 'asd', 'asd', 'asd@gmail.com', '16', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4821', '4', '2023-05-18 08:28:59.537827', '2023-05-18 08:29:03.537827', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4821, asd, asd,asd@gmail.com, 16, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4821', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4822', 'asds', 'asds', 'asds@gmail.com', '17', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4822', '8', '2023-07-11 08:28:59.537838', '2023-07-11 08:29:02.537838', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4822, asds, asds,asds@gmail.com, 17, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4822', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4823', 'asdas', 'asdas', 'asdas@gmail.com', '1', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4823', '15', '2023-04-13 08:28:59.537850', '2023-04-13 08:29:00.537850', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4823, asdas, asdas,asdas@gmail.com, 1, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4823', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4824', 'asdas', 'asdas', 'asdas@gmail.com', '9', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4824', '3', '2023-04-14 08:28:59.537861', '2023-04-14 08:29:02.537861', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4824, asdas, asdas,asdas@gmail.com, 9, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4824', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4825', 'cvcb', 'cvcb', 'cvcb@gmail.com', '17', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4825', '2', '2023-04-22 08:28:59.537910', '2023-04-22 08:29:00.537910', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4825, cvcb, cvcb,cvcb@gmail.com, 17, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4825', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4826', 'cvcb', 'cvcb', 'cvcb@gmail.com', '14', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4826', '5', '2023-04-28 08:28:59.537963', '2023-04-28 08:29:00.537963', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4826, cvcb, cvcb,cvcb@gmail.com, 14, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4826', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4827', 'cvcb', 'cvcb', 'cvcb@gmail.com', '16', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4827', '4', '2023-04-22 08:28:59.537977', '2023-04-22 08:29:02.537977', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4827, cvcb, cvcb,cvcb@gmail.com, 16, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4827', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4828', 'asdas', 'asdas', 'asdas@gmail.com', '4', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4828', '8', '2023-04-19 08:28:59.538008', '2023-04-19 08:29:02.538008', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4828, asdas, asdas,asdas@gmail.com, 4, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4828', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4829', 'asds', 'asds', 'asds@gmail.com', '15', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4829', '4', '2023-05-23 08:28:59.538021', '2023-05-23 08:29:01.538021', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4829, asds, asds,asds@gmail.com, 15, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4829', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4830', 'cvcb', 'cvcb', 'cvcb@gmail.com', '12', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4830', '4', '2023-05-29 08:28:59.538033', '2023-05-29 08:29:02.538033', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4830, cvcb, cvcb,cvcb@gmail.com, 12, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4830', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4831', 'asd', 'asd', 'asd@gmail.com', '11', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4831', '13', '2023-05-13 08:28:59.538045', '2023-05-13 08:29:01.538045', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4831, asd, asd,asd@gmail.com, 11, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4831', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4832', 'asdas', 'asdas', 'asdas@gmail.com', '9', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4832', '4', '2023-04-25 08:28:59.538057', '2023-04-25 08:29:02.538057', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4832, asdas, asdas,asdas@gmail.com, 9, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4832', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4833', 'asd', 'asd', 'asd@gmail.com', '16', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4833', '11', '2023-06-03 08:28:59.538078', '2023-06-03 08:29:01.538078', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4833, asd, asd,asd@gmail.com, 16, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4833', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4834', 'dsbb', 'dsbb', 'dsbb@gmail.com', '3', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4834', '4', '2023-07-04 08:28:59.538090', '2023-07-04 08:29:03.538090', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4834, dsbb, dsbb,dsbb@gmail.com, 3, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4834', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4835', 'asds', 'asds', 'asds@gmail.com', '2', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4835', '7', '2023-07-07 08:28:59.538102', '2023-07-07 08:29:00.538102', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4835, asds, asds,asds@gmail.com, 2, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4835', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4836', 'asdas', 'asdas', 'asdas@gmail.com', '5', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4836', '9', '2023-05-01 08:28:59.538114', '2023-05-01 08:29:03.538114', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4836, asdas, asdas,asdas@gmail.com, 5, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4836', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4837', 'cvcb', 'cvcb', 'cvcb@gmail.com', '15', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4837', '3', '2023-04-27 08:28:59.538126', '2023-04-27 08:29:02.538126', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4837, cvcb, cvcb,cvcb@gmail.com, 15, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4837', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4838', 'asdas', 'asdas', 'asdas@gmail.com', '19', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4838', '11', '2023-05-14 08:28:59.538138', '2023-05-14 08:29:03.538138', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4838, asdas, asdas,asdas@gmail.com, 19, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4838', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4839', 'asdas', 'asdas', 'asdas@gmail.com', '18', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4839', '4', '2023-06-16 08:28:59.538153', '2023-06-16 08:29:03.538153', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4839, asdas, asdas,asdas@gmail.com, 18, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4839', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4840', 'cvcb', 'cvcb', 'cvcb@gmail.com', '4', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4840', '4', '2023-04-17 08:28:59.538200', '2023-04-17 08:29:03.538200', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4840, cvcb, cvcb,cvcb@gmail.com, 4, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4840', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4841', 'asdas', 'asdas', 'asdas@gmail.com', '2', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4841', '10', '2023-05-06 08:28:59.538213', '2023-05-06 08:29:02.538213', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4841, asdas, asdas,asdas@gmail.com, 2, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4841', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4842', 'dsbb', 'dsbb', 'dsbb@gmail.com', '7', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4842', '8', '2023-06-25 08:28:59.538224', '2023-06-25 08:29:00.538224', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4842, dsbb, dsbb,dsbb@gmail.com, 7, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4842', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4843', 'cvcb', 'cvcb', 'cvcb@gmail.com', '11', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4843', '15', '2023-06-08 08:28:59.538236', '2023-06-08 08:29:03.538236', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4843, cvcb, cvcb,cvcb@gmail.com, 11, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4843', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4844', 'asd', 'asd', 'asd@gmail.com', '12', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4844', '15', '2023-05-04 08:28:59.538247', '2023-05-04 08:29:02.538247', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4844, asd, asd,asd@gmail.com, 12, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4844', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4845', 'asdas', 'asdas', 'asdas@gmail.com', '17', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4845', '9', '2023-06-16 08:28:59.538259', '2023-06-16 08:29:01.538259', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4845, asdas, asdas,asdas@gmail.com, 17, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4845', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4846', 'asds', 'asds', 'asds@gmail.com', '3', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4846', '1', '2023-06-12 08:28:59.538271', '2023-06-12 08:29:03.538271', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4846, asds, asds,asds@gmail.com, 3, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4846', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4847', 'asd', 'asd', 'asd@gmail.com', '12', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4847', '9', '2023-05-28 08:28:59.538290', '2023-05-28 08:29:00.538290', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4847, asd, asd,asd@gmail.com, 12, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4847', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4848', 'cvcb', 'cvcb', 'cvcb@gmail.com', '14', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4848', '5', '2023-05-26 08:28:59.538302', '2023-05-26 08:29:01.538302', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4848, cvcb, cvcb,cvcb@gmail.com, 14, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4848', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4849', 'asds', 'asds', 'asds@gmail.com', '13', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4849', '12', '2023-05-05 08:28:59.538313', '2023-05-05 08:29:02.538313', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4849, asds, asds,asds@gmail.com, 13, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4849', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4850', 'asd', 'asd', 'asd@gmail.com', '17', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4850', '7', '2023-04-26 08:28:59.538325', '2023-04-26 08:29:00.538325', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4850, asd, asd,asd@gmail.com, 17, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4850', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4851', 'asds', 'asds', 'asds@gmail.com', '13', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4851', '4', '2023-06-27 08:28:59.538340', '2023-06-27 08:29:01.538340', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4851, asds, asds,asds@gmail.com, 13, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4851', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4852', 'asds', 'asds', 'asds@gmail.com', '1', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4852', '9', '2023-07-01 08:28:59.538351', '2023-07-01 08:29:03.538351', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4852, asds, asds,asds@gmail.com, 1, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4852', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4853', 'cvcb', 'cvcb', 'cvcb@gmail.com', '8', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4853', '15', '2023-04-13 08:28:59.538363', '2023-04-13 08:29:03.538363', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4853, cvcb, cvcb,cvcb@gmail.com, 8, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4853', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4854', 'cvcb', 'cvcb', 'cvcb@gmail.com', '11', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4854', '3', '2023-07-02 08:28:59.538378', '2023-07-02 08:29:01.538378', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4854, cvcb, cvcb,cvcb@gmail.com, 11, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4854', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4855', 'dsbb', 'dsbb', 'dsbb@gmail.com', '11', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4855', '6', '2023-06-03 08:28:59.538390', '2023-06-03 08:29:00.538390', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4855, dsbb, dsbb,dsbb@gmail.com, 11, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4855', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4856', 'asdas', 'asdas', 'asdas@gmail.com', '9', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4856', '8', '2023-05-04 08:28:59.538402', '2023-05-04 08:29:02.538402', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4856, asdas, asdas,asdas@gmail.com, 9, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4856', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4857', 'asds', 'asds', 'asds@gmail.com', '9', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4857', '1', '2023-06-17 08:28:59.538414', '2023-06-17 08:29:00.538414', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4857, asds, asds,asds@gmail.com, 9, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4857', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4858', 'asd', 'asd', 'asd@gmail.com', '3', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4858', '13', '2023-04-27 08:28:59.538425', '2023-04-27 08:29:00.538425', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4858, asd, asd,asd@gmail.com, 3, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4858', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4859', 'asd', 'asd', 'asd@gmail.com', '12', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4859', '9', '2023-05-16 08:28:59.538436', '2023-05-16 08:29:02.538436', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4859, asd, asd,asd@gmail.com, 12, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4859', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4860', 'asds', 'asds', 'asds@gmail.com', '11', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4860', '7', '2023-07-08 08:28:59.538448', '2023-07-08 08:29:01.538448', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4860, asds, asds,asds@gmail.com, 11, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4860', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4861', 'asd', 'asd', 'asd@gmail.com', '18', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4861', '6', '2023-07-06 08:28:59.538465', '2023-07-06 08:29:03.538465', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4861, asd, asd,asd@gmail.com, 18, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4861', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4862', 'asdas', 'asdas', 'asdas@gmail.com', '17', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4862', '9', '2023-05-28 08:28:59.538477', '2023-05-28 08:29:00.538477', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4862, asdas, asdas,asdas@gmail.com, 17, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4862', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4863', 'cvcb', 'cvcb', 'cvcb@gmail.com', '12', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4863', '9', '2023-05-16 08:28:59.538488', '2023-05-16 08:29:00.538488', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4863, cvcb, cvcb,cvcb@gmail.com, 12, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4863', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4864', 'asd', 'asd', 'asd@gmail.com', '12', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4864', '7', '2023-05-30 08:28:59.538500', '2023-05-30 08:29:03.538500', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4864, asd, asd,asd@gmail.com, 12, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4864', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4865', 'dsbb', 'dsbb', 'dsbb@gmail.com', '9', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4865', '14', '2023-06-17 08:28:59.538511', '2023-06-17 08:29:02.538511', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4865, dsbb, dsbb,dsbb@gmail.com, 9, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4865', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4866', 'asdas', 'asdas', 'asdas@gmail.com', '9', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4866', '11', '2023-05-17 08:28:59.538523', '2023-05-17 08:29:02.538523', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4866, asdas, asdas,asdas@gmail.com, 9, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4866', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4867', 'cvcb', 'cvcb', 'cvcb@gmail.com', '1', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4867', '12', '2023-06-09 08:28:59.538534', '2023-06-09 08:29:03.538534', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4867, cvcb, cvcb,cvcb@gmail.com, 1, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4867', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4868', 'asd', 'asd', 'asd@gmail.com', '13', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4868', '5', '2023-05-07 08:28:59.538548', '2023-05-07 08:29:03.538548', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4868, asd, asd,asd@gmail.com, 13, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4868', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4869', 'asds', 'asds', 'asds@gmail.com', '5', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4869', '12', '2023-06-20 08:28:59.538560', '2023-06-20 08:29:00.538560', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4869, asds, asds,asds@gmail.com, 5, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4869', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4870', 'cvcb', 'cvcb', 'cvcb@gmail.com', '19', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4870', '8', '2023-05-27 08:28:59.538571', '2023-05-27 08:29:01.538571', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4870, cvcb, cvcb,cvcb@gmail.com, 19, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4870', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4871', 'asd', 'asd', 'asd@gmail.com', '14', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4871', '3', '2023-06-06 08:28:59.538583', '2023-06-06 08:29:03.538583', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4871, asd, asd,asd@gmail.com, 14, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4871', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4872', 'asdas', 'asdas', 'asdas@gmail.com', '6', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4872', '6', '2023-05-19 08:28:59.538594', '2023-05-19 08:29:02.538594', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4872, asdas, asdas,asdas@gmail.com, 6, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4872', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4873', 'asdas', 'asdas', 'asdas@gmail.com', '4', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4873', '11', '2023-05-14 08:28:59.538606', '2023-05-14 08:29:02.538606', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4873, asdas, asdas,asdas@gmail.com, 4, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4873', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4874', 'cvcb', 'cvcb', 'cvcb@gmail.com', '13', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4874', '15', '2023-07-02 08:28:59.538617', '2023-07-02 08:29:03.538617', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4874, cvcb, cvcb,cvcb@gmail.com, 13, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4874', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4875', 'dsbb', 'dsbb', 'dsbb@gmail.com', '7', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4875', '6', '2023-06-01 08:28:59.538636', '2023-06-01 08:29:02.538636', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4875, dsbb, dsbb,dsbb@gmail.com, 7, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4875', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4876', 'cvcb', 'cvcb', 'cvcb@gmail.com', '3', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4876', '3', '2023-05-02 08:28:59.538648', '2023-05-02 08:29:02.538648', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4876, cvcb, cvcb,cvcb@gmail.com, 3, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4876', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4877', 'asdas', 'asdas', 'asdas@gmail.com', '20', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4877', '12', '2023-05-03 08:28:59.538659', '2023-05-03 08:29:03.538659', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4877, asdas, asdas,asdas@gmail.com, 20, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4877', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4878', 'asd', 'asd', 'asd@gmail.com', '20', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4878', '8', '2023-06-07 08:28:59.538671', '2023-06-07 08:29:01.538671', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4878, asd, asd,asd@gmail.com, 20, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4878', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4879', 'dsbb', 'dsbb', 'dsbb@gmail.com', '3', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4879', '13', '2023-07-02 08:28:59.538682', '2023-07-02 08:29:03.538682', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4879, dsbb, dsbb,dsbb@gmail.com, 3, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4879', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4880', 'dsbb', 'dsbb', 'dsbb@gmail.com', '12', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4880', '5', '2023-04-27 08:28:59.538694', '2023-04-27 08:29:00.538694', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4880, dsbb, dsbb,dsbb@gmail.com, 12, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4880', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4881', 'asdas', 'asdas', 'asdas@gmail.com', '18', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4881', '6', '2023-07-09 08:28:59.538705', '2023-07-09 08:29:01.538705', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4881, asdas, asdas,asdas@gmail.com, 18, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4881', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4882', 'cvcb', 'cvcb', 'cvcb@gmail.com', '12', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4882', '12', '2023-04-26 08:28:59.538720', '2023-04-26 08:29:00.538720', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4882, cvcb, cvcb,cvcb@gmail.com, 12, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4882', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4883', 'dsbb', 'dsbb', 'dsbb@gmail.com', '2', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4883', '1', '2023-04-18 08:28:59.538731', '2023-04-18 08:29:02.538731', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4883, dsbb, dsbb,dsbb@gmail.com, 2, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4883', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4884', 'asd', 'asd', 'asd@gmail.com', '18', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4884', '5', '2023-05-08 08:28:59.538742', '2023-05-08 08:29:03.538742', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4884, asd, asd,asd@gmail.com, 18, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4884', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4885', 'asds', 'asds', 'asds@gmail.com', '18', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4885', '14', '2023-04-17 08:28:59.538754', '2023-04-17 08:29:03.538754', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4885, asds, asds,asds@gmail.com, 18, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4885', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4886', 'asdas', 'asdas', 'asdas@gmail.com', '16', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4886', '7', '2023-04-20 08:28:59.538765', '2023-04-20 08:29:01.538765', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4886, asdas, asdas,asdas@gmail.com, 16, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4886', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4887', 'dsbb', 'dsbb', 'dsbb@gmail.com', '8', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4887', '10', '2023-05-12 08:28:59.538776', '2023-05-12 08:29:01.538776', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4887, dsbb, dsbb,dsbb@gmail.com, 8, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4887', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4888', 'asdas', 'asdas', 'asdas@gmail.com', '6', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4888', '7', '2023-06-16 08:28:59.538788', '2023-06-16 08:29:01.538788', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4888, asdas, asdas,asdas@gmail.com, 6, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4888', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4889', 'cvcb', 'cvcb', 'cvcb@gmail.com', '4', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4889', '14', '2023-06-21 08:28:59.538806', '2023-06-21 08:29:01.538806', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4889, cvcb, cvcb,cvcb@gmail.com, 4, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4889', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4890', 'asdas', 'asdas', 'asdas@gmail.com', '16', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4890', '6', '2023-05-31 08:28:59.538818', '2023-05-31 08:29:02.538818', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4890, asdas, asdas,asdas@gmail.com, 16, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4890', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4891', 'asdas', 'asdas', 'asdas@gmail.com', '11', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4891', '8', '2023-06-22 08:28:59.538829', '2023-06-22 08:29:00.538829', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4891, asdas, asdas,asdas@gmail.com, 11, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4891', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4892', 'asdas', 'asdas', 'asdas@gmail.com', '11', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4892', '7', '2023-06-04 08:28:59.538841', '2023-06-04 08:29:02.538841', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4892, asdas, asdas,asdas@gmail.com, 11, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4892', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4893', 'asd', 'asd', 'asd@gmail.com', '3', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4893', '5', '2023-04-28 08:28:59.538852', '2023-04-28 08:29:03.538852', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4893, asd, asd,asd@gmail.com, 3, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4893', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4894', 'asdas', 'asdas', 'asdas@gmail.com', '16', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4894', '12', '2023-05-24 08:28:59.538863', '2023-05-24 08:29:00.538863', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4894, asdas, asdas,asdas@gmail.com, 16, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4894', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4895', 'asdas', 'asdas', 'asdas@gmail.com', '1', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4895', '3', '2023-07-02 08:28:59.538875', '2023-07-02 08:29:00.538875', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4895, asdas, asdas,asdas@gmail.com, 1, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4895', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4896', 'cvcb', 'cvcb', 'cvcb@gmail.com', '4', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4896', '12', '2023-04-22 08:28:59.538897', '2023-04-22 08:29:01.538897', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4896, cvcb, cvcb,cvcb@gmail.com, 4, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4896', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4897', 'cvcb', 'cvcb', 'cvcb@gmail.com', '16', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4897', '13', '2023-04-24 08:28:59.538909', '2023-04-24 08:29:02.538909', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4897, cvcb, cvcb,cvcb@gmail.com, 16, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4897', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4898', 'dsbb', 'dsbb', 'dsbb@gmail.com', '20', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4898', '2', '2023-05-07 08:28:59.538920', '2023-05-07 08:29:02.538920', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4898, dsbb, dsbb,dsbb@gmail.com, 20, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4898', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4899', 'asds', 'asds', 'asds@gmail.com', '2', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4899', '7', '2023-05-27 08:28:59.538932', '2023-05-27 08:29:01.538932', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4899, asds, asds,asds@gmail.com, 2, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4899', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4900', 'asd', 'asd', 'asd@gmail.com', '2', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4900', '7', '2023-04-16 08:28:59.538943', '2023-04-16 08:29:00.538943', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4900, asd, asd,asd@gmail.com, 2, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4900', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4901', 'asdas', 'asdas', 'asdas@gmail.com', '12', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4901', '15', '2023-04-23 08:28:59.538954', '2023-04-23 08:29:01.538954', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4901, asdas, asdas,asdas@gmail.com, 12, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4901', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4902', 'asd', 'asd', 'asd@gmail.com', '14', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4902', '10', '2023-04-12 08:28:59.538965', '2023-04-12 08:29:02.538965', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4902, asd, asd,asd@gmail.com, 14, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4902', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4903', 'asds', 'asds', 'asds@gmail.com', '1', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4903', '1', '2023-06-25 08:28:59.538986', '2023-06-25 08:29:01.538986', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4903, asds, asds,asds@gmail.com, 1, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4903', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4904', 'asd', 'asd', 'asd@gmail.com', '11', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4904', '14', '2023-06-25 08:28:59.538998', '2023-06-25 08:29:02.538998', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4904, asd, asd,asd@gmail.com, 11, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4904', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4905', 'dsbb', 'dsbb', 'dsbb@gmail.com', '4', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4905', '5', '2023-04-12 08:28:59.539009', '2023-04-12 08:29:00.539009', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4905, dsbb, dsbb,dsbb@gmail.com, 4, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4905', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4906', 'cvcb', 'cvcb', 'cvcb@gmail.com', '18', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4906', '15', '2023-05-02 08:28:59.539020', '2023-05-02 08:29:00.539020', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4906, cvcb, cvcb,cvcb@gmail.com, 18, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4906', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4907', 'asd', 'asd', 'asd@gmail.com', '7', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4907', '13', '2023-05-24 08:28:59.539032', '2023-05-24 08:29:03.539032', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4907, asd, asd,asd@gmail.com, 7, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4907', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4908', 'cvcb', 'cvcb', 'cvcb@gmail.com', '11', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4908', '12', '2023-04-19 08:28:59.539043', '2023-04-19 08:29:00.539043', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4908, cvcb, cvcb,cvcb@gmail.com, 11, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4908', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4909', 'dsbb', 'dsbb', 'dsbb@gmail.com', '3', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4909', '10', '2023-05-08 08:28:59.539054', '2023-05-08 08:29:01.539054', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4909, dsbb, dsbb,dsbb@gmail.com, 3, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4909', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4910', 'asds', 'asds', 'asds@gmail.com', '7', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4910', '13', '2023-04-20 08:28:59.539071', '2023-04-20 08:29:03.539071', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4910, asds, asds,asds@gmail.com, 7, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4910', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4911', 'asds', 'asds', 'asds@gmail.com', '20', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4911', '6', '2023-05-21 08:28:59.539085', '2023-05-21 08:29:00.539085', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4911, asds, asds,asds@gmail.com, 20, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4911', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4912', 'asdas', 'asdas', 'asdas@gmail.com', '4', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4912', '5', '2023-06-16 08:28:59.539096', '2023-06-16 08:29:00.539096', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4912, asdas, asdas,asdas@gmail.com, 4, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4912', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4913', 'asd', 'asd', 'asd@gmail.com', '5', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4913', '2', '2023-04-24 08:28:59.539107', '2023-04-24 08:29:00.539107', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4913, asd, asd,asd@gmail.com, 5, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4913', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4914', 'dsbb', 'dsbb', 'dsbb@gmail.com', '18', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4914', '1', '2023-04-27 08:28:59.539119', '2023-04-27 08:29:03.539119', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4914, dsbb, dsbb,dsbb@gmail.com, 18, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4914', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4915', 'cvcb', 'cvcb', 'cvcb@gmail.com', '7', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4915', '1', '2023-05-31 08:28:59.539130', '2023-05-31 08:29:03.539130', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4915, cvcb, cvcb,cvcb@gmail.com, 7, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4915', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4916', 'asds', 'asds', 'asds@gmail.com', '2', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4916', '2', '2023-06-16 08:28:59.539141', '2023-06-16 08:29:01.539141', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4916, asds, asds,asds@gmail.com, 2, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4916', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4917', 'asdas', 'asdas', 'asdas@gmail.com', '19', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4917', '2', '2023-04-25 08:28:59.539158', '2023-04-25 08:29:01.539158', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4917, asdas, asdas,asdas@gmail.com, 19, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4917', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4918', 'cvcb', 'cvcb', 'cvcb@gmail.com', '20', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4918', '8', '2023-06-06 08:28:59.539169', '2023-06-06 08:29:00.539169', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4918, cvcb, cvcb,cvcb@gmail.com, 20, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4918', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4919', 'asdas', 'asdas', 'asdas@gmail.com', '10', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4919', '2', '2023-04-18 08:28:59.539181', '2023-04-18 08:29:01.539181', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4919, asdas, asdas,asdas@gmail.com, 10, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4919', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4920', 'asd', 'asd', 'asd@gmail.com', '19', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4920', '10', '2023-04-21 08:28:59.539192', '2023-04-21 08:29:02.539192', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4920, asd, asd,asd@gmail.com, 19, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4920', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4921', 'asdas', 'asdas', 'asdas@gmail.com', '13', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4921', '15', '2023-06-11 08:28:59.539204', '2023-06-11 08:29:02.539204', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4921, asdas, asdas,asdas@gmail.com, 13, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4921', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4922', 'asdas', 'asdas', 'asdas@gmail.com', '5', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4922', '9', '2023-06-26 08:28:59.539215', '2023-06-26 08:29:03.539215', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4922, asdas, asdas,asdas@gmail.com, 5, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4922', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4923', 'asd', 'asd', 'asd@gmail.com', '12', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4923', '9', '2023-05-15 08:28:59.539226', '2023-05-15 08:29:00.539226', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4923, asd, asd,asd@gmail.com, 12, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4923', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4924', 'dsbb', 'dsbb', 'dsbb@gmail.com', '10', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4924', '14', '2023-05-06 08:28:59.539241', '2023-05-06 08:29:03.539241', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4924, dsbb, dsbb,dsbb@gmail.com, 10, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4924', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4925', 'asd', 'asd', 'asd@gmail.com', '17', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4925', '10', '2023-04-30 08:28:59.539253', '2023-04-30 08:29:00.539253', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4925, asd, asd,asd@gmail.com, 17, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4925', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4926', 'dsbb', 'dsbb', 'dsbb@gmail.com', '15', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4926', '13', '2023-06-29 08:28:59.539264', '2023-06-29 08:29:00.539264', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4926, dsbb, dsbb,dsbb@gmail.com, 15, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4926', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4927', 'asd', 'asd', 'asd@gmail.com', '8', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4927', '8', '2023-06-15 08:28:59.539276', '2023-06-15 08:29:00.539276', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4927, asd, asd,asd@gmail.com, 8, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4927', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4928', 'cvcb', 'cvcb', 'cvcb@gmail.com', '8', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4928', '11', '2023-06-24 08:28:59.539287', '2023-06-24 08:29:02.539287', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4928, cvcb, cvcb,cvcb@gmail.com, 8, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4928', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4929', 'asdas', 'asdas', 'asdas@gmail.com', '6', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4929', '14', '2023-06-02 08:28:59.539298', '2023-06-02 08:29:02.539298', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4929, asdas, asdas,asdas@gmail.com, 6, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4929', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4930', 'asd', 'asd', 'asd@gmail.com', '16', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4930', '1', '2023-06-06 08:28:59.539309', '2023-06-06 08:29:03.539309', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4930, asd, asd,asd@gmail.com, 16, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4930', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4931', 'dsbb', 'dsbb', 'dsbb@gmail.com', '4', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4931', '14', '2023-07-05 08:28:59.539325', '2023-07-05 08:29:01.539325', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4931, dsbb, dsbb,dsbb@gmail.com, 4, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4931', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4932', 'dsbb', 'dsbb', 'dsbb@gmail.com', '11', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4932', '2', '2023-07-02 08:28:59.539336', '2023-07-02 08:29:03.539336', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4932, dsbb, dsbb,dsbb@gmail.com, 11, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4932', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4933', 'asd', 'asd', 'asd@gmail.com', '20', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4933', '10', '2023-04-21 08:28:59.539347', '2023-04-21 08:29:01.539347', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4933, asd, asd,asd@gmail.com, 20, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4933', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4934', 'asd', 'asd', 'asd@gmail.com', '6', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4934', '5', '2023-04-23 08:28:59.539359', '2023-04-23 08:29:00.539359', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4934, asd, asd,asd@gmail.com, 6, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4934', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4935', 'asds', 'asds', 'asds@gmail.com', '8', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4935', '14', '2023-06-15 08:28:59.539370', '2023-06-15 08:29:03.539370', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4935, asds, asds,asds@gmail.com, 8, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4935', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4936', 'dsbb', 'dsbb', 'dsbb@gmail.com', '6', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4936', '9', '2023-05-20 08:28:59.539381', '2023-05-20 08:29:02.539381', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4936, dsbb, dsbb,dsbb@gmail.com, 6, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4936', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4937', 'asdas', 'asdas', 'asdas@gmail.com', '1', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4937', '10', '2023-06-10 08:28:59.539392', '2023-06-10 08:29:02.539392', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4937, asdas, asdas,asdas@gmail.com, 1, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4937', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4938', 'asd', 'asd', 'asd@gmail.com', '6', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4938', '15', '2023-04-26 08:28:59.539411', '2023-04-26 08:29:02.539411', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4938, asd, asd,asd@gmail.com, 6, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4938', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4939', 'asdas', 'asdas', 'asdas@gmail.com', '15', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4939', '12', '2023-05-23 08:28:59.539423', '2023-05-23 08:29:03.539423', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4939, asdas, asdas,asdas@gmail.com, 15, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4939', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4940', 'asds', 'asds', 'asds@gmail.com', '16', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4940', '13', '2023-06-25 08:28:59.539434', '2023-06-25 08:29:01.539434', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4940, asds, asds,asds@gmail.com, 16, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4940', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4941', 'asd', 'asd', 'asd@gmail.com', '15', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4941', '5', '2023-06-04 08:28:59.539446', '2023-06-04 08:29:01.539446', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4941, asd, asd,asd@gmail.com, 15, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4941', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4942', 'cvcb', 'cvcb', 'cvcb@gmail.com', '17', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4942', '6', '2023-07-02 08:28:59.539457', '2023-07-02 08:29:03.539457', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4942, cvcb, cvcb,cvcb@gmail.com, 17, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4942', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4943', 'dsbb', 'dsbb', 'dsbb@gmail.com', '10', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4943', '14', '2023-05-17 08:28:59.539471', '2023-05-17 08:29:00.539471', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4943, dsbb, dsbb,dsbb@gmail.com, 10, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4943', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4944', 'dsbb', 'dsbb', 'dsbb@gmail.com', '14', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4944', '5', '2023-05-20 08:28:59.539482', '2023-05-20 08:29:02.539482', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4944, dsbb, dsbb,dsbb@gmail.com, 14, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4944', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4945', 'cvcb', 'cvcb', 'cvcb@gmail.com', '18', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4945', '11', '2023-05-06 08:28:59.539497', '2023-05-06 08:29:02.539497', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4945, cvcb, cvcb,cvcb@gmail.com, 18, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4945', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4946', 'asdas', 'asdas', 'asdas@gmail.com', '5', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4946', '3', '2023-06-04 08:28:59.539509', '2023-06-04 08:29:01.539509', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4946, asdas, asdas,asdas@gmail.com, 5, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4946', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4947', 'asdas', 'asdas', 'asdas@gmail.com', '18', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4947', '3', '2023-05-21 08:28:59.539520', '2023-05-21 08:29:03.539520', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4947, asdas, asdas,asdas@gmail.com, 18, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4947', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4948', 'asd', 'asd', 'asd@gmail.com', '1', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4948', '14', '2023-04-29 08:28:59.539531', '2023-04-29 08:29:01.539531', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4948, asd, asd,asd@gmail.com, 1, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4948', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4949', 'dsbb', 'dsbb', 'dsbb@gmail.com', '12', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4949', '9', '2023-06-24 08:28:59.539543', '2023-06-24 08:29:00.539543', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4949, dsbb, dsbb,dsbb@gmail.com, 12, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4949', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4950', 'asd', 'asd', 'asd@gmail.com', '16', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4950', '13', '2023-05-05 08:28:59.539554', '2023-05-05 08:29:02.539554', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4950, asd, asd,asd@gmail.com, 16, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4950', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4951', 'dsbb', 'dsbb', 'dsbb@gmail.com', '16', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4951', '1', '2023-04-29 08:28:59.539565', '2023-04-29 08:29:03.539565', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4951, dsbb, dsbb,dsbb@gmail.com, 16, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4951', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4952', 'asds', 'asds', 'asds@gmail.com', '18', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4952', '9', '2023-05-22 08:28:59.539581', '2023-05-22 08:29:01.539581', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4952, asds, asds,asds@gmail.com, 18, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4952', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4953', 'asds', 'asds', 'asds@gmail.com', '9', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4953', '15', '2023-04-19 08:28:59.539593', '2023-04-19 08:29:01.539593', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4953, asds, asds,asds@gmail.com, 9, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4953', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4954', 'asds', 'asds', 'asds@gmail.com', '9', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4954', '15', '2023-05-08 08:28:59.539604', '2023-05-08 08:29:01.539604', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4954, asds, asds,asds@gmail.com, 9, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4954', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4955', 'asdas', 'asdas', 'asdas@gmail.com', '18', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4955', '2', '2023-05-15 08:28:59.539615', '2023-05-15 08:29:01.539615', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4955, asdas, asdas,asdas@gmail.com, 18, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4955', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4956', 'asdas', 'asdas', 'asdas@gmail.com', '19', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4956', '6', '2023-06-08 08:28:59.539626', '2023-06-08 08:29:03.539626', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4956, asdas, asdas,asdas@gmail.com, 19, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4956', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4957', 'cvcb', 'cvcb', 'cvcb@gmail.com', '15', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4957', '10', '2023-06-30 08:28:59.539638', '2023-06-30 08:29:00.539638', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4957, cvcb, cvcb,cvcb@gmail.com, 15, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4957', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4958', 'asd', 'asd', 'asd@gmail.com', '7', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4958', '1', '2023-05-11 08:28:59.539649', '2023-05-11 08:29:01.539649', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4958, asd, asd,asd@gmail.com, 7, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4958', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4959', 'asds', 'asds', 'asds@gmail.com', '16', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4959', '8', '2023-07-10 08:28:59.539668', '2023-07-10 08:29:01.539668', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4959, asds, asds,asds@gmail.com, 16, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4959', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4960', 'asd', 'asd', 'asd@gmail.com', '17', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4960', '6', '2023-06-22 08:28:59.539680', '2023-06-22 08:29:02.539680', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4960, asd, asd,asd@gmail.com, 17, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4960', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4961', 'cvcb', 'cvcb', 'cvcb@gmail.com', '12', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4961', '5', '2023-05-31 08:28:59.539691', '2023-05-31 08:29:02.539691', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4961, cvcb, cvcb,cvcb@gmail.com, 12, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4961', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4962', 'asdas', 'asdas', 'asdas@gmail.com', '10', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4962', '8', '2023-06-17 08:28:59.539703', '2023-06-17 08:29:03.539703', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4962, asdas, asdas,asdas@gmail.com, 10, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4962', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4963', 'asd', 'asd', 'asd@gmail.com', '8', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4963', '11', '2023-07-11 08:28:59.539714', '2023-07-11 08:29:03.539714', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4963, asd, asd,asd@gmail.com, 8, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4963', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4964', 'asds', 'asds', 'asds@gmail.com', '9', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4964', '5', '2023-05-24 08:28:59.539726', '2023-05-24 08:29:02.539726', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4964, asds, asds,asds@gmail.com, 9, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4964', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4965', 'asd', 'asd', 'asd@gmail.com', '19', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4965', '13', '2023-06-22 08:28:59.539737', '2023-06-22 08:29:02.539737', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4965, asd, asd,asd@gmail.com, 19, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4965', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4966', 'dsbb', 'dsbb', 'dsbb@gmail.com', '15', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4966', '3', '2023-04-25 08:28:59.539753', '2023-04-25 08:29:03.539753', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4966, dsbb, dsbb,dsbb@gmail.com, 15, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4966', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4967', 'cvcb', 'cvcb', 'cvcb@gmail.com', '18', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4967', '4', '2023-06-07 08:28:59.539765', '2023-06-07 08:29:00.539765', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4967, cvcb, cvcb,cvcb@gmail.com, 18, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4967', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4968', 'asdas', 'asdas', 'asdas@gmail.com', '3', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4968', '8', '2023-07-03 08:28:59.539776', '2023-07-03 08:29:00.539776', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4968, asdas, asdas,asdas@gmail.com, 3, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4968', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4969', 'asdas', 'asdas', 'asdas@gmail.com', '8', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4969', '9', '2023-05-30 08:28:59.539788', '2023-05-30 08:29:03.539788', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4969, asdas, asdas,asdas@gmail.com, 8, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4969', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4970', 'asds', 'asds', 'asds@gmail.com', '8', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4970', '7', '2023-04-28 08:28:59.539799', '2023-04-28 08:29:01.539799', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4970, asds, asds,asds@gmail.com, 8, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4970', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4971', 'asd', 'asd', 'asd@gmail.com', '9', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4971', '6', '2023-04-25 08:28:59.539810', '2023-04-25 08:29:01.539810', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4971, asd, asd,asd@gmail.com, 9, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4971', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4972', 'asdas', 'asdas', 'asdas@gmail.com', '20', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4972', '13', '2023-06-04 08:28:59.539822', '2023-06-04 08:29:01.539822', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4972, asdas, asdas,asdas@gmail.com, 20, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4972', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4973', 'asdas', 'asdas', 'asdas@gmail.com', '12', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4973', '8', '2023-05-03 08:28:59.539836', '2023-05-03 08:29:03.539836', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4973, asdas, asdas,asdas@gmail.com, 12, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4973', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4974', 'asd', 'asd', 'asd@gmail.com', '11', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4974', '11', '2023-04-20 08:28:59.539848', '2023-04-20 08:29:00.539848', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4974, asd, asd,asd@gmail.com, 11, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4974', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4975', 'asdas', 'asdas', 'asdas@gmail.com', '7', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4975', '1', '2023-04-12 08:28:59.539859', '2023-04-12 08:29:00.539859', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4975, asdas, asdas,asdas@gmail.com, 7, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4975', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4976', 'asds', 'asds', 'asds@gmail.com', '8', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4976', '13', '2023-07-07 08:28:59.539871', '2023-07-07 08:29:01.539871', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4976, asds, asds,asds@gmail.com, 8, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4976', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4977', 'asd', 'asd', 'asd@gmail.com', '6', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4977', '14', '2023-05-25 08:28:59.539882', '2023-05-25 08:29:00.539882', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4977, asd, asd,asd@gmail.com, 6, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4977', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4978', 'dsbb', 'dsbb', 'dsbb@gmail.com', '16', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4978', '5', '2023-05-13 08:28:59.539893', '2023-05-13 08:29:02.539893', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4978, dsbb, dsbb,dsbb@gmail.com, 16, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4978', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4979', 'asdas', 'asdas', 'asdas@gmail.com', '7', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4979', '7', '2023-07-05 08:28:59.539904', '2023-07-05 08:29:03.539904', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4979, asdas, asdas,asdas@gmail.com, 7, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4979', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4980', 'dsbb', 'dsbb', 'dsbb@gmail.com', '2', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4980', '13', '2023-04-16 08:28:59.539921', '2023-04-16 08:29:00.539921', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4980, dsbb, dsbb,dsbb@gmail.com, 2, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4980', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4981', 'asdas', 'asdas', 'asdas@gmail.com', '7', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4981', '14', '2023-06-21 08:28:59.539933', '2023-06-21 08:29:02.539933', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4981, asdas, asdas,asdas@gmail.com, 7, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4981', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4982', 'asdas', 'asdas', 'asdas@gmail.com', '14', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4982', '15', '2023-06-07 08:28:59.539944', '2023-06-07 08:29:03.539944', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4982, asdas, asdas,asdas@gmail.com, 14, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4982', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4983', 'asdas', 'asdas', 'asdas@gmail.com', '13', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4983', '1', '2023-07-03 08:28:59.539955', '2023-07-03 08:29:01.539955', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4983, asdas, asdas,asdas@gmail.com, 13, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4983', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4984', 'dsbb', 'dsbb', 'dsbb@gmail.com', '11', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4984', '3', '2023-04-19 08:28:59.539966', '2023-04-19 08:29:03.539966', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4984, dsbb, dsbb,dsbb@gmail.com, 11, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4984', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4985', 'asdas', 'asdas', 'asdas@gmail.com', '2', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4985', '7', '2023-06-02 08:28:59.539977', '2023-06-02 08:29:01.539977', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4985, asdas, asdas,asdas@gmail.com, 2, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4985', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4986', 'asdas', 'asdas', 'asdas@gmail.com', '18', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4986', '12', '2023-06-04 08:28:59.539988', '2023-06-04 08:29:02.539988', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4986, asdas, asdas,asdas@gmail.com, 18, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4986', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4987', 'cvcb', 'cvcb', 'cvcb@gmail.com', '7', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4987', '10', '2023-06-04 08:28:59.540005', '2023-06-04 08:29:03.540005', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4987, cvcb, cvcb,cvcb@gmail.com, 7, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4987', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4988', 'cvcb', 'cvcb', 'cvcb@gmail.com', '19', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4988', '1', '2023-05-03 08:28:59.540017', '2023-05-03 08:29:03.540017', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4988, cvcb, cvcb,cvcb@gmail.com, 19, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4988', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4989', 'asds', 'asds', 'asds@gmail.com', '14', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4989', '14', '2023-05-24 08:28:59.540028', '2023-05-24 08:29:03.540028', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4989, asds, asds,asds@gmail.com, 14, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4989', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4990', 'asds', 'asds', 'asds@gmail.com', '20', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4990', '2', '2023-04-22 08:28:59.540039', '2023-04-22 08:29:02.540039', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4990, asds, asds,asds@gmail.com, 20, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4990', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4991', 'asds', 'asds', 'asds@gmail.com', '16', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4991', '13', '2023-07-03 08:28:59.540050', '2023-07-03 08:29:02.540050', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4991, asds, asds,asds@gmail.com, 16, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4991', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4992', 'asds', 'asds', 'asds@gmail.com', '9', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4992', '12', '2023-04-20 08:28:59.540062', '2023-04-20 08:29:03.540062', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4992, asds, asds,asds@gmail.com, 9, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4992', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4993', 'dsbb', 'dsbb', 'dsbb@gmail.com', '13', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4993', '6', '2023-05-01 08:28:59.540073', '2023-05-01 08:29:02.540073', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4993, dsbb, dsbb,dsbb@gmail.com, 13, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4993', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4994', 'cvcb', 'cvcb', 'cvcb@gmail.com', '17', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4994', '14', '2023-05-07 08:28:59.540089', '2023-05-07 08:29:01.540089', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4994, cvcb, cvcb,cvcb@gmail.com, 17, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4994', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4995', 'dsbb', 'dsbb', 'dsbb@gmail.com', '7', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4995', '15', '2023-05-21 08:28:59.540101', '2023-05-21 08:29:01.540101', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4995, dsbb, dsbb,dsbb@gmail.com, 7, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4995', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4996', 'asds', 'asds', 'asds@gmail.com', '16', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4996', '12', '2023-05-03 08:28:59.540112', '2023-05-03 08:29:01.540112', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4996, asds, asds,asds@gmail.com, 16, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4996', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4997', 'asdas', 'asdas', 'asdas@gmail.com', '8', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4997', '12', '2023-06-11 08:28:59.540124', '2023-06-11 08:29:00.540124', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4997, asdas, asdas,asdas@gmail.com, 8, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4997', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4998', 'asdas', 'asdas', 'asdas@gmail.com', '14', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4998', '7', '2023-04-21 08:28:59.540135', '2023-04-21 08:29:02.540135', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4998, asdas, asdas,asdas@gmail.com, 14, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4998', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '4999', 'asds', 'asds', 'asds@gmail.com', '11', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4999', '15', '2023-06-18 08:28:59.540146', '2023-06-18 08:29:00.540146', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 4999, asds, asds,asds@gmail.com, 11, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4999', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5000', 'asdas', 'asdas', 'asdas@gmail.com', '10', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5000', '15', '2023-05-19 08:28:59.540157', '2023-05-19 08:29:00.540157', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5000, asdas, asdas,asdas@gmail.com, 10, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5000', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5001', 'dsbb', 'dsbb', 'dsbb@gmail.com', '5', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5001', '1', '2023-04-15 08:28:59.540172', '2023-04-15 08:29:02.540172', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5001, dsbb, dsbb,dsbb@gmail.com, 5, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5001', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5002', 'asdas', 'asdas', 'asdas@gmail.com', '14', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5002', '15', '2023-05-08 08:28:59.540184', '2023-05-08 08:29:01.540184', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5002, asdas, asdas,asdas@gmail.com, 14, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5002', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5003', 'dsbb', 'dsbb', 'dsbb@gmail.com', '8', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5003', '4', '2023-05-05 08:28:59.540195', '2023-05-05 08:29:03.540195', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5003, dsbb, dsbb,dsbb@gmail.com, 8, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5003', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5004', 'asdas', 'asdas', 'asdas@gmail.com', '13', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5004', '6', '2023-06-11 08:28:59.540206', '2023-06-11 08:29:03.540206', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5004, asdas, asdas,asdas@gmail.com, 13, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5004', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5005', 'asds', 'asds', 'asds@gmail.com', '17', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5005', '12', '2023-07-11 08:28:59.540218', '2023-07-11 08:29:01.540218', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5005, asds, asds,asds@gmail.com, 17, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5005', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5006', 'asdas', 'asdas', 'asdas@gmail.com', '1', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5006', '2', '2023-05-21 08:28:59.540229', '2023-05-21 08:29:01.540229', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5006, asdas, asdas,asdas@gmail.com, 1, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5006', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5007', 'dsbb', 'dsbb', 'dsbb@gmail.com', '17', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5007', '3', '2023-04-27 08:28:59.540240', '2023-04-27 08:29:02.540240', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5007, dsbb, dsbb,dsbb@gmail.com, 17, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5007', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5008', 'asds', 'asds', 'asds@gmail.com', '5', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5008', '4', '2023-07-10 08:28:59.540262', '2023-07-10 08:29:02.540262', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5008, asds, asds,asds@gmail.com, 5, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5008', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5009', 'asdas', 'asdas', 'asdas@gmail.com', '8', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5009', '12', '2023-05-07 08:28:59.540273', '2023-05-07 08:29:01.540273', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5009, asdas, asdas,asdas@gmail.com, 8, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5009', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5010', 'cvcb', 'cvcb', 'cvcb@gmail.com', '4', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5010', '3', '2023-06-20 08:28:59.540285', '2023-06-20 08:29:03.540285', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5010, cvcb, cvcb,cvcb@gmail.com, 4, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5010', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5011', 'cvcb', 'cvcb', 'cvcb@gmail.com', '12', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5011', '1', '2023-04-18 08:28:59.540296', '2023-04-18 08:29:02.540296', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5011, cvcb, cvcb,cvcb@gmail.com, 12, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5011', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5012', 'asdas', 'asdas', 'asdas@gmail.com', '8', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5012', '6', '2023-05-29 08:28:59.540307', '2023-05-29 08:29:01.540307', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5012, asdas, asdas,asdas@gmail.com, 8, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5012', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5013', 'cvcb', 'cvcb', 'cvcb@gmail.com', '9', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5013', '15', '2023-05-19 08:28:59.540319', '2023-05-19 08:29:00.540319', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5013, cvcb, cvcb,cvcb@gmail.com, 9, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5013', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5014', 'dsbb', 'dsbb', 'dsbb@gmail.com', '18', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5014', '10', '2023-06-11 08:28:59.540330', '2023-06-11 08:29:00.540330', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5014, dsbb, dsbb,dsbb@gmail.com, 18, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5014', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5015', 'cvcb', 'cvcb', 'cvcb@gmail.com', '13', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5015', '11', '2023-06-08 08:28:59.540349', '2023-06-08 08:29:03.540349', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5015, cvcb, cvcb,cvcb@gmail.com, 13, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5015', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5016', 'asd', 'asd', 'asd@gmail.com', '17', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5016', '4', '2023-04-19 08:28:59.540361', '2023-04-19 08:29:02.540361', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5016, asd, asd,asd@gmail.com, 17, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5016', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5017', 'cvcb', 'cvcb', 'cvcb@gmail.com', '2', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5017', '5', '2023-06-30 08:28:59.540372', '2023-06-30 08:29:02.540372', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5017, cvcb, cvcb,cvcb@gmail.com, 2, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5017', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5018', 'asd', 'asd', 'asd@gmail.com', '13', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5018', '5', '2023-04-15 08:28:59.540383', '2023-04-15 08:29:01.540383', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5018, asd, asd,asd@gmail.com, 13, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5018', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5019', 'cvcb', 'cvcb', 'cvcb@gmail.com', '10', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5019', '11', '2023-06-29 08:28:59.540395', '2023-06-29 08:29:01.540395', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5019, cvcb, cvcb,cvcb@gmail.com, 10, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5019', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5020', 'cvcb', 'cvcb', 'cvcb@gmail.com', '9', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5020', '5', '2023-05-14 08:28:59.540406', '2023-05-14 08:29:03.540406', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5020, cvcb, cvcb,cvcb@gmail.com, 9, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5020', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5021', 'asds', 'asds', 'asds@gmail.com', '14', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5021', '9', '2023-05-02 08:28:59.540417', '2023-05-02 08:29:02.540417', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5021, asds, asds,asds@gmail.com, 14, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5021', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5022', 'asd', 'asd', 'asd@gmail.com', '10', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5022', '14', '2023-05-29 08:28:59.540436', '2023-05-29 08:29:01.540436', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5022, asd, asd,asd@gmail.com, 10, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5022', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5023', 'asd', 'asd', 'asd@gmail.com', '18', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5023', '15', '2023-04-19 08:28:59.540448', '2023-04-19 08:29:00.540448', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5023, asd, asd,asd@gmail.com, 18, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5023', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5024', 'asds', 'asds', 'asds@gmail.com', '4', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5024', '2', '2023-04-18 08:28:59.540459', '2023-04-18 08:29:00.540459', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5024, asds, asds,asds@gmail.com, 4, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5024', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5025', 'dsbb', 'dsbb', 'dsbb@gmail.com', '17', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5025', '14', '2023-05-28 08:28:59.540470', '2023-05-28 08:29:03.540470', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5025, dsbb, dsbb,dsbb@gmail.com, 17, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5025', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5026', 'dsbb', 'dsbb', 'dsbb@gmail.com', '4', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5026', '12', '2023-05-15 08:28:59.540481', '2023-05-15 08:29:03.540481', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5026, dsbb, dsbb,dsbb@gmail.com, 4, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5026', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5027', 'asdas', 'asdas', 'asdas@gmail.com', '7', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5027', '5', '2023-06-02 08:28:59.540493', '2023-06-02 08:29:02.540493', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5027, asdas, asdas,asdas@gmail.com, 7, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5027', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5028', 'dsbb', 'dsbb', 'dsbb@gmail.com', '6', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5028', '1', '2023-06-28 08:28:59.540504', '2023-06-28 08:29:00.540504', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5028, dsbb, dsbb,dsbb@gmail.com, 6, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5028', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5029', 'cvcb', 'cvcb', 'cvcb@gmail.com', '19', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5029', '11', '2023-04-25 08:28:59.540521', '2023-04-25 08:29:03.540521', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5029, cvcb, cvcb,cvcb@gmail.com, 19, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5029', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5030', 'dsbb', 'dsbb', 'dsbb@gmail.com', '9', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5030', '3', '2023-05-05 08:28:59.540533', '2023-05-05 08:29:01.540533', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5030, dsbb, dsbb,dsbb@gmail.com, 9, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5030', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5031', 'dsbb', 'dsbb', 'dsbb@gmail.com', '17', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5031', '4', '2023-06-25 08:28:59.540544', '2023-06-25 08:29:00.540544', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5031, dsbb, dsbb,dsbb@gmail.com, 17, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5031', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5032', 'asd', 'asd', 'asd@gmail.com', '9', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5032', '7', '2023-04-22 08:28:59.540555', '2023-04-22 08:29:00.540555', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5032, asd, asd,asd@gmail.com, 9, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5032', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5033', 'asds', 'asds', 'asds@gmail.com', '15', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5033', '8', '2023-05-05 08:28:59.540567', '2023-05-05 08:29:02.540567', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5033, asds, asds,asds@gmail.com, 15, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5033', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5034', 'dsbb', 'dsbb', 'dsbb@gmail.com', '9', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5034', '12', '2023-06-11 08:28:59.540578', '2023-06-11 08:29:02.540578', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5034, dsbb, dsbb,dsbb@gmail.com, 9, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5034', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5035', 'cvcb', 'cvcb', 'cvcb@gmail.com', '20', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5035', '10', '2023-06-05 08:28:59.540589', '2023-06-05 08:29:02.540589', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5035, cvcb, cvcb,cvcb@gmail.com, 20, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5035', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5036', 'asds', 'asds', 'asds@gmail.com', '4', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5036', '15', '2023-06-26 08:28:59.540631', '2023-06-26 08:29:03.540631', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5036, asds, asds,asds@gmail.com, 4, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5036', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5037', 'cvcb', 'cvcb', 'cvcb@gmail.com', '8', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5037', '1', '2023-05-23 08:28:59.540643', '2023-05-23 08:29:01.540643', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5037, cvcb, cvcb,cvcb@gmail.com, 8, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5037', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5038', 'cvcb', 'cvcb', 'cvcb@gmail.com', '17', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5038', '12', '2023-05-03 08:28:59.540654', '2023-05-03 08:29:03.540654', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5038, cvcb, cvcb,cvcb@gmail.com, 17, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5038', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5039', 'asds', 'asds', 'asds@gmail.com', '14', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5039', '12', '2023-04-23 08:28:59.540666', '2023-04-23 08:29:01.540666', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5039, asds, asds,asds@gmail.com, 14, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5039', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5040', 'asdas', 'asdas', 'asdas@gmail.com', '1', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5040', '1', '2023-06-13 08:28:59.540677', '2023-06-13 08:29:01.540677', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5040, asdas, asdas,asdas@gmail.com, 1, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5040', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5041', 'cvcb', 'cvcb', 'cvcb@gmail.com', '7', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5041', '4', '2023-05-27 08:28:59.540689', '2023-05-27 08:29:03.540689', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5041, cvcb, cvcb,cvcb@gmail.com, 7, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5041', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5042', 'asds', 'asds', 'asds@gmail.com', '12', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5042', '10', '2023-06-03 08:28:59.540700', '2023-06-03 08:29:02.540700', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5042, asds, asds,asds@gmail.com, 12, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5042', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5043', 'asdas', 'asdas', 'asdas@gmail.com', '13', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5043', '3', '2023-07-10 08:28:59.540717', '2023-07-10 08:29:00.540717', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5043, asdas, asdas,asdas@gmail.com, 13, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5043', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5044', 'asdas', 'asdas', 'asdas@gmail.com', '3', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5044', '6', '2023-06-23 08:28:59.540729', '2023-06-23 08:29:00.540729', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5044, asdas, asdas,asdas@gmail.com, 3, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5044', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5045', 'asdas', 'asdas', 'asdas@gmail.com', '13', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5045', '10', '2023-04-22 08:28:59.540741', '2023-04-22 08:29:01.540741', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5045, asdas, asdas,asdas@gmail.com, 13, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5045', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5046', 'dsbb', 'dsbb', 'dsbb@gmail.com', '13', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5046', '9', '2023-06-24 08:28:59.540752', '2023-06-24 08:29:02.540752', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5046, dsbb, dsbb,dsbb@gmail.com, 13, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5046', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5047', 'asds', 'asds', 'asds@gmail.com', '1', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5047', '15', '2023-06-12 08:28:59.540763', '2023-06-12 08:29:00.540763', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5047, asds, asds,asds@gmail.com, 1, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5047', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5048', 'asds', 'asds', 'asds@gmail.com', '3', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5048', '2', '2023-04-28 08:28:59.540775', '2023-04-28 08:29:02.540775', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5048, asds, asds,asds@gmail.com, 3, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5048', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5049', 'dsbb', 'dsbb', 'dsbb@gmail.com', '1', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5049', '12', '2023-07-04 08:28:59.540786', '2023-07-04 08:29:02.540786', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5049, dsbb, dsbb,dsbb@gmail.com, 1, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5049', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5050', 'cvcb', 'cvcb', 'cvcb@gmail.com', '20', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5050', '8', '2023-07-01 08:28:59.540802', '2023-07-01 08:29:00.540802', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5050, cvcb, cvcb,cvcb@gmail.com, 20, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5050', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5051', 'asd', 'asd', 'asd@gmail.com', '17', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5051', '13', '2023-04-14 08:28:59.540826', '2023-04-14 08:29:03.540826', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5051, asd, asd,asd@gmail.com, 17, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5051', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5052', 'asdas', 'asdas', 'asdas@gmail.com', '6', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5052', '5', '2023-06-14 08:28:59.540838', '2023-06-14 08:29:03.540838', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5052, asdas, asdas,asdas@gmail.com, 6, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5052', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5053', 'asds', 'asds', 'asds@gmail.com', '4', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5053', '5', '2023-04-20 08:28:59.540849', '2023-04-20 08:29:01.540849', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5053, asds, asds,asds@gmail.com, 4, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5053', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5054', 'cvcb', 'cvcb', 'cvcb@gmail.com', '2', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5054', '9', '2023-06-10 08:28:59.540875', '2023-06-10 08:29:00.540875', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5054, cvcb, cvcb,cvcb@gmail.com, 2, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5054', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5055', 'cvcb', 'cvcb', 'cvcb@gmail.com', '11', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5055', '3', '2023-07-07 08:28:59.540887', '2023-07-07 08:29:02.540887', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5055, cvcb, cvcb,cvcb@gmail.com, 11, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5055', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5056', 'cvcb', 'cvcb', 'cvcb@gmail.com', '12', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5056', '13', '2023-07-07 08:28:59.540898', '2023-07-07 08:29:03.540898', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5056, cvcb, cvcb,cvcb@gmail.com, 12, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5056', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5057', 'asd', 'asd', 'asd@gmail.com', '9', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5057', '7', '2023-06-16 08:28:59.540913', '2023-06-16 08:29:03.540913', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5057, asd, asd,asd@gmail.com, 9, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5057', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5058', 'asd', 'asd', 'asd@gmail.com', '7', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5058', '11', '2023-06-02 08:28:59.540924', '2023-06-02 08:29:00.540924', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5058, asd, asd,asd@gmail.com, 7, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5058', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5059', 'cvcb', 'cvcb', 'cvcb@gmail.com', '19', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5059', '8', '2023-04-26 08:28:59.540936', '2023-04-26 08:29:00.540936', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5059, cvcb, cvcb,cvcb@gmail.com, 19, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5059', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5060', 'asds', 'asds', 'asds@gmail.com', '12', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5060', '9', '2023-06-12 08:28:59.540947', '2023-06-12 08:29:03.540947', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5060, asds, asds,asds@gmail.com, 12, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5060', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5061', 'cvcb', 'cvcb', 'cvcb@gmail.com', '9', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5061', '11', '2023-06-27 08:28:59.540958', '2023-06-27 08:29:01.540958', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5061, cvcb, cvcb,cvcb@gmail.com, 9, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5061', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5062', 'asds', 'asds', 'asds@gmail.com', '19', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5062', '3', '2023-07-05 08:28:59.540969', '2023-07-05 08:29:01.540969', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5062, asds, asds,asds@gmail.com, 19, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5062', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5063', 'asds', 'asds', 'asds@gmail.com', '8', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5063', '1', '2023-05-29 08:28:59.540980', '2023-05-29 08:29:03.540980', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5063, asds, asds,asds@gmail.com, 8, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5063', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5064', 'cvcb', 'cvcb', 'cvcb@gmail.com', '8', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5064', '11', '2023-06-27 08:28:59.541001', '2023-06-27 08:29:00.541001', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5064, cvcb, cvcb,cvcb@gmail.com, 8, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5064', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5065', 'asdas', 'asdas', 'asdas@gmail.com', '14', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5065', '9', '2023-06-24 08:28:59.541013', '2023-06-24 08:29:03.541013', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5065, asdas, asdas,asdas@gmail.com, 14, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5065', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5066', 'cvcb', 'cvcb', 'cvcb@gmail.com', '20', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5066', '15', '2023-06-11 08:28:59.541024', '2023-06-11 08:29:00.541024', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5066, cvcb, cvcb,cvcb@gmail.com, 20, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5066', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5067', 'cvcb', 'cvcb', 'cvcb@gmail.com', '7', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5067', '5', '2023-06-08 08:28:59.541036', '2023-06-08 08:29:00.541036', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5067, cvcb, cvcb,cvcb@gmail.com, 7, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5067', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5068', 'dsbb', 'dsbb', 'dsbb@gmail.com', '11', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5068', '2', '2023-06-14 08:28:59.541047', '2023-06-14 08:29:01.541047', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5068, dsbb, dsbb,dsbb@gmail.com, 11, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5068', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5069', 'dsbb', 'dsbb', 'dsbb@gmail.com', '15', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5069', '13', '2023-06-15 08:28:59.541058', '2023-06-15 08:29:02.541058', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5069, dsbb, dsbb,dsbb@gmail.com, 15, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5069', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5070', 'asd', 'asd', 'asd@gmail.com', '2', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5070', '14', '2023-05-11 08:28:59.541070', '2023-05-11 08:29:03.541070', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5070, asd, asd,asd@gmail.com, 2, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5070', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5071', 'dsbb', 'dsbb', 'dsbb@gmail.com', '7', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5071', '12', '2023-05-07 08:28:59.541091', '2023-05-07 08:29:02.541091', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5071, dsbb, dsbb,dsbb@gmail.com, 7, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5071', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5072', 'asds', 'asds', 'asds@gmail.com', '9', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5072', '9', '2023-04-28 08:28:59.541103', '2023-04-28 08:29:00.541103', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5072, asds, asds,asds@gmail.com, 9, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5072', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5073', 'asd', 'asd', 'asd@gmail.com', '4', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5073', '15', '2023-06-04 08:28:59.541114', '2023-06-04 08:29:03.541114', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5073, asd, asd,asd@gmail.com, 4, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5073', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5074', 'dsbb', 'dsbb', 'dsbb@gmail.com', '14', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5074', '11', '2023-06-08 08:28:59.541126', '2023-06-08 08:29:03.541126', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5074, dsbb, dsbb,dsbb@gmail.com, 14, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5074', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5075', 'asd', 'asd', 'asd@gmail.com', '14', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5075', '14', '2023-07-03 08:28:59.541137', '2023-07-03 08:29:00.541137', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5075, asd, asd,asd@gmail.com, 14, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5075', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5076', 'cvcb', 'cvcb', 'cvcb@gmail.com', '6', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5076', '3', '2023-06-11 08:28:59.541149', '2023-06-11 08:29:01.541149', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5076, cvcb, cvcb,cvcb@gmail.com, 6, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5076', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5077', 'dsbb', 'dsbb', 'dsbb@gmail.com', '3', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5077', '2', '2023-05-24 08:28:59.541160', '2023-05-24 08:29:03.541160', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5077, dsbb, dsbb,dsbb@gmail.com, 3, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5077', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5078', 'asds', 'asds', 'asds@gmail.com', '9', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5078', '12', '2023-04-19 08:28:59.541176', '2023-04-19 08:29:03.541176', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5078, asds, asds,asds@gmail.com, 9, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5078', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5079', 'asdas', 'asdas', 'asdas@gmail.com', '2', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5079', '1', '2023-05-06 08:28:59.541201', '2023-05-06 08:29:03.541201', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5079, asdas, asdas,asdas@gmail.com, 2, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5079', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5080', 'dsbb', 'dsbb', 'dsbb@gmail.com', '1', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5080', '9', '2023-04-17 08:28:59.541212', '2023-04-17 08:29:00.541212', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5080, dsbb, dsbb,dsbb@gmail.com, 1, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5080', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5081', 'asdas', 'asdas', 'asdas@gmail.com', '3', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5081', '1', '2023-06-05 08:28:59.541224', '2023-06-05 08:29:01.541224', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5081, asdas, asdas,asdas@gmail.com, 3, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5081', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5082', 'dsbb', 'dsbb', 'dsbb@gmail.com', '17', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5082', '12', '2023-05-19 08:28:59.541235', '2023-05-19 08:29:03.541235', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5082, dsbb, dsbb,dsbb@gmail.com, 17, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5082', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5083', 'dsbb', 'dsbb', 'dsbb@gmail.com', '5', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5083', '12', '2023-04-24 08:28:59.541246', '2023-04-24 08:29:03.541246', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5083, dsbb, dsbb,dsbb@gmail.com, 5, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5083', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5084', 'asdas', 'asdas', 'asdas@gmail.com', '20', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5084', '5', '2023-06-21 08:28:59.541257', '2023-06-21 08:29:02.541257', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5084, asdas, asdas,asdas@gmail.com, 20, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5084', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5085', 'asd', 'asd', 'asd@gmail.com', '8', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5085', '13', '2023-04-23 08:28:59.541272', '2023-04-23 08:29:02.541272', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5085, asd, asd,asd@gmail.com, 8, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5085', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5086', 'asd', 'asd', 'asd@gmail.com', '9', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5086', '3', '2023-06-21 08:28:59.541284', '2023-06-21 08:29:02.541284', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5086, asd, asd,asd@gmail.com, 9, asd)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5086', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5087', 'asdas', 'asdas', 'asdas@gmail.com', '19', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5087', '15', '2023-05-28 08:28:59.541295', '2023-05-28 08:29:03.541295', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5087, asdas, asdas,asdas@gmail.com, 19, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5087', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5088', 'asds', 'asds', 'asds@gmail.com', '2', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5088', '14', '2023-06-06 08:28:59.541306', '2023-06-06 08:29:03.541306', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5088, asds, asds,asds@gmail.com, 2, asds)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5088', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5089', 'cvcb', 'cvcb', 'cvcb@gmail.com', '6', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5089', '11', '2023-05-22 08:28:59.541317', '2023-05-22 08:29:01.541317', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5089, cvcb, cvcb,cvcb@gmail.com, 6, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5089', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5090', 'cvcb', 'cvcb', 'cvcb@gmail.com', '7', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5090', '12', '2023-05-16 08:28:59.541329', '2023-05-16 08:29:03.541329', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5090, cvcb, cvcb,cvcb@gmail.com, 7, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5090', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5091', 'dsbb', 'dsbb', 'dsbb@gmail.com', '13', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5091', '13', '2023-06-15 08:28:59.541340', '2023-06-15 08:29:02.541340', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5091, dsbb, dsbb,dsbb@gmail.com, 13, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5091', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5092', 'dsbb', 'dsbb', 'dsbb@gmail.com', '1', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5092', '10', '2023-06-07 08:28:59.541356', '2023-06-07 08:29:00.541356', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5092, dsbb, dsbb,dsbb@gmail.com, 1, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5092', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5093', 'dsbb', 'dsbb', 'dsbb@gmail.com', '14', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5093', '13', '2023-06-21 08:28:59.541367', '2023-06-21 08:29:00.541367', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5093, dsbb, dsbb,dsbb@gmail.com, 14, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5093', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5094', 'dsbb', 'dsbb', 'dsbb@gmail.com', '15', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5094', '2', '2023-04-24 08:28:59.541379', '2023-04-24 08:29:03.541379', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5094, dsbb, dsbb,dsbb@gmail.com, 15, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5094', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5095', 'asdas', 'asdas', 'asdas@gmail.com', '8', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5095', '1', '2023-05-10 08:28:59.541390', '2023-05-10 08:29:00.541390', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5095, asdas, asdas,asdas@gmail.com, 8, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5095', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5096', 'cvcb', 'cvcb', 'cvcb@gmail.com', '17', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5096', '13', '2023-06-07 08:28:59.541402', '2023-06-07 08:29:01.541402', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5096, cvcb, cvcb,cvcb@gmail.com, 17, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5096', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5097', 'asdas', 'asdas', 'asdas@gmail.com', '3', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5097', '10', '2023-05-30 08:28:59.541413', '2023-05-30 08:29:00.541413', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5097, asdas, asdas,asdas@gmail.com, 3, asdas)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5097', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5098', 'dsbb', 'dsbb', 'dsbb@gmail.com', '10', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5098', '15', '2023-05-08 08:28:59.541424', '2023-05-08 08:29:02.541424', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5098, dsbb, dsbb,dsbb@gmail.com, 10, dsbb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5098', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5099', 'cvcb', 'cvcb', 'cvcb@gmail.com', '8', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5099', '11', '2023-06-12 08:28:59.541439', '2023-06-12 08:29:01.541439', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5099, cvcb, cvcb,cvcb@gmail.com, 8, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5099', '1');
+INSERT INTO 'Customers' ('customer_id', 'first_name', 'last_name', 'email', 'phone_number', 'address') 
+ VALUES ( '5100', 'cvcb', 'cvcb', 'cvcb@gmail.com', '8', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5100', '10', '2023-05-21 08:28:59.541450', '2023-05-21 08:29:00.541450', 'False', 'None', 'INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, adress) 
+ VALUES ( 5100, cvcb, cvcb,cvcb@gmail.com, 8, cvcb)', '1', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '5');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '6');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5100', '1');

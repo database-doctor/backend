@@ -41345,3 +41345,8503 @@ INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
     VALUES ('4600', '4');
 INSERT INTO "QueryTableAccess" ("queryId", "tableId")
     VALUES ('4600', '3');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4601', 'asd', 'asd', '2023-04-12 08:32:38.494536', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4601', '9', '2023-05-08 08:32:38.494536', '2023-05-08 08:32:41.494536', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4601, asd, asd, 2023-04-12 08:32:38.494536, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4601', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4601', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4602', 'asdas', 'asdas', '2023-04-12 08:32:38.494565', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4602', '6', '2023-05-27 08:32:38.494565', '2023-05-27 08:32:41.494565', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4602, asdas, asdas, 2023-04-12 08:32:38.494565, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4602', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4602', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4603', 'asdas', 'asdas', '2023-04-12 08:32:38.494581', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4603', '13', '2023-07-01 08:32:38.494581', '2023-07-01 08:32:39.494581', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4603, asdas, asdas, 2023-04-12 08:32:38.494581, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4603', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4603', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4604', 'dsbb', 'dsbb', '2023-04-12 08:32:38.494595', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4604', '5', '2023-05-27 08:32:38.494595', '2023-05-27 08:32:41.494595', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4604, dsbb, dsbb, 2023-04-12 08:32:38.494595, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4604', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4604', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4605', 'asds', 'asds', '2023-04-12 08:32:38.494608', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4605', '3', '2023-05-15 08:32:38.494608', '2023-05-15 08:32:42.494608', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4605, asds, asds, 2023-04-12 08:32:38.494608, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4605', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4605', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4606', 'asdas', 'asdas', '2023-04-12 08:32:38.494621', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4606', '2', '2023-07-04 08:32:38.494621', '2023-07-04 08:32:40.494621', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4606, asdas, asdas, 2023-04-12 08:32:38.494621, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4606', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4606', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4607', 'dsbb', 'dsbb', '2023-04-12 08:32:38.494633', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4607', '11', '2023-05-20 08:32:38.494633', '2023-05-20 08:32:42.494633', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4607, dsbb, dsbb, 2023-04-12 08:32:38.494633, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4607', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4607', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4608', 'asd', 'asd', '2023-04-12 08:32:38.494645', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4608', '4', '2023-07-11 08:32:38.494645', '2023-07-11 08:32:40.494645', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4608, asd, asd, 2023-04-12 08:32:38.494645, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4608', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4608', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4609', 'asd', 'asd', '2023-04-12 08:32:38.494684', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4609', '5', '2023-06-14 08:32:38.494684', '2023-06-14 08:32:39.494684', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4609, asd, asd, 2023-04-12 08:32:38.494684, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4609', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4609', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4610', 'asdas', 'asdas', '2023-04-12 08:32:38.494697', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4610', '6', '2023-06-24 08:32:38.494697', '2023-06-24 08:32:41.494697', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4610, asdas, asdas, 2023-04-12 08:32:38.494697, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4610', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4610', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4611', 'cvcb', 'cvcb', '2023-04-12 08:32:38.494709', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4611', '11', '2023-04-15 08:32:38.494709', '2023-04-15 08:32:39.494709', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4611, cvcb, cvcb, 2023-04-12 08:32:38.494709, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4611', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4611', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4612', 'asds', 'asds', '2023-04-12 08:32:38.494722', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4612', '15', '2023-06-30 08:32:38.494722', '2023-06-30 08:32:39.494722', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4612, asds, asds, 2023-04-12 08:32:38.494722, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4612', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4612', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4613', 'dsbb', 'dsbb', '2023-04-12 08:32:38.494733', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4613', '14', '2023-07-01 08:32:38.494733', '2023-07-01 08:32:42.494733', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4613, dsbb, dsbb, 2023-04-12 08:32:38.494733, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4613', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4613', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4614', 'asdas', 'asdas', '2023-04-12 08:32:38.494745', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4614', '6', '2023-05-29 08:32:38.494745', '2023-05-29 08:32:40.494745', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4614, asdas, asdas, 2023-04-12 08:32:38.494745, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4614', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4614', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4615', 'asd', 'asd', '2023-04-12 08:32:38.494757', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4615', '11', '2023-05-26 08:32:38.494757', '2023-05-26 08:32:41.494757', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4615, asd, asd, 2023-04-12 08:32:38.494757, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4615', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4615', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4616', 'cvcb', 'cvcb', '2023-04-12 08:32:38.494769', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4616', '8', '2023-06-04 08:32:38.494769', '2023-06-04 08:32:41.494769', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4616, cvcb, cvcb, 2023-04-12 08:32:38.494769, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4616', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4616', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4617', 'asds', 'asds', '2023-04-12 08:32:38.494791', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4617', '1', '2023-05-15 08:32:38.494791', '2023-05-15 08:32:42.494791', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4617, asds, asds, 2023-04-12 08:32:38.494791, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4617', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4617', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4618', 'asds', 'asds', '2023-04-12 08:32:38.494804', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4618', '14', '2023-06-15 08:32:38.494804', '2023-06-15 08:32:41.494804', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4618, asds, asds, 2023-04-12 08:32:38.494804, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4618', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4618', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4619', 'asdas', 'asdas', '2023-04-12 08:32:38.494815', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4619', '1', '2023-05-01 08:32:38.494815', '2023-05-01 08:32:42.494815', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4619, asdas, asdas, 2023-04-12 08:32:38.494815, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4619', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4619', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4620', 'dsbb', 'dsbb', '2023-04-12 08:32:38.494827', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4620', '8', '2023-05-01 08:32:38.494827', '2023-05-01 08:32:42.494827', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4620, dsbb, dsbb, 2023-04-12 08:32:38.494827, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4620', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4620', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4621', 'asd', 'asd', '2023-04-12 08:32:38.494839', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4621', '11', '2023-04-25 08:32:38.494839', '2023-04-25 08:32:40.494839', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4621, asd, asd, 2023-04-12 08:32:38.494839, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4621', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4621', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4622', 'cvcb', 'cvcb', '2023-04-12 08:32:38.494850', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4622', '3', '2023-05-13 08:32:38.494850', '2023-05-13 08:32:39.494850', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4622, cvcb, cvcb, 2023-04-12 08:32:38.494850, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4622', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4622', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4623', 'asdas', 'asdas', '2023-04-12 08:32:38.494862', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4623', '3', '2023-07-09 08:32:38.494862', '2023-07-09 08:32:39.494862', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4623, asdas, asdas, 2023-04-12 08:32:38.494862, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4623', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4623', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4624', 'asds', 'asds', '2023-04-12 08:32:38.494873', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4624', '4', '2023-04-19 08:32:38.494873', '2023-04-19 08:32:39.494873', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4624, asds, asds, 2023-04-12 08:32:38.494873, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4624', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4624', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4625', 'asd', 'asd', '2023-04-12 08:32:38.494896', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4625', '6', '2023-07-10 08:32:38.494896', '2023-07-10 08:32:41.494896', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4625, asd, asd, 2023-04-12 08:32:38.494896, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4625', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4625', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4626', 'dsbb', 'dsbb', '2023-04-12 08:32:38.494908', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4626', '7', '2023-04-24 08:32:38.494908', '2023-04-24 08:32:40.494908', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4626, dsbb, dsbb, 2023-04-12 08:32:38.494908, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4626', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4626', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4627', 'asdas', 'asdas', '2023-04-12 08:32:38.494920', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4627', '12', '2023-06-29 08:32:38.494920', '2023-06-29 08:32:42.494920', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4627, asdas, asdas, 2023-04-12 08:32:38.494920, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4627', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4627', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4628', 'asdas', 'asdas', '2023-04-12 08:32:38.494932', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4628', '4', '2023-06-03 08:32:38.494932', '2023-06-03 08:32:39.494932', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4628, asdas, asdas, 2023-04-12 08:32:38.494932, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4628', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4628', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4629', 'asd', 'asd', '2023-04-12 08:32:38.494944', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4629', '5', '2023-06-13 08:32:38.494944', '2023-06-13 08:32:42.494944', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4629, asd, asd, 2023-04-12 08:32:38.494944, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4629', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4629', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4630', 'dsbb', 'dsbb', '2023-04-12 08:32:38.494956', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4630', '7', '2023-06-26 08:32:38.494956', '2023-06-26 08:32:39.494956', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4630, dsbb, dsbb, 2023-04-12 08:32:38.494956, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4630', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4630', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4631', 'asd', 'asd', '2023-04-12 08:32:38.494967', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4631', '7', '2023-04-21 08:32:38.494967', '2023-04-21 08:32:39.494967', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4631, asd, asd, 2023-04-12 08:32:38.494967, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4631', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4631', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4632', 'cvcb', 'cvcb', '2023-04-12 08:32:38.494987', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4632', '14', '2023-07-07 08:32:38.494987', '2023-07-07 08:32:40.494987', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4632, cvcb, cvcb, 2023-04-12 08:32:38.494987, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4632', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4632', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4633', 'cvcb', 'cvcb', '2023-04-12 08:32:38.494999', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4633', '9', '2023-06-12 08:32:38.494999', '2023-06-12 08:32:40.494999', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4633, cvcb, cvcb, 2023-04-12 08:32:38.494999, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4633', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4633', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4634', 'asdas', 'asdas', '2023-04-12 08:32:38.495011', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4634', '7', '2023-06-23 08:32:38.495011', '2023-06-23 08:32:42.495011', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4634, asdas, asdas, 2023-04-12 08:32:38.495011, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4634', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4634', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4635', 'asd', 'asd', '2023-04-12 08:32:38.495022', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4635', '1', '2023-04-19 08:32:38.495022', '2023-04-19 08:32:41.495022', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4635, asd, asd, 2023-04-12 08:32:38.495022, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4635', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4635', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4636', 'asdas', 'asdas', '2023-04-12 08:32:38.495034', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4636', '12', '2023-06-03 08:32:38.495034', '2023-06-03 08:32:41.495034', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4636, asdas, asdas, 2023-04-12 08:32:38.495034, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4636', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4636', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4637', 'dsbb', 'dsbb', '2023-04-12 08:32:38.495046', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4637', '12', '2023-05-28 08:32:38.495046', '2023-05-28 08:32:41.495046', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4637, dsbb, dsbb, 2023-04-12 08:32:38.495046, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4637', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4637', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4638', 'cvcb', 'cvcb', '2023-04-12 08:32:38.495057', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4638', '3', '2023-06-11 08:32:38.495057', '2023-06-11 08:32:41.495057', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4638, cvcb, cvcb, 2023-04-12 08:32:38.495057, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4638', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4638', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4639', 'asd', 'asd', '2023-04-12 08:32:38.495068', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4639', '12', '2023-05-16 08:32:38.495068', '2023-05-16 08:32:40.495068', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4639, asd, asd, 2023-04-12 08:32:38.495068, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4639', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4639', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4640', 'asd', 'asd', '2023-04-12 08:32:38.495088', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4640', '1', '2023-06-26 08:32:38.495088', '2023-06-26 08:32:42.495088', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4640, asd, asd, 2023-04-12 08:32:38.495088, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4640', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4640', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4641', 'asds', 'asds', '2023-04-12 08:32:38.495101', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4641', '9', '2023-04-16 08:32:38.495101', '2023-04-16 08:32:41.495101', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4641, asds, asds, 2023-04-12 08:32:38.495101, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4641', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4641', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4642', 'dsbb', 'dsbb', '2023-04-12 08:32:38.495113', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4642', '6', '2023-04-25 08:32:38.495113', '2023-04-25 08:32:41.495113', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4642, dsbb, dsbb, 2023-04-12 08:32:38.495113, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4642', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4642', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4643', 'dsbb', 'dsbb', '2023-04-12 08:32:38.495125', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4643', '11', '2023-06-08 08:32:38.495125', '2023-06-08 08:32:42.495125', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4643, dsbb, dsbb, 2023-04-12 08:32:38.495125, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4643', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4643', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4644', 'asd', 'asd', '2023-04-12 08:32:38.495136', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4644', '5', '2023-06-21 08:32:38.495136', '2023-06-21 08:32:41.495136', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4644, asd, asd, 2023-04-12 08:32:38.495136, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4644', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4644', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4645', 'cvcb', 'cvcb', '2023-04-12 08:32:38.495148', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4645', '13', '2023-04-17 08:32:38.495148', '2023-04-17 08:32:40.495148', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4645, cvcb, cvcb, 2023-04-12 08:32:38.495148, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4645', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4645', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4646', 'asds', 'asds', '2023-04-12 08:32:38.495159', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4646', '9', '2023-04-21 08:32:38.495159', '2023-04-21 08:32:42.495159', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4646, asds, asds, 2023-04-12 08:32:38.495159, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4646', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4646', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4647', 'asds', 'asds', '2023-04-12 08:32:38.495171', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4647', '14', '2023-06-21 08:32:38.495171', '2023-06-21 08:32:41.495171', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4647, asds, asds, 2023-04-12 08:32:38.495171, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4647', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4647', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4648', 'asds', 'asds', '2023-04-12 08:32:38.495190', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4648', '8', '2023-05-26 08:32:38.495190', '2023-05-26 08:32:40.495190', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4648, asds, asds, 2023-04-12 08:32:38.495190, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4648', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4648', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4649', 'cvcb', 'cvcb', '2023-04-12 08:32:38.495202', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4649', '4', '2023-06-16 08:32:38.495202', '2023-06-16 08:32:40.495202', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4649, cvcb, cvcb, 2023-04-12 08:32:38.495202, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4649', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4649', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4650', 'asdas', 'asdas', '2023-04-12 08:32:38.495214', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4650', '14', '2023-06-24 08:32:38.495214', '2023-06-24 08:32:39.495214', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4650, asdas, asdas, 2023-04-12 08:32:38.495214, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4650', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4650', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4651', 'asd', 'asd', '2023-04-12 08:32:38.495225', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4651', '6', '2023-06-06 08:32:38.495225', '2023-06-06 08:32:42.495225', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4651, asd, asd, 2023-04-12 08:32:38.495225, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4651', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4651', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4652', 'dsbb', 'dsbb', '2023-04-12 08:32:38.495237', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4652', '5', '2023-04-17 08:32:38.495237', '2023-04-17 08:32:39.495237', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4652, dsbb, dsbb, 2023-04-12 08:32:38.495237, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4652', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4652', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4653', 'dsbb', 'dsbb', '2023-04-12 08:32:38.495248', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4653', '9', '2023-06-16 08:32:38.495248', '2023-06-16 08:32:41.495248', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4653, dsbb, dsbb, 2023-04-12 08:32:38.495248, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4653', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4653', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4654', 'asdas', 'asdas', '2023-04-12 08:32:38.495260', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4654', '10', '2023-05-08 08:32:38.495260', '2023-05-08 08:32:41.495260', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4654, asdas, asdas, 2023-04-12 08:32:38.495260, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4654', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4654', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4655', 'asdas', 'asdas', '2023-04-12 08:32:38.495280', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4655', '7', '2023-05-22 08:32:38.495280', '2023-05-22 08:32:40.495280', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4655, asdas, asdas, 2023-04-12 08:32:38.495280, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4655', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4655', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4656', 'cvcb', 'cvcb', '2023-04-12 08:32:38.495292', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4656', '10', '2023-06-08 08:32:38.495292', '2023-06-08 08:32:39.495292', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4656, cvcb, cvcb, 2023-04-12 08:32:38.495292, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4656', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4656', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4657', 'cvcb', 'cvcb', '2023-04-12 08:32:38.495304', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4657', '5', '2023-05-27 08:32:38.495304', '2023-05-27 08:32:39.495304', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4657, cvcb, cvcb, 2023-04-12 08:32:38.495304, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4657', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4657', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4658', 'dsbb', 'dsbb', '2023-04-12 08:32:38.495315', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4658', '13', '2023-07-11 08:32:38.495315', '2023-07-11 08:32:42.495315', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4658, dsbb, dsbb, 2023-04-12 08:32:38.495315, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4658', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4658', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4659', 'asds', 'asds', '2023-04-12 08:32:38.495327', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4659', '14', '2023-05-01 08:32:38.495327', '2023-05-01 08:32:39.495327', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4659, asds, asds, 2023-04-12 08:32:38.495327, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4659', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4659', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4660', 'asds', 'asds', '2023-04-12 08:32:38.495339', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4660', '13', '2023-05-16 08:32:38.495339', '2023-05-16 08:32:40.495339', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4660, asds, asds, 2023-04-12 08:32:38.495339, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4660', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4660', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4661', 'cvcb', 'cvcb', '2023-04-12 08:32:38.495350', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4661', '2', '2023-05-26 08:32:38.495350', '2023-05-26 08:32:40.495350', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4661, cvcb, cvcb, 2023-04-12 08:32:38.495350, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4661', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4661', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4662', 'asdas', 'asdas', '2023-04-12 08:32:38.495361', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4662', '6', '2023-04-27 08:32:38.495361', '2023-04-27 08:32:41.495361', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4662, asdas, asdas, 2023-04-12 08:32:38.495361, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4662', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4662', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4663', 'asdas', 'asdas', '2023-04-12 08:32:38.495380', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4663', '8', '2023-05-10 08:32:38.495380', '2023-05-10 08:32:39.495380', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4663, asdas, asdas, 2023-04-12 08:32:38.495380, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4663', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4663', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4664', 'asds', 'asds', '2023-04-12 08:32:38.495392', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4664', '9', '2023-06-22 08:32:38.495392', '2023-06-22 08:32:42.495392', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4664, asds, asds, 2023-04-12 08:32:38.495392, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4664', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4664', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4665', 'cvcb', 'cvcb', '2023-04-12 08:32:38.495404', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4665', '9', '2023-05-02 08:32:38.495404', '2023-05-02 08:32:40.495404', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4665, cvcb, cvcb, 2023-04-12 08:32:38.495404, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4665', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4665', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4666', 'asdas', 'asdas', '2023-04-12 08:32:38.495415', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4666', '4', '2023-05-03 08:32:38.495415', '2023-05-03 08:32:40.495415', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4666, asdas, asdas, 2023-04-12 08:32:38.495415, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4666', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4666', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4667', 'dsbb', 'dsbb', '2023-04-12 08:32:38.495427', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4667', '8', '2023-07-03 08:32:38.495427', '2023-07-03 08:32:42.495427', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4667, dsbb, dsbb, 2023-04-12 08:32:38.495427, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4667', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4667', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4668', 'asdas', 'asdas', '2023-04-12 08:32:38.495438', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4668', '3', '2023-06-06 08:32:38.495438', '2023-06-06 08:32:39.495438', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4668, asdas, asdas, 2023-04-12 08:32:38.495438, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4668', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4668', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4669', 'dsbb', 'dsbb', '2023-04-12 08:32:38.495450', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4669', '12', '2023-05-09 08:32:38.495450', '2023-05-09 08:32:41.495450', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4669, dsbb, dsbb, 2023-04-12 08:32:38.495450, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4669', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4669', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4670', 'asdas', 'asdas', '2023-04-12 08:32:38.495461', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4670', '9', '2023-05-18 08:32:38.495461', '2023-05-18 08:32:40.495461', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4670, asdas, asdas, 2023-04-12 08:32:38.495461, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4670', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4670', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4671', 'dsbb', 'dsbb', '2023-04-12 08:32:38.495481', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4671', '15', '2023-04-17 08:32:38.495481', '2023-04-17 08:32:39.495481', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4671, dsbb, dsbb, 2023-04-12 08:32:38.495481, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4671', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4671', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4672', 'asds', 'asds', '2023-04-12 08:32:38.495493', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4672', '7', '2023-06-09 08:32:38.495493', '2023-06-09 08:32:40.495493', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4672, asds, asds, 2023-04-12 08:32:38.495493, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4672', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4672', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4673', 'asd', 'asd', '2023-04-12 08:32:38.495505', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4673', '15', '2023-05-22 08:32:38.495505', '2023-05-22 08:32:42.495505', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4673, asd, asd, 2023-04-12 08:32:38.495505, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4673', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4673', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4674', 'cvcb', 'cvcb', '2023-04-12 08:32:38.495516', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4674', '10', '2023-06-04 08:32:38.495516', '2023-06-04 08:32:39.495516', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4674, cvcb, cvcb, 2023-04-12 08:32:38.495516, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4674', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4674', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4675', 'asds', 'asds', '2023-04-12 08:32:38.495528', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4675', '7', '2023-06-17 08:32:38.495528', '2023-06-17 08:32:40.495528', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4675, asds, asds, 2023-04-12 08:32:38.495528, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4675', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4675', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4676', 'asd', 'asd', '2023-04-12 08:32:38.495539', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4676', '3', '2023-07-11 08:32:38.495539', '2023-07-11 08:32:39.495539', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4676, asd, asd, 2023-04-12 08:32:38.495539, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4676', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4676', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4677', 'asds', 'asds', '2023-04-12 08:32:38.495551', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4677', '4', '2023-04-13 08:32:38.495551', '2023-04-13 08:32:39.495551', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4677, asds, asds, 2023-04-12 08:32:38.495551, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4677', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4677', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4678', 'asds', 'asds', '2023-04-12 08:32:38.495569', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4678', '10', '2023-04-24 08:32:38.495569', '2023-04-24 08:32:39.495569', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4678, asds, asds, 2023-04-12 08:32:38.495569, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4678', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4678', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4679', 'cvcb', 'cvcb', '2023-04-12 08:32:38.495582', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4679', '10', '2023-06-16 08:32:38.495582', '2023-06-16 08:32:39.495582', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4679, cvcb, cvcb, 2023-04-12 08:32:38.495582, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4679', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4679', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4680', 'cvcb', 'cvcb', '2023-04-12 08:32:38.495595', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4680', '6', '2023-05-27 08:32:38.495595', '2023-05-27 08:32:41.495595', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4680, cvcb, cvcb, 2023-04-12 08:32:38.495595, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4680', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4680', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4681', 'asdas', 'asdas', '2023-04-12 08:32:38.495606', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4681', '4', '2023-06-09 08:32:38.495606', '2023-06-09 08:32:42.495606', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4681, asdas, asdas, 2023-04-12 08:32:38.495606, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4681', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4681', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4682', 'asd', 'asd', '2023-04-12 08:32:38.495618', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4682', '7', '2023-07-05 08:32:38.495618', '2023-07-05 08:32:42.495618', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4682, asd, asd, 2023-04-12 08:32:38.495618, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4682', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4682', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4683', 'dsbb', 'dsbb', '2023-04-12 08:32:38.495630', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4683', '4', '2023-06-13 08:32:38.495630', '2023-06-13 08:32:40.495630', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4683, dsbb, dsbb, 2023-04-12 08:32:38.495630, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4683', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4683', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4684', 'asds', 'asds', '2023-04-12 08:32:38.495642', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4684', '7', '2023-06-22 08:32:38.495642', '2023-06-22 08:32:39.495642', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4684, asds, asds, 2023-04-12 08:32:38.495642, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4684', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4684', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4685', 'asd', 'asd', '2023-04-12 08:32:38.495654', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4685', '6', '2023-06-20 08:32:38.495654', '2023-06-20 08:32:41.495654', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4685, asd, asd, 2023-04-12 08:32:38.495654, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4685', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4685', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4686', 'asds', 'asds', '2023-04-12 08:32:38.495670', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4686', '14', '2023-07-09 08:32:38.495670', '2023-07-09 08:32:41.495670', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4686, asds, asds, 2023-04-12 08:32:38.495670, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4686', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4686', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4687', 'asd', 'asd', '2023-04-12 08:32:38.495682', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4687', '1', '2023-06-06 08:32:38.495682', '2023-06-06 08:32:41.495682', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4687, asd, asd, 2023-04-12 08:32:38.495682, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4687', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4687', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4688', 'asd', 'asd', '2023-04-12 08:32:38.495694', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4688', '1', '2023-04-30 08:32:38.495694', '2023-04-30 08:32:42.495694', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4688, asd, asd, 2023-04-12 08:32:38.495694, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4688', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4688', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4689', 'asd', 'asd', '2023-04-12 08:32:38.495705', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4689', '2', '2023-05-05 08:32:38.495705', '2023-05-05 08:32:39.495705', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4689, asd, asd, 2023-04-12 08:32:38.495705, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4689', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4689', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4690', 'asdas', 'asdas', '2023-04-12 08:32:38.495717', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4690', '8', '2023-04-30 08:32:38.495717', '2023-04-30 08:32:42.495717', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4690, asdas, asdas, 2023-04-12 08:32:38.495717, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4690', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4690', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4691', 'asds', 'asds', '2023-04-12 08:32:38.495728', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4691', '2', '2023-06-03 08:32:38.495728', '2023-06-03 08:32:39.495728', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4691, asds, asds, 2023-04-12 08:32:38.495728, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4691', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4691', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4692', 'asds', 'asds', '2023-04-12 08:32:38.495739', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4692', '9', '2023-05-25 08:32:38.495739', '2023-05-25 08:32:42.495739', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4692, asds, asds, 2023-04-12 08:32:38.495739, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4692', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4692', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4693', 'asds', 'asds', '2023-04-12 08:32:38.495751', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4693', '5', '2023-04-12 08:32:38.495751', '2023-04-12 08:32:40.495751', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4693, asds, asds, 2023-04-12 08:32:38.495751, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4693', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4693', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4694', 'asd', 'asd', '2023-04-12 08:32:38.495767', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4694', '15', '2023-05-02 08:32:38.495767', '2023-05-02 08:32:41.495767', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4694, asd, asd, 2023-04-12 08:32:38.495767, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4694', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4694', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4695', 'asds', 'asds', '2023-04-12 08:32:38.495779', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4695', '4', '2023-04-23 08:32:38.495779', '2023-04-23 08:32:41.495779', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4695, asds, asds, 2023-04-12 08:32:38.495779, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4695', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4695', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4696', 'asdas', 'asdas', '2023-04-12 08:32:38.495790', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4696', '12', '2023-06-07 08:32:38.495790', '2023-06-07 08:32:42.495790', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4696, asdas, asdas, 2023-04-12 08:32:38.495790, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4696', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4696', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4697', 'dsbb', 'dsbb', '2023-04-12 08:32:38.495802', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4697', '1', '2023-04-13 08:32:38.495802', '2023-04-13 08:32:39.495802', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4697, dsbb, dsbb, 2023-04-12 08:32:38.495802, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4697', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4697', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4698', 'cvcb', 'cvcb', '2023-04-12 08:32:38.495813', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4698', '3', '2023-06-24 08:32:38.495813', '2023-06-24 08:32:39.495813', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4698, cvcb, cvcb, 2023-04-12 08:32:38.495813, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4698', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4698', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4699', 'dsbb', 'dsbb', '2023-04-12 08:32:38.495825', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4699', '14', '2023-04-16 08:32:38.495825', '2023-04-16 08:32:39.495825', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4699, dsbb, dsbb, 2023-04-12 08:32:38.495825, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4699', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4699', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4700', 'asdas', 'asdas', '2023-04-12 08:32:38.495837', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4700', '4', '2023-06-07 08:32:38.495837', '2023-06-07 08:32:39.495837', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4700, asdas, asdas, 2023-04-12 08:32:38.495837, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4700', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4700', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4701', 'asd', 'asd', '2023-04-12 08:32:38.495855', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4701', '9', '2023-04-15 08:32:38.495855', '2023-04-15 08:32:39.495855', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4701, asd, asd, 2023-04-12 08:32:38.495855, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4701', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4701', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4702', 'dsbb', 'dsbb', '2023-04-12 08:32:38.495867', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4702', '1', '2023-05-26 08:32:38.495867', '2023-05-26 08:32:42.495867', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4702, dsbb, dsbb, 2023-04-12 08:32:38.495867, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4702', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4702', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4703', 'asds', 'asds', '2023-04-12 08:32:38.495879', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4703', '3', '2023-05-22 08:32:38.495879', '2023-05-22 08:32:40.495879', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4703, asds, asds, 2023-04-12 08:32:38.495879, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4703', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4703', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4704', 'asdas', 'asdas', '2023-04-12 08:32:38.495890', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4704', '8', '2023-07-08 08:32:38.495890', '2023-07-08 08:32:40.495890', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4704, asdas, asdas, 2023-04-12 08:32:38.495890, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4704', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4704', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4705', 'cvcb', 'cvcb', '2023-04-12 08:32:38.495910', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4705', '3', '2023-04-17 08:32:38.495910', '2023-04-17 08:32:41.495910', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4705, cvcb, cvcb, 2023-04-12 08:32:38.495910, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4705', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4705', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4706', 'dsbb', 'dsbb', '2023-04-12 08:32:38.495922', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4706', '4', '2023-05-05 08:32:38.495922', '2023-05-05 08:32:41.495922', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4706, dsbb, dsbb, 2023-04-12 08:32:38.495922, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4706', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4706', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4707', 'cvcb', 'cvcb', '2023-04-12 08:32:38.495934', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4707', '11', '2023-05-22 08:32:38.495934', '2023-05-22 08:32:39.495934', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4707, cvcb, cvcb, 2023-04-12 08:32:38.495934, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4707', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4707', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4708', 'asdas', 'asdas', '2023-04-12 08:32:38.495961', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4708', '15', '2023-07-08 08:32:38.495961', '2023-07-08 08:32:40.495961', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4708, asdas, asdas, 2023-04-12 08:32:38.495961, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4708', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4708', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4709', 'asdas', 'asdas', '2023-04-12 08:32:38.495983', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4709', '7', '2023-06-14 08:32:38.495983', '2023-06-14 08:32:40.495983', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4709, asdas, asdas, 2023-04-12 08:32:38.495983, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4709', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4709', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4710', 'asds', 'asds', '2023-04-12 08:32:38.495995', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4710', '6', '2023-06-12 08:32:38.495995', '2023-06-12 08:32:42.495995', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4710, asds, asds, 2023-04-12 08:32:38.495995, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4710', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4710', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4711', 'asd', 'asd', '2023-04-12 08:32:38.496007', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4711', '11', '2023-06-13 08:32:38.496007', '2023-06-13 08:32:40.496007', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4711, asd, asd, 2023-04-12 08:32:38.496007, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4711', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4711', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4712', 'asd', 'asd', '2023-04-12 08:32:38.496018', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4712', '4', '2023-04-13 08:32:38.496018', '2023-04-13 08:32:40.496018', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4712, asd, asd, 2023-04-12 08:32:38.496018, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4712', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4712', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4713', 'cvcb', 'cvcb', '2023-04-12 08:32:38.496030', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4713', '3', '2023-05-15 08:32:38.496030', '2023-05-15 08:32:40.496030', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4713, cvcb, cvcb, 2023-04-12 08:32:38.496030, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4713', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4713', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4714', 'asdas', 'asdas', '2023-04-12 08:32:38.496041', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4714', '9', '2023-06-24 08:32:38.496041', '2023-06-24 08:32:41.496041', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4714, asdas, asdas, 2023-04-12 08:32:38.496041, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4714', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4714', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4715', 'asdas', 'asdas', '2023-04-12 08:32:38.496053', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4715', '12', '2023-04-29 08:32:38.496053', '2023-04-29 08:32:39.496053', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4715, asdas, asdas, 2023-04-12 08:32:38.496053, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4715', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4715', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4716', 'asd', 'asd', '2023-04-12 08:32:38.496064', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4716', '12', '2023-06-28 08:32:38.496064', '2023-06-28 08:32:41.496064', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4716, asd, asd, 2023-04-12 08:32:38.496064, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4716', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4716', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4717', 'asd', 'asd', '2023-04-12 08:32:38.496083', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4717', '6', '2023-06-20 08:32:38.496083', '2023-06-20 08:32:39.496083', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4717, asd, asd, 2023-04-12 08:32:38.496083, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4717', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4717', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4718', 'asdas', 'asdas', '2023-04-12 08:32:38.496095', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4718', '14', '2023-06-27 08:32:38.496095', '2023-06-27 08:32:40.496095', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4718, asdas, asdas, 2023-04-12 08:32:38.496095, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4718', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4718', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4719', 'asd', 'asd', '2023-04-12 08:32:38.496106', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4719', '14', '2023-05-25 08:32:38.496106', '2023-05-25 08:32:39.496106', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4719, asd, asd, 2023-04-12 08:32:38.496106, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4719', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4719', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4720', 'asds', 'asds', '2023-04-12 08:32:38.496118', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4720', '11', '2023-04-25 08:32:38.496118', '2023-04-25 08:32:42.496118', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4720, asds, asds, 2023-04-12 08:32:38.496118, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4720', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4720', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4721', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496129', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4721', '13', '2023-07-06 08:32:38.496129', '2023-07-06 08:32:39.496129', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4721, dsbb, dsbb, 2023-04-12 08:32:38.496129, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4721', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4721', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4722', 'asd', 'asd', '2023-04-12 08:32:38.496141', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4722', '1', '2023-06-19 08:32:38.496141', '2023-06-19 08:32:41.496141', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4722, asd, asd, 2023-04-12 08:32:38.496141, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4722', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4722', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4723', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496152', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4723', '14', '2023-05-08 08:32:38.496152', '2023-05-08 08:32:40.496152', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4723, dsbb, dsbb, 2023-04-12 08:32:38.496152, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4723', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4723', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4724', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496168', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4724', '10', '2023-06-26 08:32:38.496168', '2023-06-26 08:32:41.496168', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4724, dsbb, dsbb, 2023-04-12 08:32:38.496168, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4724', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4724', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4725', 'asd', 'asd', '2023-04-12 08:32:38.496180', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4725', '13', '2023-07-03 08:32:38.496180', '2023-07-03 08:32:41.496180', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4725, asd, asd, 2023-04-12 08:32:38.496180, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4725', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4725', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4726', 'asds', 'asds', '2023-04-12 08:32:38.496191', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4726', '10', '2023-06-07 08:32:38.496191', '2023-06-07 08:32:41.496191', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4726, asds, asds, 2023-04-12 08:32:38.496191, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4726', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4726', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4727', 'cvcb', 'cvcb', '2023-04-12 08:32:38.496203', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4727', '15', '2023-06-10 08:32:38.496203', '2023-06-10 08:32:42.496203', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4727, cvcb, cvcb, 2023-04-12 08:32:38.496203, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4727', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4727', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4728', 'asd', 'asd', '2023-04-12 08:32:38.496215', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4728', '2', '2023-04-28 08:32:38.496215', '2023-04-28 08:32:41.496215', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4728, asd, asd, 2023-04-12 08:32:38.496215, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4728', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4728', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4729', 'asd', 'asd', '2023-04-12 08:32:38.496226', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4729', '10', '2023-05-14 08:32:38.496226', '2023-05-14 08:32:41.496226', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4729, asd, asd, 2023-04-12 08:32:38.496226, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4729', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4729', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4730', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496237', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4730', '13', '2023-06-22 08:32:38.496237', '2023-06-22 08:32:42.496237', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4730, dsbb, dsbb, 2023-04-12 08:32:38.496237, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4730', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4730', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4731', 'asds', 'asds', '2023-04-12 08:32:38.496249', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4731', '12', '2023-05-04 08:32:38.496249', '2023-05-04 08:32:42.496249', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4731, asds, asds, 2023-04-12 08:32:38.496249, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4731', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4731', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4732', 'cvcb', 'cvcb', '2023-04-12 08:32:38.496265', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4732', '13', '2023-05-31 08:32:38.496265', '2023-05-31 08:32:41.496265', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4732, cvcb, cvcb, 2023-04-12 08:32:38.496265, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4732', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4732', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4733', 'asds', 'asds', '2023-04-12 08:32:38.496276', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4733', '5', '2023-06-13 08:32:38.496276', '2023-06-13 08:32:39.496276', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4733, asds, asds, 2023-04-12 08:32:38.496276, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4733', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4733', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4734', 'asds', 'asds', '2023-04-12 08:32:38.496288', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4734', '5', '2023-06-06 08:32:38.496288', '2023-06-06 08:32:39.496288', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4734, asds, asds, 2023-04-12 08:32:38.496288, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4734', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4734', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4735', 'asd', 'asd', '2023-04-12 08:32:38.496299', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4735', '3', '2023-06-05 08:32:38.496299', '2023-06-05 08:32:41.496299', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4735, asd, asd, 2023-04-12 08:32:38.496299, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4735', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4735', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4736', 'asdas', 'asdas', '2023-04-12 08:32:38.496311', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4736', '8', '2023-05-12 08:32:38.496311', '2023-05-12 08:32:40.496311', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4736, asdas, asdas, 2023-04-12 08:32:38.496311, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4736', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4736', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4737', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496322', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4737', '3', '2023-05-05 08:32:38.496322', '2023-05-05 08:32:39.496322', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4737, dsbb, dsbb, 2023-04-12 08:32:38.496322, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4737', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4737', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4738', 'asdas', 'asdas', '2023-04-12 08:32:38.496334', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4738', '8', '2023-06-29 08:32:38.496334', '2023-06-29 08:32:42.496334', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4738, asdas, asdas, 2023-04-12 08:32:38.496334, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4738', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4738', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4739', 'asds', 'asds', '2023-04-12 08:32:38.496346', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4739', '1', '2023-07-01 08:32:38.496346', '2023-07-01 08:32:39.496346', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4739, asds, asds, 2023-04-12 08:32:38.496346, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4739', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4739', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4740', 'asd', 'asd', '2023-04-12 08:32:38.496368', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4740', '10', '2023-05-09 08:32:38.496368', '2023-05-09 08:32:40.496368', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4740, asd, asd, 2023-04-12 08:32:38.496368, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4740', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4740', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4741', 'cvcb', 'cvcb', '2023-04-12 08:32:38.496380', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4741', '13', '2023-05-24 08:32:38.496380', '2023-05-24 08:32:42.496380', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4741, cvcb, cvcb, 2023-04-12 08:32:38.496380, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4741', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4741', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4742', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496391', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4742', '6', '2023-06-03 08:32:38.496391', '2023-06-03 08:32:40.496391', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4742, dsbb, dsbb, 2023-04-12 08:32:38.496391, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4742', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4742', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4743', 'cvcb', 'cvcb', '2023-04-12 08:32:38.496403', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4743', '14', '2023-06-12 08:32:38.496403', '2023-06-12 08:32:40.496403', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4743, cvcb, cvcb, 2023-04-12 08:32:38.496403, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4743', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4743', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4744', 'asds', 'asds', '2023-04-12 08:32:38.496414', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4744', '3', '2023-05-09 08:32:38.496414', '2023-05-09 08:32:39.496414', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4744, asds, asds, 2023-04-12 08:32:38.496414, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4744', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4744', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4745', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496426', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4745', '2', '2023-05-17 08:32:38.496426', '2023-05-17 08:32:40.496426', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4745, dsbb, dsbb, 2023-04-12 08:32:38.496426, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4745', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4745', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4746', 'asdas', 'asdas', '2023-04-12 08:32:38.496437', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4746', '13', '2023-05-18 08:32:38.496437', '2023-05-18 08:32:39.496437', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4746, asdas, asdas, 2023-04-12 08:32:38.496437, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4746', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4746', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4747', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496454', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4747', '8', '2023-05-01 08:32:38.496454', '2023-05-01 08:32:42.496454', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4747, dsbb, dsbb, 2023-04-12 08:32:38.496454, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4747', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4747', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4748', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496466', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4748', '15', '2023-06-25 08:32:38.496466', '2023-06-25 08:32:40.496466', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4748, dsbb, dsbb, 2023-04-12 08:32:38.496466, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4748', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4748', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4749', 'asds', 'asds', '2023-04-12 08:32:38.496477', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4749', '2', '2023-06-16 08:32:38.496477', '2023-06-16 08:32:41.496477', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4749, asds, asds, 2023-04-12 08:32:38.496477, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4749', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4749', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4750', 'asds', 'asds', '2023-04-12 08:32:38.496489', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4750', '5', '2023-04-26 08:32:38.496489', '2023-04-26 08:32:40.496489', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4750, asds, asds, 2023-04-12 08:32:38.496489, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4750', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4750', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4751', 'asds', 'asds', '2023-04-12 08:32:38.496500', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4751', '12', '2023-07-08 08:32:38.496500', '2023-07-08 08:32:40.496500', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4751, asds, asds, 2023-04-12 08:32:38.496500, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4751', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4751', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4752', 'asdas', 'asdas', '2023-04-12 08:32:38.496512', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4752', '6', '2023-07-07 08:32:38.496512', '2023-07-07 08:32:41.496512', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4752, asdas, asdas, 2023-04-12 08:32:38.496512, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4752', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4752', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4753', 'asd', 'asd', '2023-04-12 08:32:38.496523', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4753', '1', '2023-04-21 08:32:38.496523', '2023-04-21 08:32:39.496523', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4753, asd, asd, 2023-04-12 08:32:38.496523, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4753', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4753', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4754', 'asds', 'asds', '2023-04-12 08:32:38.496534', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4754', '9', '2023-06-21 08:32:38.496534', '2023-06-21 08:32:40.496534', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4754, asds, asds, 2023-04-12 08:32:38.496534, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4754', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4754', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4755', 'cvcb', 'cvcb', '2023-04-12 08:32:38.496549', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4755', '13', '2023-06-25 08:32:38.496549', '2023-06-25 08:32:40.496549', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4755, cvcb, cvcb, 2023-04-12 08:32:38.496549, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4755', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4755', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4756', 'asdas', 'asdas', '2023-04-12 08:32:38.496560', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4756', '1', '2023-06-13 08:32:38.496560', '2023-06-13 08:32:40.496560', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4756, asdas, asdas, 2023-04-12 08:32:38.496560, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4756', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4756', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4757', 'asdas', 'asdas', '2023-04-12 08:32:38.496572', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4757', '15', '2023-05-15 08:32:38.496572', '2023-05-15 08:32:40.496572', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4757, asdas, asdas, 2023-04-12 08:32:38.496572, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4757', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4757', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4758', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496583', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4758', '10', '2023-05-27 08:32:38.496583', '2023-05-27 08:32:39.496583', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4758, dsbb, dsbb, 2023-04-12 08:32:38.496583, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4758', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4758', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4759', 'asds', 'asds', '2023-04-12 08:32:38.496595', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4759', '2', '2023-07-02 08:32:38.496595', '2023-07-02 08:32:42.496595', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4759, asds, asds, 2023-04-12 08:32:38.496595, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4759', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4759', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4760', 'asds', 'asds', '2023-04-12 08:32:38.496606', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4760', '4', '2023-04-16 08:32:38.496606', '2023-04-16 08:32:41.496606', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4760, asds, asds, 2023-04-12 08:32:38.496606, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4760', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4760', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4761', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496618', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4761', '3', '2023-05-16 08:32:38.496618', '2023-05-16 08:32:40.496618', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4761, dsbb, dsbb, 2023-04-12 08:32:38.496618, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4761', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4761', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4762', 'asdas', 'asdas', '2023-04-12 08:32:38.496629', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4762', '9', '2023-05-09 08:32:38.496629', '2023-05-09 08:32:42.496629', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4762, asdas, asdas, 2023-04-12 08:32:38.496629, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4762', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4762', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4763', 'asd', 'asd', '2023-04-12 08:32:38.496645', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4763', '10', '2023-06-05 08:32:38.496645', '2023-06-05 08:32:41.496645', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4763, asd, asd, 2023-04-12 08:32:38.496645, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4763', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4763', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4764', 'cvcb', 'cvcb', '2023-04-12 08:32:38.496657', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4764', '3', '2023-05-27 08:32:38.496657', '2023-05-27 08:32:42.496657', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4764, cvcb, cvcb, 2023-04-12 08:32:38.496657, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4764', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4764', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4765', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496669', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4765', '5', '2023-05-26 08:32:38.496669', '2023-05-26 08:32:41.496669', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4765, dsbb, dsbb, 2023-04-12 08:32:38.496669, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4765', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4765', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4766', 'asd', 'asd', '2023-04-12 08:32:38.496680', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4766', '4', '2023-05-24 08:32:38.496680', '2023-05-24 08:32:40.496680', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4766, asd, asd, 2023-04-12 08:32:38.496680, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4766', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4766', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4767', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496692', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4767', '14', '2023-05-06 08:32:38.496692', '2023-05-06 08:32:42.496692', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4767, dsbb, dsbb, 2023-04-12 08:32:38.496692, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4767', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4767', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4768', 'asdas', 'asdas', '2023-04-12 08:32:38.496704', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4768', '3', '2023-06-25 08:32:38.496704', '2023-06-25 08:32:42.496704', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4768, asdas, asdas, 2023-04-12 08:32:38.496704, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4768', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4768', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4769', 'asdas', 'asdas', '2023-04-12 08:32:38.496715', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4769', '13', '2023-06-07 08:32:38.496715', '2023-06-07 08:32:40.496715', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4769, asdas, asdas, 2023-04-12 08:32:38.496715, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4769', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4769', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4770', 'asdas', 'asdas', '2023-04-12 08:32:38.496730', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4770', '2', '2023-04-19 08:32:38.496730', '2023-04-19 08:32:40.496730', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4770, asdas, asdas, 2023-04-12 08:32:38.496730, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4770', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4770', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4771', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496742', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4771', '8', '2023-07-01 08:32:38.496742', '2023-07-01 08:32:39.496742', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4771, dsbb, dsbb, 2023-04-12 08:32:38.496742, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4771', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4771', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4772', 'asdas', 'asdas', '2023-04-12 08:32:38.496753', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4772', '13', '2023-06-25 08:32:38.496753', '2023-06-25 08:32:40.496753', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4772, asdas, asdas, 2023-04-12 08:32:38.496753, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4772', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4772', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4773', 'asd', 'asd', '2023-04-12 08:32:38.496765', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4773', '6', '2023-06-12 08:32:38.496765', '2023-06-12 08:32:39.496765', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4773, asd, asd, 2023-04-12 08:32:38.496765, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4773', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4773', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4774', 'cvcb', 'cvcb', '2023-04-12 08:32:38.496776', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4774', '1', '2023-06-28 08:32:38.496776', '2023-06-28 08:32:42.496776', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4774, cvcb, cvcb, 2023-04-12 08:32:38.496776, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4774', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4774', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4775', 'asd', 'asd', '2023-04-12 08:32:38.496788', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4775', '5', '2023-06-22 08:32:38.496788', '2023-06-22 08:32:42.496788', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4775, asd, asd, 2023-04-12 08:32:38.496788, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4775', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4775', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4776', 'asdas', 'asdas', '2023-04-12 08:32:38.496799', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4776', '10', '2023-04-15 08:32:38.496799', '2023-04-15 08:32:39.496799', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4776, asdas, asdas, 2023-04-12 08:32:38.496799, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4776', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4776', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4777', 'asdas', 'asdas', '2023-04-12 08:32:38.496811', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4777', '13', '2023-06-18 08:32:38.496811', '2023-06-18 08:32:41.496811', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4777, asdas, asdas, 2023-04-12 08:32:38.496811, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4777', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4777', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4778', 'cvcb', 'cvcb', '2023-04-12 08:32:38.496827', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4778', '3', '2023-07-09 08:32:38.496827', '2023-07-09 08:32:42.496827', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4778, cvcb, cvcb, 2023-04-12 08:32:38.496827, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4778', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4778', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4779', 'cvcb', 'cvcb', '2023-04-12 08:32:38.496839', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4779', '12', '2023-05-30 08:32:38.496839', '2023-05-30 08:32:39.496839', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4779, cvcb, cvcb, 2023-04-12 08:32:38.496839, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4779', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4779', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4780', 'asds', 'asds', '2023-04-12 08:32:38.496851', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4780', '2', '2023-05-10 08:32:38.496851', '2023-05-10 08:32:40.496851', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4780, asds, asds, 2023-04-12 08:32:38.496851, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4780', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4780', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4781', 'asds', 'asds', '2023-04-12 08:32:38.496863', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4781', '11', '2023-04-29 08:32:38.496863', '2023-04-29 08:32:41.496863', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4781, asds, asds, 2023-04-12 08:32:38.496863, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4781', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4781', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4782', 'cvcb', 'cvcb', '2023-04-12 08:32:38.496874', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4782', '4', '2023-07-04 08:32:38.496874', '2023-07-04 08:32:40.496874', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4782, cvcb, cvcb, 2023-04-12 08:32:38.496874, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4782', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4782', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4783', 'asdas', 'asdas', '2023-04-12 08:32:38.496886', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4783', '13', '2023-06-22 08:32:38.496886', '2023-06-22 08:32:40.496886', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4783, asdas, asdas, 2023-04-12 08:32:38.496886, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4783', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4783', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4784', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496897', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4784', '1', '2023-06-14 08:32:38.496897', '2023-06-14 08:32:41.496897', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4784, dsbb, dsbb, 2023-04-12 08:32:38.496897, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4784', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4784', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4785', 'dsbb', 'dsbb', '2023-04-12 08:32:38.496909', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4785', '3', '2023-05-22 08:32:38.496909', '2023-05-22 08:32:42.496909', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4785, dsbb, dsbb, 2023-04-12 08:32:38.496909, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4785', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4785', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4786', 'asdas', 'asdas', '2023-04-12 08:32:38.496924', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4786', '14', '2023-07-07 08:32:38.496924', '2023-07-07 08:32:40.496924', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4786, asdas, asdas, 2023-04-12 08:32:38.496924, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4786', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4786', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4787', 'cvcb', 'cvcb', '2023-04-12 08:32:38.496936', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4787', '12', '2023-05-07 08:32:38.496936', '2023-05-07 08:32:42.496936', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4787, cvcb, cvcb, 2023-04-12 08:32:38.496936, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4787', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4787', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4788', 'cvcb', 'cvcb', '2023-04-12 08:32:38.496948', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4788', '13', '2023-05-09 08:32:38.496948', '2023-05-09 08:32:40.496948', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4788, cvcb, cvcb, 2023-04-12 08:32:38.496948, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4788', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4788', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4789', 'asd', 'asd', '2023-04-12 08:32:38.496959', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4789', '13', '2023-06-22 08:32:38.496959', '2023-06-22 08:32:39.496959', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4789, asd, asd, 2023-04-12 08:32:38.496959, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4789', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4789', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4790', 'asd', 'asd', '2023-04-12 08:32:38.496971', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4790', '14', '2023-06-04 08:32:38.496971', '2023-06-04 08:32:41.496971', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4790, asd, asd, 2023-04-12 08:32:38.496971, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4790', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4790', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4791', 'asds', 'asds', '2023-04-12 08:32:38.496982', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4791', '15', '2023-06-28 08:32:38.496982', '2023-06-28 08:32:41.496982', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4791, asds, asds, 2023-04-12 08:32:38.496982, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4791', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4791', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4792', 'asdas', 'asdas', '2023-04-12 08:32:38.496994', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4792', '3', '2023-07-10 08:32:38.496994', '2023-07-10 08:32:39.496994', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4792, asdas, asdas, 2023-04-12 08:32:38.496994, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4792', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4792', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4793', 'dsbb', 'dsbb', '2023-04-12 08:32:38.497010', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4793', '11', '2023-05-14 08:32:38.497010', '2023-05-14 08:32:40.497010', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4793, dsbb, dsbb, 2023-04-12 08:32:38.497010, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4793', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4793', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4794', 'asdas', 'asdas', '2023-04-12 08:32:38.497022', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4794', '14', '2023-06-19 08:32:38.497022', '2023-06-19 08:32:42.497022', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4794, asdas, asdas, 2023-04-12 08:32:38.497022, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4794', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4794', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4795', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497034', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4795', '10', '2023-05-11 08:32:38.497034', '2023-05-11 08:32:42.497034', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4795, cvcb, cvcb, 2023-04-12 08:32:38.497034, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4795', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4795', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4796', 'asdas', 'asdas', '2023-04-12 08:32:38.497045', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4796', '15', '2023-06-11 08:32:38.497045', '2023-06-11 08:32:40.497045', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4796, asdas, asdas, 2023-04-12 08:32:38.497045, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4796', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4796', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4797', 'asdas', 'asdas', '2023-04-12 08:32:38.497057', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4797', '14', '2023-05-06 08:32:38.497057', '2023-05-06 08:32:39.497057', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4797, asdas, asdas, 2023-04-12 08:32:38.497057, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4797', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4797', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4798', 'asds', 'asds', '2023-04-12 08:32:38.497068', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4798', '14', '2023-04-30 08:32:38.497068', '2023-04-30 08:32:39.497068', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4798, asds, asds, 2023-04-12 08:32:38.497068, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4798', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4798', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4799', 'asd', 'asd', '2023-04-12 08:32:38.497080', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4799', '5', '2023-04-22 08:32:38.497080', '2023-04-22 08:32:40.497080', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4799, asd, asd, 2023-04-12 08:32:38.497080, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4799', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4799', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4800', 'asd', 'asd', '2023-04-12 08:32:38.497091', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4800', '2', '2023-04-14 08:32:38.497091', '2023-04-14 08:32:42.497091', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4800, asd, asd, 2023-04-12 08:32:38.497091, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4800', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4800', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4801', 'asd', 'asd', '2023-04-12 08:32:38.497113', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4801', '6', '2023-07-02 08:32:38.497113', '2023-07-02 08:32:41.497113', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4801, asd, asd, 2023-04-12 08:32:38.497113, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4801', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4801', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4802', 'dsbb', 'dsbb', '2023-04-12 08:32:38.497125', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4802', '8', '2023-05-19 08:32:38.497125', '2023-05-19 08:32:40.497125', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4802, dsbb, dsbb, 2023-04-12 08:32:38.497125, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4802', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4802', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4803', 'asdas', 'asdas', '2023-04-12 08:32:38.497136', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4803', '2', '2023-05-16 08:32:38.497136', '2023-05-16 08:32:42.497136', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4803, asdas, asdas, 2023-04-12 08:32:38.497136, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4803', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4803', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4804', 'asds', 'asds', '2023-04-12 08:32:38.497148', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4804', '7', '2023-05-25 08:32:38.497148', '2023-05-25 08:32:39.497148', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4804, asds, asds, 2023-04-12 08:32:38.497148, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4804', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4804', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4805', 'dsbb', 'dsbb', '2023-04-12 08:32:38.497160', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4805', '9', '2023-06-03 08:32:38.497160', '2023-06-03 08:32:39.497160', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4805, dsbb, dsbb, 2023-04-12 08:32:38.497160, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4805', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4805', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4806', 'asdas', 'asdas', '2023-04-12 08:32:38.497171', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4806', '6', '2023-04-18 08:32:38.497171', '2023-04-18 08:32:39.497171', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4806, asdas, asdas, 2023-04-12 08:32:38.497171, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4806', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4806', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4807', 'dsbb', 'dsbb', '2023-04-12 08:32:38.497183', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4807', '15', '2023-06-16 08:32:38.497183', '2023-06-16 08:32:41.497183', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4807, dsbb, dsbb, 2023-04-12 08:32:38.497183, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4807', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4807', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4808', 'asdas', 'asdas', '2023-04-12 08:32:38.497194', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4808', '3', '2023-05-10 08:32:38.497194', '2023-05-10 08:32:42.497194', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4808, asdas, asdas, 2023-04-12 08:32:38.497194, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4808', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4808', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4809', 'asdas', 'asdas', '2023-04-12 08:32:38.497210', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4809', '8', '2023-06-02 08:32:38.497210', '2023-06-02 08:32:39.497210', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4809, asdas, asdas, 2023-04-12 08:32:38.497210, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4809', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4809', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4810', 'dsbb', 'dsbb', '2023-04-12 08:32:38.497222', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4810', '14', '2023-04-22 08:32:38.497222', '2023-04-22 08:32:39.497222', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4810, dsbb, dsbb, 2023-04-12 08:32:38.497222, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4810', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4810', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4811', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497233', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4811', '7', '2023-05-16 08:32:38.497233', '2023-05-16 08:32:41.497233', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4811, cvcb, cvcb, 2023-04-12 08:32:38.497233, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4811', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4811', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4812', 'asdas', 'asdas', '2023-04-12 08:32:38.497244', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4812', '11', '2023-06-14 08:32:38.497244', '2023-06-14 08:32:40.497244', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4812, asdas, asdas, 2023-04-12 08:32:38.497244, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4812', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4812', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4813', 'asdas', 'asdas', '2023-04-12 08:32:38.497256', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4813', '2', '2023-05-27 08:32:38.497256', '2023-05-27 08:32:39.497256', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4813, asdas, asdas, 2023-04-12 08:32:38.497256, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4813', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4813', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4814', 'asd', 'asd', '2023-04-12 08:32:38.497267', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4814', '6', '2023-07-09 08:32:38.497267', '2023-07-09 08:32:39.497267', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4814, asd, asd, 2023-04-12 08:32:38.497267, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4814', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4814', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4815', 'asdas', 'asdas', '2023-04-12 08:32:38.497279', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4815', '14', '2023-05-14 08:32:38.497279', '2023-05-14 08:32:42.497279', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4815, asdas, asdas, 2023-04-12 08:32:38.497279, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4815', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4815', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4816', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497294', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4816', '4', '2023-05-20 08:32:38.497294', '2023-05-20 08:32:41.497294', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4816, cvcb, cvcb, 2023-04-12 08:32:38.497294, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4816', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4816', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4817', 'asds', 'asds', '2023-04-12 08:32:38.497306', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4817', '5', '2023-05-30 08:32:38.497306', '2023-05-30 08:32:42.497306', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4817, asds, asds, 2023-04-12 08:32:38.497306, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4817', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4817', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4818', 'asds', 'asds', '2023-04-12 08:32:38.497317', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4818', '4', '2023-06-27 08:32:38.497317', '2023-06-27 08:32:41.497317', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4818, asds, asds, 2023-04-12 08:32:38.497317, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4818', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4818', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4819', 'asdas', 'asdas', '2023-04-12 08:32:38.497329', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4819', '15', '2023-06-09 08:32:38.497329', '2023-06-09 08:32:41.497329', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4819, asdas, asdas, 2023-04-12 08:32:38.497329, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4819', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4819', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4820', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497340', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4820', '12', '2023-06-18 08:32:38.497340', '2023-06-18 08:32:41.497340', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4820, cvcb, cvcb, 2023-04-12 08:32:38.497340, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4820', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4820', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4821', 'asdas', 'asdas', '2023-04-12 08:32:38.497351', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4821', '12', '2023-06-23 08:32:38.497351', '2023-06-23 08:32:39.497351', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4821, asdas, asdas, 2023-04-12 08:32:38.497351, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4821', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4821', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4822', 'asds', 'asds', '2023-04-12 08:32:38.497363', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4822', '11', '2023-05-30 08:32:38.497363', '2023-05-30 08:32:39.497363', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4822, asds, asds, 2023-04-12 08:32:38.497363, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4822', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4822', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4823', 'asd', 'asd', '2023-04-12 08:32:38.497374', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4823', '5', '2023-05-16 08:32:38.497374', '2023-05-16 08:32:41.497374', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4823, asd, asd, 2023-04-12 08:32:38.497374, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4823', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4823', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4824', 'asds', 'asds', '2023-04-12 08:32:38.497390', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4824', '7', '2023-06-03 08:32:38.497390', '2023-06-03 08:32:40.497390', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4824, asds, asds, 2023-04-12 08:32:38.497390, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4824', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4824', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4825', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497401', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4825', '2', '2023-06-21 08:32:38.497401', '2023-06-21 08:32:42.497401', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4825, cvcb, cvcb, 2023-04-12 08:32:38.497401, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4825', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4825', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4826', 'asds', 'asds', '2023-04-12 08:32:38.497413', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4826', '15', '2023-05-10 08:32:38.497413', '2023-05-10 08:32:40.497413', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4826, asds, asds, 2023-04-12 08:32:38.497413, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4826', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4826', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4827', 'asdas', 'asdas', '2023-04-12 08:32:38.497424', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4827', '14', '2023-05-14 08:32:38.497424', '2023-05-14 08:32:41.497424', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4827, asdas, asdas, 2023-04-12 08:32:38.497424, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4827', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4827', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4828', 'asds', 'asds', '2023-04-12 08:32:38.497436', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4828', '3', '2023-06-28 08:32:38.497436', '2023-06-28 08:32:39.497436', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4828, asds, asds, 2023-04-12 08:32:38.497436, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4828', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4828', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4829', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497447', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4829', '4', '2023-05-12 08:32:38.497447', '2023-05-12 08:32:41.497447', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4829, cvcb, cvcb, 2023-04-12 08:32:38.497447, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4829', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4829', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4830', 'asd', 'asd', '2023-04-12 08:32:38.497459', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4830', '4', '2023-05-11 08:32:38.497459', '2023-05-11 08:32:39.497459', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4830, asd, asd, 2023-04-12 08:32:38.497459, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4830', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4830', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4831', 'asds', 'asds', '2023-04-12 08:32:38.497470', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4831', '8', '2023-05-22 08:32:38.497470', '2023-05-22 08:32:40.497470', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4831, asds, asds, 2023-04-12 08:32:38.497470, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4831', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4831', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4832', 'dsbb', 'dsbb', '2023-04-12 08:32:38.497484', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4832', '2', '2023-06-10 08:32:38.497484', '2023-06-10 08:32:40.497484', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4832, dsbb, dsbb, 2023-04-12 08:32:38.497484, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4832', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4832', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4833', 'asdas', 'asdas', '2023-04-12 08:32:38.497496', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4833', '8', '2023-04-18 08:32:38.497496', '2023-04-18 08:32:39.497496', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4833, asdas, asdas, 2023-04-12 08:32:38.497496, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4833', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4833', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4834', 'asd', 'asd', '2023-04-12 08:32:38.497508', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4834', '4', '2023-06-20 08:32:38.497508', '2023-06-20 08:32:40.497508', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4834, asd, asd, 2023-04-12 08:32:38.497508, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4834', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4834', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4835', 'dsbb', 'dsbb', '2023-04-12 08:32:38.497520', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4835', '15', '2023-04-19 08:32:38.497520', '2023-04-19 08:32:41.497520', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4835, dsbb, dsbb, 2023-04-12 08:32:38.497520, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4835', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4835', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4836', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497531', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4836', '1', '2023-05-15 08:32:38.497531', '2023-05-15 08:32:39.497531', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4836, cvcb, cvcb, 2023-04-12 08:32:38.497531, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4836', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4836', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4837', 'asd', 'asd', '2023-04-12 08:32:38.497542', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4837', '3', '2023-06-15 08:32:38.497542', '2023-06-15 08:32:39.497542', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4837, asd, asd, 2023-04-12 08:32:38.497542, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4837', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4837', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4838', 'asds', 'asds', '2023-04-12 08:32:38.497554', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4838', '5', '2023-07-09 08:32:38.497554', '2023-07-09 08:32:41.497554', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4838, asds, asds, 2023-04-12 08:32:38.497554, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4838', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4838', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4839', 'asdas', 'asdas', '2023-04-12 08:32:38.497570', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4839', '6', '2023-05-24 08:32:38.497570', '2023-05-24 08:32:39.497570', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4839, asdas, asdas, 2023-04-12 08:32:38.497570, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4839', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4839', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4840', 'dsbb', 'dsbb', '2023-04-12 08:32:38.497582', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4840', '11', '2023-06-28 08:32:38.497582', '2023-06-28 08:32:39.497582', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4840, dsbb, dsbb, 2023-04-12 08:32:38.497582, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4840', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4840', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4841', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497593', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4841', '12', '2023-07-07 08:32:38.497593', '2023-07-07 08:32:42.497593', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4841, cvcb, cvcb, 2023-04-12 08:32:38.497593, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4841', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4841', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4842', 'asds', 'asds', '2023-04-12 08:32:38.497605', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4842', '1', '2023-04-17 08:32:38.497605', '2023-04-17 08:32:40.497605', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4842, asds, asds, 2023-04-12 08:32:38.497605, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4842', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4842', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4843', 'asd', 'asd', '2023-04-12 08:32:38.497616', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4843', '14', '2023-06-04 08:32:38.497616', '2023-06-04 08:32:40.497616', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4843, asd, asd, 2023-04-12 08:32:38.497616, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4843', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4843', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4844', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497627', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4844', '2', '2023-06-08 08:32:38.497627', '2023-06-08 08:32:40.497627', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4844, cvcb, cvcb, 2023-04-12 08:32:38.497627, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4844', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4844', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4845', 'asdas', 'asdas', '2023-04-12 08:32:38.497639', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4845', '13', '2023-04-28 08:32:38.497639', '2023-04-28 08:32:42.497639', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4845, asdas, asdas, 2023-04-12 08:32:38.497639, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4845', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4845', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4846', 'asds', 'asds', '2023-04-12 08:32:38.497651', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4846', '13', '2023-05-04 08:32:38.497651', '2023-05-04 08:32:40.497651', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4846, asds, asds, 2023-04-12 08:32:38.497651, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4846', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4846', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4847', 'asds', 'asds', '2023-04-12 08:32:38.497666', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4847', '6', '2023-05-03 08:32:38.497666', '2023-05-03 08:32:41.497666', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4847, asds, asds, 2023-04-12 08:32:38.497666, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4847', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4847', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4848', 'asds', 'asds', '2023-04-12 08:32:38.497677', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4848', '2', '2023-05-23 08:32:38.497677', '2023-05-23 08:32:39.497677', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4848, asds, asds, 2023-04-12 08:32:38.497677, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4848', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4848', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4849', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497689', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4849', '11', '2023-06-01 08:32:38.497689', '2023-06-01 08:32:41.497689', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4849, cvcb, cvcb, 2023-04-12 08:32:38.497689, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4849', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4849', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4850', 'asd', 'asd', '2023-04-12 08:32:38.497700', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4850', '3', '2023-06-08 08:32:38.497700', '2023-06-08 08:32:40.497700', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4850, asd, asd, 2023-04-12 08:32:38.497700, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4850', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4850', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4851', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497712', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4851', '2', '2023-07-10 08:32:38.497712', '2023-07-10 08:32:41.497712', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4851, cvcb, cvcb, 2023-04-12 08:32:38.497712, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4851', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4851', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4852', 'asd', 'asd', '2023-04-12 08:32:38.497723', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4852', '5', '2023-05-29 08:32:38.497723', '2023-05-29 08:32:41.497723', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4852, asd, asd, 2023-04-12 08:32:38.497723, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4852', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4852', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4853', 'asds', 'asds', '2023-04-12 08:32:38.497735', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4853', '11', '2023-07-09 08:32:38.497735', '2023-07-09 08:32:41.497735', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4853, asds, asds, 2023-04-12 08:32:38.497735, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4853', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4853', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4854', 'asdas', 'asdas', '2023-04-12 08:32:38.497746', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4854', '15', '2023-04-28 08:32:38.497746', '2023-04-28 08:32:42.497746', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4854, asdas, asdas, 2023-04-12 08:32:38.497746, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4854', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4854', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4855', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497762', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4855', '8', '2023-04-24 08:32:38.497762', '2023-04-24 08:32:39.497762', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4855, cvcb, cvcb, 2023-04-12 08:32:38.497762, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4855', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4855', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4856', 'asd', 'asd', '2023-04-12 08:32:38.497774', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4856', '4', '2023-05-31 08:32:38.497774', '2023-05-31 08:32:39.497774', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4856, asd, asd, 2023-04-12 08:32:38.497774, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4856', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4856', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4857', 'asds', 'asds', '2023-04-12 08:32:38.497786', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4857', '15', '2023-05-01 08:32:38.497786', '2023-05-01 08:32:39.497786', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4857, asds, asds, 2023-04-12 08:32:38.497786, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4857', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4857', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4858', 'asdas', 'asdas', '2023-04-12 08:32:38.497797', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4858', '6', '2023-07-06 08:32:38.497797', '2023-07-06 08:32:41.497797', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4858, asdas, asdas, 2023-04-12 08:32:38.497797, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4858', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4858', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4859', 'asd', 'asd', '2023-04-12 08:32:38.497809', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4859', '15', '2023-06-01 08:32:38.497809', '2023-06-01 08:32:40.497809', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4859, asd, asd, 2023-04-12 08:32:38.497809, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4859', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4859', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4860', 'dsbb', 'dsbb', '2023-04-12 08:32:38.497820', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4860', '15', '2023-05-14 08:32:38.497820', '2023-05-14 08:32:40.497820', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4860, dsbb, dsbb, 2023-04-12 08:32:38.497820, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4860', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4860', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4861', 'asd', 'asd', '2023-04-12 08:32:38.497831', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4861', '12', '2023-06-28 08:32:38.497831', '2023-06-28 08:32:39.497831', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4861, asd, asd, 2023-04-12 08:32:38.497831, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4861', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4861', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4862', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497850', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4862', '14', '2023-05-24 08:32:38.497850', '2023-05-24 08:32:42.497850', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4862, cvcb, cvcb, 2023-04-12 08:32:38.497850, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4862', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4862', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4863', 'dsbb', 'dsbb', '2023-04-12 08:32:38.497862', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4863', '10', '2023-04-25 08:32:38.497862', '2023-04-25 08:32:39.497862', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4863, dsbb, dsbb, 2023-04-12 08:32:38.497862, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4863', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4863', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4864', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497873', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4864', '4', '2023-05-02 08:32:38.497873', '2023-05-02 08:32:40.497873', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4864, cvcb, cvcb, 2023-04-12 08:32:38.497873, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4864', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4864', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4865', 'asds', 'asds', '2023-04-12 08:32:38.497886', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4865', '10', '2023-05-05 08:32:38.497886', '2023-05-05 08:32:41.497886', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4865, asds, asds, 2023-04-12 08:32:38.497886, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4865', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4865', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4866', 'asd', 'asd', '2023-04-12 08:32:38.497898', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4866', '15', '2023-06-18 08:32:38.497898', '2023-06-18 08:32:40.497898', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4866, asd, asd, 2023-04-12 08:32:38.497898, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4866', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4866', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4867', 'asd', 'asd', '2023-04-12 08:32:38.497910', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4867', '8', '2023-04-15 08:32:38.497910', '2023-04-15 08:32:42.497910', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4867, asd, asd, 2023-04-12 08:32:38.497910, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4867', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4867', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4868', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497922', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4868', '13', '2023-04-14 08:32:38.497922', '2023-04-14 08:32:41.497922', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4868, cvcb, cvcb, 2023-04-12 08:32:38.497922, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4868', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4868', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4869', 'asdas', 'asdas', '2023-04-12 08:32:38.497934', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4869', '4', '2023-05-27 08:32:38.497934', '2023-05-27 08:32:40.497934', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4869, asdas, asdas, 2023-04-12 08:32:38.497934, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4869', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4869', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4870', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497952', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4870', '6', '2023-06-05 08:32:38.497952', '2023-06-05 08:32:40.497952', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4870, cvcb, cvcb, 2023-04-12 08:32:38.497952, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4870', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4870', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4871', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497964', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4871', '13', '2023-05-28 08:32:38.497964', '2023-05-28 08:32:42.497964', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4871, cvcb, cvcb, 2023-04-12 08:32:38.497964, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4871', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4871', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4872', 'asd', 'asd', '2023-04-12 08:32:38.497976', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4872', '1', '2023-06-12 08:32:38.497976', '2023-06-12 08:32:41.497976', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4872, asd, asd, 2023-04-12 08:32:38.497976, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4872', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4872', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4873', 'cvcb', 'cvcb', '2023-04-12 08:32:38.497987', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4873', '4', '2023-06-21 08:32:38.497987', '2023-06-21 08:32:41.497987', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4873, cvcb, cvcb, 2023-04-12 08:32:38.497987, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4873', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4873', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4874', 'asdas', 'asdas', '2023-04-12 08:32:38.497999', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4874', '11', '2023-05-09 08:32:38.497999', '2023-05-09 08:32:41.497999', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4874, asdas, asdas, 2023-04-12 08:32:38.497999, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4874', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4874', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4875', 'asdas', 'asdas', '2023-04-12 08:32:38.498011', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4875', '10', '2023-06-23 08:32:38.498011', '2023-06-23 08:32:42.498011', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4875, asdas, asdas, 2023-04-12 08:32:38.498011, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4875', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4875', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4876', 'asdas', 'asdas', '2023-04-12 08:32:38.498022', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4876', '10', '2023-05-26 08:32:38.498022', '2023-05-26 08:32:39.498022', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4876, asdas, asdas, 2023-04-12 08:32:38.498022, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4876', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4876', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4877', 'asd', 'asd', '2023-04-12 08:32:38.498083', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4877', '15', '2023-06-30 08:32:38.498083', '2023-06-30 08:32:41.498083', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4877, asd, asd, 2023-04-12 08:32:38.498083, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4877', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4877', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4878', 'dsbb', 'dsbb', '2023-04-12 08:32:38.498138', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4878', '3', '2023-04-21 08:32:38.498138', '2023-04-21 08:32:39.498138', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4878, dsbb, dsbb, 2023-04-12 08:32:38.498138, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4878', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4878', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4879', 'asdas', 'asdas', '2023-04-12 08:32:38.498154', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4879', '6', '2023-05-07 08:32:38.498154', '2023-05-07 08:32:39.498154', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4879, asdas, asdas, 2023-04-12 08:32:38.498154, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4879', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4879', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4880', 'asdas', 'asdas', '2023-04-12 08:32:38.498168', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4880', '13', '2023-04-13 08:32:38.498168', '2023-04-13 08:32:39.498168', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4880, asdas, asdas, 2023-04-12 08:32:38.498168, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4880', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4880', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4881', 'asd', 'asd', '2023-04-12 08:32:38.498186', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4881', '15', '2023-06-03 08:32:38.498186', '2023-06-03 08:32:42.498186', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4881, asd, asd, 2023-04-12 08:32:38.498186, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4881', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4881', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4882', 'asds', 'asds', '2023-04-12 08:32:38.498200', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4882', '11', '2023-04-18 08:32:38.498200', '2023-04-18 08:32:42.498200', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4882, asds, asds, 2023-04-12 08:32:38.498200, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4882', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4882', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4883', 'asds', 'asds', '2023-04-12 08:32:38.498213', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4883', '1', '2023-05-19 08:32:38.498213', '2023-05-19 08:32:39.498213', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4883, asds, asds, 2023-04-12 08:32:38.498213, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4883', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4883', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4884', 'asd', 'asd', '2023-04-12 08:32:38.498225', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4884', '2', '2023-06-27 08:32:38.498225', '2023-06-27 08:32:40.498225', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4884, asd, asd, 2023-04-12 08:32:38.498225, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4884', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4884', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4885', 'asds', 'asds', '2023-04-12 08:32:38.498249', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4885', '8', '2023-05-20 08:32:38.498249', '2023-05-20 08:32:40.498249', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4885, asds, asds, 2023-04-12 08:32:38.498249, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4885', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4885', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4886', 'cvcb', 'cvcb', '2023-04-12 08:32:38.498263', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4886', '15', '2023-04-25 08:32:38.498263', '2023-04-25 08:32:40.498263', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4886, cvcb, cvcb, 2023-04-12 08:32:38.498263, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4886', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4886', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4887', 'asd', 'asd', '2023-04-12 08:32:38.498276', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4887', '8', '2023-05-28 08:32:38.498276', '2023-05-28 08:32:39.498276', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4887, asd, asd, 2023-04-12 08:32:38.498276, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4887', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4887', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4888', 'dsbb', 'dsbb', '2023-04-12 08:32:38.498288', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4888', '9', '2023-07-02 08:32:38.498288', '2023-07-02 08:32:40.498288', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4888, dsbb, dsbb, 2023-04-12 08:32:38.498288, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4888', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4888', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4889', 'asdas', 'asdas', '2023-04-12 08:32:38.498300', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4889', '8', '2023-05-22 08:32:38.498300', '2023-05-22 08:32:40.498300', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4889, asdas, asdas, 2023-04-12 08:32:38.498300, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4889', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4889', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4890', 'dsbb', 'dsbb', '2023-04-12 08:32:38.498312', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4890', '11', '2023-05-24 08:32:38.498312', '2023-05-24 08:32:41.498312', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4890, dsbb, dsbb, 2023-04-12 08:32:38.498312, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4890', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4890', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4891', 'asdas', 'asdas', '2023-04-12 08:32:38.498324', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4891', '4', '2023-06-14 08:32:38.498324', '2023-06-14 08:32:42.498324', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4891, asdas, asdas, 2023-04-12 08:32:38.498324, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4891', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4891', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4892', 'asds', 'asds', '2023-04-12 08:32:38.498336', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4892', '6', '2023-06-23 08:32:38.498336', '2023-06-23 08:32:41.498336', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4892, asds, asds, 2023-04-12 08:32:38.498336, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4892', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4892', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4893', 'asd', 'asd', '2023-04-12 08:32:38.498353', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4893', '12', '2023-04-13 08:32:38.498353', '2023-04-13 08:32:42.498353', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4893, asd, asd, 2023-04-12 08:32:38.498353, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4893', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4893', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4894', 'cvcb', 'cvcb', '2023-04-12 08:32:38.498367', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4894', '13', '2023-05-14 08:32:38.498367', '2023-05-14 08:32:42.498367', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4894, cvcb, cvcb, 2023-04-12 08:32:38.498367, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4894', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4894', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4895', 'dsbb', 'dsbb', '2023-04-12 08:32:38.498379', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4895', '15', '2023-05-12 08:32:38.498379', '2023-05-12 08:32:41.498379', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4895, dsbb, dsbb, 2023-04-12 08:32:38.498379, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4895', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4895', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4896', 'asdas', 'asdas', '2023-04-12 08:32:38.498392', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4896', '1', '2023-06-09 08:32:38.498392', '2023-06-09 08:32:42.498392', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4896, asdas, asdas, 2023-04-12 08:32:38.498392, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4896', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4896', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4897', 'cvcb', 'cvcb', '2023-04-12 08:32:38.498405', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4897', '11', '2023-04-23 08:32:38.498405', '2023-04-23 08:32:39.498405', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4897, cvcb, cvcb, 2023-04-12 08:32:38.498405, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4897', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4897', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4898', 'dsbb', 'dsbb', '2023-04-12 08:32:38.498417', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4898', '1', '2023-05-07 08:32:38.498417', '2023-05-07 08:32:41.498417', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4898, dsbb, dsbb, 2023-04-12 08:32:38.498417, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4898', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4898', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4899', 'dsbb', 'dsbb', '2023-04-12 08:32:38.498430', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4899', '9', '2023-06-30 08:32:38.498430', '2023-06-30 08:32:42.498430', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4899, dsbb, dsbb, 2023-04-12 08:32:38.498430, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4899', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4899', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4900', 'asd', 'asd', '2023-04-12 08:32:38.498442', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4900', '6', '2023-05-26 08:32:38.498442', '2023-05-26 08:32:41.498442', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4900, asd, asd, 2023-04-12 08:32:38.498442, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4900', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4900', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4901', 'cvcb', 'cvcb', '2023-04-12 08:32:38.498461', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4901', '9', '2023-06-29 08:32:38.498461', '2023-06-29 08:32:40.498461', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4901, cvcb, cvcb, 2023-04-12 08:32:38.498461, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4901', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4901', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4902', 'asdas', 'asdas', '2023-04-12 08:32:38.498474', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4902', '14', '2023-05-22 08:32:38.498474', '2023-05-22 08:32:41.498474', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4902, asdas, asdas, 2023-04-12 08:32:38.498474, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4902', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4902', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4903', 'cvcb', 'cvcb', '2023-04-12 08:32:38.498486', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4903', '8', '2023-05-18 08:32:38.498486', '2023-05-18 08:32:40.498486', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4903, cvcb, cvcb, 2023-04-12 08:32:38.498486, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4903', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4903', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4904', 'asd', 'asd', '2023-04-12 08:32:38.498498', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4904', '15', '2023-06-15 08:32:38.498498', '2023-06-15 08:32:41.498498', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4904, asd, asd, 2023-04-12 08:32:38.498498, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4904', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4904', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4905', 'asd', 'asd', '2023-04-12 08:32:38.498509', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4905', '7', '2023-05-20 08:32:38.498509', '2023-05-20 08:32:39.498509', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4905, asd, asd, 2023-04-12 08:32:38.498509, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4905', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4905', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4906', 'asds', 'asds', '2023-04-12 08:32:38.498521', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4906', '15', '2023-06-15 08:32:38.498521', '2023-06-15 08:32:41.498521', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4906, asds, asds, 2023-04-12 08:32:38.498521, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4906', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4906', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4907', 'asd', 'asd', '2023-04-12 08:32:38.498533', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4907', '2', '2023-05-03 08:32:38.498533', '2023-05-03 08:32:42.498533', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4907, asd, asd, 2023-04-12 08:32:38.498533, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4907', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4907', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4908', 'asds', 'asds', '2023-04-12 08:32:38.498551', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4908', '8', '2023-07-09 08:32:38.498551', '2023-07-09 08:32:39.498551', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4908, asds, asds, 2023-04-12 08:32:38.498551, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4908', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4908', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4909', 'dsbb', 'dsbb', '2023-04-12 08:32:38.498563', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4909', '12', '2023-06-19 08:32:38.498563', '2023-06-19 08:32:39.498563', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4909, dsbb, dsbb, 2023-04-12 08:32:38.498563, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4909', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4909', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4910', 'asdas', 'asdas', '2023-04-12 08:32:38.498575', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4910', '3', '2023-05-08 08:32:38.498575', '2023-05-08 08:32:42.498575', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4910, asdas, asdas, 2023-04-12 08:32:38.498575, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4910', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4910', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4911', 'asdas', 'asdas', '2023-04-12 08:32:38.498586', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4911', '12', '2023-05-07 08:32:38.498586', '2023-05-07 08:32:42.498586', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4911, asdas, asdas, 2023-04-12 08:32:38.498586, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4911', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4911', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4912', 'asd', 'asd', '2023-04-12 08:32:38.498599', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4912', '10', '2023-04-30 08:32:38.498599', '2023-04-30 08:32:41.498599', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4912, asd, asd, 2023-04-12 08:32:38.498599, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4912', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4912', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4913', 'cvcb', 'cvcb', '2023-04-12 08:32:38.498611', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4913', '4', '2023-05-07 08:32:38.498611', '2023-05-07 08:32:40.498611', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4913, cvcb, cvcb, 2023-04-12 08:32:38.498611, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4913', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4913', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4914', 'asds', 'asds', '2023-04-12 08:32:38.498623', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4914', '15', '2023-06-20 08:32:38.498623', '2023-06-20 08:32:41.498623', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4914, asds, asds, 2023-04-12 08:32:38.498623, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4914', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4914', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4915', 'asds', 'asds', '2023-04-12 08:32:38.498636', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4915', '13', '2023-05-04 08:32:38.498636', '2023-05-04 08:32:39.498636', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4915, asds, asds, 2023-04-12 08:32:38.498636, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4915', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4915', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4916', 'asdas', 'asdas', '2023-04-12 08:32:38.498655', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4916', '4', '2023-05-12 08:32:38.498655', '2023-05-12 08:32:42.498655', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4916, asdas, asdas, 2023-04-12 08:32:38.498655, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4916', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4916', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4917', 'cvcb', 'cvcb', '2023-04-12 08:32:38.498668', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4917', '5', '2023-06-25 08:32:38.498668', '2023-06-25 08:32:39.498668', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4917, cvcb, cvcb, 2023-04-12 08:32:38.498668, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4917', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4917', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4918', 'cvcb', 'cvcb', '2023-04-12 08:32:38.498680', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4918', '15', '2023-06-06 08:32:38.498680', '2023-06-06 08:32:42.498680', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4918, cvcb, cvcb, 2023-04-12 08:32:38.498680, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4918', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4918', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4919', 'dsbb', 'dsbb', '2023-04-12 08:32:38.498692', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4919', '3', '2023-07-10 08:32:38.498692', '2023-07-10 08:32:40.498692', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4919, dsbb, dsbb, 2023-04-12 08:32:38.498692, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4919', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4919', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4920', 'asd', 'asd', '2023-04-12 08:32:38.498705', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4920', '2', '2023-04-25 08:32:38.498705', '2023-04-25 08:32:40.498705', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4920, asd, asd, 2023-04-12 08:32:38.498705, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4920', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4920', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4921', 'cvcb', 'cvcb', '2023-04-12 08:32:38.498717', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4921', '13', '2023-05-24 08:32:38.498717', '2023-05-24 08:32:39.498717', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4921, cvcb, cvcb, 2023-04-12 08:32:38.498717, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4921', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4921', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4922', 'asdas', 'asdas', '2023-04-12 08:32:38.498729', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4922', '8', '2023-07-05 08:32:38.498729', '2023-07-05 08:32:41.498729', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4922, asdas, asdas, 2023-04-12 08:32:38.498729, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4922', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4922', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4923', 'cvcb', 'cvcb', '2023-04-12 08:32:38.498741', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4923', '13', '2023-05-18 08:32:38.498741', '2023-05-18 08:32:39.498741', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4923, cvcb, cvcb, 2023-04-12 08:32:38.498741, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4923', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4923', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4924', 'cvcb', 'cvcb', '2023-04-12 08:32:38.498776', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4924', '4', '2023-06-20 08:32:38.498776', '2023-06-20 08:32:42.498776', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4924, cvcb, cvcb, 2023-04-12 08:32:38.498776, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4924', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4924', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4925', 'cvcb', 'cvcb', '2023-04-12 08:32:38.498789', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4925', '7', '2023-05-24 08:32:38.498789', '2023-05-24 08:32:40.498789', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4925, cvcb, cvcb, 2023-04-12 08:32:38.498789, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4925', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4925', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4926', 'cvcb', 'cvcb', '2023-04-12 08:32:38.498800', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4926', '8', '2023-06-26 08:32:38.498800', '2023-06-26 08:32:42.498800', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4926, cvcb, cvcb, 2023-04-12 08:32:38.498800, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4926', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4926', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4927', 'asds', 'asds', '2023-04-12 08:32:38.498812', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4927', '14', '2023-07-04 08:32:38.498812', '2023-07-04 08:32:41.498812', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4927, asds, asds, 2023-04-12 08:32:38.498812, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4927', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4927', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4928', 'cvcb', 'cvcb', '2023-04-12 08:32:38.498824', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4928', '13', '2023-06-24 08:32:38.498824', '2023-06-24 08:32:40.498824', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4928, cvcb, cvcb, 2023-04-12 08:32:38.498824, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4928', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4928', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4929', 'asds', 'asds', '2023-04-12 08:32:38.498836', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4929', '7', '2023-06-18 08:32:38.498836', '2023-06-18 08:32:40.498836', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4929, asds, asds, 2023-04-12 08:32:38.498836, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4929', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4929', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4930', 'asdas', 'asdas', '2023-04-12 08:32:38.498848', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4930', '9', '2023-06-03 08:32:38.498848', '2023-06-03 08:32:41.498848', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4930, asdas, asdas, 2023-04-12 08:32:38.498848, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4930', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4930', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4931', 'asdas', 'asdas', '2023-04-12 08:32:38.498871', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4931', '3', '2023-05-22 08:32:38.498871', '2023-05-22 08:32:41.498871', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4931, asdas, asdas, 2023-04-12 08:32:38.498871, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4931', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4931', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4932', 'asds', 'asds', '2023-04-12 08:32:38.498883', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4932', '13', '2023-06-13 08:32:38.498883', '2023-06-13 08:32:39.498883', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4932, asds, asds, 2023-04-12 08:32:38.498883, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4932', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4932', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4933', 'asd', 'asd', '2023-04-12 08:32:38.498895', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4933', '7', '2023-07-01 08:32:38.498895', '2023-07-01 08:32:39.498895', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4933, asd, asd, 2023-04-12 08:32:38.498895, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4933', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4933', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4934', 'cvcb', 'cvcb', '2023-04-12 08:32:38.498907', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4934', '6', '2023-07-01 08:32:38.498907', '2023-07-01 08:32:41.498907', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4934, cvcb, cvcb, 2023-04-12 08:32:38.498907, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4934', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4934', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4935', 'asd', 'asd', '2023-04-12 08:32:38.498919', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4935', '9', '2023-06-05 08:32:38.498919', '2023-06-05 08:32:40.498919', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4935, asd, asd, 2023-04-12 08:32:38.498919, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4935', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4935', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4936', 'dsbb', 'dsbb', '2023-04-12 08:32:38.498933', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4936', '12', '2023-06-07 08:32:38.498933', '2023-06-07 08:32:42.498933', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4936, dsbb, dsbb, 2023-04-12 08:32:38.498933, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4936', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4936', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4937', 'asdas', 'asdas', '2023-04-12 08:32:38.498945', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4937', '5', '2023-04-20 08:32:38.498945', '2023-04-20 08:32:39.498945', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4937, asdas, asdas, 2023-04-12 08:32:38.498945, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4937', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4937', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4938', 'dsbb', 'dsbb', '2023-04-12 08:32:38.498957', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4938', '7', '2023-06-28 08:32:38.498957', '2023-06-28 08:32:42.498957', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4938, dsbb, dsbb, 2023-04-12 08:32:38.498957, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4938', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4938', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4939', 'asdas', 'asdas', '2023-04-12 08:32:38.498972', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4939', '9', '2023-04-19 08:32:38.498972', '2023-04-19 08:32:39.498972', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4939, asdas, asdas, 2023-04-12 08:32:38.498972, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4939', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4939', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4940', 'asdas', 'asdas', '2023-04-12 08:32:38.498984', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4940', '10', '2023-07-07 08:32:38.498984', '2023-07-07 08:32:40.498984', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4940, asdas, asdas, 2023-04-12 08:32:38.498984, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4940', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4940', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4941', 'dsbb', 'dsbb', '2023-04-12 08:32:38.498996', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4941', '2', '2023-05-18 08:32:38.498996', '2023-05-18 08:32:39.498996', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4941, dsbb, dsbb, 2023-04-12 08:32:38.498996, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4941', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4941', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4942', 'asds', 'asds', '2023-04-12 08:32:38.499008', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4942', '2', '2023-07-04 08:32:38.499008', '2023-07-04 08:32:39.499008', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4942, asds, asds, 2023-04-12 08:32:38.499008, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4942', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4942', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4943', 'asdas', 'asdas', '2023-04-12 08:32:38.499020', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4943', '13', '2023-05-04 08:32:38.499020', '2023-05-04 08:32:41.499020', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4943, asdas, asdas, 2023-04-12 08:32:38.499020, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4943', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4943', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4944', 'asd', 'asd', '2023-04-12 08:32:38.499032', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4944', '12', '2023-04-18 08:32:38.499032', '2023-04-18 08:32:39.499032', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4944, asd, asd, 2023-04-12 08:32:38.499032, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4944', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4944', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4945', 'cvcb', 'cvcb', '2023-04-12 08:32:38.499044', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4945', '11', '2023-06-30 08:32:38.499044', '2023-06-30 08:32:39.499044', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4945, cvcb, cvcb, 2023-04-12 08:32:38.499044, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4945', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4945', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4946', 'cvcb', 'cvcb', '2023-04-12 08:32:38.499057', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4946', '1', '2023-04-22 08:32:38.499057', '2023-04-22 08:32:40.499057', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4946, cvcb, cvcb, 2023-04-12 08:32:38.499057, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4946', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4946', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4947', 'cvcb', 'cvcb', '2023-04-12 08:32:38.499074', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4947', '14', '2023-06-23 08:32:38.499074', '2023-06-23 08:32:41.499074', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4947, cvcb, cvcb, 2023-04-12 08:32:38.499074, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4947', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4947', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4948', 'asd', 'asd', '2023-04-12 08:32:38.499087', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4948', '10', '2023-06-21 08:32:38.499087', '2023-06-21 08:32:39.499087', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4948, asd, asd, 2023-04-12 08:32:38.499087, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4948', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4948', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4949', 'cvcb', 'cvcb', '2023-04-12 08:32:38.499098', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4949', '15', '2023-06-08 08:32:38.499098', '2023-06-08 08:32:39.499098', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4949, cvcb, cvcb, 2023-04-12 08:32:38.499098, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4949', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4949', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4950', 'asds', 'asds', '2023-04-12 08:32:38.499110', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4950', '2', '2023-07-09 08:32:38.499110', '2023-07-09 08:32:41.499110', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4950, asds, asds, 2023-04-12 08:32:38.499110, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4950', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4950', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4951', 'asdas', 'asdas', '2023-04-12 08:32:38.499122', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4951', '8', '2023-05-26 08:32:38.499122', '2023-05-26 08:32:41.499122', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4951, asdas, asdas, 2023-04-12 08:32:38.499122, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4951', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4951', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4952', 'asds', 'asds', '2023-04-12 08:32:38.499134', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4952', '1', '2023-06-21 08:32:38.499134', '2023-06-21 08:32:39.499134', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4952, asds, asds, 2023-04-12 08:32:38.499134, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4952', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4952', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4953', 'asds', 'asds', '2023-04-12 08:32:38.499146', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4953', '7', '2023-05-22 08:32:38.499146', '2023-05-22 08:32:40.499146', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4953, asds, asds, 2023-04-12 08:32:38.499146, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4953', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4953', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4954', 'asds', 'asds', '2023-04-12 08:32:38.499161', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4954', '9', '2023-04-26 08:32:38.499161', '2023-04-26 08:32:40.499161', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4954, asds, asds, 2023-04-12 08:32:38.499161, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4954', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4954', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4955', 'asdas', 'asdas', '2023-04-12 08:32:38.499173', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4955', '9', '2023-04-21 08:32:38.499173', '2023-04-21 08:32:40.499173', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4955, asdas, asdas, 2023-04-12 08:32:38.499173, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4955', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4955', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4956', 'asds', 'asds', '2023-04-12 08:32:38.499185', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4956', '13', '2023-04-27 08:32:38.499185', '2023-04-27 08:32:41.499185', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4956, asds, asds, 2023-04-12 08:32:38.499185, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4956', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4956', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4957', 'asdas', 'asdas', '2023-04-12 08:32:38.499196', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4957', '6', '2023-06-18 08:32:38.499196', '2023-06-18 08:32:39.499196', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4957, asdas, asdas, 2023-04-12 08:32:38.499196, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4957', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4957', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4958', 'asd', 'asd', '2023-04-12 08:32:38.499208', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4958', '9', '2023-06-17 08:32:38.499208', '2023-06-17 08:32:40.499208', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4958, asd, asd, 2023-04-12 08:32:38.499208, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4958', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4958', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4959', 'asdas', 'asdas', '2023-04-12 08:32:38.499220', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4959', '5', '2023-06-13 08:32:38.499220', '2023-06-13 08:32:40.499220', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4959, asdas, asdas, 2023-04-12 08:32:38.499220, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4959', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4959', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4960', 'asd', 'asd', '2023-04-12 08:32:38.499232', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4960', '14', '2023-05-28 08:32:38.499232', '2023-05-28 08:32:42.499232', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4960, asd, asd, 2023-04-12 08:32:38.499232, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4960', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4960', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4961', 'asdas', 'asdas', '2023-04-12 08:32:38.499244', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4961', '15', '2023-04-12 08:32:38.499244', '2023-04-12 08:32:39.499244', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4961, asdas, asdas, 2023-04-12 08:32:38.499244, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4961', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4961', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4962', 'cvcb', 'cvcb', '2023-04-12 08:32:38.499260', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4962', '7', '2023-05-03 08:32:38.499260', '2023-05-03 08:32:39.499260', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4962, cvcb, cvcb, 2023-04-12 08:32:38.499260, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4962', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4962', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4963', 'cvcb', 'cvcb', '2023-04-12 08:32:38.499273', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4963', '1', '2023-04-15 08:32:38.499273', '2023-04-15 08:32:41.499273', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4963, cvcb, cvcb, 2023-04-12 08:32:38.499273, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4963', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4963', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4964', 'asds', 'asds', '2023-04-12 08:32:38.499285', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4964', '4', '2023-04-20 08:32:38.499285', '2023-04-20 08:32:41.499285', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4964, asds, asds, 2023-04-12 08:32:38.499285, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4964', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4964', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4965', 'asds', 'asds', '2023-04-12 08:32:38.499297', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4965', '10', '2023-05-17 08:32:38.499297', '2023-05-17 08:32:39.499297', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4965, asds, asds, 2023-04-12 08:32:38.499297, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4965', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4965', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4966', 'asds', 'asds', '2023-04-12 08:32:38.499308', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4966', '13', '2023-05-05 08:32:38.499308', '2023-05-05 08:32:41.499308', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4966, asds, asds, 2023-04-12 08:32:38.499308, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4966', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4966', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4967', 'cvcb', 'cvcb', '2023-04-12 08:32:38.499320', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4967', '13', '2023-07-03 08:32:38.499320', '2023-07-03 08:32:42.499320', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4967, cvcb, cvcb, 2023-04-12 08:32:38.499320, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4967', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4967', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4968', 'dsbb', 'dsbb', '2023-04-12 08:32:38.499333', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4968', '1', '2023-06-14 08:32:38.499333', '2023-06-14 08:32:40.499333', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4968, dsbb, dsbb, 2023-04-12 08:32:38.499333, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4968', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4968', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4969', 'asds', 'asds', '2023-04-12 08:32:38.499345', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4969', '5', '2023-06-15 08:32:38.499345', '2023-06-15 08:32:39.499345', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4969, asds, asds, 2023-04-12 08:32:38.499345, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4969', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4969', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4970', 'dsbb', 'dsbb', '2023-04-12 08:32:38.499363', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4970', '9', '2023-05-19 08:32:38.499363', '2023-05-19 08:32:41.499363', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4970, dsbb, dsbb, 2023-04-12 08:32:38.499363, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4970', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4970', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4971', 'cvcb', 'cvcb', '2023-04-12 08:32:38.499375', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4971', '8', '2023-07-05 08:32:38.499375', '2023-07-05 08:32:41.499375', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4971, cvcb, cvcb, 2023-04-12 08:32:38.499375, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4971', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4971', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4972', 'dsbb', 'dsbb', '2023-04-12 08:32:38.499387', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4972', '7', '2023-05-07 08:32:38.499387', '2023-05-07 08:32:40.499387', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4972, dsbb, dsbb, 2023-04-12 08:32:38.499387, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4972', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4972', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4973', 'asds', 'asds', '2023-04-12 08:32:38.499399', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4973', '14', '2023-04-21 08:32:38.499399', '2023-04-21 08:32:42.499399', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4973, asds, asds, 2023-04-12 08:32:38.499399, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4973', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4973', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4974', 'asd', 'asd', '2023-04-12 08:32:38.499410', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4974', '4', '2023-05-19 08:32:38.499410', '2023-05-19 08:32:42.499410', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4974, asd, asd, 2023-04-12 08:32:38.499410, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4974', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4974', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4975', 'cvcb', 'cvcb', '2023-04-12 08:32:38.499423', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4975', '2', '2023-06-10 08:32:38.499423', '2023-06-10 08:32:41.499423', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4975, cvcb, cvcb, 2023-04-12 08:32:38.499423, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4975', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4975', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4976', 'asd', 'asd', '2023-04-12 08:32:38.499434', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4976', '3', '2023-05-26 08:32:38.499434', '2023-05-26 08:32:42.499434', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4976, asd, asd, 2023-04-12 08:32:38.499434, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4976', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4976', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4977', 'asd', 'asd', '2023-04-12 08:32:38.499451', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4977', '9', '2023-05-25 08:32:38.499451', '2023-05-25 08:32:40.499451', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4977, asd, asd, 2023-04-12 08:32:38.499451, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4977', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4977', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4978', 'cvcb', 'cvcb', '2023-04-12 08:32:38.499463', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4978', '10', '2023-06-27 08:32:38.499463', '2023-06-27 08:32:41.499463', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4978, cvcb, cvcb, 2023-04-12 08:32:38.499463, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4978', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4978', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4979', 'asd', 'asd', '2023-04-12 08:32:38.499474', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4979', '12', '2023-04-30 08:32:38.499474', '2023-04-30 08:32:39.499474', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4979, asd, asd, 2023-04-12 08:32:38.499474, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4979', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4979', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4980', 'asdas', 'asdas', '2023-04-12 08:32:38.499486', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4980', '4', '2023-04-27 08:32:38.499486', '2023-04-27 08:32:40.499486', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4980, asdas, asdas, 2023-04-12 08:32:38.499486, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4980', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4980', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4981', 'asd', 'asd', '2023-04-12 08:32:38.499498', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4981', '12', '2023-06-29 08:32:38.499498', '2023-06-29 08:32:42.499498', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4981, asd, asd, 2023-04-12 08:32:38.499498, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4981', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4981', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4982', 'cvcb', 'cvcb', '2023-04-12 08:32:38.499509', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4982', '1', '2023-05-08 08:32:38.499509', '2023-05-08 08:32:42.499509', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4982, cvcb, cvcb, 2023-04-12 08:32:38.499509, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4982', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4982', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4983', 'asds', 'asds', '2023-04-12 08:32:38.499521', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4983', '9', '2023-05-12 08:32:38.499521', '2023-05-12 08:32:41.499521', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4983, asds, asds, 2023-04-12 08:32:38.499521, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4983', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4983', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4984', 'asdas', 'asdas', '2023-04-12 08:32:38.499533', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4984', '6', '2023-06-20 08:32:38.499533', '2023-06-20 08:32:42.499533', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4984, asdas, asdas, 2023-04-12 08:32:38.499533, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4984', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4984', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4985', 'asdas', 'asdas', '2023-04-12 08:32:38.499554', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4985', '2', '2023-06-02 08:32:38.499554', '2023-06-02 08:32:42.499554', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4985, asdas, asdas, 2023-04-12 08:32:38.499554, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4985', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4985', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4986', 'asdas', 'asdas', '2023-04-12 08:32:38.499567', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4986', '4', '2023-05-22 08:32:38.499567', '2023-05-22 08:32:41.499567', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4986, asdas, asdas, 2023-04-12 08:32:38.499567, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4986', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4986', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4987', 'asdas', 'asdas', '2023-04-12 08:32:38.499578', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4987', '2', '2023-05-05 08:32:38.499578', '2023-05-05 08:32:39.499578', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4987, asdas, asdas, 2023-04-12 08:32:38.499578, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4987', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4987', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4988', 'asd', 'asd', '2023-04-12 08:32:38.499590', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4988', '6', '2023-06-28 08:32:38.499590', '2023-06-28 08:32:39.499590', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4988, asd, asd, 2023-04-12 08:32:38.499590, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4988', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4988', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4989', 'cvcb', 'cvcb', '2023-04-12 08:32:38.499602', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4989', '15', '2023-04-27 08:32:38.499602', '2023-04-27 08:32:42.499602', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4989, cvcb, cvcb, 2023-04-12 08:32:38.499602, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4989', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4989', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4990', 'dsbb', 'dsbb', '2023-04-12 08:32:38.499614', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4990', '1', '2023-04-14 08:32:38.499614', '2023-04-14 08:32:41.499614', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4990, dsbb, dsbb, 2023-04-12 08:32:38.499614, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4990', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4990', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4991', 'dsbb', 'dsbb', '2023-04-12 08:32:38.499626', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4991', '4', '2023-06-06 08:32:38.499626', '2023-06-06 08:32:39.499626', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4991, dsbb, dsbb, 2023-04-12 08:32:38.499626, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4991', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4991', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4992', 'asd', 'asd', '2023-04-12 08:32:38.499638', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4992', '15', '2023-04-13 08:32:38.499638', '2023-04-13 08:32:42.499638', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4992, asd, asd, 2023-04-12 08:32:38.499638, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4992', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4992', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4993', 'asds', 'asds', '2023-04-12 08:32:38.499653', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4993', '13', '2023-06-20 08:32:38.499653', '2023-06-20 08:32:41.499653', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4993, asds, asds, 2023-04-12 08:32:38.499653, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4993', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4993', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4994', 'asd', 'asd', '2023-04-12 08:32:38.499666', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4994', '8', '2023-04-12 08:32:38.499666', '2023-04-12 08:32:42.499666', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4994, asd, asd, 2023-04-12 08:32:38.499666, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4994', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4994', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4995', 'asds', 'asds', '2023-04-12 08:32:38.499678', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4995', '3', '2023-04-15 08:32:38.499678', '2023-04-15 08:32:40.499678', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4995, asds, asds, 2023-04-12 08:32:38.499678, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4995', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4995', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4996', 'dsbb', 'dsbb', '2023-04-12 08:32:38.499691', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4996', '15', '2023-04-20 08:32:38.499691', '2023-04-20 08:32:41.499691', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4996, dsbb, dsbb, 2023-04-12 08:32:38.499691, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4996', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4996', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4997', 'asds', 'asds', '2023-04-12 08:32:38.499703', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4997', '2', '2023-06-06 08:32:38.499703', '2023-06-06 08:32:41.499703', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4997, asds, asds, 2023-04-12 08:32:38.499703, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4997', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4997', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4998', 'asds', 'asds', '2023-04-12 08:32:38.499715', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4998', '15', '2023-05-13 08:32:38.499715', '2023-05-13 08:32:40.499715', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4998, asds, asds, 2023-04-12 08:32:38.499715, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4998', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4998', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '4999', 'dsbb', 'dsbb', '2023-04-12 08:32:38.499727', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('4999', '1', '2023-06-30 08:32:38.499727', '2023-06-30 08:32:41.499727', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 4999, dsbb, dsbb, 2023-04-12 08:32:38.499727, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('4999', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('4999', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5000', 'dsbb', 'dsbb', '2023-04-12 08:32:38.499744', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5000', '6', '2023-05-02 08:32:38.499744', '2023-05-02 08:32:42.499744', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5000, dsbb, dsbb, 2023-04-12 08:32:38.499744, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5000', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5000', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5001', 'dsbb', 'dsbb', '2023-04-12 08:32:38.499758', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5001', '8', '2023-05-27 08:32:38.499758', '2023-05-27 08:32:39.499758', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5001, dsbb, dsbb, 2023-04-12 08:32:38.499758, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5001', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5001', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5002', 'cvcb', 'cvcb', '2023-04-12 08:32:38.499770', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5002', '8', '2023-05-06 08:32:38.499770', '2023-05-06 08:32:39.499770', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5002, cvcb, cvcb, 2023-04-12 08:32:38.499770, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5002', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5002', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5003', 'asdas', 'asdas', '2023-04-12 08:32:38.499782', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5003', '9', '2023-07-05 08:32:38.499782', '2023-07-05 08:32:42.499782', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5003, asdas, asdas, 2023-04-12 08:32:38.499782, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5003', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5003', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5004', 'asdas', 'asdas', '2023-04-12 08:32:38.499794', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5004', '10', '2023-06-30 08:32:38.499794', '2023-06-30 08:32:42.499794', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5004, asdas, asdas, 2023-04-12 08:32:38.499794, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5004', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5004', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5005', 'dsbb', 'dsbb', '2023-04-12 08:32:38.499806', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5005', '15', '2023-05-03 08:32:38.499806', '2023-05-03 08:32:42.499806', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5005, dsbb, dsbb, 2023-04-12 08:32:38.499806, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5005', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5005', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5006', 'asd', 'asd', '2023-04-12 08:32:38.499819', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5006', '12', '2023-06-17 08:32:38.499819', '2023-06-17 08:32:40.499819', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5006, asd, asd, 2023-04-12 08:32:38.499819, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5006', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5006', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5007', 'asd', 'asd', '2023-04-12 08:32:38.499831', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5007', '8', '2023-05-11 08:32:38.499831', '2023-05-11 08:32:40.499831', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5007, asd, asd, 2023-04-12 08:32:38.499831, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5007', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5007', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5008', 'asd', 'asd', '2023-04-12 08:32:38.499846', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5008', '11', '2023-06-16 08:32:38.499846', '2023-06-16 08:32:41.499846', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5008, asd, asd, 2023-04-12 08:32:38.499846, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5008', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5008', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5009', 'asdas', 'asdas', '2023-04-12 08:32:38.499859', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5009', '2', '2023-06-09 08:32:38.499859', '2023-06-09 08:32:41.499859', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5009, asdas, asdas, 2023-04-12 08:32:38.499859, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5009', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5009', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5010', 'asd', 'asd', '2023-04-12 08:32:38.499870', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5010', '9', '2023-07-05 08:32:38.499870', '2023-07-05 08:32:39.499870', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5010, asd, asd, 2023-04-12 08:32:38.499870, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5010', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5010', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5011', 'asds', 'asds', '2023-04-12 08:32:38.499883', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5011', '4', '2023-06-02 08:32:38.499883', '2023-06-02 08:32:42.499883', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5011, asds, asds, 2023-04-12 08:32:38.499883, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5011', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5011', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5012', 'asds', 'asds', '2023-04-12 08:32:38.499896', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5012', '12', '2023-06-24 08:32:38.499896', '2023-06-24 08:32:40.499896', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5012, asds, asds, 2023-04-12 08:32:38.499896, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5012', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5012', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5013', 'dsbb', 'dsbb', '2023-04-12 08:32:38.499908', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5013', '12', '2023-06-19 08:32:38.499908', '2023-06-19 08:32:42.499908', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5013, dsbb, dsbb, 2023-04-12 08:32:38.499908, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5013', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5013', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5014', 'asdas', 'asdas', '2023-04-12 08:32:38.499920', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5014', '6', '2023-06-24 08:32:38.499920', '2023-06-24 08:32:40.499920', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5014, asdas, asdas, 2023-04-12 08:32:38.499920, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5014', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5014', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5015', 'dsbb', 'dsbb', '2023-04-12 08:32:38.499932', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5015', '3', '2023-07-07 08:32:38.499932', '2023-07-07 08:32:41.499932', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5015, dsbb, dsbb, 2023-04-12 08:32:38.499932, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5015', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5015', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5016', 'asd', 'asd', '2023-04-12 08:32:38.499949', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5016', '3', '2023-05-28 08:32:38.499949', '2023-05-28 08:32:41.499949', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5016, asd, asd, 2023-04-12 08:32:38.499949, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5016', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5016', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5017', 'asds', 'asds', '2023-04-12 08:32:38.499962', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5017', '4', '2023-04-24 08:32:38.499962', '2023-04-24 08:32:41.499962', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5017, asds, asds, 2023-04-12 08:32:38.499962, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5017', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5017', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5018', 'asdas', 'asdas', '2023-04-12 08:32:38.499974', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5018', '10', '2023-06-07 08:32:38.499974', '2023-06-07 08:32:42.499974', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5018, asdas, asdas, 2023-04-12 08:32:38.499974, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5018', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5018', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5019', 'asd', 'asd', '2023-04-12 08:32:38.499986', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5019', '11', '2023-04-26 08:32:38.499986', '2023-04-26 08:32:42.499986', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5019, asd, asd, 2023-04-12 08:32:38.499986, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5019', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5019', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5020', 'asds', 'asds', '2023-04-12 08:32:38.499999', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5020', '6', '2023-04-28 08:32:38.499999', '2023-04-28 08:32:39.499999', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5020, asds, asds, 2023-04-12 08:32:38.499999, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5020', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5020', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5021', 'asd', 'asd', '2023-04-12 08:32:38.500012', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5021', '14', '2023-06-12 08:32:38.500012', '2023-06-12 08:32:42.500012', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5021, asd, asd, 2023-04-12 08:32:38.500012, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5021', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5021', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5022', 'asds', 'asds', '2023-04-12 08:32:38.500024', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5022', '9', '2023-06-23 08:32:38.500024', '2023-06-23 08:32:40.500024', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5022, asds, asds, 2023-04-12 08:32:38.500024, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5022', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5022', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5023', 'cvcb', 'cvcb', '2023-04-12 08:32:38.500040', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5023', '10', '2023-05-03 08:32:38.500040', '2023-05-03 08:32:40.500040', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5023, cvcb, cvcb, 2023-04-12 08:32:38.500040, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5023', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5023', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5024', 'asdas', 'asdas', '2023-04-12 08:32:38.500053', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5024', '5', '2023-05-06 08:32:38.500053', '2023-05-06 08:32:40.500053', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5024, asdas, asdas, 2023-04-12 08:32:38.500053, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5024', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5024', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5025', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500065', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5025', '4', '2023-05-18 08:32:38.500065', '2023-05-18 08:32:41.500065', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5025, dsbb, dsbb, 2023-04-12 08:32:38.500065, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5025', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5025', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5026', 'asdas', 'asdas', '2023-04-12 08:32:38.500076', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5026', '2', '2023-05-01 08:32:38.500076', '2023-05-01 08:32:40.500076', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5026, asdas, asdas, 2023-04-12 08:32:38.500076, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5026', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5026', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5027', 'asdas', 'asdas', '2023-04-12 08:32:38.500089', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5027', '5', '2023-07-05 08:32:38.500089', '2023-07-05 08:32:42.500089', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5027, asdas, asdas, 2023-04-12 08:32:38.500089, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5027', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5027', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5028', 'asdas', 'asdas', '2023-04-12 08:32:38.500101', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5028', '3', '2023-05-28 08:32:38.500101', '2023-05-28 08:32:41.500101', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5028, asdas, asdas, 2023-04-12 08:32:38.500101, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5028', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5028', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5029', 'asd', 'asd', '2023-04-12 08:32:38.500113', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5029', '6', '2023-05-25 08:32:38.500113', '2023-05-25 08:32:40.500113', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5029, asd, asd, 2023-04-12 08:32:38.500113, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5029', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5029', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5030', 'cvcb', 'cvcb', '2023-04-12 08:32:38.500125', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5030', '4', '2023-04-19 08:32:38.500125', '2023-04-19 08:32:40.500125', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5030, cvcb, cvcb, 2023-04-12 08:32:38.500125, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5030', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5030', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5031', 'asds', 'asds', '2023-04-12 08:32:38.500143', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5031', '4', '2023-05-18 08:32:38.500143', '2023-05-18 08:32:40.500143', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5031, asds, asds, 2023-04-12 08:32:38.500143, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5031', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5031', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5032', 'asd', 'asd', '2023-04-12 08:32:38.500165', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5032', '11', '2023-06-24 08:32:38.500165', '2023-06-24 08:32:39.500165', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5032, asd, asd, 2023-04-12 08:32:38.500165, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5032', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5032', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5033', 'asds', 'asds', '2023-04-12 08:32:38.500176', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5033', '4', '2023-07-11 08:32:38.500176', '2023-07-11 08:32:40.500176', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5033, asds, asds, 2023-04-12 08:32:38.500176, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5033', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5033', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5034', 'asds', 'asds', '2023-04-12 08:32:38.500188', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5034', '9', '2023-07-06 08:32:38.500188', '2023-07-06 08:32:41.500188', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5034, asds, asds, 2023-04-12 08:32:38.500188, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5034', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5034', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5035', 'asdas', 'asdas', '2023-04-12 08:32:38.500201', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5035', '2', '2023-06-02 08:32:38.500201', '2023-06-02 08:32:40.500201', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5035, asdas, asdas, 2023-04-12 08:32:38.500201, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5035', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5035', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5036', 'asds', 'asds', '2023-04-12 08:32:38.500214', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5036', '12', '2023-04-14 08:32:38.500214', '2023-04-14 08:32:41.500214', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5036, asds, asds, 2023-04-12 08:32:38.500214, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5036', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5036', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5037', 'cvcb', 'cvcb', '2023-04-12 08:32:38.500226', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5037', '12', '2023-04-19 08:32:38.500226', '2023-04-19 08:32:41.500226', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5037, cvcb, cvcb, 2023-04-12 08:32:38.500226, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5037', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5037', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5038', 'asdas', 'asdas', '2023-04-12 08:32:38.500239', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5038', '5', '2023-06-16 08:32:38.500239', '2023-06-16 08:32:39.500239', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5038, asdas, asdas, 2023-04-12 08:32:38.500239, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5038', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5038', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5039', 'asdas', 'asdas', '2023-04-12 08:32:38.500256', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5039', '6', '2023-04-17 08:32:38.500256', '2023-04-17 08:32:39.500256', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5039, asdas, asdas, 2023-04-12 08:32:38.500256, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5039', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5039', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5040', 'asd', 'asd', '2023-04-12 08:32:38.500269', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5040', '6', '2023-06-08 08:32:38.500269', '2023-06-08 08:32:39.500269', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5040, asd, asd, 2023-04-12 08:32:38.500269, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5040', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5040', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5041', 'asd', 'asd', '2023-04-12 08:32:38.500281', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5041', '9', '2023-07-07 08:32:38.500281', '2023-07-07 08:32:40.500281', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5041, asd, asd, 2023-04-12 08:32:38.500281, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5041', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5041', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5042', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500293', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5042', '10', '2023-04-12 08:32:38.500293', '2023-04-12 08:32:39.500293', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5042, dsbb, dsbb, 2023-04-12 08:32:38.500293, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5042', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5042', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5043', 'asd', 'asd', '2023-04-12 08:32:38.500305', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5043', '15', '2023-05-23 08:32:38.500305', '2023-05-23 08:32:42.500305', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5043, asd, asd, 2023-04-12 08:32:38.500305, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5043', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5043', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5044', 'asdas', 'asdas', '2023-04-12 08:32:38.500316', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5044', '15', '2023-04-25 08:32:38.500316', '2023-04-25 08:32:40.500316', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5044, asdas, asdas, 2023-04-12 08:32:38.500316, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5044', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5044', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5045', 'asd', 'asd', '2023-04-12 08:32:38.500328', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5045', '6', '2023-05-09 08:32:38.500328', '2023-05-09 08:32:40.500328', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5045, asd, asd, 2023-04-12 08:32:38.500328, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5045', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5045', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5046', 'asdas', 'asdas', '2023-04-12 08:32:38.500344', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5046', '4', '2023-06-20 08:32:38.500344', '2023-06-20 08:32:39.500344', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5046, asdas, asdas, 2023-04-12 08:32:38.500344, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5046', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5046', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5047', 'cvcb', 'cvcb', '2023-04-12 08:32:38.500357', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5047', '14', '2023-06-08 08:32:38.500357', '2023-06-08 08:32:39.500357', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5047, cvcb, cvcb, 2023-04-12 08:32:38.500357, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5047', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5047', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5048', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500369', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5048', '1', '2023-04-21 08:32:38.500369', '2023-04-21 08:32:40.500369', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5048, dsbb, dsbb, 2023-04-12 08:32:38.500369, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5048', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5048', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5049', 'asd', 'asd', '2023-04-12 08:32:38.500380', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5049', '10', '2023-04-23 08:32:38.500380', '2023-04-23 08:32:42.500380', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5049, asd, asd, 2023-04-12 08:32:38.500380, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5049', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5049', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5050', 'asds', 'asds', '2023-04-12 08:32:38.500392', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5050', '8', '2023-06-26 08:32:38.500392', '2023-06-26 08:32:41.500392', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5050, asds, asds, 2023-04-12 08:32:38.500392, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5050', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5050', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5051', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500404', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5051', '9', '2023-04-13 08:32:38.500404', '2023-04-13 08:32:41.500404', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5051, dsbb, dsbb, 2023-04-12 08:32:38.500404, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5051', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5051', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5052', 'asd', 'asd', '2023-04-12 08:32:38.500416', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5052', '5', '2023-05-22 08:32:38.500416', '2023-05-22 08:32:41.500416', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5052, asd, asd, 2023-04-12 08:32:38.500416, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5052', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5052', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5053', 'cvcb', 'cvcb', '2023-04-12 08:32:38.500428', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5053', '15', '2023-06-12 08:32:38.500428', '2023-06-12 08:32:40.500428', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5053, cvcb, cvcb, 2023-04-12 08:32:38.500428, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5053', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5053', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5054', 'asd', 'asd', '2023-04-12 08:32:38.500448', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5054', '14', '2023-06-24 08:32:38.500448', '2023-06-24 08:32:41.500448', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5054, asd, asd, 2023-04-12 08:32:38.500448, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5054', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5054', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5055', 'asd', 'asd', '2023-04-12 08:32:38.500460', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5055', '10', '2023-05-09 08:32:38.500460', '2023-05-09 08:32:42.500460', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5055, asd, asd, 2023-04-12 08:32:38.500460, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5055', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5055', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5056', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500472', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5056', '4', '2023-06-02 08:32:38.500472', '2023-06-02 08:32:41.500472', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5056, dsbb, dsbb, 2023-04-12 08:32:38.500472, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5056', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5056', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5057', 'asds', 'asds', '2023-04-12 08:32:38.500483', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5057', '1', '2023-05-27 08:32:38.500483', '2023-05-27 08:32:39.500483', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5057, asds, asds, 2023-04-12 08:32:38.500483, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5057', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5057', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5058', 'cvcb', 'cvcb', '2023-04-12 08:32:38.500495', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5058', '4', '2023-05-11 08:32:38.500495', '2023-05-11 08:32:42.500495', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5058, cvcb, cvcb, 2023-04-12 08:32:38.500495, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5058', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5058', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5059', 'cvcb', 'cvcb', '2023-04-12 08:32:38.500506', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5059', '15', '2023-04-22 08:32:38.500506', '2023-04-22 08:32:40.500506', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5059, cvcb, cvcb, 2023-04-12 08:32:38.500506, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5059', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5059', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5060', 'asd', 'asd', '2023-04-12 08:32:38.500518', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5060', '7', '2023-06-14 08:32:38.500518', '2023-06-14 08:32:40.500518', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5060, asd, asd, 2023-04-12 08:32:38.500518, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5060', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5060', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5061', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500530', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5061', '15', '2023-04-25 08:32:38.500530', '2023-04-25 08:32:39.500530', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5061, dsbb, dsbb, 2023-04-12 08:32:38.500530, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5061', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5061', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5062', 'asds', 'asds', '2023-04-12 08:32:38.500547', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5062', '7', '2023-05-30 08:32:38.500547', '2023-05-30 08:32:40.500547', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5062, asds, asds, 2023-04-12 08:32:38.500547, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5062', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5062', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5063', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500560', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5063', '9', '2023-06-12 08:32:38.500560', '2023-06-12 08:32:39.500560', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5063, dsbb, dsbb, 2023-04-12 08:32:38.500560, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5063', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5063', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5064', 'asd', 'asd', '2023-04-12 08:32:38.500571', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5064', '12', '2023-05-03 08:32:38.500571', '2023-05-03 08:32:40.500571', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5064, asd, asd, 2023-04-12 08:32:38.500571, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5064', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5064', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5065', 'asdas', 'asdas', '2023-04-12 08:32:38.500583', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5065', '11', '2023-06-21 08:32:38.500583', '2023-06-21 08:32:42.500583', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5065, asdas, asdas, 2023-04-12 08:32:38.500583, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5065', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5065', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5066', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500594', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5066', '6', '2023-05-20 08:32:38.500594', '2023-05-20 08:32:42.500594', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5066, dsbb, dsbb, 2023-04-12 08:32:38.500594, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5066', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5066', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5067', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500606', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5067', '3', '2023-05-02 08:32:38.500606', '2023-05-02 08:32:41.500606', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5067, dsbb, dsbb, 2023-04-12 08:32:38.500606, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5067', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5067', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5068', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500618', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5068', '4', '2023-05-18 08:32:38.500618', '2023-05-18 08:32:39.500618', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5068, dsbb, dsbb, 2023-04-12 08:32:38.500618, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5068', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5068', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5069', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500630', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5069', '1', '2023-05-04 08:32:38.500630', '2023-05-04 08:32:41.500630', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5069, dsbb, dsbb, 2023-04-12 08:32:38.500630, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5069', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5069', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5070', 'asd', 'asd', '2023-04-12 08:32:38.500645', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5070', '1', '2023-06-12 08:32:38.500645', '2023-06-12 08:32:41.500645', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5070, asd, asd, 2023-04-12 08:32:38.500645, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5070', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5070', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5071', 'asdas', 'asdas', '2023-04-12 08:32:38.500657', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5071', '13', '2023-04-25 08:32:38.500657', '2023-04-25 08:32:40.500657', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5071, asdas, asdas, 2023-04-12 08:32:38.500657, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5071', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5071', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5072', 'cvcb', 'cvcb', '2023-04-12 08:32:38.500669', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5072', '14', '2023-06-02 08:32:38.500669', '2023-06-02 08:32:39.500669', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5072, cvcb, cvcb, 2023-04-12 08:32:38.500669, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5072', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5072', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5073', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500680', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5073', '3', '2023-06-15 08:32:38.500680', '2023-06-15 08:32:40.500680', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5073, dsbb, dsbb, 2023-04-12 08:32:38.500680, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5073', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5073', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5074', 'asd', 'asd', '2023-04-12 08:32:38.500692', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5074', '9', '2023-04-16 08:32:38.500692', '2023-04-16 08:32:41.500692', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5074, asd, asd, 2023-04-12 08:32:38.500692, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5074', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5074', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5075', 'asds', 'asds', '2023-04-12 08:32:38.500704', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5075', '15', '2023-06-28 08:32:38.500704', '2023-06-28 08:32:42.500704', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5075, asds, asds, 2023-04-12 08:32:38.500704, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5075', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5075', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5076', 'asds', 'asds', '2023-04-12 08:32:38.500715', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5076', '14', '2023-07-02 08:32:38.500715', '2023-07-02 08:32:40.500715', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5076, asds, asds, 2023-04-12 08:32:38.500715, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5076', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5076', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5077', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500732', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5077', '2', '2023-05-14 08:32:38.500732', '2023-05-14 08:32:39.500732', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5077, dsbb, dsbb, 2023-04-12 08:32:38.500732, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5077', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5077', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5078', 'asds', 'asds', '2023-04-12 08:32:38.500744', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5078', '2', '2023-04-23 08:32:38.500744', '2023-04-23 08:32:42.500744', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5078, asds, asds, 2023-04-12 08:32:38.500744, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5078', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5078', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5079', 'asd', 'asd', '2023-04-12 08:32:38.500763', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5079', '10', '2023-05-07 08:32:38.500763', '2023-05-07 08:32:40.500763', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5079, asd, asd, 2023-04-12 08:32:38.500763, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5079', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5079', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5080', 'cvcb', 'cvcb', '2023-04-12 08:32:38.500775', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5080', '15', '2023-07-08 08:32:38.500775', '2023-07-08 08:32:41.500775', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5080, cvcb, cvcb, 2023-04-12 08:32:38.500775, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5080', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5080', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5081', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500787', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5081', '11', '2023-06-02 08:32:38.500787', '2023-06-02 08:32:42.500787', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5081, dsbb, dsbb, 2023-04-12 08:32:38.500787, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5081', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5081', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5082', 'asds', 'asds', '2023-04-12 08:32:38.500799', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5082', '1', '2023-05-27 08:32:38.500799', '2023-05-27 08:32:39.500799', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5082, asds, asds, 2023-04-12 08:32:38.500799, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5082', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5082', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5083', 'asds', 'asds', '2023-04-12 08:32:38.500811', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5083', '11', '2023-05-07 08:32:38.500811', '2023-05-07 08:32:41.500811', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5083, asds, asds, 2023-04-12 08:32:38.500811, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5083', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5083', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5084', 'asd', 'asd', '2023-04-12 08:32:38.500823', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5084', '6', '2023-04-14 08:32:38.500823', '2023-04-14 08:32:39.500823', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5084, asd, asd, 2023-04-12 08:32:38.500823, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5084', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5084', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5085', 'cvcb', 'cvcb', '2023-04-12 08:32:38.500840', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5085', '12', '2023-05-18 08:32:38.500840', '2023-05-18 08:32:39.500840', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5085, cvcb, cvcb, 2023-04-12 08:32:38.500840, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5085', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5085', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5086', 'cvcb', 'cvcb', '2023-04-12 08:32:38.500852', 'cvcb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5086', '15', '2023-05-09 08:32:38.500852', '2023-05-09 08:32:41.500852', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5086, cvcb, cvcb, 2023-04-12 08:32:38.500852, cvcb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5086', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5086', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5087', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500864', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5087', '7', '2023-07-08 08:32:38.500864', '2023-07-08 08:32:42.500864', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5087, dsbb, dsbb, 2023-04-12 08:32:38.500864, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5087', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5087', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5088', 'asds', 'asds', '2023-04-12 08:32:38.500875', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5088', '2', '2023-05-08 08:32:38.500875', '2023-05-08 08:32:39.500875', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5088, asds, asds, 2023-04-12 08:32:38.500875, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5088', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5088', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5089', 'asd', 'asd', '2023-04-12 08:32:38.500886', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5089', '3', '2023-06-19 08:32:38.500886', '2023-06-19 08:32:39.500886', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5089, asd, asd, 2023-04-12 08:32:38.500886, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5089', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5089', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5090', 'asd', 'asd', '2023-04-12 08:32:38.500898', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5090', '9', '2023-07-05 08:32:38.500898', '2023-07-05 08:32:39.500898', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5090, asd, asd, 2023-04-12 08:32:38.500898, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5090', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5090', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5091', 'asds', 'asds', '2023-04-12 08:32:38.500909', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5091', '12', '2023-05-19 08:32:38.500909', '2023-05-19 08:32:42.500909', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5091, asds, asds, 2023-04-12 08:32:38.500909, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5091', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5091', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5092', 'asd', 'asd', '2023-04-12 08:32:38.500920', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5092', '3', '2023-06-27 08:32:38.500920', '2023-06-27 08:32:39.500920', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5092, asd, asd, 2023-04-12 08:32:38.500920, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5092', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5092', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5093', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500936', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5093', '6', '2023-04-14 08:32:38.500936', '2023-04-14 08:32:39.500936', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5093, dsbb, dsbb, 2023-04-12 08:32:38.500936, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5093', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5093', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5094', 'dsbb', 'dsbb', '2023-04-12 08:32:38.500949', 'dsbb')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5094', '12', '2023-04-18 08:32:38.500949', '2023-04-18 08:32:42.500949', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5094, dsbb, dsbb, 2023-04-12 08:32:38.500949, dsbb)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5094', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5094', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5095', 'asds', 'asds', '2023-04-12 08:32:38.500960', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5095', '12', '2023-05-06 08:32:38.500960', '2023-05-06 08:32:40.500960', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5095, asds, asds, 2023-04-12 08:32:38.500960, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5095', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5095', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5096', 'asdas', 'asdas', '2023-04-12 08:32:38.500971', 'asdas')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5096', '13', '2023-04-23 08:32:38.500971', '2023-04-23 08:32:42.500971', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5096, asdas, asdas, 2023-04-12 08:32:38.500971, asdas)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5096', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5096', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5097', 'asd', 'asd', '2023-04-12 08:32:38.500983', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5097', '11', '2023-06-11 08:32:38.500983', '2023-06-11 08:32:39.500983', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5097, asd, asd, 2023-04-12 08:32:38.500983, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5097', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5097', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5098', 'asds', 'asds', '2023-04-12 08:32:38.500994', 'asds')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5098', '7', '2023-05-18 08:32:38.500994', '2023-05-18 08:32:40.500994', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5098, asds, asds, 2023-04-12 08:32:38.500994, asds)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5098', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5098', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5099', 'asd', 'asd', '2023-04-12 08:32:38.501006', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5099', '7', '2023-06-11 08:32:38.501006', '2023-06-11 08:32:41.501006', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5099, asd, asd, 2023-04-12 08:32:38.501006, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5099', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5099', '2');
+INSERT INTO 'Authors' ('author_id', 'first_name', 'last_name', 'birth_date', 'country') 
+ VALUES ( '5100', 'asd', 'asd', '2023-04-12 08:32:38.501017', 'asd')
+INSERT INTO "SqlQuery" ("queryId", "userId", "issuedAt", "finishedAt", "hasError", "errorMessage", "statement", "projectId", "queryTypeId")
+    VALUES ('5100', '5', '2023-04-15 08:32:38.501017', '2023-04-15 08:32:42.501017', 'False', 'None', 'INSERT INTO Authors (author_id, first_name, last_name, birth_date, country) 
+ VALUES ( 5100, asd, asd, 2023-04-12 08:32:38.501017, asd)', '3', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '1');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '2');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '3');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '4');
+INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
+    VALUES ('5100', '5');
+INSERT INTO "QueryTableAccess" ("queryId", "tableId")
+    VALUES ('5100', '2');
