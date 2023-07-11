@@ -1,17 +1,17 @@
 INSERT INTO "Table" ("tableId", "tableName", "schemaId")
-VALUES (1, "Books", 3);
+VALUES (1, 'Books', 3);
 
 INSERT INTO "Table" ("tableId", "tableName", "schemaId")
-VALUES (2, "Authors", 3);
+VALUES (2, 'Authors', 3);
 
 INSERT INTO "Table" ("tableId", "tableName", "schemaId")
-VALUES (3, "Publishers", 3);
+VALUES (3, 'Publishers', 3);
 
 INSERT INTO "Table" ("tableId", "tableName", "schemaId")
-VALUES (4, "Customers", 3);
+VALUES (4, 'Customers', 3);
 
 INSERT INTO "Table" ("tableId", "tableName", "schemaId")
-VALUES (5, "Orders", 3);
+VALUES (5, 'Orders', 3);
 
 INSERT INTO "Column" ("columnName", "tableId", "columnTypeId")
 VALUES
