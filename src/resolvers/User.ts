@@ -25,6 +25,11 @@ class StringEmail {
   @Field(() => String)
   email!: string;
 }
+@ArgsType()
+class StringUsername {
+  @Field(() => String)
+  username!: string;
+}
 
 @InputType()
 class CreateUserInput {
@@ -85,12 +90,24 @@ export class UserResolver {
   }
 
   @Query(() => User)
+  async userByUsername(
+    @Args() { username }: StringUsername,
+    @Ctx() ctx: Context
+  ): Promise<User | null> {
+    const user = await ctx.prisma.user.findFirst({
+      where: {
+        username: username,
+      },
+    });
+    return user;
+  }
+
+  @Query(() => User)
   async commonUserQuery(
     @Args() { id }: IntId,
     @Ctx() ctx: Context
   ): Promise<User | null> {
-    const user = await ctx.prisma.$queryRaw<User[]>
-      `WITH "UserQueries" AS 
+    const user = await ctx.prisma.$queryRaw<User[]>`WITH "UserQueries" AS 
         (SELECT "userId", COUNT(*) AS "queryCount" 
         FROM "SqlQuery" 
         GROUP BY "userId")    
