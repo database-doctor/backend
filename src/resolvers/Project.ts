@@ -109,7 +109,7 @@ export class ProjectDetailResolver {
       return projects;
     }
 
-    @Query(() => ProjectDetail)
+    @Query(() => ProjectDetail, {nullable: true})
     async project(
       @Arg('uid', () => Int) uid: number,  
       @Arg('pid', () => Int) pid: number, 

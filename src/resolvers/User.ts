@@ -84,7 +84,7 @@ export class UserResolver {
     return user;
   }
 
-  @Query(() => User)
+  @Query(() => User, {nullable: true})
   async commonUserQuery(
     @Args() { id }: IntId,
     @Ctx() ctx: Context
@@ -96,10 +96,12 @@ export class UserResolver {
         GROUP BY "userId")    
       SELECT DISTINCT *
       FROM "User"
+      JOIN "UserProjectToken" ON "User"."userId" = "UserProjectToken"."userId"
+      JOIN "Project" ON "UserProjectToken"."projectId" = "Project"."projectId"
       WHERE "User"."userId" IN 
         (SELECT "userId"
         FROM "UserQueries"
-        WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "UserQueries"));`;
+        WHERE "Project"."projectId" = ${id} AND "queryCount" >= (SELECT AVG("queryCount") FROM "UserQueries"));`;
     return user[0];
   }
 
