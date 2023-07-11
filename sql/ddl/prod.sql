@@ -62,16 +62,71 @@ VALUES (5, 'Update');
 INSERT INTO "Permission" ("permissionId", "permissionName")
 VALUES (6, 'Execute');
 
+-- E-commerceDB
+-- User 1 (createdById) has the Administrator role (roleId = 1)
+INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
+VALUES (1, 'E-commerceDB', 'https://E-com.example.com', 1);
+
+-- EmployeesDB
+-- User 1 (createdById) has the Administrator role (roleId = 1)
+INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
+VALUES (2, 'EmployeesDB', 'https://Emp.example.com', 1);
+
+-- BooksDB
+-- User 2 (createdById) has the Manager role (roleId = 2)
+INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
+VALUES (3, 'BooksDB', 'https://Book.example.com', 2);
+
+-- StudentsDB
+-- User 2 (createdById) has the Manager role (roleId = 2)
+INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
+VALUES (4, 'StudentsDB', 'https://Student.example.com', 2);
+
+-- MoviesDB
+-- User 3 (createdById) has the Developer role (roleId = 3)
+INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
+VALUES (5, 'MoviesDB', 'https://Movie.example.com', 3);
+
 /* Role table is kind of confusing. Do we just want a generic set of roles or do we want product specific */
 
 INSERT INTO "Role" ("roleId", "roleName", "projectId")
 VALUES (1, 'Administrator', 1);
 
 INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (1, 'Administrator', 3);
+
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (1, 'Administrator', 4);
+
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (1, 'Administrator', 5);
+
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
 VALUES (2, 'Manager', 1);
 
 INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (2, 'Manager', 3);
+
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (2, 'Manager', 4);
+
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (2, 'Manager', 5);
+
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
 VALUES (3, 'Developer', 1);
+
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (3, 'Developer', 2);
+
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (3, 'Developer', 3);
+
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (3, 'Developer', 4);
+
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (3, 'Developer', 5);
 
 INSERT INTO "Role" ("roleId", "roleName", "projectId")
 VALUES (4, 'Tester', 2);
@@ -362,10 +417,6 @@ VALUES (10, 13, 5); -- User 10 is mapped to Developer role in Project 5
 INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
 VALUES (11, 2, 1); -- User 11 is mapped toApologies for the previous incomplete response. Here are the remaining `INSERT` statements to map the rest of the users (11 to 15) to roles for each project and role combination:
 
--- Mapping for User ID 11 (User 11) in Project 1
-INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
-VALUES (11, 2, 1); -- User 11 is mapped to Manager role in Project 1
-
 -- Mapping for User ID 11 (User 11) in Project 2
 INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
 VALUES (11, 5, 2); -- User 11 is mapped to Analyst role in Project 2
@@ -469,31 +520,6 @@ VALUES (15, 10, 4); -- User 15 is mapped to Analyst role in Project 4
 -- Mapping for User ID 15 (User 15) in Project 5
 INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
 VALUES (15, 12, 5); -- User 15 is mapped to Manager role in Project 5
-
--- E-commerceDB
--- User 1 (createdById) has the Administrator role (roleId = 1)
-INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
-VALUES (1, 'E-commerceDB', 'https://E-com.example.com', 1);
-
--- EmployeesDB
--- User 1 (createdById) has the Administrator role (roleId = 1)
-INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
-VALUES (2, 'EmployeesDB', 'https://Emp.example.com', 1);
-
--- BooksDB
--- User 2 (createdById) has the Manager role (roleId = 2)
-INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
-VALUES (3, 'BooksDB', 'https://Book.example.com', 2);
-
--- StudentsDB
--- User 2 (createdById) has the Manager role (roleId = 2)
-INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
-VALUES (4, 'StudentsDB', 'https://Student.example.com', 2);
-
--- MoviesDB
--- User 3 (createdById) has the Developer role (roleId = 3)
-INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
-VALUES (5, 'MoviesDB', 'https://Movie.example.com', 3);
 
 /* Previous comment above */
 
