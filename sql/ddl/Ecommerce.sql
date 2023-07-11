@@ -51235,3 +51235,18 @@ INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
     VALUES ('5100', '6');
 INSERT INTO "QueryTableAccess" ("queryId", "tableId")
     VALUES ('5100', '1');
+
+INSERT INTO "TableStorageSnapshot" ("createdAt, rowCount, sizeBytes, tableId")
+VALUES ('2023-05-21 08:28:59.541450', '5100', '5100', 1)
+
+INSERT INTO "TableStorageSnapshot" ("createdAt, rowCount, sizeBytes, tableId")
+VALUES ('2023-05-21 08:29:59.541450', '5100', '5100', 2)
+
+INSERT INTO "TableStorageSnapshot" ("createdAt, rowCount, sizeBytes, tableId")
+VALUES ('2023-05-21 08:30:59.541450', '5100', '5100', 3)
+
+INSERT INTO "TableStorageSnapshot" ("createdAt, rowCount, sizeBytes, tableId")
+VALUES ('2023-05-21 08:31:59.541450', '5100', '5100', 4)
+
+INSERT INTO "TableStorageSnapshot" ("createdAt, rowCount, sizeBytes, tableId")
+VALUES ('2023-05-21 08:32:59.541450', '5100', '5100', 5)
