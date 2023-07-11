@@ -84,6 +84,25 @@ export class UserResolver {
     return user;
   }
 
+  @Query(() => User)
+  async commonUserQuery(
+    @Args() { id }: IntId,
+    @Ctx() ctx: Context
+  ): Promise<User | null> {
+    const user = await ctx.prisma.$queryRaw<User[]>
+      `WITH "UserQueries" AS 
+        (SELECT "userId", COUNT(*) AS "queryCount" 
+        FROM "SqlQuery" 
+        GROUP BY "userId")    
+      SELECT DISTINCT *
+      FROM "User"
+      WHERE "User"."userId" IN 
+        (SELECT "userId"
+        FROM "UserQueries"
+        WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "UserQueries"));`;
+    return user[0];
+  }
+
   @Mutation(() => User)
   async createUser(
     @Arg("newUser") newUser: CreateUserInput,
