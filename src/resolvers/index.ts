@@ -5,3 +5,4 @@ export * from "./Schema";
 export * from "./Table";
 export * from "./User";
 export * from "./Query";
+export * from "./UserProjectToken";
