@@ -166,7 +166,7 @@ VALUES (15, 'Analyst', 5);
 
 /* Previous comment above */
 
- Mapping for Project ID 1
+-- Mapping for Project ID 1
 INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
 VALUES (1, 1, 1); 
 INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
@@ -174,26 +174,27 @@ VALUES (2, 1, 2);
 INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
 VALUES (3, 1, 3);
 
- Mapping for Project ID 2
+-- Mapping for Project ID 2
 INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
 VALUES (4, 2, 4); Tester role has Create permission
 INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
 VALUES (5, 2, 5); Analyst role has Update permission
 
- Mapping for Project ID 3
+-- Mapping for Project ID 3
 INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
 VALUES (6, 3, 1); Administrator role has Read permission
 INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
 VALUES (7, 3, 2); 
 INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
 VALUES (8, 3, 3); 
- Mapping for Project ID 4
+ 
+-- Mapping for Project ID 4
 INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
 VALUES (9, 4, 4); Tester role has Create permission
 INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
 VALUES (10, 4, 5); Analyst role has Update permission
 
- Mapping for Project ID 5
+-- Mapping for Project ID 5
 INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
 VALUES (11, 5, 1); Administrator role has Read permission
 INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
