@@ -103,6 +103,41 @@ For milestone 1, we manually wrote out some sample data as we thought of what in
 
 Moving forward, we will be using generative technologies such as ChatGPT to populate a greater quantity of sample data.
 
+To generate the populate the tables in schema.sql the following prompt was used:
+
+    -- CreateTable
+    CREATE TABLE "User" (
+        "userId" SERIAL NOT NULL,
+        "username" TEXT NOT NULL,
+        "name" TEXT NOT NULL,
+        "email" TEXT NOT NULL,
+        "passwordHash" TEXT NOT NULL,
+        "passwordSalt" TEXT NOT NULL,
+        "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+        CONSTRAINT "User_pkey" PRIMARY KEY ("userId")
+    );
+
+    can you give me 15 distinct users using INSERT statements
+
+This was pattern was repeated for all tables in Schema except 'Table' and 'Column'.
+
+To populate 'Table' and 'Column' we firstly created the fake projects using the following prompt:
+
+    Give me 5 SQL projects that each contain 5 tables with at least 5 collumns each
+
+We then manually populated the 'Table' table and gave the following prompt to complete the 'Column' table:
+
+    CREATE TABLE "Column" (
+        "columnId" SERIAL NOT NULL,
+        "columnName" TEXT NOT NULL,
+        "tableId" INTEGER NOT NULL,
+        "columnTypeId" INTEGER NOT NULL,
+
+        CONSTRAINT "Column_pkey" PRIMARY KEY ("columnId")
+        );
+    Based on the above table insert the columns of every project into this table
+
 <!-- The prompt used to generate database schemas was:
 
 ```
@@ -114,6 +149,14 @@ insert prompt here
 For milestone 1, we manually wrote out some sample data as we thought of what information we would like to include, what information the queries needed, etc...
 
 Moving forward, we will be leveraging generative technologies such as ChatGPT to populate a significant quantity of sample data. This is possible because the queries only have to be syntactically correct, which is fully within the capabilities of ChatGPT.
+
+To genereate the queries the following prompt was used.
+
+    Give me 1 basic SELECT, UPDATE, INSERT, and DELETE query for the projects you gave me
+
+These queries were used as a basic outline which were then modified using the QueryGenerator.py script to generate all the synthetic data.
+
+QueryGenerator.py also handles inserting the created queries into 'SQLQuery', 'QueryColumnAccess', 'QueryTableAccess'. The file was changed slightly for the type of query that was required to be generated. 
 
 <!-- The prompt used to generate different queries towards the schemas generated in the previous step was:
 
