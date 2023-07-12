@@ -18,7 +18,7 @@ LEFT JOIN
 ON
     TA."queryId" = Q."queryId" AND date_trunc('hour', T."createdAt") = Q."atHour"
 WHERE
-    T."tableId" = 12 AND
+    T."tableId" = 5 AND
     '2023-01-01'::date <= T."createdAt" AND
     T."createdAt" <= '2023-12-31'::date
 GROUP BY

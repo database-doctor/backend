@@ -7,7 +7,7 @@ with "ARG"("queryId") AS
 "insert1" AS 
 (
     INSERT INTO "QueryColumnAccess" ("queryId", "columnId")
-    VALUES ((SELECT "queryId" FROM "ARG" LIMIT 1), '1')
+    VALUES ((SELECT "queryId" FROM "ARG"), '1')
 )
 INSERT INTO "QueryTableAccess" ("queryId", "tableId")
-VALUES ((SELECT "queryId" FROM "ARG" LIMIT 1), '1');
+VALUES ((SELECT "queryId" FROM "ARG"), '1');
