@@ -1,9 +1,9 @@
 -- CreateTable
 CREATE TABLE "User" (
     "userId" SERIAL NOT NULL,
-    "username" TEXT NOT NULL,  -- TODO : MAKE USERNAME UNIQUE
+    "username" TEXT NOT NULL,
     "name" TEXT NOT NULL,
-    "email" TEXT NOT NULL, -- TODO : MAKE EMAIL UNIQUE
+    "email" TEXT NOT NULL,
     "passwordHash" TEXT NOT NULL,
     "passwordSalt" TEXT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -123,7 +123,7 @@ CREATE TABLE "QueryType" (
 );
 
 -- CreateTable
-CREATE TABLE "SqlQuery" (
+CREATE TABLE "Query" (
     "queryId" SERIAL NOT NULL,
     "statement" TEXT NOT NULL,
     "issuedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -224,3 +224,74 @@ ALTER TABLE "QueryTableAccess" ADD CONSTRAINT "QueryTableAccess_queryId_fkey" FO
 
 -- AddForeignKey
 ALTER TABLE "QueryTableAccess" ADD CONSTRAINT "QueryTableAccess_tableId_fkey" FOREIGN KEY ("tableId") REFERENCES "Table"("tableId") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- MIGRATIONS HISTORY
+
+/*
+  Warnings:
+
+  - A unique constraint covering the columns `[accessToken]` on the table `UserProjectToken` will be added. If there are existing duplicate values, this will fail.
+
+*/
+-- CreateIndex
+CREATE UNIQUE INDEX "UserProjectToken_accessToken_key" ON "UserProjectToken"("accessToken");
+
+/*
+  Warnings:
+
+  - You are about to drop the `Query` table. If the table is not empty, all the data it contains will be lost.
+
+*/
+-- DropForeignKey
+ALTER TABLE "Query" DROP CONSTRAINT "Query_projectId_fkey";
+
+-- DropForeignKey
+ALTER TABLE "Query" DROP CONSTRAINT "Query_queryTypeId_fkey";
+
+-- DropForeignKey
+ALTER TABLE "Query" DROP CONSTRAINT "Query_userId_fkey";
+
+-- DropForeignKey
+ALTER TABLE "QueryColumnAccess" DROP CONSTRAINT "QueryColumnAccess_queryId_fkey";
+
+-- DropForeignKey
+ALTER TABLE "QueryTableAccess" DROP CONSTRAINT "QueryTableAccess_queryId_fkey";
+
+-- DropTable
+DROP TABLE "Query";
+
+-- CreateTable
+CREATE TABLE "SqlQuery" (
+    "queryId" SERIAL NOT NULL,
+    "statement" TEXT NOT NULL,
+    "issuedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "finishedAt" TIMESTAMP(3),
+    "hasError" BOOLEAN NOT NULL DEFAULT false,
+    "errorMessage" TEXT,
+    "userId" INTEGER NOT NULL,
+    "projectId" INTEGER NOT NULL,
+    "queryTypeId" INTEGER NOT NULL,
+
+    CONSTRAINT "SqlQuery_pkey" PRIMARY KEY ("queryId")
+);
+
+-- AddForeignKey
+ALTER TABLE "SqlQuery" ADD CONSTRAINT "SqlQuery_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("userId") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "SqlQuery" ADD CONSTRAINT "SqlQuery_projectId_fkey" FOREIGN KEY ("projectId") REFERENCES "Project"("projectId") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "SqlQuery" ADD CONSTRAINT "SqlQuery_queryTypeId_fkey" FOREIGN KEY ("queryTypeId") REFERENCES "QueryType"("queryTypeId") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "QueryColumnAccess" ADD CONSTRAINT "QueryColumnAccess_queryId_fkey" FOREIGN KEY ("queryId") REFERENCES "SqlQuery"("queryId") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "QueryTableAccess" ADD CONSTRAINT "QueryTableAccess_queryId_fkey" FOREIGN KEY ("queryId") REFERENCES "SqlQuery"("queryId") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- CreateIndex
+CREATE INDEX "Schema_projectId_idx" ON "Schema"("projectId");
+
+-- CreateIndex
+CREATE INDEX "Schema_createdAt_idx" ON "Schema"("createdAt" DESC);
