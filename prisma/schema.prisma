@@ -122,6 +122,9 @@ model Schema {
   createdBy   User @relation(fields: [createdById], references: [userId])
 
   tables Table[]
+
+  @@index([projectId])
+  @@index([createdAt(sort: Desc)])
 }
 
 model Table {
