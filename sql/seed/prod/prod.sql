@@ -87,439 +87,344 @@ VALUES (4, 'StudentsDB', 'https://Student.example.com', 2);
 INSERT INTO "Project" ("projectId", "projectName", "connUrl", "createdById")
 VALUES (5, 'MoviesDB', 'https://Movie.example.com', 3);
 
-/* Role table is kind of confusing. Do we just want a generic set of roles or do we want product specific */
+/* Assuming fresh DB this will work */
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (1, 'Administrator', 1);
+ INSERT INTO "Role" ("roleId", "roleName", "projectId")
+ VALUES (1, 'Administrator', 1);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (1, 'Administrator', 3);
+ INSERT INTO "Role" ("roleId", "roleName", "projectId")
+ VALUES (1, 'Administrator', 3);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (1, 'Administrator', 4);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (1, 'Administrator', 4);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (1, 'Administrator', 5);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (1, 'Administrator', 5);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (2, 'Manager', 1);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (2, 'Manager', 1);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (2, 'Manager', 3);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (2, 'Manager', 3);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (2, 'Manager', 4);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (2, 'Manager', 4);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (2, 'Manager', 5);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (2, 'Manager', 5);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (3, 'Developer', 1);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (3, 'Developer', 1);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (3, 'Developer', 2);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (3, 'Developer', 2);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (3, 'Developer', 3);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (3, 'Developer', 3);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (3, 'Developer', 4);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (3, 'Developer', 4);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (3, 'Developer', 5);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (3, 'Developer', 5);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (4, 'Tester', 2);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (4, 'Tester', 2);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (5, 'Analyst', 2);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (5, 'Analyst', 2);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (6, 'Administrator', 3);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (6, 'Administrator', 3);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (7, 'Manager', 3);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (7, 'Manager', 3);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (8, 'Developer', 3);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (8, 'Developer', 3);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (9, 'Tester', 4);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (9, 'Tester', 4);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (10, 'Analyst', 4);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (10, 'Analyst', 4);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (11, 'Administrator', 5);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (11, 'Administrator', 5);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (12, 'Manager', 5);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (12, 'Manager', 5);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (13, 'Developer', 5);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (13, 'Developer', 5);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (14, 'Tester', 5);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (14, 'Tester', 5);
 
--- INSERT INTO "Role" ("roleId", "roleName", "projectId")
--- VALUES (15, 'Analyst', 5);
+INSERT INTO "Role" ("roleId", "roleName", "projectId")
+VALUES (15, 'Analyst', 5);
 
--- /* Previous comment above */
+/* Previous comment above */
 
--- -- Mapping for Project ID 1
--- INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
--- VALUES (1, 1, 1); -- Administrator role has Read permission
--- INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
--- VALUES (2, 1, 2); -- Manager role has Write permission
--- INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
--- VALUES (3, 1, 3); -- Developer role has Delete permission
+ Mapping for Project ID 1
+INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
+VALUES (1, 1, 1); 
+INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
+VALUES (2, 1, 2); 
+INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
+VALUES (3, 1, 3);
 
--- -- Mapping for Project ID 2
--- INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
--- VALUES (4, 2, 4); -- Tester role has Create permission
--- INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
--- VALUES (5, 2, 5); -- Analyst role has Update permission
+ Mapping for Project ID 2
+INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
+VALUES (4, 2, 4); Tester role has Create permission
+INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
+VALUES (5, 2, 5); Analyst role has Update permission
 
--- -- Mapping for Project ID 3
--- INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
--- VALUES (6, 3, 1); -- Administrator role has Read permission
--- INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
--- VALUES (7, 3, 2); -- Manager role has Write permission
--- INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
--- VALUES (8, 3, 3); -- Developer role has Delete permission
+ Mapping for Project ID 3
+INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
+VALUES (6, 3, 1); Administrator role has Read permission
+INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
+VALUES (7, 3, 2); 
+INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
+VALUES (8, 3, 3); 
+ Mapping for Project ID 4
+INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
+VALUES (9, 4, 4); Tester role has Create permission
+INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
+VALUES (10, 4, 5); Analyst role has Update permission
 
--- -- Mapping for Project ID 4
--- INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
--- VALUES (9, 4, 4); -- Tester role has Create permission
--- INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
--- VALUES (10, 4, 5); -- Analyst role has Update permission
-
--- -- Mapping for Project ID 5
--- INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
--- VALUES (11, 5, 1); -- Administrator role has Read permission
--- INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
--- VALUES (12, 5, 2); -- Manager role has Write permission
--- INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
--- VALUES (13, 5, 3); -- Developer role has Delete permission
--- INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
--- VALUES (14, 5, 4); -- Tester role has Create permission
--- INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
--- VALUES (15, 5, 5); -- Analyst role has Update permission
-
--- -- Mapping for User ID 1 (User 1) in Project 1
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (1, 1, 1); -- User 1 is mapped to Administrator role in Project 1
-
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (1, 2, 1); -- User 1 is mapped to Manager role in Project 1
-
--- -- Mapping for User ID 1 (User 1) in Project 2
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (1, 3, 2); -- User 1 is mapped to Developer role in Project 2
-
--- -- Mapping for User ID 2 (User 2) in Project 1
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (2, 2, 1); -- User 2 is mapped to Manager role in Project 1
-
--- -- Mapping for User ID 3 (User 3) in Project 2
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (3, 3, 2); -- User 3 is mapped to Developer role in Project 2
-
--- -- Mapping for User ID 1 (User 1) in Project 3
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (1, 1, 3); -- User 1 is mapped to Administrator role in Project 3
-
--- -- Mapping for User ID 2 (User 2) in Project 3
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (2, 2, 3); -- User 2 is mapped to Manager role in Project 3
-
--- -- Mapping for User ID 3 (User 3) in Project 3
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (3, 3, 3); -- User 3 is mapped to Developer role in Project 3
-
--- -- Mapping for User ID 1 (User 1) in Project 4
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (1, 1, 4); -- User 1 is mapped to Administrator role in Project 4
-
--- -- Mapping for User ID 2 (User 2) in Project 4
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (2, 2, 4); -- User 2 is mapped to Manager role in Project 4
-
--- -- Mapping for User ID 3 (User 3) in Project 4
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (3, 3, 4); -- User 3 is mapped to Developer role in Project 4
-
--- -- Mapping for User ID 1 (User 1) in Project 5
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (1, 1, 5); -- User 1 is mapped to Administrator role in Project 5
-
--- -- Mapping for User ID 2 (User 2) in Project 5
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (2, 2, 5); -- User 2 is mapped to Manager role in Project 5
-
--- -- Mapping for User ID 3 (User 3) in Project 5
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (3, 3, 5); -- User 3 is mapped to Developer role in Project 5
-
--- -- Mapping for User ID 4 (User 4) in Project 1
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (4, 2, 1); -- User 4 is mapped to Manager role in Project 1
-
--- -- Mapping for User ID 4 (User 4) in Project 2
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (4, 5, 2); -- User 4 is mapped to Analyst role in Project 2
-
--- -- Mapping for User ID 4 (User 4) in Project 3
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (4, 7, 3); -- User 4 is mapped to Manager role in Project 3
-
--- -- Mapping for User ID 4 (User 4) in Project 4
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (4, 10, 4); -- User 4 is mapped to Analyst role in Project 4
-
--- -- Mapping for User ID 4 (User 4) in Project 5
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (4, 12, 5); -- User 4 is mapped to Manager role in Project 5
-
--- -- Mapping for User ID 5 (User 5) in Project 1
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (5, 3, 1); -- User 5 is mapped to Developer role in Project 1
-
--- -- Mapping for User ID 5 (User 5) in Project 2
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (5, 4, 2); -- User 5 is mapped to Tester role in Project 2
-
--- -- Mapping for User ID 5 (User 5) in Project 3
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (5, 8, 3); -- User 5 is mapped to Developer role in Project 3
+ Mapping for Project ID 5
+INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
+VALUES (11, 5, 1); Administrator role has Read permission
+INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
+VALUES (12, 5, 2); Manager role has Write permission
+INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
+VALUES (13, 5, 3); INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
+VALUES (14, 5, 4); Tester role has Create permission
+INSERT INTO "RolePermissionMap" ("roleId", "projectId", "permissionId")
+VALUES (15, 5, 5); Analyst role has Update permission
 
--- -- Mapping for User ID 5 (User 5) in Project 4
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (5, 9, 4); -- User 5 is mapped to Tester role in Project 4
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (1, 1, 1);
 
--- -- Mapping for User ID 5 (User 5) in Project 5
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (5, 13, 5); -- User 5 is mapped to Developer role in Project 5
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (1, 2, 1);
 
--- -- Continue mapping for the remaining users and projects...
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (1, 3, 2);
 
--- -- Mapping for User ID 6 (User 6) in Project 1
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (6, 3, 1); -- User 6 is mapped to Developer role in Project 1
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (2, 2, 1);
 
--- -- Mapping for User ID 6 (User 6) in Project 2
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (6, 4, 2); -- User 6 is mapped to Tester role in Project 2
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (3, 3, 2);
 
--- -- Mapping for User ID 6 (User 6) in Project 3
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (6, 8, 3); -- User 6 is mapped to Developer role in Project 3
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (1, 1, 3);
 
--- -- Mapping for User ID 6 (User 6) in Project 4
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (6, 9, 4); -- User 6 is mapped to Tester role in Project 4
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (2, 2, 3);
 
--- -- Mapping for User ID 6 (User 6) in Project 5
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (6, 13, 5); -- User 6 is mapped to Developer role in Project 5
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (3, 3, 3);
 
--- -- Continue mapping for the remaining users and projects...
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (1, 1, 4);
 
--- -- Mapping for User ID 7 (User 7) in Project 1
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (7, 2, 1); -- User 7 is mapped to Manager role in Project 1
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (2, 2, 4);
 
--- -- Mapping for User ID 7 (User 7) in Project 2
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (7, 5, 2); -- User 7 is mapped to Analyst role in Project 2
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (3, 3, 4);
 
--- -- Mapping for User ID 7 (User 7) in Project 3
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (7, 7, 3); -- User 7 is mapped to Manager role in Project 3
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (1, 1, 5);
 
--- -- Mapping for User ID 7 (User 7) in Project 4
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (7, 10, 4); -- User 7 is mapped to Analyst role in Project 4
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (2, 2, 5);
 
--- -- Mapping for User ID 7 (User 7) in Project 5
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (7, 12, 5); -- User 7 is mapped to Manager role in Project 5
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (3, 3, 5);
 
--- -- Continue mapping for the remaining users and projects...
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (4, 2, 1);
 
--- -- Mapping for User ID 8 (User 8) in Project 1
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (8, 3, 1); -- User 8 is mapped to Developer role in Project 1
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (4, 5, 2);
 
--- -- Mapping for User ID 8 (User 8) in Project 2
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (8, 4, 2); -- User 8 is mapped to Tester role in Project 2
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (4, 7, 3);
 
--- -- Mapping for User ID 8 (User 8) in Project 3
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (8, 8, 3); -- User 8 is mapped to Developer role in Project 3
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (4, 10, 4);
 
--- -- Mapping for User ID 8 (User 8) in Project 4
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (8, 9, 4); -- User 8 is mapped to Tester role in Project 4
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (4, 12, 5);
 
--- -- Mapping for User ID 8 (User 8) in Project 5
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (8, 13, 5); -- User 8 is mapped to Developer role in Project 5
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (5, 3, 1);
 
--- -- Continue mapping for the remaining users and projects...
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (5, 4, 2);
 
--- -- Mapping for User ID 9 (User 9) in Project 1
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (9, 2, 1); -- User 9 is mapped to Manager role in Project 1
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (5, 8, 3);
 
--- -- Mapping for User ID 9 (User 9) in Project 2
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (9, 5, 2); -- User 9 is mapped to Analyst role in Project 2
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (5, 9, 4);
 
--- -- Mapping for User ID 9 (User 9) in Project 3
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (9, 7, 3); -- User 9 is mapped to Manager role in Project 3
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (5, 13, 5);
 
--- -- Mapping for User ID 9 (User 9) in Project 4
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (9, 10, 4); -- User 9 is mapped to Analyst role in Project 4
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (6, 3, 1);
 
--- -- Mapping for User ID 9 (User 9) in Project 5
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (9, 12, 5); -- User 9 is mapped to Manager role in Project 5
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (6, 4, 2);
 
--- -- Continue mapping for the remaining users and projects...
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (6, 8, 3);
 
--- -- Mapping for User ID 10 (User 10) in Project 1
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (10, 3, 1); -- User 10 is mapped to Developer role in Project 1
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (6, 9, 4);
 
--- -- Mapping for User ID 10 (User 10) in Project 2
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (10, 4, 2); -- User 10 is mapped to Tester role in Project 2
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (6, 13, 5);
 
--- -- Mapping for User ID 10 (User 10) in Project 3
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (10, 8, 3); -- User 10 is mapped to Developer role in Project 3
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (7, 2, 1);
 
--- -- Mapping for User ID 10 (User 10) in Project 4
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (10, 9, 4); -- User 10 is mapped to Tester role in Project 4
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (7, 5, 2);
 
--- -- Mapping for User ID 10 (User 10) in Project 5
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (10, 13, 5); -- User 10 is mapped to Developer role in Project 5
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (7, 7, 3);
 
--- -- Continue mapping for the remaining users and projects...
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (7, 10, 4);
 
--- -- Mapping for User ID 11 (User 11) in Project 1
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (11, 2, 1); -- User 11 is mapped toApologies for the previous incomplete response. Here are the remaining `INSERT` statements to map the rest of the users (11 to 15) to roles for each project and role combination:
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (7, 12, 5);
 
--- -- Mapping for User ID 11 (User 11) in Project 2
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (11, 5, 2); -- User 11 is mapped to Analyst role in Project 2
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (8, 3, 1);
 
--- -- Mapping for User ID 11 (User 11) in Project 3
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (11, 7, 3); -- User 11 is mapped to Manager role in Project 3
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (8, 4, 2);
 
--- -- Mapping for User ID 11 (User 11) in Project 4
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (11, 10, 4); -- User 11 is mapped to Analyst role in Project 4
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (8, 8, 3);
 
--- -- Mapping for User ID 11 (User 11) in Project 5
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (11, 12, 5); -- User 11 is mapped to Manager role in Project 5
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (8, 9, 4);
 
--- -- Continue mapping for the remaining users and projects...
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (8, 13, 5);
 
--- -- Mapping for User ID 12 (User 12) in Project 1
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (12, 3, 1); -- User 12 is mapped to Developer role in Project 1
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (9, 2, 1);
 
--- -- Mapping for User ID 12 (User 12) in Project 2
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (12, 4, 2); -- User 12 is mapped to Tester role in Project 2
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (9, 5, 2);
 
--- -- Mapping for User ID 12 (User 12) in Project 3
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (12, 8, 3); -- User 12 is mapped to Developer role in Project 3
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (9, 7, 3);
 
--- -- Mapping for User ID 12 (User 12) in Project 4
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (12, 9, 4); -- User 12 is mapped to Tester role in Project 4
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (9, 10, 4);
 
--- -- Mapping for User ID 12 (User 12) in Project 5
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (12, 13, 5); -- User 12 is mapped to Developer role in Project 5
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (9, 12, 5);
 
--- -- Continue mapping for the remaining users and projects...
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (10, 3, 1);
 
--- -- Mapping for User ID 13 (User 13) in Project 1
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (13, 2, 1); -- User 13 is mapped to Manager role in Project 1
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (10, 4, 2);
 
--- -- Mapping for User ID 13 (User 13) in Project 2
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (13, 5, 2); -- User 13 is mapped to Analyst role in Project 2
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (10, 8, 3);
 
--- -- Mapping for User ID 13 (User 13) in Project 3
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (13, 7, 3); -- User 13 is mapped to Manager role in Project 3
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (10, 9, 4);
 
--- -- Mapping for User ID 13 (User 13) in Project 4
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (13, 10, 4); -- User 13 is mapped to Analyst role in Project 4
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (10, 13, 5);
 
--- -- Mapping for User ID 13 (User 13) in Project 5
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (13, 12, 5); -- User 13 is mapped to Manager role in Project 5
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (11, 2, 1);
 
--- -- Continue mapping for the remaining users and projects...
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (11, 5, 2);
 
--- -- Mapping for User ID 14 (User 14) in Project 1
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (14, 3, 1); -- User 14 is mapped to Developer role in Project 1
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (11, 7, 3);
 
--- -- Mapping for User ID 14 (User 14) in Project 2
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (14, 4, 2); -- User 14 is mapped to Tester role in Project 2
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (11, 10, 4);
 
--- -- Mapping for User ID 14 (User 14) in Project 3
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (14, 8, 3); -- User 14 is mapped to Developer role in Project 3
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (11, 12, 5);
 
--- -- Mapping for User ID 14 (User 14) in Project 4
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (14, 9, 4); -- User 14 is mapped to Tester role in Project 4
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (12, 3, 1);
 
--- -- Mapping for User ID 14 (User 14) in Project 5
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (14, 13, 5); -- User 14 is mapped to Developer role in Project 5
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (12, 4, 2);
 
--- -- Continue mapping for the remaining users and projects...
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (12, 8, 3);
 
--- -- Mapping for User ID 15 (User 15) in Project 1
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (15, 2, 1); -- User 15 is mapped to Manager role in Project 1
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (12, 9, 4);
 
--- -- Mapping for User ID 15 (User 15) in Project 2
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (15, 5, 2); -- User 15 is mapped to Analyst role in Project 2
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (12, 13, 5);
 
--- -- Mapping for User ID 15 (User 15) in Project 3
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (15, 7, 3); -- User 15 is mapped to Manager role in Project 3
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (13, 2, 1);
 
--- -- Mapping for User ID 15 (User 15) in Project 4
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (15, 10, 4); -- User 15 is mapped to Analyst role in Project 4
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (13, 5, 2);
 
--- -- Mapping for User ID 15 (User 15) in Project 5
--- INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
--- VALUES (15, 12, 5); -- User 15 is mapped to Manager role in Project 5
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (13, 7, 3);
+
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (13, 10, 4);
+
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (13, 12, 5);
+
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (14, 3, 1); 
+
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (14, 4, 2);
+
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (14, 8, 3);
+
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (14, 9, 4);
+
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (14, 13, 5);
+
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (15, 2, 1);
+
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (15, 5, 2);
+
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (15, 7, 3);
+
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (15, 10, 4);
+
+INSERT INTO "UserRoleMap" ("userId", "roleId", "projectId")
+VALUES (15, 12, 5);
 
 /* Previous comment above */
 
