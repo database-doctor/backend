@@ -1,6 +1,0 @@
- projectName  |       projectUrl       |        createdAt        |  createdBy   
---------------+------------------------+-------------------------+--------------
- TestProject  | http://example-url.com | 2023-06-22 03:09:31.42  | adriandavila
- TestProject2 | http://example-url.com | 2023-06-22 02:36:43.714 | adriandavila
-(2 rows)
-

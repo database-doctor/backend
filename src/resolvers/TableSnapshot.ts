@@ -1,5 +1,4 @@
-import { Table } from "@generated/type-graphql";
-import { Context } from "../context";
+import { Context } from "../middleware";
 import {
   Field,
   Int,
@@ -10,11 +9,9 @@ import {
   Query,
   ObjectType,
 } from "type-graphql";
-import { MinLength, MaxLength } from "class-validator";
-import { Prisma } from "prisma";
 
 @ObjectType()
-class TableSnapshot {
+class TableSnapshotOutput {
   @Field(() => Date)
   atTime!: Date;
 
@@ -26,24 +23,12 @@ class TableSnapshot {
 
   @Field(() => Int)
   queryCount!: number;
-
-  constructor(
-    atTime: Date,
-    rowCount: number,
-    sizeBytes: number,
-    queryCount: number
-  ) {
-    this.atTime = atTime;
-    this.rowCount = rowCount;
-    this.sizeBytes = sizeBytes;
-    this.queryCount = queryCount;
-  }
 }
 
 @InputType()
-class QueryTableSnapshotInput {
+class TableSnapshotInput {
   @Field(() => Int)
-  tableId!: number;
+  tid!: number;
 
   @Field(() => String)
   fromTime!: string;
@@ -52,52 +37,41 @@ class QueryTableSnapshotInput {
   toTime!: string;
 }
 
-@Resolver(() => TableSnapshot)
+@Resolver(() => TableSnapshotOutput)
 export class TableSnapshotResolver {
-  @Query(() => [TableSnapshot])
+  @Query(() => [TableSnapshotOutput])
   async tableSnapshots(
-    @Arg("table") table: QueryTableSnapshotInput,
-    @Ctx() ctx: Context
-  ): Promise<TableSnapshot[]> {
+    @Arg("table") table: TableSnapshotInput,
+    @Ctx() ctx: Context,
+  ): Promise<TableSnapshotOutput[]> {
     const rawSnapshots = await ctx.prisma.$queryRawUnsafe(`
       SELECT
-          date_trunc('hour', T."createdAt") AS "atTime",
-          T."rowCount",
-          T."sizeBytes",
-          COUNT(Q."atHour") AS "queryCount"
+          date_trunc('hour', TS."createdAt") AS "atTime",
+          TS."rowCount",
+          TS."sizeBytes",
+          COUNT(J."atHour") AS "queryCount"
       FROM
-          "TableStorageSnapshot" T
+          "TableSnapshot" TS
       LEFT JOIN
-          "QueryTableAccess" TA
+          "JobTableAccess" JTA
       ON
-          T."tableId" = TA."tableId"
+          TS."tid" = JTA."tid"
       LEFT JOIN
           (SELECT
-              Q1."queryId",
-              date_trunc('hour', Q1."issuedAt") AS "atHour"
+              J1."jid",
+              date_trunc('hour', J1."issuedAt") AS "atHour"
           FROM
-              "SqlQuery" Q1) Q
+              "Job" J1) J
       ON
-          TA."queryId" = Q."queryId" AND date_trunc('hour', T."createdAt") = Q."atHour"
+          JTA."jid" = J."jid" AND date_trunc('hour', TS."createdAt") = J."atHour"
       WHERE
-          T."tableId" = ${table.tableId} AND
-          '${table.fromTime}'::date <= T."createdAt" AND
-          T."createdAt" <= '${table.toTime}'::date
+          TS."tid" = ${table.tid} AND
+          '${table.fromTime}'::date <= TS."createdAt" AND
+          TS."createdAt" <= '${table.toTime}'::date
       GROUP BY
-          T."tableId", T."createdAt";
+          TS."tid", date_trunc('hour', TS."createdAt") AS "atTime";
     `);
 
-    const snapshots: TableSnapshot[] = (rawSnapshots as any[]).map(
-      (rawSnapshot: any): TableSnapshot => {
-        return new TableSnapshot(
-          rawSnapshot!.atTime,
-          rawSnapshot!.rowCount,
-          rawSnapshot!.sizeBytes,
-          Number(rawSnapshot!.queryCount)
-        );
-      }
-    );
-
-    return snapshots;
+    return rawSnapshots as TableSnapshotOutput[];
   }
 }

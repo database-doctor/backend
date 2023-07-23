@@ -1,5 +1,5 @@
 import { Table } from "@generated/type-graphql";
-import { Context } from "../context";
+import { Context } from "../middleware";
 import {
   Field,
   Int,
@@ -15,9 +15,9 @@ import {
 import { MinLength, MaxLength } from "class-validator";
 
 @ArgsType()
-class IntId {
+class TableId {
   @Field(() => Int)
-  id!: number;
+  tid!: number;
 }
 
 @InputType()
@@ -25,42 +25,35 @@ class CreateTableInput {
   @Field()
   @MinLength(1)
   @MaxLength(255)
-  tableName!: string;
+  name!: string;
 
   @Field(() => Int)
-  schemaId!: number;
+  sid!: number;
 }
 
 @Resolver(() => Table)
 export class TableResolver {
-  @Query(() => [Table])
-  async allTables(@Ctx() ctx: Context): Promise<Table[]> {
-    return ctx.prisma.table.findMany();
-  }
-
   @Query(() => Table)
   async table(
-    @Args() { id }: IntId,
-    @Ctx() ctx: Context
+    @Args() { tid }: TableId,
+    @Ctx() ctx: Context,
   ): Promise<Table | null> {
-    const table = ctx.prisma.table.findUnique({
-      where: {
-        tableId: id,
-      },
-    });
+    const table = await ctx.prisma.table.findUnique({ where: { tid } });
+
     return table;
   }
 
   @Mutation(() => Table)
   async createTable(
     @Arg("newTable") newTable: CreateTableInput,
-    @Ctx() ctx: Context
+    @Ctx() ctx: Context,
   ): Promise<Table> {
-    const project = await ctx.prisma.table.create({
+    const table = await ctx.prisma.table.create({
       data: {
         ...newTable,
       },
     });
-    return project;
+
+    return table;
   }
 }

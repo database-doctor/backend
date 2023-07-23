@@ -156,7 +156,7 @@ To genereate the queries the following prompt was used.
 
 These queries were used as a basic outline which were then modified using the QueryGenerator.py script to generate all the synthetic data.
 
-QueryGenerator.py also handles inserting the created queries into 'SQLQuery', 'QueryColumnAccess', 'QueryTableAccess'. The file was changed slightly for the type of query that was required to be generated. 
+QueryGenerator.py also handles inserting the created queries into 'SQLQuery', 'QueryColumnAccess', 'QueryTableAccess'. The file was changed slightly for the type of query that was required to be generated.
 
 <!-- The prompt used to generate different queries towards the schemas generated in the previous step was:
 

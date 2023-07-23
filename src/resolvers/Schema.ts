@@ -1,6 +1,7 @@
 import { Schema } from "@generated/type-graphql";
-import { Context } from "../context";
+import { Context } from "../middleware";
 import {
+  Authorized,
   Field,
   Int,
   Args,
@@ -15,9 +16,9 @@ import {
 import { MinLength, MaxLength } from "class-validator";
 
 @ArgsType()
-class IntId {
+class SchemaId {
   @Field(() => Int)
-  id!: number;
+  sid!: number;
 }
 
 @InputType()
@@ -25,45 +26,51 @@ class CreateSchemaInput {
   @Field()
   @MinLength(1)
   @MaxLength(255)
-  schemaName!: string;
+  name!: string;
 
   @Field(() => Int)
-  projectId!: number;
-
-  @Field(() => Int)
-  createdById!: number;
+  pid!: number;
 }
 
 @Resolver(() => Schema)
 export class SchemaResolver {
+  @Authorized()
   @Query(() => [Schema])
   async allSchemas(@Ctx() ctx: Context): Promise<Schema[]> {
-    return ctx.prisma.schema.findMany();
+    const createdById = ctx.user?.uid;
+    if (!createdById) {
+      throw new Error("User not found");
+    }
+
+    return await ctx.prisma.schema.findMany({ where: { createdById } });
   }
 
   @Query(() => Schema)
   async schema(
-    @Args() { id }: IntId,
-    @Ctx() ctx: Context
+    @Args() { sid }: SchemaId,
+    @Ctx() ctx: Context,
   ): Promise<Schema | null> {
-    const schema = ctx.prisma.schema.findUnique({
-      where: {
-        schemaId: id,
-      },
-    });
+    const schema = ctx.prisma.schema.findUnique({ where: { sid } });
     return schema;
   }
 
   @Mutation(() => Schema)
   async createSchema(
     @Arg("newSchema") newSchema: CreateSchemaInput,
-    @Ctx() ctx: Context
+    @Ctx() ctx: Context,
   ): Promise<Schema> {
+    const createdById = ctx.user?.uid;
+    if (!createdById) {
+      throw new Error("User not found");
+    }
+
     const project = await ctx.prisma.schema.create({
       data: {
         ...newSchema,
+        createdById,
       },
     });
+
     return project;
   }
 }

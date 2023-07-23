@@ -1,5 +1,5 @@
 import { UserProjectToken } from "@generated/type-graphql";
-import { Context } from "../context";
+import { Context } from "../middleware";
 import {
   Field,
   Int,
@@ -15,59 +15,63 @@ import {
 import { MinLength, MaxLength } from "class-validator";
 
 @ArgsType()
-class IntId {
+class UserId {
   @Field(() => Int)
-  id!: number;
+  uid!: number;
+}
+
+@ArgsType()
+class ProjectId {
+  @Field(() => Int)
+  pid!: number;
 }
 
 @InputType()
 class CreateUserProjectTokenInput {
   @Field(() => Int)
-  userId!: number;
-  
+  uid!: number;
+
   @Field(() => Int)
-  projectId!: number;
-  
+  pid!: number;
+
   @Field()
   @MinLength(1)
   @MaxLength(255)
-  accessToken!: string;
+  token!: string;
 }
 
 @Resolver(() => UserProjectToken)
 export class UserProjectTokenResolver {
-  @Query(() => [UserProjectToken])
-  async allUserProjectTokens(@Ctx() ctx: Context): Promise<UserProjectToken[]> {
-    return ctx.prisma.userProjectToken.findMany();
-  }
-
   @Query(() => UserProjectToken)
   async userProjectToken(
-    @Arg('uid', () => Int) uid: number,  
-    @Arg('pid', () => Int) pid: number, 
-    @Ctx() ctx: Context
+    @Args() { uid }: UserId,
+    @Args() { pid }: ProjectId,
+    @Ctx() ctx: Context,
   ): Promise<UserProjectToken | null> {
-    const token = ctx.prisma.userProjectToken.findUnique({
+    const token = await ctx.prisma.userProjectToken.findUnique({
       where: {
-        userId_projectId: {
-            projectId: pid,
-            userId: uid, 
-        }
+        uid_pid: {
+          uid,
+          pid,
+        },
       },
     });
+
     return token;
   }
 
   @Mutation(() => UserProjectToken)
   async createUserProjectToken(
-    @Arg("newUserProjectToken") newUserProjectToken: CreateUserProjectTokenInput,
-    @Ctx() ctx: Context
+    @Arg("newUserProjectToken")
+    newUserProjectToken: CreateUserProjectTokenInput,
+    @Ctx() ctx: Context,
   ): Promise<UserProjectToken> {
     const token = await ctx.prisma.userProjectToken.create({
       data: {
         ...newUserProjectToken,
       },
     });
+
     return token;
   }
 }

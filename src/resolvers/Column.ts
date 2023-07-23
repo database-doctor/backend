@@ -1,5 +1,5 @@
-import { Column } from "@generated/type-graphql";
-import { Context } from "../context";
+import { Column, ColumnType } from "@generated/type-graphql";
+import { Context } from "../middleware";
 import {
   Field,
   Int,
@@ -15,9 +15,9 @@ import {
 import { MinLength, MaxLength } from "class-validator";
 
 @ArgsType()
-class IntId {
+class ColumnId {
   @Field(() => Int)
-  id!: number;
+  cid!: number;
 }
 
 @InputType()
@@ -25,45 +25,38 @@ class CreateColumnInput {
   @Field()
   @MinLength(1)
   @MaxLength(255)
-  columnName!: string;
+  name!: string;
 
   @Field(() => Int)
-  tableId!: number;
+  tid!: number;
 
-  @Field(() => Int)
-  columnTypeId!: number;
+  @Field(() => String)
+  type!: ColumnType;
 }
 
 @Resolver(() => Column)
 export class ColumnResolver {
-  @Query(() => [Column])
-  async allColumns(@Ctx() ctx: Context): Promise<Column[]> {
-    return ctx.prisma.column.findMany();
-  }
-
   @Query(() => Column)
   async column(
-    @Args() { id }: IntId,
-    @Ctx() ctx: Context
+    @Args() { cid }: ColumnId,
+    @Ctx() ctx: Context,
   ): Promise<Column | null> {
-    const column = ctx.prisma.column.findUnique({
-      where: {
-        columnId: id,
-      },
-    });
+    const column = await ctx.prisma.column.findUnique({ where: { cid } });
+
     return column;
   }
 
   @Mutation(() => Column)
   async createColumn(
     @Arg("newColumn") newColumn: CreateColumnInput,
-    @Ctx() ctx: Context
+    @Ctx() ctx: Context,
   ): Promise<Column> {
     const column = await ctx.prisma.column.create({
       data: {
         ...newColumn,
       },
     });
+
     return column;
   }
 }

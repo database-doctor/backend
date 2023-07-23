@@ -1,42 +1,45 @@
-import { User } from "@generated/type-graphql";
-import { Context } from "../context";
 import {
-  Field,
-  Query,
-  InputType,
-  Resolver,
-  Ctx,
-  Arg,
-  Args,
   ArgsType,
-  Mutation,
+  Arg,
+  Field,
+  Authorized,
+  InputType,
   Int,
+  ObjectType,
+  Resolver,
+  Mutation,
+  Query,
+  Args,
+  Ctx,
+  Root,
+  FieldResolver,
 } from "type-graphql";
-import { IsEmail, MinLength, MaxLength } from "class-validator";
+import { IsEmail, MaxLength, MinLength } from "class-validator";
+
+import { Context } from "../middleware";
+import { User, Project } from "@generated/type-graphql";
+import { createAuthToken, hashPassword, verifyPassword } from "../auth";
 
 @ArgsType()
-class IntId {
+class UserId {
   @Field(() => Int)
-  id!: number;
+  uid!: number;
 }
 
 @ArgsType()
-class StringEmail {
+class UserEmail {
   @Field(() => String)
   email!: string;
 }
+
 @ArgsType()
-class StringUsername {
+class UserUsername {
   @Field(() => String)
   username!: string;
 }
 
 @InputType()
-class CreateUserInput {
-  @Field()
-  @IsEmail()
-  email!: string;
-
+class RegisterUserInput {
   @Field()
   @MinLength(1)
   @MaxLength(255)
@@ -44,96 +47,187 @@ class CreateUserInput {
 
   @Field()
   @MinLength(1)
-  @MaxLength(255)
-  passwordHash!: string;
-
-  @Field()
-  @MinLength(1)
-  @MaxLength(255)
-  passwordSalt!: string;
-
-  @Field()
-  @MinLength(1)
-  @MaxLength(255)
+  @MaxLength(32)
   username!: string;
+
+  @Field()
+  @IsEmail()
+  email!: string;
+
+  @Field()
+  @MinLength(8)
+  @MaxLength(64)
+  password!: string;
+}
+
+@ObjectType()
+class RegisterUserOutput {
+  @Field()
+  token!: string;
+}
+
+@InputType()
+class LoginUserInput {
+  @Field()
+  @IsEmail()
+  email!: string;
+
+  @Field()
+  password!: string;
+}
+
+@ObjectType()
+class LoginUserOutput {
+  @Field()
+  token!: string;
 }
 
 @Resolver(() => User)
 export class UserResolver {
-  @Query(() => [User])
-  async allUsers(@Ctx() ctx: Context): Promise<User[]> {
-    const users = await ctx.prisma.user.findMany({});
-    return users;
-  }
-
+  @Authorized()
   @Query(() => User)
-  async user(@Args() { id }: IntId, @Ctx() ctx: Context): Promise<User | null> {
-    const user = await ctx.prisma.user.findUnique({
-      where: {
-        userId: id,
-      },
-    });
+  async user(
+    @Args() { uid }: UserId,
+    @Ctx() ctx: Context,
+  ): Promise<User | null> {
+    const user = await ctx.prisma.user.findUnique({ where: { uid } });
+
+    if (!user) {
+      ctx.logger.error(`user not found with uid: ${uid}`);
+      return null;
+    }
+
+    if (user && user.uid !== ctx.user?.uid) {
+      user.password = "";
+    }
+
     return user;
   }
 
+  @Authorized()
   @Query(() => User)
   async userByEmail(
-    @Args() { email }: StringEmail,
-    @Ctx() ctx: Context
+    @Args() { email }: UserEmail,
+    @Ctx() ctx: Context,
   ): Promise<User | null> {
-    const user = await ctx.prisma.user.findUnique({
-      where: {
-        email: email,
-      },
-    });
+    const user = await ctx.prisma.user.findUnique({ where: { email } });
+
+    if (!user) {
+      ctx.logger.error(`user not found with email: ${email}`);
+      return null;
+    }
+
+    if (user && user.uid !== ctx.user?.uid) {
+      user.password = "";
+    }
+
     return user;
   }
 
-  @Query(() => [User], {nullable: true})
-  async commonUserQueries(
-    @Args() { id }: IntId,
-    @Ctx() ctx: Context
-  ): Promise<User[]> {
-    const user = await ctx.prisma.$queryRaw<User[]>
-      `WITH "UserQueries" AS 
-        (SELECT "userId", COUNT(*) AS "queryCount" 
-        FROM "SqlQuery" 
-        GROUP BY "userId")    
-      SELECT DISTINCT *
-      FROM "User"
-      JOIN "UserProjectToken" ON "User"."userId" = "UserProjectToken"."userId"
-      JOIN "Project" ON "UserProjectToken"."projectId" = "Project"."projectId"
-      WHERE "Project"."projectId" = ${id} AND "User"."userId" IN 
-        (SELECT "userId"
-        FROM "UserQueries"
-        WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "UserQueries"))
-      LIMIT 10;`;
-    return user;
-  }
-
+  @Authorized()
   @Query(() => User)
   async userByUsername(
-    @Args() { username }: StringUsername,
-    @Ctx() ctx: Context
+    @Args() { username }: UserUsername,
+    @Ctx() ctx: Context,
   ): Promise<User | null> {
-    const user = await ctx.prisma.user.findFirst({
-      where: {
-        username: username,
-      },
-    });
+    const user = await ctx.prisma.user.findUnique({ where: { username } });
+
+    if (!user) {
+      ctx.logger.error(`user not found with username: ${username}`);
+      return null;
+    }
+
+    if (user && user.uid !== ctx.user?.uid) {
+      user.password = "";
+    }
+
     return user;
   }
 
-  @Mutation(() => User)
-  async createUser(
-    @Arg("newUser") newUser: CreateUserInput,
-    @Ctx() ctx: Context
-  ): Promise<User> {
+  @Mutation(() => RegisterUserOutput)
+  async registerUser(
+    @Arg("newUser") newUser: RegisterUserInput,
+    @Ctx() ctx: Context,
+  ): Promise<RegisterUserOutput> {
+    const { name, username, email, password } = newUser;
+
+    const existingUserEmail = await ctx.prisma.user.findUnique({
+      where: { email },
+    });
+    if (existingUserEmail) {
+      ctx.logger.error(`user already exists for email: ${email}`);
+      throw new Error("Email already exists.");
+    }
+
+    const existingUserUsername = await ctx.prisma.user.findUnique({
+      where: { username },
+    });
+    if (existingUserUsername) {
+      ctx.logger.error(`user already exists for username: ${username}`);
+      throw new Error("Username already exists.");
+    }
+
     const user = await ctx.prisma.user.create({
-      data: {
-        ...newUser,
+      data: { name, username, email, password: hashPassword(password) },
+    });
+
+    ctx.logger.info(`created user: ${user.uid} ${user.email}`);
+    return { token: createAuthToken(user.uid) };
+  }
+
+  @Mutation(() => LoginUserOutput)
+  async loginUser(
+    @Arg("userCreds") userCreds: LoginUserInput,
+    @Ctx() ctx: Context,
+  ): Promise<LoginUserOutput> {
+    const { email, password } = userCreds;
+
+    const user = await ctx.prisma.user.findUnique({ where: { email } });
+    if (!user) {
+      ctx.logger.error(`user not found for email: ${email}`);
+      throw new Error("Invalid email or password.");
+    }
+
+    if (!verifyPassword(password, user.password)) {
+      ctx.logger.error(`invalid password for email: ${email}`);
+      throw new Error("Invalid email or password.");
+    }
+
+    ctx.logger.info(`logged in user: ${user.uid} ${user.email}`);
+    return { token: createAuthToken(user.uid) };
+  }
+
+  @Authorized()
+  @FieldResolver(() => [Project])
+  async projects(@Root() user: User, @Ctx() ctx: Context) {
+    return await ctx.prisma.project.findMany({
+      where: {
+        createdById: user.uid,
       },
     });
+  }
+
+  @Authorized()
+  @Query(() => [User], { nullable: true })
+  async commonUserQueries(
+    @Args() { uid }: UserId,
+    @Ctx() ctx: Context,
+  ): Promise<User[]> {
+    const user = await ctx.prisma.$queryRaw<User[]>`
+      WITH "UserQueries" AS 
+        (SELECT "Job"."issuedById", COUNT(*) AS "queryCount" 
+        FROM "Job" 
+        GROUP BY "Job"."issuedById")
+      SELECT DISTINCT *
+      FROM "User"
+      JOIN "UserProjectToken" ON "User"."uid" = "UserProjectToken"."uid"
+      JOIN "Project" ON "UserProjectToken"."pd" = "Project"."pid"
+      WHERE "Project"."pid" = ${uid} AND "User"."uid" IN 
+        (SELECT "UQ"."issuedById"
+        FROM "UserQueries" "UQ"
+        WHERE "UQ"."queryCount" >= (SELECT AVG("queryCount") FROM "UserQueries"))
+      LIMIT 10;
+    `;
     return user;
   }
 }
