@@ -1,4 +1,5 @@
 import { client } from "../config";
+import { logger } from "../../src/util";
 
 export type Permission = {
   pid: number;
@@ -37,5 +38,6 @@ export const generatePermissions = async () => {
     permissions.push(await generatePermission(names[i]));
   }
 
+  logger.info(`generated ${names.length} permissions`);
   return permissions;
 };

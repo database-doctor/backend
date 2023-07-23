@@ -1,25 +1,33 @@
 import "./config/dotenv";
 
-import { generateBots, generatePermissions, generateUsers } from "./gen";
-
 import { client } from "./config";
+import { generateData } from "./gen";
+import { logger } from "../src/util";
 
 const main = async () => {
   // The seed is set manually to ensure that the same data is generated every
-  // time the production data is generated.
+  // time the production data is generated. In particular, all non-id fields
+  // are generated using faker, which is seeded here. Note that id fields are
+  // not guaranteed to be consistent across runs, unless the database is reset
+  // before each run using `npm run db:reset`.
   // faker.seed(0);
-
   await client.connect();
 
-  const users = await generateUsers(15);
-  console.log(users);
-  const bots = await generateBots(5);
-  console.log(bots);
+  try {
+    await client.query("BEGIN");
+    await generateData();
+    await client.query("COMMIT");
+  } catch (err) {
+    await client.query("ROLLBACK");
+    logger.error(`${err}`);
+    throw err;
+  }
 
-  const permissions = await generatePermissions();
-  console.log(permissions);
-
+  logger.info("successfully seeded database");
   await client.end();
 };
 
-main().catch((err) => console.error(err));
+main().catch((_) => {
+  logger.error("failed to seed database");
+  process.exit(1);
+});
