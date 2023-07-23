@@ -1,6 +1,6 @@
 import { faker } from "@faker-js/faker";
 
-export const select = <T>(arr: T[], k: number): T[] => {
+export const sample = <T>(arr: T[], k: number): T[] => {
   const shuffled = arr.slice(0);
   let i = arr.length;
   let temp: T;

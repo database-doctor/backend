@@ -12,7 +12,7 @@ export type Role = {
   pid: number;
 };
 
-const generateRole = async (
+export const generateRole = async (
   { name, permissions }: RoleConfig,
   projectId: number,
   allPermissions: Permission[]

@@ -43,10 +43,10 @@ export const THEATRE_PROJECT: ProjectConfig = {
     },
   ],
   users: [
-    { role: "Admin" },
-    { role: "Manager" },
-    { role: "Employee" },
-    { role: "Employee" },
+    { roles: ["Admin"] },
+    { roles: ["Manager"] },
+    { roles: ["Employee"] },
+    { roles: ["Employee"] },
   ],
-  bots: [{ role: "WebServer" }, { role: "WebServer" }],
+  bots: [{ roles: ["WebServer"] }, { roles: ["WebServer"] }],
 };
