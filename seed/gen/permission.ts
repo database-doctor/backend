@@ -1,4 +1,4 @@
-import { client } from "../config";
+import { client } from "../util";
 import { logger } from "../../src/util";
 
 export type Permission = {

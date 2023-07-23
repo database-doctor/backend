@@ -1,5 +1,5 @@
 import bcrypt from "bcryptjs";
-import { client } from "../config";
+import { client } from "../util";
 import { faker } from "@faker-js/faker";
 import { logger } from "../../src/util";
 

@@ -4,7 +4,7 @@ import { count } from "../constants";
 import { generatePermissions } from "./permission";
 
 export const generateData = async () => {
-  // await generateUsers(count.GENERATED_USERS);
-  // await generateBots(count.GENERATED_BOTS);
-  await generatePermissions();
+  const users = await generateUsers(count.GENERATED_USERS);
+  const bots = await generateBots(count.GENERATED_BOTS);
+  const permissions = await generatePermissions();
 };

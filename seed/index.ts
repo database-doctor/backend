@@ -1,6 +1,6 @@
-import "./config/dotenv";
+import "./util/dotenv";
 
-import { client } from "./config";
+import { client } from "./util";
 import { generateData } from "./gen";
 import { logger } from "../src/util";
 
