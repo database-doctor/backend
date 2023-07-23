@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx eslint . --ext .ts",
-    "startdb": "docker-compose up",
+    "startdb": "docker-compose up -d",
     "resetdb": "bash ./scripts/resetdb.sh",
     "gendb": "bash ./scripts/gendb.sh",
     "db": "bash ./scripts/db.sh",
