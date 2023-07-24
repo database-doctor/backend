@@ -71,7 +71,7 @@ export class ProjectDetailResolver {
       FROM "Project"
       JOIN "UserProjectToken" ON "Project"."pid" = "UserProjectToken"."pid"
       JOIN "User" ON "UserProjectToken"."uid" = "User"."uid"
-      WHERE "User"."userId" = ${uid};
+      WHERE "User"."uid" = ${uid};
     `);
 
     return rawProjects as ProjectDetail[];
@@ -81,7 +81,7 @@ export class ProjectDetailResolver {
   @Query(() => ProjectDetail, { nullable: true })
   async project(
     @Args() { pid }: ProjectId,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<ProjectDetail | null> {
     const uid = ctx.user?.uid;
 
@@ -108,7 +108,7 @@ export class ProjectResolver {
   @Mutation(() => Project)
   async createProject(
     @Arg("newProject") newProject: CreateProjectInput,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<Project> {
     const uid = ctx.user?.uid;
     if (!uid) {
