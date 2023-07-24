@@ -87,7 +87,7 @@ model Project {
 }
 
 model UserProjectToken {
-    token String @unique
+    token String @default(cuid()) @unique
 
     uid  Int
     user User @relation(fields: [uid], references: [uid])

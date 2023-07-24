@@ -34,10 +34,10 @@ class CreateUserProjectTokenInput {
   @Field(() => Int)
   pid!: number;
 
-  @Field()
-  @MinLength(1)
-  @MaxLength(255)
-  token!: string;
+  // @Field()
+  // @MinLength(1)
+  // @MaxLength(255)
+  // token!: string;
 }
 
 @Resolver(() => UserProjectToken)
@@ -46,7 +46,7 @@ export class UserProjectTokenResolver {
   async userProjectToken(
     @Args() { uid }: UserId,
     @Args() { pid }: ProjectId,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<UserProjectToken | null> {
     const token = await ctx.prisma.userProjectToken.findUnique({
       where: {
@@ -64,7 +64,7 @@ export class UserProjectTokenResolver {
   async createUserProjectToken(
     @Arg("newUserProjectToken")
     newUserProjectToken: CreateUserProjectTokenInput,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<UserProjectToken> {
     const token = await ctx.prisma.userProjectToken.create({
       data: {
