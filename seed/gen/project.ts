@@ -1,4 +1,5 @@
 import { Role, RoleConfig, assignRole, generateRole } from "./role";
+import { SchemaConfig, generateSchema } from "./schema";
 import { client, sample } from "../util";
 
 import { Permission } from "./permission";
@@ -15,6 +16,7 @@ export type ProjectConfig = {
   bots: {
     roles: string[];
   }[];
+  schemas: SchemaConfig[];
 };
 
 const assignUserToken = async (uid: number, pid: number) => {
@@ -29,7 +31,7 @@ const assignUserToken = async (uid: number, pid: number) => {
 };
 
 export const generateProject = async (
-  { name, roles, users, bots }: ProjectConfig,
+  { name, roles, users, bots, schemas }: ProjectConfig,
   allUsers: User[],
   allBots: User[],
   allPermissions: Permission[]
@@ -56,12 +58,9 @@ export const generateProject = async (
   const selectedUsers = sample(allUsers, users.length);
   const selectedBots = sample(allBots, bots.length);
 
-  const res = await client.query(query, [
-    name,
-    dbUrl,
-    createdAt,
-    selectedUsers[0].uid,
-  ]);
+  const admin = selectedUsers[0];
+
+  const res = await client.query(query, [name, dbUrl, createdAt, admin.uid]);
   const pid = res.rows[0].pid;
 
   const createdRoles: Role[] = [];
@@ -83,6 +82,11 @@ export const generateProject = async (
     for (let j = 0; j < bots[i].roles.length; ++j) {
       await assignRole(bots[i].roles[j], selectedBots[i].uid, createdRoles);
     }
+  }
+
+  for (const schema of schemas) {
+    await generateSchema(schema, pid, admin.uid);
+    logger.info(`generated schema ${schema.name} for project ${name}`);
   }
 
   logger.info(`generated project ${name} with pid ${pid}`);
