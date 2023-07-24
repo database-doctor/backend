@@ -86,14 +86,18 @@ class LoginUserOutput {
 export class UserResolver {
   @Authorized()
   @Query(() => User)
-  async user(
-    @Args() { uid }: UserId,
-    @Ctx() ctx: Context,
-  ): Promise<User | null> {
-    const user = await ctx.prisma.user.findUnique({ where: { uid } });
+  async user(@Ctx() ctx: Context): Promise<User | null> {
+    if (!ctx.user || !ctx.user.uid) {
+      ctx.logger.error(`no uid specified for get user request`);
+      return null;
+    }
+
+    const user = await ctx.prisma.user.findUnique({
+      where: { uid: ctx.user.uid },
+    });
 
     if (!user) {
-      ctx.logger.error(`user not found with uid: ${uid}`);
+      ctx.logger.error(`user not found with uid: ${ctx.user.uid}`);
       return null;
     }
 
@@ -108,7 +112,7 @@ export class UserResolver {
   @Query(() => User)
   async userByEmail(
     @Args() { email }: UserEmail,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<User | null> {
     const user = await ctx.prisma.user.findUnique({ where: { email } });
 
@@ -128,7 +132,7 @@ export class UserResolver {
   @Query(() => User)
   async userByUsername(
     @Args() { username }: UserUsername,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<User | null> {
     const user = await ctx.prisma.user.findUnique({ where: { username } });
 
@@ -147,7 +151,7 @@ export class UserResolver {
   @Mutation(() => RegisterUserOutput)
   async registerUser(
     @Arg("newUser") newUser: RegisterUserInput,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<RegisterUserOutput> {
     const { name, username, email, password } = newUser;
 
@@ -178,7 +182,7 @@ export class UserResolver {
   @Mutation(() => LoginUserOutput)
   async loginUser(
     @Arg("userCreds") userCreds: LoginUserInput,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<LoginUserOutput> {
     const { email, password } = userCreds;
 
@@ -211,7 +215,7 @@ export class UserResolver {
   @Query(() => [User], { nullable: true })
   async commonUserQueries(
     @Args() { uid }: UserId,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<User[]> {
     const user = await ctx.prisma.$queryRaw<User[]>`
       WITH "UserQueries" AS 
