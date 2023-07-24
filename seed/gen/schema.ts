@@ -20,7 +20,7 @@ export const generateSchema = async (
   { name, tables }: SchemaConfig,
   pid: number,
   createdById: number
-) => {
+): Promise<Schema> => {
   const query = `
     INSERT INTO "Schema" ("name", "createdAt", "pid", "createdById")
     VALUES ($1, $2, $3, $4) RETURNING "sid";
@@ -36,5 +36,5 @@ export const generateSchema = async (
 
   const generatedTables = await generateTables(tables, sid);
 
-  return { sid, name, pid, createdById, tables: generateTables };
+  return { sid, name, pid, createdById, tables: generatedTables };
 };

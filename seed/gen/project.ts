@@ -1,5 +1,6 @@
+import { JobConfig, generateJobs } from "./job";
 import { Role, RoleConfig, assignRole, generateRole } from "./role";
-import { SchemaConfig, generateSchema } from "./schema";
+import { Schema, SchemaConfig, generateSchema } from "./schema";
 import { client, sample } from "../util";
 
 import { Permission } from "./permission";
@@ -17,6 +18,7 @@ export type ProjectConfig = {
     roles: string[];
   }[];
   schemas: SchemaConfig[];
+  jobs: JobConfig[];
 };
 
 const assignUserToken = async (uid: number, pid: number) => {
@@ -31,7 +33,7 @@ const assignUserToken = async (uid: number, pid: number) => {
 };
 
 export const generateProject = async (
-  { name, roles, users, bots, schemas }: ProjectConfig,
+  { name, roles, users, bots, schemas, jobs }: ProjectConfig,
   allUsers: User[],
   allBots: User[],
   allPermissions: Permission[]
@@ -84,9 +86,27 @@ export const generateProject = async (
     }
   }
 
+  let lastSchema: Schema | null = null;
   for (const schema of schemas) {
-    await generateSchema(schema, pid, admin.uid);
+    lastSchema = await generateSchema(schema, pid, admin.uid);
     logger.info(`generated schema ${schema.name} for project ${name}`);
+  }
+
+  if (lastSchema == null) {
+    throw new Error("project must have at least one schema");
+  }
+
+  for (let i = 0; i < jobs.length; ++i) {
+    await generateJobs(
+      jobs[i],
+      pid,
+      selectedUsers,
+      selectedBots,
+      lastSchema.tables
+    );
+    logger.info(
+      `generated ${jobs[i].count} jobs for job ${i} for project ${name}`
+    );
   }
 
   logger.info(`generated project ${name} with pid ${pid}`);

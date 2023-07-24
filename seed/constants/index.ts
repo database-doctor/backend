@@ -1,2 +1,5 @@
 export * as count from "./count";
-export * from "./theatre";
+
+import { theatreProject } from "./theatre";
+
+export const projects = [theatreProject];

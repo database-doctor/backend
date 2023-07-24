@@ -1,7 +1,7 @@
 import { ProjectConfig } from "../gen/project";
 import { faker } from "@faker-js/faker";
 
-export const THEATRE_PROJECT: ProjectConfig = {
+export const theatreProject: ProjectConfig = {
   name: "Theatre",
   roles: [
     {
@@ -261,6 +261,30 @@ export const THEATRE_PROJECT: ProjectConfig = {
               prevRowCount + faker.number.int({ min: 0, max: 4 }),
             sizeBytesFactor: 196,
           },
+        },
+      ],
+    },
+  ],
+  jobs: [
+    {
+      count: 6000,
+      generateStatement: (params: any) => {
+        const query = `SELECT email FROM "Customer" WHERE customerId = ${params.customerId}`;
+        return query;
+      },
+      generateParams: () => {
+        return {
+          customerId: faker.number.int({ min: 1, max: 800 }),
+        };
+      },
+      type: "SELECT",
+      duration: () => faker.number.float({ min: 0.1, max: 0.5 }),
+      errorRatio: 0.001,
+      botRatio: 0.8,
+      accessed: [
+        {
+          table: "Customer",
+          columns: ["email", "customerId"],
         },
       ],
     },
