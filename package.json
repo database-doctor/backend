@@ -10,6 +10,8 @@
     "db:reset": "bash ./scripts/resetdb.sh",
     "db:seed": "npx ts-node ./seed/index.ts",
     "db:gen": "bash ./scripts/gendb.sh",
+    "db:studio": "npx prisma studio",
+    "db:push": "npx prisma db push --force-reset",
     "db": "bash ./scripts/db.sh",
     "start": "node dist/index.js",
     "build": "npx tsc",
