@@ -269,7 +269,7 @@ export const theatreProject: ProjectConfig = {
     {
       count: 6000,
       generateStatement: (params: any) => {
-        const query = `SELECT email FROM "Customer" WHERE customerId = ${params.customerId}`;
+        const query = `SELECT 'email' FROM "Customer" WHERE "customerId" = '${params.customerId}'`;
         return query;
       },
       generateParams: () => {
