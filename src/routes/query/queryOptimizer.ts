@@ -279,37 +279,3 @@ const getPredicate = async (joinNode: any): Promise<JoinPredicate | null> => {
   }
   return null;
 }
-
-const main = async () => {
-  // The seed is set manually to ensure that the same data is generated every
-  // time the production data is generated.
-  // faker.seed(0);
-
-  const rawRequest = "SELECT pid FROM Project JOIN User WHERE test > 10 ORDER BY User.age;"
-  const rawUnionRequest = "SELECT pid FROM PROJECT UNION ALL SELECT uid FROM USER HAVING uid > 10;"
-  const rawWhereRequest = "SELECT pid FROM Project where pid = uid AND test != this;"
-  const test = `WITH QueryCount AS 
-	(SELECT statement, COUNT(*) AS queryCount 
-	 FROM SqlQuery 
-	 GROUP BY statement)
-SELECT DISTINCT *
-FROM SqlQuery Q
-JOIN QueryType ON Q.queryTypeId = QueryType.queryTypeId
-JOIN Project ON Q.projectId = Project.projectId
-WHERE Q.statement IN 
-	(SELECT * 
-	 FROM QueryCount 
-	 WHERE queryCount >= (SELECT AVG(queryCount) FROM QueryCount)) AND Project.projectId IN (SELECT * FROM Test)
-ORDER BY Q.age;`
-
-const output: QueryResult = {
-  [OptimizationType.ExplicitColumns]: [], 
-  [OptimizationType.ExtractNested]: [], 
-  [OptimizationType.ClusteredIndex]: [], 
-  [OptimizationType.NonClusteredIndex]: [], 
-  [OptimizationType.RemoveDistinct]: [], 
-};
-  findIndex(output);
-};
-
-main()
