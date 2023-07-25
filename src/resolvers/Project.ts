@@ -1,4 +1,4 @@
-import { Project, UserProjectToken, User } from "@generated/type-graphql";
+import { Project, UserProjectToken, User, Role } from "@generated/type-graphql";
 import { Context } from "../middleware";
 import {
   Field,
@@ -121,6 +121,17 @@ export class ProjectDetailResolver {
         uid: { in: uids_with_access.map((x) => x.uid) },
       },
     });
+  }
+
+  @FieldResolver(() => [Role])
+  async roles(@Root() project: Project, @Ctx() ctx: Context) {
+    const roles = await ctx.prisma.role.findMany({
+      where: {
+        pid: project.pid,
+      },
+    });
+
+    return roles;
   }
 }
 

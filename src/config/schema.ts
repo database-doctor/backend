@@ -18,6 +18,7 @@ export const schema = buildSchemaSync({
     resolvers.UserProjectTokenResolver,
     resolvers.PermissionResolver,
     resolvers.RoleResolver,
+    resolvers.CreateRoleResolver,
   ],
   validate: false,
   authChecker,
