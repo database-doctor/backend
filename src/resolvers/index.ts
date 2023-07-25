@@ -8,3 +8,5 @@ export * from "./Table";
 export * from "./TableSnapshot";
 export * from "./User";
 export * from "./UserProjectToken";
+export * from "./Permission";
+export * from "./Role";
