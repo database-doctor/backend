@@ -1,13 +1,12 @@
 import { ProjectConfig } from "../gen/project";
 import { faker } from "@faker-js/faker";
 
-export const theatreProject: ProjectConfig = {
-  name: "Theatre",
+export const EcommerceProject: ProjectConfig = {
+  name: "Ecommerce",
   roles: [
     {
       name: "Admin",
       permissions: [
-        "project:read",
         "project:share",
         "schema:read",
         "schema:update",
@@ -24,7 +23,6 @@ export const theatreProject: ProjectConfig = {
     {
       name: "Manager",
       permissions: [
-        "job:read",
         "job:create",
         "job:update",
         "snapshot:read",
@@ -36,7 +34,7 @@ export const theatreProject: ProjectConfig = {
     },
     {
       name: "Employee",
-      permissions: ["alert:read", "alert:update"],
+      permissions: ["alert:read"],
     },
     {
       name: "WebServer",
@@ -47,46 +45,41 @@ export const theatreProject: ProjectConfig = {
     { roles: ["Admin"] },
     { roles: ["Manager"] },
     { roles: ["Employee"] },
-    { roles: ["Employee"] },
   ],
   bots: [{ roles: ["WebServer"] }, { roles: ["WebServer"] }],
   schemas: [
     {
-      name: "Schema0",
+      name: "Schema2",
       tables: [],
     },
     {
-      name: "Schema1",
+      name: "Schema3",
       tables: [
         {
-          name: "Movie",
+          name: "Customers",
           columns: [
             {
-              name: "movieId",
+              name: "customer_id",
               type: "INTEGER",
             },
             {
-              name: "title",
+              name: "first_name",
               type: "STRING",
             },
             {
-              name: "releaseDate",
-              type: "DATE",
-            },
-            {
-              name: "duration",
-              type: "INTEGER",
-            },
-            {
-              name: "rating",
-              type: "INTEGER",
-            },
-            {
-              name: "description",
+              name: "last_name",
               type: "STRING",
             },
             {
-              name: "genre",
+              name: "email",
+              type: "STRING",
+            },
+            {
+              name: "phone_number",
+              type: "STRING",
+            },
+            {
+              name: "address",
               type: "STRING",
             },
           ],
@@ -98,24 +91,32 @@ export const theatreProject: ProjectConfig = {
           },
         },
         {
-          name: "Actor",
+          name: "Orders",
           columns: [
             {
-              name: "actorId",
+              name: "order_id",
               type: "INTEGER",
             },
             {
-              name: "firstName",
-              type: "STRING",
+              name: "customer_id",
+              type: "INTEGER",
             },
             {
-              name: "lastName",
-              type: "STRING",
+              name: "order_date",
+              type: "DATE",
             },
             {
-              name: "nationality",
-              type: "STRING",
+              name: "total_amount",
+              type: "INTEGER",
             },
+            {
+                name: "payment_method",
+                type: "STRING"
+            },
+            {
+                name: "shipping_address",
+                type: "STRING"
+            }
           ],
           snapshot: {
             initialRowCount: 1000,
@@ -125,28 +126,32 @@ export const theatreProject: ProjectConfig = {
           },
         },
         {
-          name: "Review",
+          name: "Products",
           columns: [
             {
-              name: "reviewId",
+              name: "product_id",
               type: "INTEGER",
             },
             {
-              name: "movieId",
+              name: "product_name",
+              type: "STRING",
+            },
+            {
+              name: "category",
+              type: "STRING",
+            },
+            {
+              name: "price",
               type: "INTEGER",
             },
             {
-              name: "rating",
-              type: "INTEGER",
+              name: "description",
+              type: "STRING",
             },
             {
-              name: "reviewDate",
-              type: "DATE",
-            },
-            {
-              name: "reviewer",
-              type: "INTEGER",
-            },
+                name: "quantity",
+                type: "INTEGER"
+            }
           ],
           snapshot: {
             initialRowCount: 1000000,
@@ -156,20 +161,24 @@ export const theatreProject: ProjectConfig = {
           },
         },
         {
-          name: "Screen",
+          name: "Categories",
           columns: [
             {
-              name: "screenId",
+              name: "category_id",
               type: "INTEGER",
             },
             {
-              name: "screenNumber",
+              name: "category_name",
               type: "INTEGER",
             },
             {
-              name: "capacity",
+              name: "description",
               type: "INTEGER",
             },
+            {
+                name: "parent_category_id",
+                type: "INTEGER"
+            }
           ],
           snapshot: {
             initialRowCount: 20,
@@ -178,88 +187,34 @@ export const theatreProject: ProjectConfig = {
           },
         },
         {
-          name: "Show",
+          name: "OrderItems",
           columns: [
             {
-              name: "showId",
+              name: "order_item_id",
               type: "INTEGER",
             },
             {
-              name: "movieId",
+              name: "order_id",
               type: "INTEGER",
             },
             {
-              name: "screenId",
+              name: "product_id",
               type: "INTEGER",
             },
             {
-              name: "showTime",
-              type: "DATE",
+              name: "quantity",
+              type: "INTEGER",
             },
+            {
+                name: "unit_price",
+                type: "INTEGER",
+            }
           ],
           snapshot: {
             initialRowCount: 10000,
             nextRowCount: (prevRowCount: number) =>
               prevRowCount + (faker.number.float() > 0.14 ? 0 : 1000),
             sizeBytesFactor: 16,
-          },
-        },
-        {
-          name: "Ticket",
-          columns: [
-            {
-              name: "ticketId",
-              type: "INTEGER",
-            },
-            {
-              name: "showId",
-              type: "INTEGER",
-            },
-            {
-              name: "customerId",
-              type: "INTEGER",
-            },
-            {
-              name: "seatNumber",
-              type: "INTEGER",
-            },
-            {
-              name: "price",
-              type: "INTEGER",
-            },
-          ],
-          snapshot: {
-            initialRowCount: 20000,
-            nextRowCount: (prevRowCount: number) =>
-              prevRowCount + faker.number.int({ min: 0, max: 10 }),
-            sizeBytesFactor: 20,
-          },
-        },
-        {
-          name: "Customer",
-          columns: [
-            {
-              name: "customerId",
-              type: "INTEGER",
-            },
-            {
-              name: "firstName",
-              type: "STRING",
-            },
-            {
-              name: "lastName",
-              type: "STRING",
-            },
-            {
-              name: "email",
-              type: "STRING",
-            },
-          ],
-          snapshot: {
-            initialRowCount: 800,
-            nextRowCount: (prevRowCount: number) =>
-              prevRowCount + faker.number.int({ min: 0, max: 4 }),
-            sizeBytesFactor: 196,
           },
         },
       ],
@@ -269,7 +224,7 @@ export const theatreProject: ProjectConfig = {
     {
       count: 6000,
       generateStatement: (params: any) => {
-        const query = `SELECT 'email' FROM "Customer" WHERE "customerId" = '${params.customerId}'`;
+        const query = `SELECT 'email' FROM "Customers" WHERE "customer_id" = '${params.customerId}'`;
         return query;
       },
       generateParams: () => {
@@ -283,15 +238,15 @@ export const theatreProject: ProjectConfig = {
       botRatio: 0.8,
       accessed: [
         {
-          table: "Customer",
-          columns: ["email", "customerId"],
+          table: "Customers",
+          columns: ["email", "customer_id"],
         },
       ],
     },
     {
       count: 4000,
       generateStatement: (params: any) => {
-        const query = `SELECT 'email' FROM "Customer" NATURAL JOIN "Ticket" WHERE "price" = '${params.price}'`;
+        const query = `SELECT 'email' FROM "Customers" NATURAL JOIN "Orders" WHERE "total_amount" = '${params.price}'`;
         return query;
       },
       generateParams: () => {
@@ -305,30 +260,28 @@ export const theatreProject: ProjectConfig = {
       botRatio: 0.8,
       accessed: [
         {
-          table: "Customer",
-          columns: ["email", "customerId"],
+          table: "Customers",
+          columns: ["email", "customer_id"],
         },
         {
-          table: "Ticket",
-          columns: ["price"],
+          table: "Orders",
+          columns: ["total_amount"],
         },
       ],
     },
     {
       count: 10000,
       generateStatement: (params: any) => {
-        const query = `INSERT INTO Movie (title, releaseDate, duration, rating, description, genre)
-        VALUES ('${params.title}', '${params.releaseDate}', ${params.duration}, '${params.description}', '${params.genre}')`;
+        const query = `INSERT INTO OrderItems (order_id, product_id, quantity, unit_price)
+        VALUES ('${params.order_id}', '${params.product_id}', ${params.quantity}, '${params.unit_price}')`;
         return query;
       },
       generateParams: () => {
         return {
-          title: faker.internet.userName(),
-          releaseDate: faker.date.past(),
-          duration: faker.number.int({min: 10, max: 100}),
-          rating: faker.number.int({min: 1, max: 5}),
-          description: faker.word.sample(),
-          genre: faker.word.adjective(),
+          order_id: faker.number.int({min: 1, max: 5000}),
+          product_id: faker.number.int({min: 1, max: 5000}),
+          quantity: faker.number.int({min: 1, max: 800}),
+          unit_price: faker.number.int({min: 1, max: 800}),
         };
       },
       type: "INSERT",
@@ -337,20 +290,20 @@ export const theatreProject: ProjectConfig = {
       botRatio: 0.8,
       accessed: [
         {
-          table: "Movie",
-          columns: ["movieId", "title", "releaseDate", "duration", "rating", "description", "genre"],
+          table: "OrderItems",
+          columns: ["order_item_id", "order_id", "product_id", "quantity", "unit_price"],
         },
       ],
     },
     {
       count: 5000,
       generateStatement: (params: any) => {
-        const query = `DELETE FROM Show WHERE showId = ${params.showId};`;
+        const query = `DELETE FROM Categories WHERE parent_category_id = ${params.parentId};`;
         return query;
       },
       generateParams: () => {
         return {
-          showId: faker.number.int({min: 1, max: 10000}),
+          parentId: faker.number.int({min: 1, max: 10000}),
         };
       },
       type: "DELETE",
@@ -359,20 +312,20 @@ export const theatreProject: ProjectConfig = {
       botRatio: 0.8,
       accessed: [
         {
-          table: "Show",
-          columns: ["showId", "movieId", "screenId", "showTime"],
+          table: "Categories",
+          columns: ["category_id", "category_name", "description", "parent_category_id"],
         },
       ],
     },
     {
       count: 5000,
       generateStatement: (params: any) => {
-        const query = `DELETE FROM Review WHERE reviewId = ${params.reviewId};`;
+        const query = `DELETE FROM Products WHERE product_id = ${params.product_id};`;
         return query;
       },
       generateParams: () => {
         return {
-          reviewId: faker.number.int({min: 1, max: 10000}),
+          product_id: faker.number.int({min: 1, max: 10000}),
         };
       },
       type: "DELETE",
@@ -381,21 +334,21 @@ export const theatreProject: ProjectConfig = {
       botRatio: 0.8,
       accessed: [
         {
-          table: "Review",
-          columns: ["reviewId", "movieId", "rating", "reviewDate", "reviewer"],
+          table: "Products",
+          columns: ["product_id", "product_name", "category", "price", "description", "quantity"],
         },
       ],
     },
     {
       count: 5000,
       generateStatement: (params: any) => {
-        const query = `UPDATE Screen SET capacity = ${params.cap} WHERE screenId = ${params.screenId};`;
+        const query = `UPDATE Customers SET first_name = ${params.first_name} WHERE customer_id = ${params.customer_id};`;
         return query;
       },
       generateParams: () => {
         return {
-          cap: faker.number.int({min: 1, max: 1000}),
-          screenId: faker.number.int({min: 1, max: 10000}),
+          first_name: faker.word.noun(),
+          customer_id: faker.number.int({min: 1, max: 10000}),
         };
       },
       type: "UPDATE",
@@ -404,8 +357,8 @@ export const theatreProject: ProjectConfig = {
       botRatio: 0.8,
       accessed: [
         {
-          table: "Screen",
-          columns: ["screenId", "capacity"],
+          table: "Customers",
+          columns: ["first_name", "customer_id"],
         },
       ],
     },
