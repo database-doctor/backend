@@ -70,7 +70,7 @@ export class RoleResolver {
   //   @Authorized()
   @FieldResolver(() => [Permission])
   async permissions(@Root() role: Role, @Ctx() ctx: Context) {
-    const mapping = await ctx.prisma.rolePermissionMap.findFirst({
+    const mapping = await ctx.prisma.rolePermissionMap.findMany({
       where: {
         rid: role.rid,
       },
@@ -78,7 +78,7 @@ export class RoleResolver {
 
     return await ctx.prisma.permission.findMany({
       where: {
-        pid: mapping?.pid || -1,
+        pid: { in: mapping.map((p) => p.pid) },
       },
     });
   }
