@@ -1,276 +1,288 @@
 generator client {
-    provider = "prisma-client-js"
+  provider = "prisma-client-js"
 }
 
 generator typegraphql {
-    provider = "typegraphql-prisma"
+  provider = "typegraphql-prisma"
 }
 
 datasource db {
-    provider = "postgresql"
-    url      = env("DATABASE_URL")
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model User {
-    uid       Int      @id @default(autoincrement())
-    name      String
-    username  String   @unique
-    email     String   @unique
-    password  String
-    createdAt DateTime @default(now())
+  uid       Int      @id @default(autoincrement())
+  name      String
+  username  String   @unique
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
 
-    projects      Project[]
-    roles         UserRoleMap[]
-    tokens        UserProjectToken[]
-    schemas       Schema[]
-    jobs          Job[]
-    alerts        AlertUserMap[]
-    notifications AlertNotification[]
+  projects      Project[]
+  roles         UserRoleMap[]
+  tokens        UserProjectToken[]
+  schemas       Schema[]
+  jobs          Job[]
+  alerts        AlertUserMap[]
+  notifications AlertNotification[]
 }
 
 model Permission {
-    pid  Int    @id @default(autoincrement())
-    name String @unique
+  pid  Int    @id @default(autoincrement())
+  name String @unique
 
-    roles RolePermissionMap[]
+  roles RolePermissionMap[]
 }
 
 model Role {
-    rid  Int    @id @default(autoincrement())
-    name String
+  rid  Int    @id @default(autoincrement())
+  name String
 
-    pid     Int
-    project Project @relation(fields: [pid], references: [pid])
+  pid     Int
+  project Project @relation(fields: [pid], references: [pid])
 
-    permissions RolePermissionMap[]
-    users       UserRoleMap[]
-    alerts      AlertRoleMap[]
+  permissions RolePermissionMap[]
+  users       UserRoleMap[]
+  alerts      AlertRoleMap[]
 
-    @@index([pid])
+  @@index([pid])
 }
 
 model RolePermissionMap {
-    rid  Int
-    role Role @relation(fields: [rid], references: [rid])
+  rid  Int
+  role Role @relation(fields: [rid], references: [rid])
 
-    pid        Int
-    permission Permission @relation(fields: [pid], references: [pid])
+  pid        Int
+  permission Permission @relation(fields: [pid], references: [pid])
 
-    @@id([rid, pid])
+  @@id([rid, pid])
 }
 
 model UserRoleMap {
-    uid  Int
-    user User @relation(fields: [uid], references: [uid])
+  uid  Int
+  user User @relation(fields: [uid], references: [uid])
 
-    rid  Int
-    role Role @relation(fields: [rid], references: [rid])
+  rid  Int
+  role Role @relation(fields: [rid], references: [rid])
 
-    @@id([uid, rid])
+  @@id([uid, rid])
 }
 
 model Project {
-    pid       Int      @id @default(autoincrement())
-    name      String
-    dbUrl     String
-    createdAt DateTime @default(now())
+  pid       Int      @id @default(autoincrement())
+  name      String
+  dbUrl     String
+  createdAt DateTime @default(now())
 
-    createdById Int
-    createdBy   User @relation(fields: [createdById], references: [uid])
+  createdById Int
+  createdBy   User @relation(fields: [createdById], references: [uid])
 
-    roles   Role[]
-    tokens  UserProjectToken[]
-    schemas Schema[]
-    jobs    Job[]
+  roles   Role[]
+  tokens  UserProjectToken[]
+  schemas Schema[]
+  jobs    Job[]
 
-    @@index([createdById, createdAt(sort: Desc)])
+  @@index([createdById, createdAt(sort: Desc)])
 }
 
 model UserProjectToken {
-    token String @unique
+  token String @unique
 
-    uid  Int
-    user User @relation(fields: [uid], references: [uid])
+  uid  Int
+  user User @relation(fields: [uid], references: [uid])
 
-    pid     Int
-    project Project @relation(fields: [pid], references: [pid])
+  pid     Int
+  project Project @relation(fields: [pid], references: [pid])
 
-    @@id([uid, pid])
+  @@id([uid, pid])
 }
 
 model Schema {
-    sid       Int      @id @default(autoincrement())
-    name      String   @unique
-    createdAt DateTime @default(now())
+  sid       Int      @id @default(autoincrement())
+  name      String   @unique
+  createdAt DateTime @default(now())
 
-    pid     Int
-    project Project @relation(fields: [pid], references: [pid])
+  pid     Int
+  project Project @relation(fields: [pid], references: [pid])
 
-    createdById Int
-    createdBy   User @relation(fields: [createdById], references: [uid])
+  createdById Int
+  createdBy   User @relation(fields: [createdById], references: [uid])
 
-    tables Table[]
-    alerts Alert[]
+  tables Table[]
+  alerts Alert[]
 
-    @@index([pid, createdAt(sort: Desc)])
+  @@index([pid, createdAt(sort: Desc)])
 }
 
 model Table {
-    tid  Int    @id @default(autoincrement())
-    name String
+  tid  Int    @id @default(autoincrement())
+  name String
 
-    sid    Int
-    schema Schema @relation(fields: [sid], references: [sid])
+  sid    Int
+  schema Schema @relation(fields: [sid], references: [sid])
 
-    columns   Column[]
-    jobs      JobTableAccess[]
-    snapshots TableSnapshot[]
+  columns         Column[]
+  jobs            JobTableAccess[]
+  snapshots       TableSnapshot[]
+  TableAccessFreq TableAccessFreq[]
 
-    @@unique([sid, name])
+  @@unique([sid, name])
 }
 
 model TableSnapshot {
-    tsid      Int      @id @default(autoincrement())
-    createdAt DateTime @default(now())
-    rowCount  Int
-    sizeBytes Int
+  tsid      Int      @id @default(autoincrement())
+  createdAt DateTime @default(now())
+  rowCount  Int
+  sizeBytes Int
 
-    tid   Int
-    table Table @relation(fields: [tid], references: [tid])
+  tid   Int
+  table Table @relation(fields: [tid], references: [tid])
 }
 
 enum ColumnType {
-    BIGINT
-    BOOLEAN
-    CHAR
-    DATE
-    DECIMAL
-    DOUBLE
-    INTEGER
-    NUMERIC
-    REAL
-    SMALLINT
-    TEXT
-    TIME
-    TIMESTAMP
-    VARCHAR
-    SERIAL
+  BIGINT
+  BOOLEAN
+  CHAR
+  DATE
+  DECIMAL
+  DOUBLE
+  INTEGER
+  NUMERIC
+  REAL
+  SMALLINT
+  TEXT
+  TIME
+  TIMESTAMP
+  VARCHAR
+  SERIAL
 }
 
 model Column {
-    cid  Int        @id @default(autoincrement())
-    name String
-    type ColumnType
+  cid  Int        @id @default(autoincrement())
+  name String
+  type ColumnType
 
-    tid   Int
-    table Table @relation(fields: [tid], references: [tid])
+  tid   Int
+  table Table @relation(fields: [tid], references: [tid])
 
-    jobs JobColumnAccess[]
+  jobs JobColumnAccess[]
 
-    @@unique([tid, name])
+  @@unique([tid, name])
 }
 
 enum JobType {
-    SELECT
-    INSERT
-    UPDATE
-    DELETE
-    OTHER
+  SELECT
+  INSERT
+  UPDATE
+  DELETE
+  OTHER
 }
 
 model Job {
-    jid        Int       @id @default(autoincrement())
-    statement  String
-    type       JobType
-    issuedAt   DateTime  @default(now())
-    finishedAt DateTime?
-    error      String?
+  jid        Int       @id @default(autoincrement())
+  statement  String
+  type       JobType
+  issuedAt   DateTime  @default(now())
+  finishedAt DateTime?
+  error      String?
 
-    issuedById Int
-    issuedBy   User @relation(fields: [issuedById], references: [uid])
+  issuedById Int
+  issuedBy   User @relation(fields: [issuedById], references: [uid])
 
-    pid     Int
-    project Project @relation(fields: [pid], references: [pid])
+  pid     Int
+  project Project @relation(fields: [pid], references: [pid])
 
-    tables  JobTableAccess[]
-    columns JobColumnAccess[]
+  optimized Boolean @default(false)
+
+  tables  JobTableAccess[]
+  columns JobColumnAccess[]
 }
 
 model JobTableAccess {
-    jid Int
-    Job Job @relation(fields: [jid], references: [jid])
+  jid Int
+  Job Job @relation(fields: [jid], references: [jid])
 
-    tid   Int
-    table Table @relation(fields: [tid], references: [tid])
+  tid   Int
+  table Table @relation(fields: [tid], references: [tid])
 
-    @@id([jid, tid])
+  @@id([jid, tid])
 }
 
 model JobColumnAccess {
-    jid Int
-    Job Job @relation(fields: [jid], references: [jid])
+  jid Int
+  Job Job @relation(fields: [jid], references: [jid])
 
-    cid    Int
-    column Column @relation(fields: [cid], references: [cid])
+  cid    Int
+  column Column @relation(fields: [cid], references: [cid])
 
-    @@id([jid, cid])
+  @@id([jid, cid])
 }
 
 model Alert {
-    aid        Int      @id @default(autoincrement())
-    condExpr   String
-    returnExpr String
-    frequency  Int
-    message    String
-    createdAt  DateTime @default(now())
+  aid        Int      @id @default(autoincrement())
+  condExpr   String
+  returnExpr String
+  frequency  Int
+  message    String
+  createdAt  DateTime @default(now())
 
-    sid    Int
-    schema Schema @relation(fields: [sid], references: [sid])
+  sid    Int
+  schema Schema @relation(fields: [sid], references: [sid])
 
-    history       AlertHistory[]
-    users         AlertUserMap[]
-    roles         AlertRoleMap[]
-    notifications AlertNotification[]
+  history       AlertHistory[]
+  users         AlertUserMap[]
+  roles         AlertRoleMap[]
+  notifications AlertNotification[]
 }
 
 model AlertHistory {
-    ahid     Int      @id @default(autoincrement())
-    issuedAt DateTime @default(now())
+  ahid     Int      @id @default(autoincrement())
+  issuedAt DateTime @default(now())
 
-    aid   Int
-    alert Alert @relation(fields: [aid], references: [aid])
+  aid   Int
+  alert Alert @relation(fields: [aid], references: [aid])
 }
 
 model AlertUserMap {
-    aid   Int
-    alert Alert @relation(fields: [aid], references: [aid])
+  aid   Int
+  alert Alert @relation(fields: [aid], references: [aid])
 
-    uid  Int
-    user User @relation(fields: [uid], references: [uid])
+  uid  Int
+  user User @relation(fields: [uid], references: [uid])
 
-    @@id([aid, uid])
+  @@id([aid, uid])
 }
 
 model AlertRoleMap {
-    aid   Int
-    alert Alert @relation(fields: [aid], references: [aid])
+  aid   Int
+  alert Alert @relation(fields: [aid], references: [aid])
 
-    rid  Int
-    role Role @relation(fields: [rid], references: [rid])
+  rid  Int
+  role Role @relation(fields: [rid], references: [rid])
 
-    @@id([aid, rid])
+  @@id([aid, rid])
 }
 
 model AlertNotification {
-    anid     Int      @id @default(autoincrement())
-    isRead   Boolean  @default(false)
-    issuedAt DateTime @default(now())
+  anid     Int      @id @default(autoincrement())
+  isRead   Boolean  @default(false)
+  issuedAt DateTime @default(now())
 
-    aid   Int
-    alert Alert @relation(fields: [aid], references: [aid])
+  aid   Int
+  alert Alert @relation(fields: [aid], references: [aid])
 
-    uid  Int
-    user User @relation(fields: [uid], references: [uid])
+  uid  Int
+  user User @relation(fields: [uid], references: [uid])
 
-    @@index([uid, issuedAt(sort: Desc)])
+  @@index([uid, issuedAt(sort: Desc)])
+}
+
+model TableAccessFreq {
+  tid   Int   @id
+  table Table @relation(fields: [tid], references: [tid])
+
+  frequency Int @default(0)
+
+  @@index([frequency(sort: Desc)])
 }

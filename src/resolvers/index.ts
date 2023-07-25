@@ -1,4 +1,5 @@
 export * from "./Column";
+export * from "./Job";
 export * from "./JobColumnAccess";
 export * from "./JobTableAccess";
 export * from "./Project";
