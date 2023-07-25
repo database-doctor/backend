@@ -12,7 +12,6 @@ import {
   Query,
   Mutation,
 } from "type-graphql";
-import { MinLength, MaxLength } from "class-validator";
 
 @ArgsType()
 class UserId {
@@ -33,11 +32,6 @@ class CreateUserProjectTokenInput {
 
   @Field(() => Int)
   pid!: number;
-
-  // @Field()
-  // @MinLength(1)
-  // @MaxLength(255)
-  // token!: string;
 }
 
 @InputType()
