@@ -36,13 +36,13 @@ class CreateUserProjectTokenInput {
 
 @InputType()
 class AddUserToProjectInput {
-  @Field(() => Int)
+  @Field(() => String)
   email!: string;
 
   @Field(() => Int)
   pid!: number;
 
-  @Field(() => [Number])
+  @Field(() => [Int])
   roles?: number[];
 }
 
