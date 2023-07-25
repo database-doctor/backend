@@ -17,7 +17,7 @@ import {
 import { IsEmail, MaxLength, MinLength } from "class-validator";
 
 import { Context } from "../middleware";
-import { User, Project } from "@generated/type-graphql";
+import { User, Project, Role } from "@generated/type-graphql";
 import { createAuthToken, hashPassword, verifyPassword } from "../auth";
 
 @ArgsType()
@@ -36,6 +36,12 @@ class UserEmail {
 class UserUsername {
   @Field(() => String)
   username!: string;
+}
+
+@ArgsType()
+class ProjectId {
+  @Field(() => Int)
+  pid!: number;
 }
 
 @InputType()
@@ -233,5 +239,27 @@ export class UserResolver {
       LIMIT 10;
     `;
     return user;
+  }
+
+  @FieldResolver(() => [Role])
+  async userRoles(
+    @Root() user: User,
+    @Args() { pid }: ProjectId,
+    @Ctx() ctx: Context
+  ): Promise<Role[]> {
+    const userRoles = await ctx.prisma.userRoleMap.findMany({
+      where: {
+        uid: user.uid,
+      },
+    });
+
+    const projectRoles = await ctx.prisma.role.findMany({
+      where: {
+        pid,
+        rid: { in: userRoles.map((u) => u.rid) },
+      },
+    });
+
+    return projectRoles;
   }
 }
