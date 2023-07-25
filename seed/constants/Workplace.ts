@@ -1,13 +1,12 @@
 import { ProjectConfig } from "../gen/project";
 import { faker } from "@faker-js/faker";
 
-export const theatreProject: ProjectConfig = {
-  name: "Theatre",
+export const WorkPlaceProject: ProjectConfig = {
+  name: "Workplace",
   roles: [
     {
       name: "Admin",
       permissions: [
-        "project:read",
         "project:share",
         "schema:read",
         "schema:update",
@@ -24,7 +23,6 @@ export const theatreProject: ProjectConfig = {
     {
       name: "Manager",
       permissions: [
-        "job:read",
         "job:create",
         "job:update",
         "snapshot:read",
@@ -36,7 +34,7 @@ export const theatreProject: ProjectConfig = {
     },
     {
       name: "Employee",
-      permissions: ["alert:read", "alert:update"],
+      permissions: ["alert:read"],
     },
     {
       name: "WebServer",
@@ -47,47 +45,54 @@ export const theatreProject: ProjectConfig = {
     { roles: ["Admin"] },
     { roles: ["Manager"] },
     { roles: ["Employee"] },
-    { roles: ["Employee"] },
   ],
   bots: [{ roles: ["WebServer"] }, { roles: ["WebServer"] }],
   schemas: [
     {
-      name: "Schema0",
+      name: "Schema4",
       tables: [],
     },
     {
-      name: "Schema1",
+      name: "Schema5",
       tables: [
         {
-          name: "Movie",
+          name: "Employees",
           columns: [
             {
-              name: "movieId",
+              name: "employee_id",
               type: "INTEGER",
             },
             {
-              name: "title",
+              name: "first_name",
               type: "STRING",
             },
             {
-              name: "releaseDate",
+              name: "last_name",
+              type: "STRING",
+            },
+            {
+              name: "email",
+              type: "STRING",
+            },
+            {
+              name: "phone_number",
+              type: "STRING",
+            },
+            {
+              name: "hire_date",
               type: "DATE",
             },
             {
-              name: "duration",
-              type: "INTEGER",
+                name: "job_title",
+                type: "STRING"
             },
             {
-              name: "rating",
-              type: "INTEGER",
+                name: "department",
+                type: "STRING"
             },
             {
-              name: "description",
-              type: "STRING",
-            },
-            {
-              name: "genre",
-              type: "STRING",
+                name: "salary",
+                type: "INTEGER"
             },
           ],
           snapshot: {
@@ -98,23 +103,27 @@ export const theatreProject: ProjectConfig = {
           },
         },
         {
-          name: "Actor",
+          name: "Departments",
           columns: [
             {
-              name: "actorId",
+              name: "department_id",
               type: "INTEGER",
             },
             {
-              name: "firstName",
+              name: "department_name",
               type: "STRING",
             },
             {
-              name: "lastName",
+              name: "manager_id",
+              type: "INTEGER",
+            },
+            {
+              name: "location",
               type: "STRING",
             },
             {
-              name: "nationality",
-              type: "STRING",
+                name: "budget",
+                type: "INTEGER"
             },
           ],
           snapshot: {
@@ -125,28 +134,36 @@ export const theatreProject: ProjectConfig = {
           },
         },
         {
-          name: "Review",
+          name: "Projects",
           columns: [
             {
-              name: "reviewId",
+              name: "project_id",
               type: "INTEGER",
             },
             {
-              name: "movieId",
-              type: "INTEGER",
+              name: "project_name",
+              type: "STRING",
             },
             {
-              name: "rating",
-              type: "INTEGER",
-            },
-            {
-              name: "reviewDate",
+              name: "start_date",
               type: "DATE",
             },
             {
-              name: "reviewer",
-              type: "INTEGER",
+              name: "end_date",
+              type: "DATE",
             },
+            {
+              name: "status",
+              type: "STRING",
+            },
+            {
+                name: "budget",
+                type: "INTEGER"
+            },
+            {
+              name: "department_id",
+              type: "INTEGER",
+            }
           ],
           snapshot: {
             initialRowCount: 1000000,
@@ -156,20 +173,40 @@ export const theatreProject: ProjectConfig = {
           },
         },
         {
-          name: "Screen",
+          name: "Tasks",
           columns: [
             {
-              name: "screenId",
+              name: "task_id",
               type: "INTEGER",
             },
             {
-              name: "screenNumber",
+              name: "task_name",
               type: "INTEGER",
             },
             {
-              name: "capacity",
-              type: "INTEGER",
+              name: "description",
+              type: "STRING",
             },
+            {
+                name: "start_date",
+                type: "DATE"
+            },
+            {
+                name: "end_date",
+                type: "DATE"
+            },
+            {
+                name: "status",
+                type: "STRING"
+            },
+            {
+                name: "project_id",
+                type: "INTEGER"
+            },
+            {
+                name: "employee_id",
+                type: "INTEGER"
+            }
           ],
           snapshot: {
             initialRowCount: 20,
@@ -178,88 +215,38 @@ export const theatreProject: ProjectConfig = {
           },
         },
         {
-          name: "Show",
+          name: "Timesheets",
           columns: [
             {
-              name: "showId",
+              name: "timesheet_id",
               type: "INTEGER",
             },
             {
-              name: "movieId",
+              name: "employee_id",
               type: "INTEGER",
             },
             {
-              name: "screenId",
+              name: "project_id",
               type: "INTEGER",
             },
             {
-              name: "showTime",
-              type: "DATE",
+              name: "task_id",
+              type: "INTEGER",
             },
+            {
+                name: "date",
+                type: "DATE",
+            },
+            {
+                name: "hours_worked",
+                type: "INTEGER",
+            }
           ],
           snapshot: {
             initialRowCount: 10000,
             nextRowCount: (prevRowCount: number) =>
               prevRowCount + (faker.number.float() > 0.14 ? 0 : 1000),
             sizeBytesFactor: 16,
-          },
-        },
-        {
-          name: "Ticket",
-          columns: [
-            {
-              name: "ticketId",
-              type: "INTEGER",
-            },
-            {
-              name: "showId",
-              type: "INTEGER",
-            },
-            {
-              name: "customerId",
-              type: "INTEGER",
-            },
-            {
-              name: "seatNumber",
-              type: "INTEGER",
-            },
-            {
-              name: "price",
-              type: "INTEGER",
-            },
-          ],
-          snapshot: {
-            initialRowCount: 20000,
-            nextRowCount: (prevRowCount: number) =>
-              prevRowCount + faker.number.int({ min: 0, max: 10 }),
-            sizeBytesFactor: 20,
-          },
-        },
-        {
-          name: "Customer",
-          columns: [
-            {
-              name: "customerId",
-              type: "INTEGER",
-            },
-            {
-              name: "firstName",
-              type: "STRING",
-            },
-            {
-              name: "lastName",
-              type: "STRING",
-            },
-            {
-              name: "email",
-              type: "STRING",
-            },
-          ],
-          snapshot: {
-            initialRowCount: 800,
-            nextRowCount: (prevRowCount: number) =>
-              prevRowCount + faker.number.int({ min: 0, max: 4 }),
-            sizeBytesFactor: 196,
           },
         },
       ],
@@ -269,12 +256,12 @@ export const theatreProject: ProjectConfig = {
     {
       count: 6000,
       generateStatement: (params: any) => {
-        const query = `SELECT 'email' FROM "Customer" WHERE "customerId" = '${params.customerId}'`;
+        const query = `SELECT 'email' FROM "Employees" WHERE "employee_id" = '${params.employee_id}'`;
         return query;
       },
       generateParams: () => {
         return {
-          customerId: faker.number.int({ min: 1, max: 800 }),
+          employee_id: faker.number.int({ min: 1, max: 800 }),
         };
       },
       type: "SELECT",
@@ -283,20 +270,20 @@ export const theatreProject: ProjectConfig = {
       botRatio: 0.8,
       accessed: [
         {
-          table: "Customer",
-          columns: ["email", "customerId"],
+          table: "Employees",
+          columns: ["email", "employee_id"],
         },
       ],
     },
     {
       count: 4000,
       generateStatement: (params: any) => {
-        const query = `SELECT 'email' FROM "Customer" NATURAL JOIN "Ticket" WHERE "price" = '${params.price}'`;
+        const query = `SELECT 'email' FROM "Employees" NATURAL JOIN "Timesheets" WHERE "hours_worked" = '${params.hours}'`;
         return query;
       },
       generateParams: () => {
         return {
-          price: faker.number.int({ min: 1, max: 800 }),
+          hours: faker.number.int({ min: 1, max: 800 }),
         };
       },
       type: "SELECT",
@@ -305,30 +292,28 @@ export const theatreProject: ProjectConfig = {
       botRatio: 0.8,
       accessed: [
         {
-          table: "Customer",
-          columns: ["email", "customerId"],
+          table: "Employees",
+          columns: ["email", "employee_id"],
         },
         {
-          table: "Ticket",
-          columns: ["price"],
+          table: "Timesheets",
+          columns: ["hours_worked"],
         },
       ],
     },
     {
       count: 10000,
       generateStatement: (params: any) => {
-        const query = `INSERT INTO Movie (title, releaseDate, duration, rating, description, genre)
-        VALUES ('${params.title}', '${params.releaseDate}', ${params.duration}, '${params.description}', '${params.genre}')`;
+        const query = `INSERT INTO Departments (department_name, manager_id, location, budget)
+        VALUES ('${params.department_name}', '${params.manager_id}', ${params.location}, '${params.budget}')`;
         return query;
       },
       generateParams: () => {
         return {
-          title: faker.internet.userName(),
-          releaseDate: faker.date.past(),
-          duration: faker.number.int({min: 10, max: 100}),
-          rating: faker.number.int({min: 1, max: 5}),
-          description: faker.word.sample(),
-          genre: faker.word.adjective(),
+          department_name: faker.word.noun(),
+          manager_id: faker.number.int({min: 1, max: 5000}),
+          location: faker.word.noun(),
+          budget: faker.number.int({min: 1, max: 800}),
         };
       },
       type: "INSERT",
@@ -337,20 +322,20 @@ export const theatreProject: ProjectConfig = {
       botRatio: 0.8,
       accessed: [
         {
-          table: "Movie",
-          columns: ["movieId", "title", "releaseDate", "duration", "rating", "description", "genre"],
+          table: "Departments",
+          columns: ["department_id", "department_name", "manager_id", "location", "budget"],
         },
       ],
     },
     {
       count: 5000,
       generateStatement: (params: any) => {
-        const query = `DELETE FROM Show WHERE showId = ${params.showId};`;
+        const query = `DELETE FROM Projects WHERE project_id = ${params.project_id};`;
         return query;
       },
       generateParams: () => {
         return {
-          showId: faker.number.int({min: 1, max: 10000}),
+          project_id: faker.number.int({min: 1, max: 10000}),
         };
       },
       type: "DELETE",
@@ -359,20 +344,20 @@ export const theatreProject: ProjectConfig = {
       botRatio: 0.8,
       accessed: [
         {
-          table: "Show",
-          columns: ["showId", "movieId", "screenId", "showTime"],
+          table: "Projects",
+          columns: ["project_id", "project_name", "start_date", "end_date", "status", "budget", "department_id"],
         },
       ],
     },
     {
       count: 5000,
       generateStatement: (params: any) => {
-        const query = `DELETE FROM Review WHERE reviewId = ${params.reviewId};`;
+        const query = `DELETE FROM Tasks WHERE task_id = ${params.task_id};`;
         return query;
       },
       generateParams: () => {
         return {
-          reviewId: faker.number.int({min: 1, max: 10000}),
+          task_id: faker.number.int({min: 1, max: 10000}),
         };
       },
       type: "DELETE",
@@ -381,21 +366,21 @@ export const theatreProject: ProjectConfig = {
       botRatio: 0.8,
       accessed: [
         {
-          table: "Review",
-          columns: ["reviewId", "movieId", "rating", "reviewDate", "reviewer"],
+          table: "Tasks",
+          columns: ["task_id", "task_name", "description", "start_date", "end_date", "project_id", "employee_id"],
         },
       ],
     },
     {
       count: 5000,
       generateStatement: (params: any) => {
-        const query = `UPDATE Screen SET capacity = ${params.cap} WHERE screenId = ${params.screenId};`;
+        const query = `UPDATE Employees SET first_name = ${params.first_name} WHERE employee_id = ${params.employee_id};`;
         return query;
       },
       generateParams: () => {
         return {
-          cap: faker.number.int({min: 1, max: 1000}),
-          screenId: faker.number.int({min: 1, max: 10000}),
+          first_name: faker.word.noun(),
+          customer_id: faker.number.int({min: 1, max: 10000}),
         };
       },
       type: "UPDATE",
@@ -404,8 +389,8 @@ export const theatreProject: ProjectConfig = {
       botRatio: 0.8,
       accessed: [
         {
-          table: "Screen",
-          columns: ["screenId", "capacity"],
+          table: "Employees",
+          columns: ["first_name", "employee_id"],
         },
       ],
     },

@@ -92,6 +92,8 @@ export class UserProjectTokenResolver {
       },
     });
 
+    // TODO : assert that user is not already added to project
+
     const token = await ctx.prisma.userProjectToken.create({
       data: {
         uid: user.uid,

@@ -185,6 +185,31 @@ export class UserResolver {
     return { token: createAuthToken(user.uid) };
   }
 
+  @Mutation(() => RegisterUserOutput)
+  async authenticateOAuthUser(
+    @Arg("user") user: RegisterUserInput,
+    @Ctx() ctx: Context
+  ): Promise<RegisterUserOutput> {
+    const { name, username, email, password } = user;
+
+    const db_user = await ctx.prisma.user.findUnique({
+      where: { email },
+    });
+
+    if (db_user) {
+      // If the user already exists, return a JWT token
+      ctx.logger.info(`logged in user: ${db_user.uid} ${db_user.email}`);
+      return { token: createAuthToken(db_user.uid) };
+    }
+
+    const newUser = await ctx.prisma.user.create({
+      data: { name, username, email, password: hashPassword(password) },
+    });
+
+    ctx.logger.info(`created user: ${newUser.uid} ${newUser.email}`);
+    return { token: createAuthToken(newUser.uid) };
+  }
+
   @Mutation(() => LoginUserOutput)
   async loginUser(
     @Arg("userCreds") userCreds: LoginUserInput,
@@ -241,6 +266,7 @@ export class UserResolver {
     return user;
   }
 
+  // @Authorized() // TODO: UNCOMMENT THIS
   @FieldResolver(() => [Role])
   async userRoles(
     @Root() user: User,
