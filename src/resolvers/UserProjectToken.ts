@@ -40,6 +40,18 @@ class CreateUserProjectTokenInput {
   // token!: string;
 }
 
+@InputType()
+class AddUserToProjectInput {
+  @Field(() => Int)
+  email!: string;
+
+  @Field(() => Int)
+  pid!: number;
+
+  @Field(() => [Number])
+  roles?: number[];
+}
+
 @Resolver(() => UserProjectToken)
 export class UserProjectTokenResolver {
   @Query(() => UserProjectToken)
@@ -70,6 +82,36 @@ export class UserProjectTokenResolver {
       data: {
         ...newUserProjectToken,
       },
+    });
+
+    return token;
+  }
+
+  @Mutation(() => UserProjectToken)
+  async addUserToProject(
+    @Arg("addUserInput") addUserInput: AddUserToProjectInput,
+    @Ctx() ctx: Context
+  ): Promise<UserProjectToken> {
+    const user = await ctx.prisma.user.findFirstOrThrow({
+      where: {
+        email: addUserInput.email,
+      },
+    });
+
+    const token = await ctx.prisma.userProjectToken.create({
+      data: {
+        uid: user.uid,
+        pid: addUserInput.pid,
+      },
+    });
+
+    const newUserRoleMappings = addUserInput.roles?.map((r) => ({
+      rid: r,
+      uid: user.uid,
+    }));
+
+    await ctx.prisma.userRoleMap.createMany({
+      data: newUserRoleMappings || [],
     });
 
     return token;
