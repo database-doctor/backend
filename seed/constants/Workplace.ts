@@ -49,11 +49,11 @@ export const WorkPlaceProject: ProjectConfig = {
   bots: [{ roles: ["WebServer"] }, { roles: ["WebServer"] }],
   schemas: [
     {
-      name: "Schema3",
+      name: "Schema4",
       tables: [],
     },
     {
-      name: "Schema4",
+      name: "Schema5",
       tables: [
         {
           name: "Employees",

@@ -49,11 +49,11 @@ export const StudentsProject: ProjectConfig = {
   bots: [{ roles: ["WebServer"] }, { roles: ["WebServer"] }],
   schemas: [
     {
-      name: "Schema7",
+      name: "Schema8",
       tables: [],
     },
     {
-      name: "Schema8",
+      name: "Schema9",
       tables: [
         {
           name: 'Students',
