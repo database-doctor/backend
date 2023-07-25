@@ -231,7 +231,7 @@ export class UserResolver {
       SELECT DISTINCT *
       FROM "User"
       JOIN "UserProjectToken" ON "User"."uid" = "UserProjectToken"."uid"
-      JOIN "Project" ON "UserProjectToken"."pd" = "Project"."pid"
+      JOIN "Project" ON "UserProjectToken"."pid" = "Project"."pid"
       WHERE "Project"."pid" = ${uid} AND "User"."uid" IN 
         (SELECT "UQ"."issuedById"
         FROM "UserQueries" "UQ"
