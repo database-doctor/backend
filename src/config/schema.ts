@@ -15,6 +15,8 @@ export const schema = buildSchemaSync({
     resolvers.SchemaResolver,
     resolvers.TableResolver,
     resolvers.TableSnapshotResolver,
+    resolvers.TableFreqResolver, 
+    resolvers.ColumnFreqResolver, 
     resolvers.UserResolver,
     resolvers.UserProjectTokenResolver,
     resolvers.PermissionResolver,

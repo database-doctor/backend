@@ -7,6 +7,8 @@ export * from "./Project";
 export * from "./Schema";
 export * from "./Table";
 export * from "./TableSnapshot";
+export * from "./TableAccessFreq";
+export * from "./ColumnAccessFreq";
 export * from "./User";
 export * from "./UserProjectToken";
 export * from "./Permission";
