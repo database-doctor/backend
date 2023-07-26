@@ -1,7 +1,7 @@
 import { ProjectConfig } from "../gen/project";
 import { faker } from "@faker-js/faker";
 
-export const StudentsProject: ProjectConfig = {
+export const studentsProject: ProjectConfig = {
   name: "Students",
   roles: [
     {
@@ -56,51 +56,51 @@ export const StudentsProject: ProjectConfig = {
       name: "Schema9",
       tables: [
         {
-          name: 'Students',
-            columns: [
+          name: "Students",
+          columns: [
             {
-                name: 'student_id',
-                type: 'INTEGER',
+              name: "student_id",
+              type: "INTEGER",
             },
             {
-                name: 'first_name',
-                type: 'STRING',
+              name: "first_name",
+              type: "STRING",
             },
             {
-                name: 'last_name',
-                type: 'STRING',
+              name: "last_name",
+              type: "STRING",
             },
             {
-                name: 'email',
-                type: 'STRING',
+              name: "email",
+              type: "STRING",
             },
             {
-                name: 'date_of_birth',
-                type: 'DATE',
+              name: "date_of_birth",
+              type: "DATE",
             },
             {
-                name: 'address',
-                type: 'STRING',
+              name: "address",
+              type: "STRING",
             },
             {
-                name: 'city',
-                type: 'STRING',
+              name: "city",
+              type: "STRING",
             },
             {
-                name: 'state',
-                type: 'STRING',
+              name: "state",
+              type: "STRING",
             },
             {
-                name: 'zip_code',
-                type: 'STRING',
+              name: "zip_code",
+              type: "STRING",
             },
             {
-                name: 'country',
-                type: 'STRING',
+              name: "country",
+              type: "STRING",
             },
             {
-                name: 'enrollment_date',
-                type: 'DATE',
+              name: "enrollment_date",
+              type: "DATE",
             },
           ],
           snapshot: {
@@ -111,39 +111,39 @@ export const StudentsProject: ProjectConfig = {
           },
         },
         {
-          name: 'Courses',
-            columns: [
+          name: "Courses",
+          columns: [
             {
-                name: 'course_id',
-                type: 'INTEGER',
+              name: "course_id",
+              type: "INTEGER",
             },
             {
-                name: 'course_name',
-                type: 'STRING',
+              name: "course_name",
+              type: "STRING",
             },
             {
-                name: 'course_code',
-                type: 'STRING',
+              name: "course_code",
+              type: "STRING",
             },
             {
-                name: 'department',
-                type: 'STRING',
+              name: "department",
+              type: "STRING",
             },
             {
-                name: 'credits',
-                type: 'INTEGER',
+              name: "credits",
+              type: "INTEGER",
             },
             {
-                name: 'instructor_id',
-                type: 'INTEGER',
+              name: "instructor_id",
+              type: "INTEGER",
             },
             {
-                name: 'start_date',
-                type: 'DATE',
+              name: "start_date",
+              type: "DATE",
             },
             {
-                name: 'end_date',
-                type: 'DATE',
+              name: "end_date",
+              type: "DATE",
             },
           ],
           snapshot: {
@@ -154,27 +154,27 @@ export const StudentsProject: ProjectConfig = {
           },
         },
         {
-          name: 'Enrollments',
-            columns: [
+          name: "Enrollments",
+          columns: [
             {
-                name: 'enrollment_id',
-                'type': 'INTEGER',
+              name: "enrollment_id",
+              type: "INTEGER",
             },
             {
-                name: 'student_id',
-                type: 'INTEGER',
+              name: "student_id",
+              type: "INTEGER",
             },
             {
-                name: 'course_id',
-                type: 'INTEGER',
+              name: "course_id",
+              type: "INTEGER",
             },
             {
-                name: 'enrollment_date',
-                type: 'DATE',
+              name: "enrollment_date",
+              type: "DATE",
             },
             {
-                name: 'grade',
-                type: 'INTEGER',
+              name: "grade",
+              type: "INTEGER",
             },
           ],
           snapshot: {
@@ -185,31 +185,31 @@ export const StudentsProject: ProjectConfig = {
           },
         },
         {
-          name: 'Instructors',
-            columns: [
+          name: "Instructors",
+          columns: [
             {
-                name: 'instructor_id',
-                type: 'INTEGER',
+              name: "instructor_id",
+              type: "INTEGER",
             },
             {
-                name: 'first_name',
-                type: 'STRING',
+              name: "first_name",
+              type: "STRING",
             },
             {
-                name: 'last_name',
-                type: 'STRING',
+              name: "last_name",
+              type: "STRING",
             },
             {
-                name: 'email',
-                type: 'STRING',
+              name: "email",
+              type: "STRING",
             },
             {
-                name: 'phone_number',
-                type: 'STRING',
+              name: "phone_number",
+              type: "STRING",
             },
             {
-                name: 'department',
-                type: 'STRING',
+              name: "department",
+              type: "STRING",
             },
           ],
           snapshot: {
@@ -219,23 +219,23 @@ export const StudentsProject: ProjectConfig = {
           },
         },
         {
-          name: 'Departments',
-            columns: [
+          name: "Departments",
+          columns: [
             {
-                name: 'department_id',
-                type: 'INTEGER',
+              name: "department_id",
+              type: "INTEGER",
             },
             {
-                name: 'department_name',
-                type: 'STRING',
+              name: "department_name",
+              type: "STRING",
             },
             {
-                name: 'location',
-                type: 'STRING',
+              name: "location",
+              type: "STRING",
             },
             {
-                name: 'head_id',
-                type: 'INTEGER',
+              name: "head_id",
+              type: "INTEGER",
             },
           ],
           snapshot: {
@@ -308,7 +308,7 @@ export const StudentsProject: ProjectConfig = {
         return {
           department_name: faker.word.noun(),
           location: faker.word.noun(),
-          head_id: faker.number.int({min: 1, max: 1000}),
+          head_id: faker.number.int({ min: 1, max: 1000 }),
         };
       },
       type: "INSERT",
@@ -330,7 +330,7 @@ export const StudentsProject: ProjectConfig = {
       },
       generateParams: () => {
         return {
-          department_id: faker.number.int({min: 1, max: 10000}),
+          department_id: faker.number.int({ min: 1, max: 10000 }),
         };
       },
       type: "DELETE",
@@ -352,7 +352,7 @@ export const StudentsProject: ProjectConfig = {
       },
       generateParams: () => {
         return {
-          instructor_id: faker.number.int({min: 1, max: 10000}),
+          instructor_id: faker.number.int({ min: 1, max: 10000 }),
         };
       },
       type: "DELETE",
@@ -362,7 +362,14 @@ export const StudentsProject: ProjectConfig = {
       accessed: [
         {
           table: "Instructors",
-          columns: ["instructor_id", "first_name", "last_name", "email", "phone_number", "department"],
+          columns: [
+            "instructor_id",
+            "first_name",
+            "last_name",
+            "email",
+            "phone_number",
+            "department",
+          ],
         },
       ],
     },
@@ -374,8 +381,8 @@ export const StudentsProject: ProjectConfig = {
       },
       generateParams: () => {
         return {
-          grade: faker.number.int({min: 1, max: 100}),
-          student_id: faker.number.int({min: 1, max: 10000}),
+          grade: faker.number.int({ min: 1, max: 100 }),
+          student_id: faker.number.int({ min: 1, max: 10000 }),
         };
       },
       type: "UPDATE",

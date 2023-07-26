@@ -1,7 +1,7 @@
 import { ProjectConfig } from "../gen/project";
 import { faker } from "@faker-js/faker";
 
-export const WorkPlaceProject: ProjectConfig = {
+export const workplaceProject: ProjectConfig = {
   name: "Workplace",
   roles: [
     {
@@ -83,16 +83,16 @@ export const WorkPlaceProject: ProjectConfig = {
               type: "DATE",
             },
             {
-                name: "job_title",
-                type: "STRING"
+              name: "job_title",
+              type: "STRING",
             },
             {
-                name: "department",
-                type: "STRING"
+              name: "department",
+              type: "STRING",
             },
             {
-                name: "salary",
-                type: "INTEGER"
+              name: "salary",
+              type: "INTEGER",
             },
           ],
           snapshot: {
@@ -122,8 +122,8 @@ export const WorkPlaceProject: ProjectConfig = {
               type: "STRING",
             },
             {
-                name: "budget",
-                type: "INTEGER"
+              name: "budget",
+              type: "INTEGER",
             },
           ],
           snapshot: {
@@ -157,13 +157,13 @@ export const WorkPlaceProject: ProjectConfig = {
               type: "STRING",
             },
             {
-                name: "budget",
-                type: "INTEGER"
+              name: "budget",
+              type: "INTEGER",
             },
             {
               name: "department_id",
               type: "INTEGER",
-            }
+            },
           ],
           snapshot: {
             initialRowCount: 1000000,
@@ -188,25 +188,25 @@ export const WorkPlaceProject: ProjectConfig = {
               type: "STRING",
             },
             {
-                name: "start_date",
-                type: "DATE"
+              name: "start_date",
+              type: "DATE",
             },
             {
-                name: "end_date",
-                type: "DATE"
+              name: "end_date",
+              type: "DATE",
             },
             {
-                name: "status",
-                type: "STRING"
+              name: "status",
+              type: "STRING",
             },
             {
-                name: "project_id",
-                type: "INTEGER"
+              name: "project_id",
+              type: "INTEGER",
             },
             {
-                name: "employee_id",
-                type: "INTEGER"
-            }
+              name: "employee_id",
+              type: "INTEGER",
+            },
           ],
           snapshot: {
             initialRowCount: 20,
@@ -234,13 +234,13 @@ export const WorkPlaceProject: ProjectConfig = {
               type: "INTEGER",
             },
             {
-                name: "date",
-                type: "DATE",
+              name: "date",
+              type: "DATE",
             },
             {
-                name: "hours_worked",
-                type: "INTEGER",
-            }
+              name: "hours_worked",
+              type: "INTEGER",
+            },
           ],
           snapshot: {
             initialRowCount: 10000,
@@ -311,9 +311,9 @@ export const WorkPlaceProject: ProjectConfig = {
       generateParams: () => {
         return {
           department_name: faker.word.noun(),
-          manager_id: faker.number.int({min: 1, max: 5000}),
+          manager_id: faker.number.int({ min: 1, max: 5000 }),
           location: faker.word.noun(),
-          budget: faker.number.int({min: 1, max: 800}),
+          budget: faker.number.int({ min: 1, max: 800 }),
         };
       },
       type: "INSERT",
@@ -323,7 +323,13 @@ export const WorkPlaceProject: ProjectConfig = {
       accessed: [
         {
           table: "Departments",
-          columns: ["department_id", "department_name", "manager_id", "location", "budget"],
+          columns: [
+            "department_id",
+            "department_name",
+            "manager_id",
+            "location",
+            "budget",
+          ],
         },
       ],
     },
@@ -335,7 +341,7 @@ export const WorkPlaceProject: ProjectConfig = {
       },
       generateParams: () => {
         return {
-          project_id: faker.number.int({min: 1, max: 10000}),
+          project_id: faker.number.int({ min: 1, max: 10000 }),
         };
       },
       type: "DELETE",
@@ -345,7 +351,15 @@ export const WorkPlaceProject: ProjectConfig = {
       accessed: [
         {
           table: "Projects",
-          columns: ["project_id", "project_name", "start_date", "end_date", "status", "budget", "department_id"],
+          columns: [
+            "project_id",
+            "project_name",
+            "start_date",
+            "end_date",
+            "status",
+            "budget",
+            "department_id",
+          ],
         },
       ],
     },
@@ -357,7 +371,7 @@ export const WorkPlaceProject: ProjectConfig = {
       },
       generateParams: () => {
         return {
-          task_id: faker.number.int({min: 1, max: 10000}),
+          task_id: faker.number.int({ min: 1, max: 10000 }),
         };
       },
       type: "DELETE",
@@ -367,7 +381,15 @@ export const WorkPlaceProject: ProjectConfig = {
       accessed: [
         {
           table: "Tasks",
-          columns: ["task_id", "task_name", "description", "start_date", "end_date", "project_id", "employee_id"],
+          columns: [
+            "task_id",
+            "task_name",
+            "description",
+            "start_date",
+            "end_date",
+            "project_id",
+            "employee_id",
+          ],
         },
       ],
     },
@@ -380,7 +402,7 @@ export const WorkPlaceProject: ProjectConfig = {
       generateParams: () => {
         return {
           first_name: faker.word.noun(),
-          customer_id: faker.number.int({min: 1, max: 10000}),
+          customer_id: faker.number.int({ min: 1, max: 10000 }),
         };
       },
       type: "UPDATE",

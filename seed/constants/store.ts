@@ -1,7 +1,7 @@
 import { ProjectConfig } from "../gen/project";
 import { faker } from "@faker-js/faker";
 
-export const EcommerceProject: ProjectConfig = {
+export const storeProject: ProjectConfig = {
   name: "Ecommerce",
   roles: [
     {
@@ -110,13 +110,13 @@ export const EcommerceProject: ProjectConfig = {
               type: "INTEGER",
             },
             {
-                name: "payment_method",
-                type: "STRING"
+              name: "payment_method",
+              type: "STRING",
             },
             {
-                name: "shipping_address",
-                type: "STRING"
-            }
+              name: "shipping_address",
+              type: "STRING",
+            },
           ],
           snapshot: {
             initialRowCount: 1000,
@@ -149,9 +149,9 @@ export const EcommerceProject: ProjectConfig = {
               type: "STRING",
             },
             {
-                name: "quantity",
-                type: "INTEGER"
-            }
+              name: "quantity",
+              type: "INTEGER",
+            },
           ],
           snapshot: {
             initialRowCount: 1000000,
@@ -176,9 +176,9 @@ export const EcommerceProject: ProjectConfig = {
               type: "INTEGER",
             },
             {
-                name: "parent_category_id",
-                type: "INTEGER"
-            }
+              name: "parent_category_id",
+              type: "INTEGER",
+            },
           ],
           snapshot: {
             initialRowCount: 20,
@@ -206,9 +206,9 @@ export const EcommerceProject: ProjectConfig = {
               type: "INTEGER",
             },
             {
-                name: "unit_price",
-                type: "INTEGER",
-            }
+              name: "unit_price",
+              type: "INTEGER",
+            },
           ],
           snapshot: {
             initialRowCount: 10000,
@@ -278,10 +278,10 @@ export const EcommerceProject: ProjectConfig = {
       },
       generateParams: () => {
         return {
-          order_id: faker.number.int({min: 1, max: 5000}),
-          product_id: faker.number.int({min: 1, max: 5000}),
-          quantity: faker.number.int({min: 1, max: 800}),
-          unit_price: faker.number.int({min: 1, max: 800}),
+          order_id: faker.number.int({ min: 1, max: 5000 }),
+          product_id: faker.number.int({ min: 1, max: 5000 }),
+          quantity: faker.number.int({ min: 1, max: 800 }),
+          unit_price: faker.number.int({ min: 1, max: 800 }),
         };
       },
       type: "INSERT",
@@ -291,7 +291,13 @@ export const EcommerceProject: ProjectConfig = {
       accessed: [
         {
           table: "OrderItems",
-          columns: ["order_item_id", "order_id", "product_id", "quantity", "unit_price"],
+          columns: [
+            "order_item_id",
+            "order_id",
+            "product_id",
+            "quantity",
+            "unit_price",
+          ],
         },
       ],
     },
@@ -303,7 +309,7 @@ export const EcommerceProject: ProjectConfig = {
       },
       generateParams: () => {
         return {
-          parentId: faker.number.int({min: 1, max: 10000}),
+          parentId: faker.number.int({ min: 1, max: 10000 }),
         };
       },
       type: "DELETE",
@@ -313,7 +319,12 @@ export const EcommerceProject: ProjectConfig = {
       accessed: [
         {
           table: "Categories",
-          columns: ["category_id", "category_name", "description", "parent_category_id"],
+          columns: [
+            "category_id",
+            "category_name",
+            "description",
+            "parent_category_id",
+          ],
         },
       ],
     },
@@ -325,7 +336,7 @@ export const EcommerceProject: ProjectConfig = {
       },
       generateParams: () => {
         return {
-          product_id: faker.number.int({min: 1, max: 10000}),
+          product_id: faker.number.int({ min: 1, max: 10000 }),
         };
       },
       type: "DELETE",
@@ -335,7 +346,14 @@ export const EcommerceProject: ProjectConfig = {
       accessed: [
         {
           table: "Products",
-          columns: ["product_id", "product_name", "category", "price", "description", "quantity"],
+          columns: [
+            "product_id",
+            "product_name",
+            "category",
+            "price",
+            "description",
+            "quantity",
+          ],
         },
       ],
     },
@@ -348,7 +366,7 @@ export const EcommerceProject: ProjectConfig = {
       generateParams: () => {
         return {
           first_name: faker.word.noun(),
-          customer_id: faker.number.int({min: 1, max: 10000}),
+          customer_id: faker.number.int({ min: 1, max: 10000 }),
         };
       },
       type: "UPDATE",

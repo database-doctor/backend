@@ -9,7 +9,7 @@ export type Permission = {
 const generatePermission = async (name: string): Promise<Permission> => {
   const query = `
     INSERT INTO "Permission" ("name")
-    VALUES ('${name}') RETURNING "pid";
+    VALUES ($1) RETURNING "pid";
   `;
 
   const res = await client.query(query, [name]);
@@ -24,8 +24,6 @@ export const generatePermissions = async () => {
     "analytics:view",
     "settings:view",
     "settings:edit",
-
-    // From @Malav
     "project:read",
     "project:share",
     "schema:read",

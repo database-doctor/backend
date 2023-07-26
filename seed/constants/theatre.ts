@@ -325,8 +325,8 @@ export const theatreProject: ProjectConfig = {
         return {
           title: faker.internet.userName(),
           releaseDate: faker.date.past(),
-          duration: faker.number.int({min: 10, max: 100}),
-          rating: faker.number.int({min: 1, max: 5}),
+          duration: faker.number.int({ min: 10, max: 100 }),
+          rating: faker.number.int({ min: 1, max: 5 }),
           description: faker.word.sample(),
           genre: faker.word.adjective(),
         };
@@ -338,7 +338,15 @@ export const theatreProject: ProjectConfig = {
       accessed: [
         {
           table: "Movie",
-          columns: ["movieId", "title", "releaseDate", "duration", "rating", "description", "genre"],
+          columns: [
+            "movieId",
+            "title",
+            "releaseDate",
+            "duration",
+            "rating",
+            "description",
+            "genre",
+          ],
         },
       ],
     },
@@ -350,7 +358,7 @@ export const theatreProject: ProjectConfig = {
       },
       generateParams: () => {
         return {
-          showId: faker.number.int({min: 1, max: 10000}),
+          showId: faker.number.int({ min: 1, max: 10000 }),
         };
       },
       type: "DELETE",
@@ -372,7 +380,7 @@ export const theatreProject: ProjectConfig = {
       },
       generateParams: () => {
         return {
-          reviewId: faker.number.int({min: 1, max: 10000}),
+          reviewId: faker.number.int({ min: 1, max: 10000 }),
         };
       },
       type: "DELETE",
@@ -394,8 +402,8 @@ export const theatreProject: ProjectConfig = {
       },
       generateParams: () => {
         return {
-          cap: faker.number.int({min: 1, max: 1000}),
-          screenId: faker.number.int({min: 1, max: 10000}),
+          cap: faker.number.int({ min: 1, max: 1000 }),
+          screenId: faker.number.int({ min: 1, max: 10000 }),
         };
       },
       type: "UPDATE",

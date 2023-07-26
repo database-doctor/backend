@@ -1,7 +1,7 @@
 import { ProjectConfig } from "../gen/project";
 import { faker } from "@faker-js/faker";
 
-export const BooksProject: ProjectConfig = {
+export const booksProject: ProjectConfig = {
   name: "Books",
   roles: [
     {
@@ -110,8 +110,8 @@ export const BooksProject: ProjectConfig = {
               type: "DATE",
             },
             {
-                name: "country",
-                type: "STRING"
+              name: "country",
+              type: "STRING",
             },
           ],
           snapshot: {
@@ -168,33 +168,33 @@ export const BooksProject: ProjectConfig = {
               type: "STRING",
             },
             {
-                name: "email",
-                type: "STRING"
+              name: "email",
+              type: "STRING",
             },
             {
-                name: "phone_number",
-                type: "STRING"
+              name: "phone_number",
+              type: "STRING",
             },
             {
-                name: "address",
-                type: "STRING"
+              name: "address",
+              type: "STRING",
             },
             {
-                name: "city",
-                type: "STRING"
+              name: "city",
+              type: "STRING",
             },
             {
-                name: "state",
-                type: "INTEGER"
+              name: "state",
+              type: "INTEGER",
             },
             {
-                name: "zip_code",
-                type: "STRING"
+              name: "zip_code",
+              type: "STRING",
             },
             {
-                name: "country",
-                type: "STRING"
-            }
+              name: "country",
+              type: "STRING",
+            },
           ],
           snapshot: {
             initialRowCount: 20,
@@ -222,29 +222,29 @@ export const BooksProject: ProjectConfig = {
               type: "INTEGER",
             },
             {
-                name: "status",
-                type: "STRING",
+              name: "status",
+              type: "STRING",
             },
             {
-                name: "shipping_address",
-                type: "STRING",
+              name: "shipping_address",
+              type: "STRING",
             },
             {
-                name: "shipping_city",
-                type: "STRING",
+              name: "shipping_city",
+              type: "STRING",
             },
             {
-                name: "shipping_state",
-                type: "STRING",
+              name: "shipping_state",
+              type: "STRING",
             },
             {
-                name: "shipping_zip_code",
-                type: "STRING",
+              name: "shipping_zip_code",
+              type: "STRING",
             },
             {
-                name: "shipping_country",
-                type: "STRING",
-            }
+              name: "shipping_country",
+              type: "STRING",
+            },
           ],
           snapshot: {
             initialRowCount: 10000,
@@ -314,7 +314,7 @@ export const BooksProject: ProjectConfig = {
       },
       generateParams: () => {
         return {
-          auother_id: faker.number.int({min: 1, max: 5000}),
+          auother_id: faker.number.int({ min: 1, max: 5000 }),
           first_name: faker.word.noun(),
           last_name: faker.word.noun(),
           birth_date: faker.date.past(),
@@ -328,7 +328,13 @@ export const BooksProject: ProjectConfig = {
       accessed: [
         {
           table: "Authors",
-          columns: ["author_id", "first_name", "last_name", "birth_date", "country"],
+          columns: [
+            "author_id",
+            "first_name",
+            "last_name",
+            "birth_date",
+            "country",
+          ],
         },
       ],
     },
@@ -340,7 +346,7 @@ export const BooksProject: ProjectConfig = {
       },
       generateParams: () => {
         return {
-          publisher_id: faker.number.int({min: 1, max: 10000}),
+          publisher_id: faker.number.int({ min: 1, max: 10000 }),
         };
       },
       type: "DELETE",
@@ -350,7 +356,13 @@ export const BooksProject: ProjectConfig = {
       accessed: [
         {
           table: "Publishers",
-          columns: ["publisher_id", "publisher_name", "established_date", "country", "website"],
+          columns: [
+            "publisher_id",
+            "publisher_name",
+            "established_date",
+            "country",
+            "website",
+          ],
         },
       ],
     },
@@ -362,7 +374,7 @@ export const BooksProject: ProjectConfig = {
       },
       generateParams: () => {
         return {
-          book_id: faker.number.int({min: 1, max: 10000}),
+          book_id: faker.number.int({ min: 1, max: 10000 }),
         };
       },
       type: "DELETE",
@@ -372,7 +384,14 @@ export const BooksProject: ProjectConfig = {
       accessed: [
         {
           table: "Books",
-          columns: ["book_id", "title", "author", "publication_date", "publisher", "price"],
+          columns: [
+            "book_id",
+            "title",
+            "author",
+            "publication_date",
+            "publisher",
+            "price",
+          ],
         },
       ],
     },
@@ -385,7 +404,7 @@ export const BooksProject: ProjectConfig = {
       generateParams: () => {
         return {
           first_name: faker.word.noun(),
-          customer_id: faker.number.int({min: 1, max: 10000}),
+          customer_id: faker.number.int({ min: 1, max: 10000 }),
         };
       },
       type: "UPDATE",
