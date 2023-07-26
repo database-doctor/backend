@@ -39,8 +39,21 @@ class CreateRoleInput {
   @MaxLength(255)
   name!: string;
 
-  // @ts-ignore
-  @Field((type) => [Int])
+  @Field(() => [Int])
+  permissions?: number[];
+}
+
+@InputType()
+class ModifyRoleInput {
+  @Field()
+  rid!: number;
+
+  @Field()
+  @MinLength(1)
+  @MaxLength(255)
+  name?: string;
+
+  @Field(() => [Int])
   permissions?: number[];
 }
 
@@ -114,5 +127,56 @@ export class CreateRoleResolver {
     console.log("inserted: ", inserted);
 
     return role;
+  }
+
+  @Mutation(() => Role)
+  async modifyRole(
+    @Arg("modifiedRole") modifiedRole: ModifyRoleInput,
+    @Ctx() ctx: Context
+  ): Promise<Role | null> {
+    const existingRole = await ctx.prisma.role.findFirstOrThrow({
+      where: { rid: modifiedRole.rid },
+    });
+
+    if (modifiedRole.name && existingRole.name !== modifiedRole.name) {
+      // Update the name
+      await ctx.prisma.role.update({
+        where: { rid: modifiedRole.rid },
+        data: { name: modifiedRole.name },
+      });
+    }
+
+    if (modifiedRole.permissions) {
+      const existingRolePermissions =
+        await ctx.prisma.rolePermissionMap.findMany({
+          where: { rid: modifiedRole.rid },
+        });
+
+      const rolePermissionPids = existingRolePermissions.map((p) => p.pid);
+
+      // Remove removed permissions
+      const removedPermissions = rolePermissionPids.filter(
+        (x) => !modifiedRole.permissions?.includes(x)
+      );
+      await ctx.prisma.rolePermissionMap.deleteMany({
+        where: {
+          rid: modifiedRole.rid,
+          pid: { in: removedPermissions },
+        },
+      });
+
+      // Add added permissions
+      const newRolePermissions = modifiedRole.permissions
+        .filter((x) => !rolePermissionPids.includes(x))
+        .map((p) => ({ rid: modifiedRole.rid, pid: p }));
+
+      await ctx.prisma.rolePermissionMap.createMany({
+        data: newRolePermissions,
+      });
+    }
+
+    return ctx.prisma.role.findFirst({
+      where: { rid: modifiedRole.rid },
+    });
   }
 }
