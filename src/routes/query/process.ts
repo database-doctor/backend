@@ -1,3 +1,5 @@
+import { OptimizationType, QueryResult, optimizeQuery } from "./queryOptimizer";
+
 import { Client } from "pg";
 import { JobType } from "@generated/type-graphql";
 import { Parser } from "node-sql-parser";
@@ -140,7 +142,7 @@ export const processQuery = async (rawRequest: any): Promise<QueryResponse> => {
 
   // Accessed tables are the tables that are referenced in the query.
   const accessedTables = tables.filter((table) =>
-    parsedTables.includes(table.name),
+    parsedTables.includes(table.name)
   );
 
   const parsedColumns = columnList.map((column) => {
@@ -158,7 +160,7 @@ export const processQuery = async (rawRequest: any): Promise<QueryResponse> => {
 
   parsedColumns.forEach((curCol) => {
     const table = accessedTables.find(
-      (table) => table.name === curCol.tableName,
+      (table) => table.name === curCol.tableName
     );
 
     if (table) {
@@ -170,7 +172,7 @@ export const processQuery = async (rawRequest: any): Promise<QueryResponse> => {
       }
 
       const searchCol = table.columns.find(
-        (tableCol) => tableCol.name === curCol.columnName,
+        (tableCol) => tableCol.name === curCol.columnName
       );
       if (searchCol) {
         accessedColumns.add(searchCol);
@@ -189,7 +191,7 @@ export const processQuery = async (rawRequest: any): Promise<QueryResponse> => {
       // column name from any of the tables.
       accessedTables.forEach((table) => {
         const searchCol = table.columns.find(
-          (tableCol) => tableCol.name === curCol.columnName,
+          (tableCol) => tableCol.name === curCol.columnName
         );
 
         if (searchCol) {
@@ -197,6 +199,11 @@ export const processQuery = async (rawRequest: any): Promise<QueryResponse> => {
         }
       });
     }
+  });
+
+  // 4) Determine if query has already been optimized
+  const pastJob = await prisma.job.findFirst({
+    where: { statement: request.query },
   });
 
   // 5) Create the entry for the query in the database.
@@ -239,7 +246,45 @@ export const processQuery = async (rawRequest: any): Promise<QueryResponse> => {
     }),
   });
 
-  // 6) Execute the query in the database.
+  // 6) Increment accessed table count in ...
+  Array.from(accessedTables).map((table) => {
+    prisma.tableAccessFreq.upsert({
+      where: { tid: table.tid },
+      update: {
+        frequency: { increment: 1 },
+      },
+      create: { tid: table.tid },
+    });
+  });
+
+  // 7) Find possible query optimizations
+  if (!pastJob?.optimized) {
+    // Output is formatted as follows
+    // key: enum of OptimizationType
+    // value: a list of strings representing queries/subqueries that can be optimized
+    // based on the OptimizationType
+    const output: QueryResult = {
+      [OptimizationType.ExplicitColumns]: [],
+      [OptimizationType.ExtractNested]: [],
+      [OptimizationType.ClusteredIndex]: [],
+      [OptimizationType.NonClusteredIndex]: [],
+      [OptimizationType.RemoveDistinct]: [],
+    };
+
+    // NEXT STEP -> Trigger email alert to admin that belong to project
+    optimizeQuery(request.query, output);
+    const curJob = await prisma.job.findFirst({
+      where: { statement: request.query },
+    });
+    if (curJob) {
+      await prisma.job.update({
+        where: { jid: curJob.jid },
+        data: { optimized: true },
+      });
+    }
+  }
+
+  // 8) Execute the query in the database.
   const client = new Client({
     connectionString: project.dbUrl,
   });
@@ -285,7 +330,7 @@ export const processQuery = async (rawRequest: any): Promise<QueryResponse> => {
     await client.end();
   } catch (err: any) {
     errors.push(
-      "Failed to end connection to database. See next error for details.",
+      "Failed to end connection to database. See next error for details."
     );
     errors.push(JSON.stringify(err));
     return {
