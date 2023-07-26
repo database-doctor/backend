@@ -30,6 +30,12 @@ class ProjectId {
 }
 
 @InputType()
+class RoleId {
+  @Field(() => Int)
+  rid!: number;
+}
+
+@InputType()
 class CreateRoleInput {
   @Field()
   pid!: number;
@@ -178,5 +184,30 @@ export class CreateRoleResolver {
     return ctx.prisma.role.findFirst({
       where: { rid: modifiedRole.rid },
     });
+  }
+}
+
+@Resolver(() => Role)
+export class DeleteRoleResolver {
+  @Mutation(() => Role)
+  async deleteRole(
+    @Arg("deleteRoleInput") deleteRoleInput: RoleId,
+    @Ctx() ctx: Context
+  ): Promise<Role> {
+    const rid = deleteRoleInput.rid;
+
+    await ctx.prisma.rolePermissionMap.deleteMany({
+      where: { rid },
+    });
+
+    await ctx.prisma.userRoleMap.deleteMany({
+      where: { rid },
+    });
+
+    const deletedRole = await ctx.prisma.role.delete({
+      where: { rid },
+    });
+
+    return deletedRole;
   }
 }
