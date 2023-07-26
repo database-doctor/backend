@@ -167,8 +167,8 @@ model Column {
   tid   Int
   table Table @relation(fields: [tid], references: [tid])
 
-  jobs       JobColumnAccess[]
-  accessFreq ColumnAccessFreq[]
+  jobs             JobColumnAccess[]
+  ColumnAccessFreq ColumnAccessFreq[]
 
   @@unique([tid, name])
 }
@@ -194,8 +194,6 @@ model Job {
 
   pid     Int
   project Project @relation(fields: [pid], references: [pid])
-
-  optimized Boolean @default(false)
 
   tables  JobTableAccess[]
   columns JobColumnAccess[]
@@ -285,6 +283,15 @@ model TableAccessFreq {
   table Table @relation(fields: [tid], references: [tid])
 
   frequency Int @default(0)
-  
+
+  @@index([frequency(sort: Desc)])
+}
+
+model ColumnAccessFreq {
+  cid    Int    @id
+  column Column @relation(fields: [cid], references: [cid])
+
+  frequency Int @default(0)
+
   @@index([frequency(sort: Desc)])
 }

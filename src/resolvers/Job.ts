@@ -34,7 +34,7 @@ class CreateQueryInput {
 
 @Resolver(() => Job)
 export class JobResolver {
-  @FieldResolver(() => User)
+  @FieldResolver(() => User, {nullable: true})
   async issuedByUser(@Root() job: Job, @Ctx() ctx: Context) {
     return await ctx.prisma.user.findFirst({
       where: {
@@ -43,7 +43,7 @@ export class JobResolver {
     });
   }
 
-  @FieldResolver(() => Project)
+  @FieldResolver(() => Project, {nullable: true})
   async project(@Root() job: Job, @Ctx() ctx: Context) {
     return await ctx.prisma.project.findFirst({
       where: {
@@ -112,8 +112,7 @@ export class JobResolver {
         (SELECT "statement", COUNT(*) AS "queryCount" 
         FROM "Job"
         GROUP BY "statement")
-      SELECT DISTINCT "Project"."name", "J"."statement" AS "queryStatement", 
-        "J"."type" AS "queryType", "J"."issuedAt", "J"."finishedAt", "J"."error"
+      SELECT DISTINCT "J"."jid", "Project"."name", "J"."statement", "J"."type", "J"."issuedAt", "J"."finishedAt", "J"."error"
       FROM "Job" "J"
       JOIN "Project" ON "J"."pid" = "Project"."pid"
       WHERE "J"."statement" IN 
