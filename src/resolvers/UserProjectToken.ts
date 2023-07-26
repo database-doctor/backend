@@ -1,4 +1,7 @@
-import { UserProjectToken } from "@generated/type-graphql";
+import {
+  UserProjectToken,
+  UserProjectTokenUidPidCompoundUniqueInput,
+} from "@generated/type-graphql";
 import { Context } from "../middleware";
 import {
   Field,
@@ -44,6 +47,14 @@ class AddUserToProjectInput {
 
   @Field(() => [Int])
   roles?: number[];
+}
+
+@InputType()
+class RemoveUserFromProjectInput {
+  @Field(() => Int)
+  uid!: number;
+  @Field(() => Int)
+  pid!: number;
 }
 
 @Resolver(() => UserProjectToken)
@@ -111,5 +122,44 @@ export class UserProjectTokenResolver {
     });
 
     return token;
+  }
+
+  @Mutation(() => UserProjectToken)
+  async removeUserFromProject(
+    @Arg("removeUserFromProjectInput")
+    removeUserFromProjectInput: RemoveUserFromProjectInput,
+    @Ctx() ctx: Context
+  ): Promise<UserProjectToken> {
+    const uid = removeUserFromProjectInput.uid;
+    const pid = removeUserFromProjectInput.pid;
+
+    const project = await ctx.prisma.project.findFirstOrThrow({
+      where: { pid },
+    });
+
+    if (project.createdById === uid) {
+      throw new Error("Cannot revoke access from the owner of the project!");
+    }
+
+    const projectRoles = (
+      await ctx.prisma.role.findMany({
+        where: { pid },
+      })
+    ).map((r) => r.rid);
+
+    await ctx.prisma.userRoleMap.deleteMany({
+      where: { uid, rid: { in: projectRoles } },
+    });
+
+    const removed = await ctx.prisma.userProjectToken.delete({
+      where: {
+        uid_pid: {
+          uid,
+          pid,
+        },
+      },
+    });
+
+    return removed;
   }
 }
