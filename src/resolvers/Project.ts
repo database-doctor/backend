@@ -72,8 +72,8 @@ export class ProjectDetailResolver {
       SELECT "Project"."pid", "Project"."name", "Project"."dbUrl", "Project"."createdAt", "User"."username" AS "createdBy"
       FROM "Project"
       JOIN "UserProjectToken" ON "Project"."pid" = "UserProjectToken"."pid"
-      JOIN "User" ON "UserProjectToken"."uid" = "User"."uid"
-      WHERE "User"."uid" = ${uid};
+        AND "UserProjectToken"."uid" = ${uid}
+      JOIN "User" ON "User"."uid" = "Project"."createdById";
     `);
 
     return rawProjects as ProjectDetail[];

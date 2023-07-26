@@ -7,7 +7,7 @@ export const schema = buildSchemaSync({
   resolvers: [
     resolvers.ColumnResolver,
     resolvers.ColumnTypeResolver,
-    resolvers.JobResolver, 
+    resolvers.JobResolver,
     resolvers.JobColumnDetailResolver,
     resolvers.JobTableDetailResolver,
     resolvers.ProjectResolver,
@@ -22,6 +22,7 @@ export const schema = buildSchemaSync({
     resolvers.PermissionResolver,
     resolvers.RoleResolver,
     resolvers.CreateRoleResolver,
+    resolvers.DeleteRoleResolver,
   ],
   validate: false,
   authChecker,
