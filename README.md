@@ -23,16 +23,16 @@ cd backend
 npm install
 ```
 
-(Optional) To spin up a local PostgreSQL database for testing, run:
+(Optional, requires Docker) To spin up a local PostgreSQL database for testing, run:
 
 ```bash
-docker-compose up
+npm run db:start
 ```
 
 Then, create a `.env` file with the environment variables listed in `[root]/.env.example`. Setup the database with the Prisma ORM and GraphQL by running:
 
 ```bash
-npx prisma db push
+npm run db:push
 ```
 
 To spin up the project in development mode:
@@ -47,10 +47,20 @@ This will run two concurrent processes. 1) Will watch files in `src` for changes
 
 The `prisma` tool can be called with `npx prisma [...]`. The most useful commands are:
 
+- `npm run db:studio` or `npx prisma studio`
+- `npm run db:push` or `npx prisma db push`
 - `npx prisma generate`
-- `npx prisma studio`
-- `npx prisma db push`
 - `npx prisma migrate dev --name [changes_name]`
+
+### Using helper scripts
+
+The following scripts provided through `npm run` in `package.json` might be useful:
+
+- `npm run db:start` starts a local Docker DB instance
+- `npm run db:stop` stops the local Docker DB instance
+- `npm run db:reset` completely resets the local Docker DB instance by removing all volumes, and updates that database's schema to the latest schema (e.g. freshens the database)
+- `npm run db:seed` seeds the database with production data (might fail if the database is not fresh)
+- `npm run db [-f filename] [-o output]` opens an interactive prompt with the local docker DB instance. The prompt is non-interactive and runs the query inside `filename` against the database when `-f` is set. When `-o` is set, the output from the prompt is written to `output`
 
 ## SQL
 

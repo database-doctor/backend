@@ -17,7 +17,7 @@ import {
 import { IsEmail, MaxLength, MinLength } from "class-validator";
 
 import { Context } from "../middleware";
-import { User, Project } from "@generated/type-graphql";
+import { User, Project, Role } from "@generated/type-graphql";
 import { createAuthToken, hashPassword, verifyPassword } from "../auth";
 
 @ArgsType()
@@ -36,6 +36,12 @@ class UserEmail {
 class UserUsername {
   @Field(() => String)
   username!: string;
+}
+
+@ArgsType()
+class ProjectId {
+  @Field(() => Int)
+  pid!: number;
 }
 
 @InputType()
@@ -86,14 +92,18 @@ class LoginUserOutput {
 export class UserResolver {
   @Authorized()
   @Query(() => User)
-  async user(
-    @Args() { uid }: UserId,
-    @Ctx() ctx: Context,
-  ): Promise<User | null> {
-    const user = await ctx.prisma.user.findUnique({ where: { uid } });
+  async user(@Ctx() ctx: Context): Promise<User | null> {
+    if (!ctx.user || !ctx.user.uid) {
+      ctx.logger.error(`no uid specified for get user request`);
+      return null;
+    }
+
+    const user = await ctx.prisma.user.findUnique({
+      where: { uid: ctx.user.uid },
+    });
 
     if (!user) {
-      ctx.logger.error(`user not found with uid: ${uid}`);
+      ctx.logger.error(`user not found with uid: ${ctx.user.uid}`);
       return null;
     }
 
@@ -108,7 +118,7 @@ export class UserResolver {
   @Query(() => User)
   async userByEmail(
     @Args() { email }: UserEmail,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<User | null> {
     const user = await ctx.prisma.user.findUnique({ where: { email } });
 
@@ -128,7 +138,7 @@ export class UserResolver {
   @Query(() => User)
   async userByUsername(
     @Args() { username }: UserUsername,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<User | null> {
     const user = await ctx.prisma.user.findUnique({ where: { username } });
 
@@ -147,7 +157,7 @@ export class UserResolver {
   @Mutation(() => RegisterUserOutput)
   async registerUser(
     @Arg("newUser") newUser: RegisterUserInput,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<RegisterUserOutput> {
     const { name, username, email, password } = newUser;
 
@@ -175,10 +185,35 @@ export class UserResolver {
     return { token: createAuthToken(user.uid) };
   }
 
+  @Mutation(() => RegisterUserOutput)
+  async authenticateOAuthUser(
+    @Arg("user") user: RegisterUserInput,
+    @Ctx() ctx: Context
+  ): Promise<RegisterUserOutput> {
+    const { name, username, email, password } = user;
+
+    const db_user = await ctx.prisma.user.findUnique({
+      where: { email },
+    });
+
+    if (db_user) {
+      // If the user already exists, return a JWT token
+      ctx.logger.info(`logged in user: ${db_user.uid} ${db_user.email}`);
+      return { token: createAuthToken(db_user.uid) };
+    }
+
+    const newUser = await ctx.prisma.user.create({
+      data: { name, username, email, password: hashPassword(password) },
+    });
+
+    ctx.logger.info(`created user: ${newUser.uid} ${newUser.email}`);
+    return { token: createAuthToken(newUser.uid) };
+  }
+
   @Mutation(() => LoginUserOutput)
   async loginUser(
     @Arg("userCreds") userCreds: LoginUserInput,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<LoginUserOutput> {
     const { email, password } = userCreds;
 
@@ -211,7 +246,7 @@ export class UserResolver {
   @Query(() => [User], { nullable: true })
   async commonUserQueries(
     @Args() { uid }: UserId,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<User[]> {
     const user = await ctx.prisma.$queryRaw<User[]>`
       WITH "UserQueries" AS 
@@ -221,7 +256,7 @@ export class UserResolver {
       SELECT DISTINCT *
       FROM "User"
       JOIN "UserProjectToken" ON "User"."uid" = "UserProjectToken"."uid"
-      JOIN "Project" ON "UserProjectToken"."pd" = "Project"."pid"
+      JOIN "Project" ON "UserProjectToken"."pid" = "Project"."pid"
       WHERE "Project"."pid" = ${uid} AND "User"."uid" IN 
         (SELECT "UQ"."issuedById"
         FROM "UserQueries" "UQ"
@@ -229,5 +264,28 @@ export class UserResolver {
       LIMIT 10;
     `;
     return user;
+  }
+  
+  // @Authorized() // TODO: UNCOMMENT THIS
+  @FieldResolver(() => [Role])
+  async userRoles(
+    @Root() user: User,
+    @Args() { pid }: ProjectId,
+    @Ctx() ctx: Context
+  ): Promise<Role[]> {
+    const userRoles = await ctx.prisma.userRoleMap.findMany({
+      where: {
+        uid: user.uid,
+      },
+    });
+
+    const projectRoles = await ctx.prisma.role.findMany({
+      where: {
+        pid,
+        rid: { in: userRoles.map((u) => u.rid) },
+      },
+    });
+
+    return projectRoles;
   }
 }

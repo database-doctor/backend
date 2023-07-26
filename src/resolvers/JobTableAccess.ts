@@ -55,7 +55,9 @@ export class JobTableDetailResolver {
         WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "QueryCount"))
       LIMIT 10;
     `);
-
+    if (!rawSqlQueries) {
+      return [];
+    }
     return rawSqlQueries as JobTableDetail[];
   }
 }

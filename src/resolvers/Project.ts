@@ -1,4 +1,4 @@
-import { Project } from "@generated/type-graphql";
+import { Project, UserProjectToken, User, Role } from "@generated/type-graphql";
 import { Context } from "../middleware";
 import {
   Field,
@@ -13,6 +13,8 @@ import {
   Mutation,
   Int,
   ObjectType,
+  FieldResolver,
+  Root,
 } from "type-graphql";
 import { MinLength, MaxLength } from "class-validator";
 
@@ -70,27 +72,28 @@ export class ProjectDetailResolver {
       SELECT "Project"."pid", "Project"."name", "Project"."dbUrl", "Project"."createdAt", "User"."username" AS "createdBy"
       FROM "Project"
       JOIN "UserProjectToken" ON "Project"."pid" = "UserProjectToken"."pid"
-      JOIN "User" ON "UserProjectToken"."uid" = "User"."uid"
-      WHERE "User"."userId" = ${uid};
+        AND "UserProjectToken"."uid" = ${uid}
+      JOIN "User" ON "User"."uid" = "Project"."createdById";
     `);
 
     return rawProjects as ProjectDetail[];
   }
 
-  @Authorized()
+  // @Authorized() // TODO : UNCOMMENT THIS
   @Query(() => ProjectDetail, { nullable: true })
   async project(
     @Args() { pid }: ProjectId,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<ProjectDetail | null> {
     const uid = ctx.user?.uid;
+
+    // TODO : CHECK THAT USER CAN ACTUALLY ACCESS THIS PROJECT
 
     const rawProjects = await ctx.prisma.$queryRawUnsafe(`
       SELECT "Project"."pid", "Project"."name", "Project"."dbUrl", "Project"."createdAt", "User"."username" AS "createdBy"
       FROM "Project"
-      JOIN "UserProjectToken" ON "Project"."projectId" = "UserProjectToken"."projectId"
-      JOIN "User" ON "UserProjectToken"."userId" = "User"."userId"
-      WHERE "User"."userId" = ${uid} AND "Project"."projectId" = ${pid};
+      LEFT JOIN "User" ON "User"."uid" = "Project"."createdById"
+      WHERE "Project"."pid" = ${pid};
     `);
 
     const projects = rawProjects as ProjectDetail[];
@@ -101,6 +104,35 @@ export class ProjectDetailResolver {
 
     return projects[0];
   }
+
+  // @Authorized() // TODO : UNCOMMENT THIS
+  @FieldResolver(() => [User])
+  async users(@Root() project: Project, @Ctx() ctx: Context) {
+    // TODO : CHECK THAT THE USER MAKING THIS QUERY HAS THE CORRECT ROLE TO MANAGE USERS
+
+    const uids_with_access = await ctx.prisma.userProjectToken.findMany({
+      where: {
+        pid: project.pid,
+      },
+    });
+
+    return await ctx.prisma.user.findMany({
+      where: {
+        uid: { in: uids_with_access.map((x) => x.uid) },
+      },
+    });
+  }
+
+  @FieldResolver(() => [Role])
+  async roles(@Root() project: Project, @Ctx() ctx: Context) {
+    const roles = await ctx.prisma.role.findMany({
+      where: {
+        pid: project.pid,
+      },
+    });
+
+    return roles;
+  }
 }
 
 @Resolver(() => Project)
@@ -108,7 +140,7 @@ export class ProjectResolver {
   @Mutation(() => Project)
   async createProject(
     @Arg("newProject") newProject: CreateProjectInput,
-    @Ctx() ctx: Context,
+    @Ctx() ctx: Context
   ): Promise<Project> {
     const uid = ctx.user?.uid;
     if (!uid) {

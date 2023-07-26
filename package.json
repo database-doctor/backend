@@ -5,16 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "npx eslint . --ext .ts",
-    "startdb": "docker-compose up",
-    "resetdb": "bash ./scripts/resetdb.sh",
-    "gendb": "bash ./scripts/gendb.sh",
+    "db:start": "docker-compose up -d",
+    "db:stop": "docker-compose down",
+    "db:reset": "bash ./scripts/resetdb.sh",
+    "db:seed": "npx ts-node ./seed/index.ts",
+    "db:gen": "bash ./scripts/gendb.sh",
+    "db:studio": "npx prisma studio",
+    "db:push": "npx prisma db push --force-reset",
     "db": "bash ./scripts/db.sh",
     "start": "node dist/index.js",
     "build": "npx tsc",
     "watch": "npx tsc --watch & npx nodemon dist/index.js && fg",
     "dev": "npm run build; npm run watch",
-    "postinstall": "npx prisma generate",
-    "seed": "npx ts-node ./seed/index.ts"
+    "postinstall": "npx prisma generate"
   },
   "repository": {
     "type": "git",

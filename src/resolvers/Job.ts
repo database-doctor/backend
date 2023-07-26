@@ -119,9 +119,11 @@ export class JobResolver {
       WHERE "J"."statement" IN 
         (SELECT "statement" 
         FROM "QueryCount" 
-        WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "QueryCount")) AND "Project"."pid" = ${pid}
-      LIMIT 10;
-    `;
+        WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "QueryCount")) AND "Project"."pid" = ${pid};
+      `;
+    if (!commonJobs) {
+      return [];
+    }
     return commonJobs;
   }
 }
