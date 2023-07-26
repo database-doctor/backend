@@ -2,6 +2,7 @@ import { Client } from "pg";
 import { JobType } from "@generated/type-graphql";
 import { Parser } from "node-sql-parser";
 import { prisma } from "../../config";
+import { QueryResult, OptimizationType, optimizeQuery } from "./queryOptimizer";
 
 interface QueryRequest {
   accessToken: string;
@@ -199,6 +200,9 @@ export const processQuery = async (rawRequest: any): Promise<QueryResponse> => {
     }
   });
 
+  // 4) Determine if query has already been optimized
+  const pastJob = await prisma.job.findFirst({ where: { statement: request.query } });
+
   // 5) Create the entry for the query in the database.
   const uid = userProjectToken!.user.uid;
   if (!uid) {
@@ -239,7 +243,43 @@ export const processQuery = async (rawRequest: any): Promise<QueryResponse> => {
     }),
   });
 
-  // 6) Execute the query in the database.
+  // 6) Increment accessed table count in ...
+  Array.from(accessedTables).map((table) => {
+    prisma.tableAccessFreq.upsert({
+      where: { tid: table.tid }, 
+      update: {
+        frequency: { increment: 1 }, 
+      }, 
+      create: { tid: table.tid }, 
+    })
+  });
+  
+  // 7) Find possible query optimizations
+  if (!pastJob?.optimized) {
+    // Output is formatted as follows
+    // key: enum of OptimizationType
+    // value: a list of strings representing queries/subqueries that can be optimized
+    // based on the OptimizationType
+    const output: QueryResult = {
+      [OptimizationType.ExplicitColumns]: [], 
+      [OptimizationType.ExtractNested]: [], 
+      [OptimizationType.ClusteredIndex]: [], 
+      [OptimizationType.NonClusteredIndex]: [], 
+      [OptimizationType.RemoveDistinct]: [], 
+    };
+
+    // NEXT STEP -> Trigger email alert to admin that belong to project
+    optimizeQuery(request.query, output); 
+    const curJob = await prisma.job.findFirst({ where: { statement: request.query } });
+    if (curJob) {
+      await prisma.job.update({
+        where: { jid: curJob.jid }, 
+        data: { optimized: true, }, 
+      });
+    }
+  }
+
+  // 8) Execute the query in the database.
   const client = new Client({
     connectionString: project.dbUrl,
   });

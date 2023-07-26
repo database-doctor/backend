@@ -265,7 +265,7 @@ export class UserResolver {
     `;
     return user;
   }
-
+  
   // @Authorized() // TODO: UNCOMMENT THIS
   @FieldResolver(() => [Role])
   async userRoles(
