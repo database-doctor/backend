@@ -103,87 +103,74 @@ npx prisma db push
 
 from the root folder will suffice.
 
-### Sample data
+### Sample data (legacy)
 
 The sample data was generated manually in combination with ChatGPT to create sample database schemas and database queries.
 
 #### 1. Generating database schemas
 
-For milestone 1, we manually wrote out some sample data as we thought of what information we would like to include, what information the queries needed, etc...
-
-Moving forward, we will be using generative technologies such as ChatGPT to populate a greater quantity of sample data.
-
 To generate the populate the tables in schema.sql the following prompt was used:
 
-    -- CreateTable
-    CREATE TABLE "User" (
-        "userId" SERIAL NOT NULL,
-        "username" TEXT NOT NULL,
-        "name" TEXT NOT NULL,
-        "email" TEXT NOT NULL,
-        "passwordHash" TEXT NOT NULL,
-        "passwordSalt" TEXT NOT NULL,
-        "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+```sql
+-- CreateTable
+CREATE TABLE "User" (
+    "userId" SERIAL NOT NULL,
+    "username" TEXT NOT NULL,
+    "name" TEXT NOT NULL,
+    "email" TEXT NOT NULL,
+    "passwordHash" TEXT NOT NULL,
+    "passwordSalt" TEXT NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
-        CONSTRAINT "User_pkey" PRIMARY KEY ("userId")
-    );
+    CONSTRAINT "User_pkey" PRIMARY KEY ("userId")
+);
 
-    can you give me 15 distinct users using INSERT statements
+-- Give 15 distinct users using INSERT statements.
+```
 
 This was pattern was repeated for all tables in Schema except 'Table' and 'Column'.
 
 To populate 'Table' and 'Column' we firstly created the fake projects using the following prompt:
 
-    Give me 5 SQL projects that each contain 5 tables with at least 5 collumns each
+```
+Give me 5 SQL projects that each contain 5 tables with at least 5 collumns each
+```
 
 We then manually populated the 'Table' table and gave the following prompt to complete the 'Column' table:
 
-    CREATE TABLE "Column" (
-        "columnId" SERIAL NOT NULL,
-        "columnName" TEXT NOT NULL,
-        "tableId" INTEGER NOT NULL,
-        "columnTypeId" INTEGER NOT NULL,
+```sql
+CREATE TABLE "Column" (
+    "columnId" SERIAL NOT NULL,
+    "columnName" TEXT NOT NULL,
+    "tableId" INTEGER NOT NULL,
+    "columnTypeId" INTEGER NOT NULL,
 
-        CONSTRAINT "Column_pkey" PRIMARY KEY ("columnId")
-        );
-    Based on the above table insert the columns of every project into this table
+    CONSTRAINT "Column_pkey" PRIMARY KEY ("columnId")
+);
 
-<!-- The prompt used to generate database schemas was:
-
+-- Based on the above table insert the columns of every project into this table
 ```
-insert prompt here
-``` -->
 
-#### 2. Generating queries
+#### 2. Procedural Data Generation
 
-For milestone 1, we manually wrote out some sample data as we thought of what information we would like to include, what information the queries needed, etc...
+The data is procedurally generated using a custom library developed under `[root]/seed`. To use the library, data generation behavior can be specified through the configuration files in `[root]/seed/constants`. For example, you can look at `[root]/seed/constants/theatre.ts` to see how the `Theatre` project's data generation was specified. For more information, explore types in `[root]/seed` whose names end with `Config`.
 
-Moving forward, we will be leveraging generative technologies such as ChatGPT to populate a significant quantity of sample data. This is possible because the queries only have to be syntactically correct, which is fully within the capabilities of ChatGPT.
+#### 3. Populating the database with production data
 
-To genereate the queries the following prompt was used.
+To use the data generation script to load production dataset, you can simply run:
 
-    Give me 1 basic SELECT, UPDATE, INSERT, and DELETE query for the projects you gave me
-
-These queries were used as a basic outline which were then modified using the QueryGenerator.py script to generate all the synthetic data.
-
-QueryGenerator.py also handles inserting the created queries into 'SQLQuery', 'QueryColumnAccess', 'QueryTableAccess'. The file was changed slightly for the type of query that was required to be generated.
-
-<!-- The prompt used to generate different queries towards the schemas generated in the previous step was:
-
+```bash
+npm run db:reset
+npm run db:seed
 ```
-insert prompt here
-``` -->
-
-#### 3. Translating to SQL
-
-Once this data was generated, it was translated to the SQL format manually, by writing `INSERT INTO` statements. See [sql/ddl/seed.sql](sql/ddl/seed.sql) for the full seeding SQL file.
 
 #### 4. Populating the database with sample data
 
-To populate the database with sample data, assuming you have `psql` already set up, run the following command from root, and enter `password` when prompted to enter the password:
+To populate the database with sample data, assuming you have `psql` already set up, run the following command from root:
 
 ```bash
-psql -h localhost -U dev -W -d postgres < sql/ddl/seed.sql
+npm run db:reset
+npm run db -- -f db/sample.sql
 ```
 
 ### Testing features
@@ -191,18 +178,12 @@ psql -h localhost -U dev -W -d postgres < sql/ddl/seed.sql
 After performing all of the above steps (e.g. setting up the database and seeding it with the sample data), you can run the SQL feature queries from [sql/features/](sql/features/) by running:
 
 ```bash
-psql -h localhost -U dev -W -d postgres < sql/features/FEATURE_NAME/test.sql
+npm run db -- -f db/queries/r[n]/test-production.sql
 ```
-
-We have written queries for R6 to R9 from our report.
 
 ## Application features
 
-To run actual features against the application, you will need to run the application (see instructions for running locally). Then, you can visit `localhost:8080/graphql` from your browser, and make queries and mutations against the database. Currently, the following queries and mutations are supported:
-
-1. Creating a User.
-1. Querying a User by userId.
-1. Querying all Users.
+To run actual features against the application, you will need to run the application (see instructions for running locally). Then, you can visit `localhost:8080/graphql` from your browser, and make queries and mutations against the database. All features from our submitted report are now implemented.
 
 The GraphQL interface is self-documenting.
 
