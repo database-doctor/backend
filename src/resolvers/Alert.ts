@@ -1,9 +1,4 @@
-import {
-  Alert,
-  AlertNotification,
-  AlertRoleMap,
-  AlertUserMap,
-} from "@generated/type-graphql";
+import { Alert, AlertNotification } from "@generated/type-graphql";
 import {
   Arg,
   Args,
@@ -11,14 +6,11 @@ import {
   Authorized,
   Ctx,
   Field,
-  FieldResolver,
   InputType,
   Int,
   Mutation,
-  ObjectType,
   Query,
   Resolver,
-  Root,
 } from "type-graphql";
 import { MaxLength, MinLength, ValidateNested } from "class-validator";
 

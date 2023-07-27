@@ -14,7 +14,6 @@ import {
   Mutation,
   FieldResolver,
   Root,
-  ObjectType,
 } from "type-graphql";
 import { MinLength, MaxLength } from "class-validator";
 
