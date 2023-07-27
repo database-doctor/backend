@@ -4,6 +4,7 @@ import { Client } from "pg";
 import { JobType } from "@generated/type-graphql";
 import { Parser } from "node-sql-parser";
 import { prisma } from "../../config";
+import { sendMail } from "../../alerting/email";
 
 interface QueryRequest {
   accessToken: string;
@@ -282,6 +283,34 @@ export const processQuery = async (rawRequest: any): Promise<QueryResponse> => {
         data: { optimized: true },
       });
     }
+
+    // 7.b) Send email to project admin
+    const project = await prisma.project.findUnique({
+      where: {
+        pid: userProjectToken!.project.pid,
+      },
+      select: {
+        name: true,
+        createdBy: {
+          select: {
+            email: true,
+          },
+        },
+      },
+    });
+
+    if (!project) {
+      errors.push("Invalid project.");
+      return {
+        hasError: true,
+        errors,
+        result,
+      };
+    }
+
+    const subject = `Query Optimization for project ${project.name}`;
+    const text = `The following query can be optimized: ${request.query}`;
+    sendMail(project.createdBy.email, subject, text);
   }
 
   // 8) Execute the query in the database.
