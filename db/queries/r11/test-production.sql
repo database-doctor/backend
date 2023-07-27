@@ -7,15 +7,17 @@ WITH "LatestSchema"("sid") AS
     WHERE
         "S"."pid" = '1'
     ORDER BY
-        "S"."createdAt" DESC
+        "S"."sid" DESC
     LIMIT 1
 )
 SELECT
     "T"."tid", "C"."cid"
 FROM
     "Table" "T"
-NATURAL JOIN
+JOIN
     "Column" "C"
+ON
+    "T"."tid" = "C"."tid"
 WHERE
     "T"."sid" = (SELECT "sid" FROM "LatestSchema");
 

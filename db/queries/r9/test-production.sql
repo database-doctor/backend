@@ -1,25 +1,27 @@
 SELECT
-    date_trunc('hour', T."createdAt") AS "atTime",
-    T."rowCount",
-    T."sizeBytes",
-    COUNT(Q."atHour") AS "queryCount"
+    date_trunc('hour', "TS"."createdAt") AS "atTime",
+    MAX("TS"."rowCount") AS "rowCount",
+    MAX("TS"."sizeBytes") AS "sizeBytes",
+    COUNT("J"."atHour") AS "queryCount"
 FROM
-    "TableStorageSnapshot" T
+    "TableSnapshot" "TS"
 LEFT JOIN
-    "QueryTableAccess" TA
+    "JobTableAccess" "JTA"
 ON
-    T."tableId" = TA."tableId"
+    "TS"."tid" = "JTA"."tid"
 LEFT JOIN
     (SELECT
-        Q1."queryId",
-        date_trunc('hour', Q1."issuedAt") AS "atHour"
-     FROM
-        "SqlQuery" Q1) Q
+        "J1"."jid",
+        date_trunc('hour', "J1"."issuedAt") AS "atHour"
+    FROM
+        "Job" "J1") "J"
 ON
-    TA."queryId" = Q."queryId" AND date_trunc('hour', T."createdAt") = Q."atHour"
+    "JTA"."jid" = "J"."jid" AND date_trunc('hour', "TS"."createdAt") = "J"."atHour"
 WHERE
-    T."tableId" = 5 AND
-    '2023-01-01'::date <= T."createdAt" AND
-    T."createdAt" <= '2023-12-31'::date
+    "TS"."tid" = '1' AND
+    '2023-05-01'::date <= "TS"."createdAt" AND
+    "TS"."createdAt" <= '2023-05-31'::date
 GROUP BY
-    T."tableId", T."createdAt";
+    date_trunc('hour', "TS"."createdAt")
+ORDER BY
+    date_trunc('hour', "TS"."createdAt") ASC;

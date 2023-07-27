@@ -302,3 +302,56 @@ ALTER TABLE "AlertNotification" ADD CONSTRAINT "AlertNotification_aid_fkey" FORE
 
 -- AddForeignKey
 ALTER TABLE "AlertNotification" ADD CONSTRAINT "AlertNotification_uid_fkey" FOREIGN KEY ("uid") REFERENCES "User"("uid") ON DELETE RESTRICT ON UPDATE CASCADE;
+-- DropForeignKey
+ALTER TABLE "AlertHistory" DROP CONSTRAINT "AlertHistory_aid_fkey";
+
+-- DropForeignKey
+ALTER TABLE "AlertNotification" DROP CONSTRAINT "AlertNotification_aid_fkey";
+
+-- DropForeignKey
+ALTER TABLE "AlertRoleMap" DROP CONSTRAINT "AlertRoleMap_aid_fkey";
+
+-- DropForeignKey
+ALTER TABLE "AlertUserMap" DROP CONSTRAINT "AlertUserMap_aid_fkey";
+
+-- AddForeignKey
+ALTER TABLE "AlertHistory" ADD CONSTRAINT "AlertHistory_aid_fkey" FOREIGN KEY ("aid") REFERENCES "Alert"("aid") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "AlertUserMap" ADD CONSTRAINT "AlertUserMap_aid_fkey" FOREIGN KEY ("aid") REFERENCES "Alert"("aid") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "AlertRoleMap" ADD CONSTRAINT "AlertRoleMap_aid_fkey" FOREIGN KEY ("aid") REFERENCES "Alert"("aid") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "AlertNotification" ADD CONSTRAINT "AlertNotification_aid_fkey" FOREIGN KEY ("aid") REFERENCES "Alert"("aid") ON DELETE CASCADE ON UPDATE CASCADE;
+-- AlterTable
+ALTER TABLE "Job" ADD COLUMN     "optimized" BOOLEAN NOT NULL DEFAULT false;
+
+-- CreateTable
+CREATE TABLE "TableAccessFreq" (
+    "tid" INTEGER NOT NULL,
+    "frequency" INTEGER NOT NULL DEFAULT 0,
+
+    CONSTRAINT "TableAccessFreq_pkey" PRIMARY KEY ("tid")
+);
+
+-- CreateTable
+CREATE TABLE "ColumnAccessFreq" (
+    "cid" INTEGER NOT NULL,
+    "frequency" INTEGER NOT NULL DEFAULT 0,
+
+    CONSTRAINT "ColumnAccessFreq_pkey" PRIMARY KEY ("cid")
+);
+
+-- CreateIndex
+CREATE INDEX "TableAccessFreq_frequency_idx" ON "TableAccessFreq"("frequency" DESC);
+
+-- CreateIndex
+CREATE INDEX "ColumnAccessFreq_frequency_idx" ON "ColumnAccessFreq"("frequency" DESC);
+
+-- AddForeignKey
+ALTER TABLE "TableAccessFreq" ADD CONSTRAINT "TableAccessFreq_tid_fkey" FOREIGN KEY ("tid") REFERENCES "Table"("tid") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "ColumnAccessFreq" ADD CONSTRAINT "ColumnAccessFreq_cid_fkey" FOREIGN KEY ("cid") REFERENCES "Column"("cid") ON DELETE RESTRICT ON UPDATE CASCADE;

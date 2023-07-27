@@ -1,28 +1,27 @@
--- View commonly queried statements
+-- Top Queries
 WITH "QueryCount" AS 
 	(SELECT "statement", COUNT(*) AS "queryCount" 
-	 FROM "SqlQuery" 
+	 FROM "Job"
 	 GROUP BY "statement")
-SELECT DISTINCT "Project"."projectName", "Q"."statement" AS "queryStatement", 
-	"QueryType"."queryTypeName" AS "queryType", "Q"."issuedAt", "Q"."finishedAt", "Q"."hasError", "Q"."errorMessage"
-FROM "SqlQuery" "Q"
-JOIN "QueryType" ON "Q"."queryTypeId" = "QueryType"."queryTypeId"
-JOIN "Project" ON "Q"."projectId" = "Project"."projectId"
-WHERE "Q"."statement" IN 
+SELECT DISTINCT "Project"."name", "J"."statement" AS "queryStatement", 
+	"J"."type" AS "queryType", "J"."issuedAt", "J"."finishedAt", "J"."error"
+FROM "Job" "J"
+JOIN "Project" ON "J"."pid" = "Project"."pid"
+WHERE "J"."statement" IN 
 	(SELECT "statement" 
 	 FROM "QueryCount" 
-	 WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "QueryCount")) AND "Project"."projectId" = 3;
+	 WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "QueryCount")) AND "Project"."pid" = '1';
 
--- View common users that query
+-- Top Users
 WITH "UserQueries" AS 
-	(SELECT "userId", COUNT(*) AS "queryCount" 
-     FROM "SqlQuery" 
-     GROUP BY "userId")    
+	(SELECT "issuedById", COUNT(*) AS "queryCount" 
+     FROM "Job"
+     GROUP BY "issuedById")
 SELECT DISTINCT *
 FROM "User"
-JOIN "UserProjectToken" ON "User"."userId" = "UserProjectToken"."userId"
-JOIN "Project" ON "UserProjectToken"."projectId" = "Project"."projectId"
-WHERE "Project"."projectId" = 3 AND "User"."userId" IN 
-    (SELECT "userId"
+JOIN "UserProjectToken" ON "User"."uid" = "UserProjectToken"."uid"
+JOIN "Project" ON "UserProjectToken"."pid" = "Project"."pid"
+WHERE "Project"."pid" = '1' AND "User"."uid" IN 
+    (SELECT "issuedById"
      FROM "UserQueries"
      WHERE "queryCount" >= (SELECT AVG("queryCount") FROM "UserQueries"));
