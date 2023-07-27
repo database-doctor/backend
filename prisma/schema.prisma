@@ -242,12 +242,12 @@ model AlertHistory {
     issuedAt DateTime @default(now())
 
     aid   Int
-    alert Alert @relation(fields: [aid], references: [aid])
+    alert Alert @relation(fields: [aid], references: [aid], onDelete: Cascade)
 }
 
 model AlertUserMap {
     aid   Int
-    alert Alert @relation(fields: [aid], references: [aid])
+    alert Alert @relation(fields: [aid], references: [aid], onDelete: Cascade)
 
     uid  Int
     user User @relation(fields: [uid], references: [uid])
@@ -257,7 +257,7 @@ model AlertUserMap {
 
 model AlertRoleMap {
     aid   Int
-    alert Alert @relation(fields: [aid], references: [aid])
+    alert Alert @relation(fields: [aid], references: [aid], onDelete: Cascade)
 
     rid  Int
     role Role @relation(fields: [rid], references: [rid])
@@ -271,7 +271,7 @@ model AlertNotification {
     issuedAt DateTime @default(now())
 
     aid   Int
-    alert Alert @relation(fields: [aid], references: [aid])
+    alert Alert @relation(fields: [aid], references: [aid], onDelete: Cascade)
 
     uid  Int
     user User @relation(fields: [uid], references: [uid])

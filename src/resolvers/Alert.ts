@@ -131,15 +131,17 @@ export class AlertResolver {
   }
 
   @Authorized()
-  @Mutation()
+  @Mutation(() => Int)
   async deleteAlert(@Args() { aid }: AlertId, @Ctx() ctx: Context) {
     await ctx.prisma.alert.delete({
       where: { aid },
     });
+
+    return 0;
   }
 
   @Authorized()
-  @Mutation()
+  @Mutation(() => Int)
   async markAlertRead(@Args() { aid }: AlertId, @Ctx() ctx: Context) {
     const uid = ctx.user?.uid;
 
@@ -147,18 +149,17 @@ export class AlertResolver {
       where: { aid, uid },
       data: { isRead: true },
     });
+
+    return 0;
   }
 
   @Authorized()
   @Query(() => [AlertNotification])
-  async getNotifications(
-    @Args() { aid }: AlertId,
-    @Ctx() ctx: Context
-  ): Promise<AlertNotification[]> {
+  async getNotifications(@Ctx() ctx: Context): Promise<AlertNotification[]> {
     const uid = ctx.user?.uid;
 
     const notifications = await ctx.prisma.alertNotification.findMany({
-      where: { aid, uid, isRead: false },
+      where: { uid, isRead: false },
       include: {
         alert: true,
       },
