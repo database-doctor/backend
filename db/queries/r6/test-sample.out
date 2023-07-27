@@ -1,0 +1,15 @@
+ uid |     name      |   username   |         email         |    password     |        createdAt        
+-----+---------------+--------------+-----------------------+-----------------+-------------------------
+   1 | Adrian Davila | adriandavila | a4davila@uwaterloo.ca | hashed_password | 2023-07-27 18:20:58.282
+(1 row)
+
+ uid |     name      |   username   |         email         |    password     |        createdAt        
+-----+---------------+--------------+-----------------------+-----------------+-------------------------
+   1 | Adrian Davila | adriandavila | a4davila@uwaterloo.ca | hashed_password | 2023-07-27 18:20:58.282
+(1 row)
+
+ uid |     name      |   username   |         email         |    password     |        createdAt        
+-----+---------------+--------------+-----------------------+-----------------+-------------------------
+   1 | Adrian Davila | adriandavila | a4davila@uwaterloo.ca | hashed_password | 2023-07-27 18:20:58.282
+(1 row)
+

@@ -1,0 +1,5 @@
+ pid |    name     |         dbUrl          |        createdAt        |  createdBy   
+-----+-------------+------------------------+-------------------------+--------------
+   1 | TestProject | http://example-url.com | 2023-07-27 18:20:58.284 | adriandavila
+(1 row)
+

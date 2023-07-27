@@ -1,0 +1,10 @@
+    name     |   queryStatement    | queryType |        issuedAt         | finishedAt | error 
+-------------+---------------------+-----------+-------------------------+------------+-------
+ TestProject | SELECT * FROM Table | SELECT    | 2023-07-27 18:20:58.286 |            | 
+(1 row)
+
+ uid |     name      |   username   |         email         |    password     |        createdAt        |    token    | uid | pid | pid |    name     |         dbUrl          |        createdAt        | createdById 
+-----+---------------+--------------+-----------------------+-----------------+-------------------------+-------------+-----+-----+-----+-------------+------------------------+-------------------------+-------------
+   1 | Adrian Davila | adriandavila | a4davila@uwaterloo.ca | hashed_password | 2023-07-27 18:20:58.282 | SecretToken |   1 |   1 |   1 | TestProject | http://example-url.com | 2023-07-27 18:20:58.284 |           1
+(1 row)
+
