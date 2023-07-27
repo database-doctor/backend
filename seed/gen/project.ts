@@ -61,6 +61,7 @@ export const generateProject = async (
   const selectedBots = sample(allBots, bots.length);
 
   const admin = selectedUsers[0];
+  logger.info(`admin for ${name} is ${admin.email}`);
 
   const res = await client.query(query, [name, dbUrl, createdAt, admin.uid]);
   const pid = res.rows[0].pid;

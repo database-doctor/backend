@@ -52,11 +52,11 @@ export const theatreProject: ProjectConfig = {
   bots: [{ roles: ["WebServer"] }, { roles: ["WebServer"] }],
   schemas: [
     {
-      name: "Schema0",
+      name: "Empty Schema",
       tables: [],
     },
     {
-      name: "Schema1",
+      name: "Schema with Tables",
       tables: [
         {
           name: "Movie",
@@ -64,30 +64,37 @@ export const theatreProject: ProjectConfig = {
             {
               name: "movieId",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "title",
               type: "STRING",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "releaseDate",
               type: "DATE",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "duration",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "rating",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "description",
               type: "STRING",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "genre",
               type: "STRING",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
           ],
           snapshot: {
@@ -96,6 +103,7 @@ export const theatreProject: ProjectConfig = {
               prevRowCount + faker.number.int({ min: 0, max: 1 }),
             sizeBytesFactor: 400,
           },
+          frequency: 5342,
         },
         {
           name: "Actor",
@@ -103,18 +111,22 @@ export const theatreProject: ProjectConfig = {
             {
               name: "actorId",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "firstName",
               type: "STRING",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "lastName",
               type: "STRING",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "nationality",
               type: "STRING",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
           ],
           snapshot: {
@@ -123,6 +135,7 @@ export const theatreProject: ProjectConfig = {
               prevRowCount + (faker.number.float() > 0.01 ? 0 : 1),
             sizeBytesFactor: 388,
           },
+          frequency: 6012,
         },
         {
           name: "Review",
@@ -130,22 +143,27 @@ export const theatreProject: ProjectConfig = {
             {
               name: "reviewId",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "movieId",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "rating",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "reviewDate",
               type: "DATE",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "reviewer",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
           ],
           snapshot: {
@@ -154,6 +172,7 @@ export const theatreProject: ProjectConfig = {
               prevRowCount + faker.number.int({ min: 10, max: 30 }),
             sizeBytesFactor: 20,
           },
+          frequency: faker.number.int({ min: 3000, max: 4500 }),
         },
         {
           name: "Screen",
@@ -161,14 +180,17 @@ export const theatreProject: ProjectConfig = {
             {
               name: "screenId",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "screenNumber",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "capacity",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
           ],
           snapshot: {
@@ -176,6 +198,7 @@ export const theatreProject: ProjectConfig = {
             nextRowCount: (prevRowCount: number) => prevRowCount,
             sizeBytesFactor: 12,
           },
+          frequency: faker.number.int({ min: 3000, max: 4500 }),
         },
         {
           name: "Show",
@@ -183,18 +206,22 @@ export const theatreProject: ProjectConfig = {
             {
               name: "showId",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "movieId",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "screenId",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "showTime",
               type: "DATE",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
           ],
           snapshot: {
@@ -203,6 +230,7 @@ export const theatreProject: ProjectConfig = {
               prevRowCount + (faker.number.float() > 0.14 ? 0 : 1000),
             sizeBytesFactor: 16,
           },
+          frequency: faker.number.int({ min: 3000, max: 4500 }),
         },
         {
           name: "Ticket",
@@ -210,22 +238,27 @@ export const theatreProject: ProjectConfig = {
             {
               name: "ticketId",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "showId",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "customerId",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "seatNumber",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "price",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
           ],
           snapshot: {
@@ -234,6 +267,7 @@ export const theatreProject: ProjectConfig = {
               prevRowCount + faker.number.int({ min: 0, max: 10 }),
             sizeBytesFactor: 20,
           },
+          frequency: faker.number.int({ min: 3000, max: 4500 }),
         },
         {
           name: "Customer",
@@ -241,18 +275,22 @@ export const theatreProject: ProjectConfig = {
             {
               name: "customerId",
               type: "INTEGER",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "firstName",
               type: "STRING",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "lastName",
               type: "STRING",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
             {
               name: "email",
               type: "STRING",
+              frequency: faker.number.int({ min: 3000, max: 4500 }),
             },
           ],
           snapshot: {
@@ -261,13 +299,14 @@ export const theatreProject: ProjectConfig = {
               prevRowCount + faker.number.int({ min: 0, max: 4 }),
             sizeBytesFactor: 196,
           },
+          frequency: faker.number.int({ min: 3000, max: 4500 }),
         },
       ],
     },
   ],
   jobs: [
     {
-      count: 6000,
+      count: 561,
       generateStatement: (params: any) => {
         const query = `SELECT 'email' FROM "Customer" WHERE "customerId" = '${params.customerId}'`;
         return query;
@@ -289,7 +328,7 @@ export const theatreProject: ProjectConfig = {
       ],
     },
     {
-      count: 4000,
+      count: 234,
       generateStatement: (params: any) => {
         const query = `SELECT 'email' FROM "Customer" NATURAL JOIN "Ticket" WHERE "price" = '${params.price}'`;
         return query;
@@ -315,7 +354,7 @@ export const theatreProject: ProjectConfig = {
       ],
     },
     {
-      count: 10000,
+      count: 154,
       generateStatement: (params: any) => {
         const query = `INSERT INTO Movie (title, releaseDate, duration, rating, description, genre)
         VALUES ('${params.title}', '${params.releaseDate}', ${params.duration}, '${params.description}', '${params.genre}')`;
@@ -351,7 +390,7 @@ export const theatreProject: ProjectConfig = {
       ],
     },
     {
-      count: 5000,
+      count: 512,
       generateStatement: (params: any) => {
         const query = `DELETE FROM Show WHERE showId = ${params.showId};`;
         return query;
@@ -373,7 +412,7 @@ export const theatreProject: ProjectConfig = {
       ],
     },
     {
-      count: 5000,
+      count: 373,
       generateStatement: (params: any) => {
         const query = `DELETE FROM Review WHERE reviewId = ${params.reviewId};`;
         return query;
@@ -395,7 +434,7 @@ export const theatreProject: ProjectConfig = {
       ],
     },
     {
-      count: 5000,
+      count: 983,
       generateStatement: (params: any) => {
         const query = `UPDATE Screen SET capacity = ${params.cap} WHERE screenId = ${params.screenId};`;
         return query;

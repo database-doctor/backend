@@ -29,7 +29,7 @@ const generateUser = async (isBot: boolean): Promise<User> => {
         faker.internet.email(),
       ];
 
-  const password = bcrypt.hashSync(faker.internet.password(), 10);
+  const password = bcrypt.hashSync("fakeUser", 10);
   const createdAt = faker.date.between({
     from: "2023-01-01",
     to: "2023-01-31",

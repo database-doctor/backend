@@ -1,20 +1,21 @@
-WITH "LatestSchema"("schemaId") AS
+WITH "LatestSchema"("sid") AS
 (
     SELECT
-        S."schemaId"
+        "S"."sid"
     FROM
-        "Schema" S
+        "Schema" "S"
     WHERE
-        S."projectId" = '3'
+        "S"."pid" = '1'
     ORDER BY
-        S."createdAt" DESC
+        "S"."createdAt" DESC
     LIMIT 1
 )
 SELECT
-    T."tableId", TC."columnId"
+    "T"."tid", "C"."cid"
 FROM
-    "Table" T
+    "Table" "T"
 NATURAL JOIN
-    "Column" TC
+    "Column" "C"
 WHERE
-    T."schemaId" = (SELECT "schemaId" FROM "LatestSchema");
+    "T"."sid" = (SELECT "sid" FROM "LatestSchema");
+

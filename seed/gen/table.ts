@@ -12,6 +12,7 @@ export type TableConfig = {
   name: string;
   columns: ColumnConfig[];
   snapshot: SnapshotConfig;
+  frequency?: number;
 };
 
 export type Table = {
@@ -19,6 +20,15 @@ export type Table = {
   name: string;
   sid: number;
   columns: Column[];
+};
+
+const generateTableFrequency = async (tid: number, frequency: number) => {
+  const query = `
+    INSERT INTO "TableAccessFreq" ("tid", "frequency")
+    VALUES ($1, $2);
+  `;
+
+  await client.query(query, [tid, frequency]);
 };
 
 const generateSnapshot = async (
@@ -36,7 +46,7 @@ const generateSnapshot = async (
 };
 
 const generateTable = async (
-  { name, columns, snapshot }: TableConfig,
+  { name, columns, snapshot, frequency }: TableConfig,
   sid: number
 ): Promise<Table> => {
   const query = `
@@ -63,6 +73,8 @@ const generateTable = async (
     cur.setTime(cur.getTime() + 60 * 60 * 1000);
     rowCount = snapshot.nextRowCount(rowCount);
   }
+
+  if (frequency) await generateTableFrequency(tid, frequency);
 
   return { tid, name, sid, columns: generatedColumns };
 };

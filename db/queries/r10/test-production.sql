@@ -1,6 +1,6 @@
-with "ARG"("queryId") AS
+with "ARG"("jid") AS
 (
-    INSERT INTO "SqlQuery" ("statement", "userId", "projectId", "queryTypeId")
+    INSERT INTO "Job" ("statement", "userId", "projectId", "queryTypeId")
     VALUES ('SELECT "TestColumn" FROM "TestTable"', '1', '1', '1')
     RETURNING "queryId"
 ),
