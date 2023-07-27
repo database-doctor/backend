@@ -12,7 +12,7 @@ import {
   Query,
   Resolver,
 } from "type-graphql";
-import { MaxLength, MinLength, ValidateNested } from "class-validator";
+import { MinLength } from "class-validator";
 
 import { Context } from "../middleware";
 
