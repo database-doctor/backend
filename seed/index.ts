@@ -1,6 +1,7 @@
 import "./util/dotenv";
 
 import { client } from "./util";
+import { faker } from "@faker-js/faker";
 import { generateData } from "./gen";
 import { logger } from "../src/util";
 
@@ -10,7 +11,7 @@ const main = async () => {
   // are generated using faker, which is seeded here. Note that id fields are
   // not guaranteed to be consistent across runs, unless the database is reset
   // before each run using `npm run db:reset`.
-  // faker.seed(0);
+  faker.seed(0);
   await client.connect();
 
   try {
