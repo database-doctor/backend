@@ -145,6 +145,8 @@ export class SchemaResolver {
     @Arg("newSchema") { name, pid, tables }: CreateSchemaInput,
     @Ctx() ctx: Context
   ): Promise<Schema> {
+    ctx.logger.info("createSchema", name, pid, tables);
+
     const createdById = ctx.user?.uid;
     if (!createdById) {
       throw new Error("User not found");
