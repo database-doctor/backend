@@ -74,7 +74,7 @@ const handleAlert = async (alert: Alert) => {
   // 3.3) If more than 2 users queried the project in the last 5 minutes, send an email
   if (queriedUsers.length > 2) {
     const subject = `Alert for project ${enrichedAlert.schema.project.name}`;
-    const text = `More than 2 users queried the project ${enrichedAlert.schema.project.name} in the minute.`;
+    const text = `More than 2 users queried the project ${enrichedAlert.schema.project.name} in the last minute.`;
 
     // 3.4) Get all emails
     const emails = enrichedAlert.users.map((user) => user.user.email);
