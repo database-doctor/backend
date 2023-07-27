@@ -8,6 +8,7 @@ import {
   Resolver,
   Query,
   ObjectType,
+  Authorized,
 } from "type-graphql";
 
 @InputType()
@@ -39,6 +40,7 @@ class TableSnapshotOutput {
 
 @Resolver(() => TableSnapshotOutput)
 export class TableSnapshotResolver {
+  @Authorized()
   @Query(() => [TableSnapshotOutput])
   async tableSnapshots(
     @Arg("table") table: TableSnapshotInput,
