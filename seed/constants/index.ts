@@ -7,9 +7,9 @@ import { theatreProject } from "./theatre";
 import { workplaceProject } from "./workplace";
 
 export const projects = [
-  booksProject,
-  storeProject,
-  studentsProject,
+  // booksProject,
+  // storeProject,
+  // studentsProject,
   theatreProject,
-  workplaceProject,
+  // workplaceProject,
 ];
