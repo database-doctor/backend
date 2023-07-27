@@ -1,6 +1,5 @@
-SELECT "Project"."projectId", "projectName", "connUrl" AS "projectUrl",
-"Project"."createdAt", "username" AS "createdBy"
+SELECT "Project"."pid", "Project"."name", "Project"."dbUrl", "Project"."createdAt", "User"."username" AS "createdBy"
 FROM "Project"
-JOIN "UserProjectToken" ON "Project"."projectId" = "UserProjectToken"."projectId"
-JOIN "User" ON "UserProjectToken"."userId" = "User"."userId"
-WHERE "User"."userId" = 1;
+JOIN "UserProjectToken" ON "Project"."pid" = "UserProjectToken"."pid"
+    AND "UserProjectToken"."uid" = 1
+JOIN "User" ON "User"."uid" = "Project"."createdById";
