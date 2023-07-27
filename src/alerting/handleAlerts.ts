@@ -103,7 +103,12 @@ export const handleAlerts = async () => {
     },
   });
 
-  const alerts = projects.map((project) => project.schemas[0].alerts);
+  const alerts: Alert[][] = [];
+  projects.forEach((project) => {
+    if (project.schemas.length > 0) {
+      alerts.push(project.schemas[0].alerts);
+    }
+  });
 
   // 2) Handle each alert
   alerts.forEach((alertList) => {

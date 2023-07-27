@@ -5,6 +5,7 @@ import { buildSchemaSync } from "type-graphql";
 
 export const schema = buildSchemaSync({
   resolvers: [
+    resolvers.AlertResolver,
     resolvers.ColumnResolver,
     resolvers.ColumnTypeResolver,
     resolvers.JobResolver,
