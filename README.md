@@ -103,7 +103,7 @@ npx prisma db push
 
 from the root folder will suffice.
 
-### Sample data (legacy)
+### Sample and production datasets
 
 The sample data was generated manually in combination with ChatGPT to create sample database schemas and database queries.
 
