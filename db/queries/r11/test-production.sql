@@ -20,4 +20,3 @@ ON
     "T"."tid" = "C"."tid"
 WHERE
     "T"."sid" = (SELECT "sid" FROM "LatestSchema");
-
