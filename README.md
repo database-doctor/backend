@@ -1,4 +1,4 @@
-# `database_doctor`
+# <img src='https://github.com/database-doctor/backend/blob/main/database-doctors-logo.png?raw=true' width='300'>
 
 ## About
 
